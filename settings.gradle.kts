@@ -13,5 +13,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-include(":app", ":core")
-rootProject.name = "template"
+include(":app")
+rootProject.name = "MobileDevEmoji"

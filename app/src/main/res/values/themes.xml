@@ -7,7 +7,6 @@
         <item name="android:windowLightStatusBar">true</item>
         <item name="android:windowLightNavigationBar">true</item>
         <item name="android:navigationBarDividerColor">@android:color/transparent</item>
-        <item name="android:windowSplashScreenBrandingImage">@drawable/ic_splashscreen_branding_layer_list</item>
         <item name="windowSplashScreenBackground">@color/Background</item>
         <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splashscreen</item>
         <item name="windowSplashScreenAnimationDuration">500</item>

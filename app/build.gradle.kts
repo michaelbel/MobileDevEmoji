@@ -1,22 +1,8 @@
-@file:Suppress("UnstableApiUsage")
-
-import java.io.FileInputStream
-import java.util.Properties
-import org.apache.commons.io.output.ByteArrayOutputStream
-
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
-}
-
-private val gitCommitsCount: Int by lazy {
-    val stdout = ByteArrayOutputStream()
-    rootProject.exec {
-        commandLine("git", "rev-list", "--count", "HEAD")
-        standardOutput = stdout
-    }
-    stdout.toString().trim().toInt()
+    alias(libs.plugins.kotlin.serialization)
 }
 
 kotlin {
@@ -26,71 +12,38 @@ kotlin {
 }
 
 android {
-    namespace = "org.michaelbel.template"
+    namespace = "org.michaelbel.mobiledevemoji"
     compileSdk = libs.versions.compile.sdk.get().toInt()
 
     defaultConfig {
-        applicationId = "org.michaelbel.template"
+        applicationId = "org.michaelbel.mobiledevemoji"
         minSdk = libs.versions.min.sdk.get().toInt()
         targetSdk = libs.versions.target.sdk.get().toInt()
-        versionCode = gitCommitsCount
+        versionCode = 1
         versionName = "1.0"
-        setProperty("archivesBaseName", "Template-v$versionName($versionCode)")
-    }
-
-    signingConfigs {
-        val keystoreProperties = Properties()
-        val keystorePropertiesFile: File = rootProject.file("config/keystore.properties")
-        if (keystorePropertiesFile.exists()) {
-            keystoreProperties.load(FileInputStream(keystorePropertiesFile))
-        } else {
-            keystoreProperties["keyAlias"] = System.getenv("KEYSTORE_KEY_ALIAS").orEmpty()
-            keystoreProperties["keyPassword"] = System.getenv("KEYSTORE_KEY_PASSWORD").orEmpty()
-            keystoreProperties["storePassword"] = System.getenv("KEYSTORE_STORE_PASSWORD").orEmpty()
-            keystoreProperties["storeFile"] = System.getenv("KEYSTORE_FILE").orEmpty()
-        }
-
-        create("release") {
-            keyAlias = keystoreProperties["keyAlias"] as String
-            keyPassword = keystoreProperties["keyPassword"] as String
-            storeFile = file(keystoreProperties["storeFile"] as String)
-            storePassword = keystoreProperties["storePassword"] as String
-        }
     }
 
     buildTypes {
         release {
-            isDebuggable = false
             isMinifyEnabled = false
-            signingConfig = signingConfigs.getByName("release")
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
-        }
-        debug {
-            isDebuggable = true
-            applicationIdSuffix = ".debug"
         }
     }
 
     buildFeatures {
-        buildConfig = true
         compose = true
     }
 }
 
 dependencies {
-    implementation(project(":core"))
-}
-
-tasks.register("prepareReleaseNotes") {
-    doLast {
-        exec {
-            workingDir(rootDir)
-            executable("./scripts/gitlog.sh")
-        }
-    }
-}
-
-afterEvaluate {
-    tasks.findByName("assembleDebug")?.finalizedBy("prepareReleaseNotes")
-    tasks.findByName("assembleRelease")?.finalizedBy("prepareReleaseNotes")
+    implementation(libs.kotlinx.serialization.json)
+    implementation(libs.androidx.activity.compose)
+    implementation(libs.androidx.compose.material3)
+    implementation(libs.androidx.compose.runtime)
+    implementation(libs.androidx.core.splashscreen)
+    implementation(libs.androidx.lifecycle.runtime.compose)
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+    implementation(libs.google.material)
+    debugImplementation(libs.androidx.compose.ui.tooling)
+    testImplementation(libs.junit)
 }
