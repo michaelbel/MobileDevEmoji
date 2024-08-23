@@ -8,10 +8,15 @@ import com.github.panpf.sketch.PlatformContext
 import com.github.panpf.sketch.SingletonSketch
 import com.github.panpf.sketch.Sketch
 import com.github.panpf.sketch.decode.supportSvg
+import org.jetbrains.compose.resources.configureWebResources
 
 fun main() {
     initialSketch()
+    configureWebResources {
+        resourcePathMapping { path -> "./$path" }
+    }
     CanvasBasedWindow(
+        title = "MobileDevEmoji",
         canvasElementId = "ComposeTarget"
     ) {
         MainContent()

@@ -12,6 +12,16 @@ plugins {
 }
 
 kotlin {
+    js {
+        moduleName = "composeApp"
+        browser {
+            commonWebpackConfig {
+                outputFileName = "composeApp.js"
+            }
+        }
+        binaries.executable()
+        useEsModules()
+    }
     wasmJs {
         moduleName = "composeApp"
         browser {
@@ -41,7 +51,13 @@ kotlin {
             implementation(libs.sketch.svg)
             implementation(libs.sketch.compose)
         }
+        jsMain.dependencies {
+            implementation(compose.components.resources)
+            implementation(libs.ktor.client.content.negotiation.wasm)
+            implementation(libs.ktor.serialization.kotlinx.json.wasm)
+        }
         wasmJsMain.dependencies {
+            implementation(compose.components.resources)
             implementation(libs.ktor.client.content.negotiation.wasm)
             implementation(libs.ktor.serialization.kotlinx.json.wasm)
         }
