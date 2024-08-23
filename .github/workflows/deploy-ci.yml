@@ -1,10 +1,12 @@
 name: Publish Application on GitHub Pages
+
 on: [push, pull_request]
+
 jobs:
-  # Build job
   build:
     name: Build Kotlin/Wasm
     runs-on: ubuntu-latest
+
     steps:
     - name: Set up JDK
       uses: actions/setup-java@v2
@@ -20,7 +22,7 @@ jobs:
 
     - name: Fix permissions
       run: |
-        chmod -v -R +rX "build/dist/wasmJs/productionExecutable/" | while read line; do
+          chmod -v -R +rX "build/dist/wasmJs/productionExecutable/" | while read line; do
           echo "::warning title=Invalid file permissions automatically fixed::$line"
         done
 
@@ -30,20 +32,16 @@ jobs:
         path: build/dist/wasmJs/productionExecutable/
 
   deploy:
-    # Add a dependency to the build job
     needs: build
 
-    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
     permissions:
-      pages: write      # to deploy to Pages
-      id-token: write   # to verify the deployment originates from an appropriate source
+      pages: write
+      id-token: write
 
-    # Deploy to the github-pages environment
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
-    # Specify runner + deployment step
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages
