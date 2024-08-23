@@ -1,36 +1,19 @@
 [versions]
-min-sdk = "31"
-compile-sdk = "35"
-target-sdk = "34"
 jdk = "17"
-agp = "8.4.2"
 kotlin = "2.0.10"
 kotlinx-serialization-json = "1.7.1"
 compose = "1.6.11"
-google-material = "1.12.0"
-androidx-activity = "1.9.1"
-androidx-compose-material3 = "1.2.1"
-androidx-compose-runtime = "1.6.8"
-androidx-compose-ui = "1.6.8"
-androidx-core-splashscreen = "1.0.1"
-androidx-lifecycle = "2.8.4"
-junit = "4.13.2"
+sketch = "4.0.0-alpha07"
+ktor-wasm = "3.0.0-wasm2"
 
 [libraries]
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization-json" }
-google-material = { module = "com.google.android.material:material", version.ref = "google-material" }
-androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activity" }
-androidx-compose-material3 = { module = "androidx.compose.material3:material3", version.ref = "androidx-compose-material3" }
-androidx-compose-runtime = { module = "androidx.compose.runtime:runtime", version.ref = "androidx-compose-runtime" }
-androidx-compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "androidx-compose-ui" }
-androidx-core-splashscreen = { module = "androidx.core:core-splashscreen", version.ref = "androidx-core-splashscreen" }
-androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "androidx-lifecycle" }
-androidx-lifecycle-runtime-compose = { module = "androidx.lifecycle:lifecycle-runtime-compose", version.ref = "androidx-lifecycle" }
-junit = { module = "junit:junit", version.ref = "junit" }
+sketch-svg = { module = "io.github.panpf.sketch4:sketch-svg", version.ref = "sketch" }
+sketch-compose = { module = "io.github.panpf.sketch4:sketch-compose", version.ref = "sketch" }
+ktor-client-content-negotiation-wasm = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "ktor-wasm" }
+ktor-serialization-kotlinx-json-wasm = { module = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "ktor-wasm" }
 
 [plugins]
-android-application = { id = "com.android.application", version.ref = "agp" }
-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }

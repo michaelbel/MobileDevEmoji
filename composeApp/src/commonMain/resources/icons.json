@@ -1,0 +1,98 @@
+[
+  {
+    "id": "google-android-1",
+    "name": "Android",
+    "pack": 1,
+    "position": 1
+  },
+  {
+    "id": "google-android-2",
+    "name": "Android",
+    "pack": 1,
+    "position": 2
+  },
+  {
+    "id": "google-android-3",
+    "name": "Android",
+    "pack": 1,
+    "position": 3
+  },
+  {
+    "id": "google-android-4",
+    "name": "Android",
+    "pack": 1,
+    "position": 4
+  },
+  {
+    "id": "google-android-5",
+    "name": "Android",
+    "pack": 1,
+    "position": 5
+  },
+  {
+    "id": "google-android-6",
+    "name": "Android",
+    "pack": 1,
+    "position": 6
+  },
+  {
+    "id": "google-android-studio",
+    "name": "Android Studio",
+    "pack": 1,
+    "position": 7
+  },
+  {
+    "id": "google-android-jetpack",
+    "name": "Android Jetpack",
+    "pack": 1,
+    "position": 8
+  },
+  {
+    "id": "google-android-jetpack-compose",
+    "name": "Jetpack Compose",
+    "pack": 1,
+    "position": 9
+  },
+  {
+    "id": "google-material3-1",
+    "name": "Material3",
+    "pack": 1,
+    "position": 10
+  },
+  {
+    "id": "google-material3-2",
+    "name": "Material3",
+    "pack": 1,
+    "position": 11
+  },
+  {
+    "id": "gradle-1",
+    "name": "Gradle",
+    "pack": 1,
+    "position": 12
+  },
+  {
+    "id": "gradle-2",
+    "name": "Gradle",
+    "pack": 1,
+    "position": 13
+  },
+  {
+    "id": "google-flutter",
+    "name": "Flutter",
+    "pack": 1,
+    "position": 14
+  },
+  {
+    "id": "google-dart",
+    "name": "Dart",
+    "pack": 1,
+    "position": 15
+  },
+  {
+    "id": "coil",
+    "name": "Coil",
+    "pack": 1,
+    "position": 16
+  }
+]
