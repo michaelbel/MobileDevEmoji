@@ -286,5 +286,53 @@
     "name": "Angular",
     "pack": 1,
     "position": 48
+  },
+  {
+    "id": "google-home",
+    "name": "Google Home",
+    "pack": 1,
+    "position": 49
+  },
+  {
+    "id": "google-cloud",
+    "name": "Google Cloud",
+    "pack": 1,
+    "position": 50
+  },
+  {
+    "id": "google-chromium",
+    "name": "Google Chromium",
+    "pack": 1,
+    "position": 51
+  },
+  {
+    "id": "google-docs-editors",
+    "name": "Google Docs Editors",
+    "pack": 1,
+    "position": 52
+  },
+  {
+    "id": "google-docs",
+    "name": "Google Docs",
+    "pack": 1,
+    "position": 53
+  },
+  {
+    "id": "google-sheets",
+    "name": "Google Sheets",
+    "pack": 1,
+    "position": 54
+  },
+  {
+    "id": "google-slides",
+    "name": "Google Slides",
+    "pack": 1,
+    "position": 55
+  },
+  {
+    "id": "google-forms",
+    "name": "Google Forms",
+    "pack": 1,
+    "position": 56
   }
 ]
