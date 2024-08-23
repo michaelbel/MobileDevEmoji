@@ -10,9 +10,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.unit.dp
+import mobiledevemoji.composeapp.generated.resources.Res
 import org.jetbrains.compose.resources.ExperimentalResourceApi
 import org.michaelbel.mobiledevemoji.data.EmojiResponse
-import org.michaelbel.mobiledevemoji.resources.Res
 
 @Composable
 fun EmojiIcon(

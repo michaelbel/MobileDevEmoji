@@ -57,8 +57,8 @@ fun MainContent() {
                         )
                     },
                     actions = {
-                        TelegramIcon()
                         FigmaIcon()
+                        TelegramIcon()
                     }
                 )
             }
