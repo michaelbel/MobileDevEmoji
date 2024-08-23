@@ -1,4 +1,4 @@
-@file:OptIn(InternalResourceApi::class)
+@file:OptIn(InternalResourceApi::class, ExperimentalMaterial3Api::class)
 
 package org.michaelbel.mobiledevemoji
 
@@ -13,10 +13,10 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.items
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Scaffold
-import androidx.compose.material.Text
-import androidx.compose.material.TopAppBar
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Text
+import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -24,7 +24,6 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import kotlinx.serialization.json.Json
 import org.jetbrains.compose.resources.InternalResourceApi
@@ -35,6 +34,7 @@ import org.michaelbel.mobiledevemoji.ui.EmojiIcon
 import org.michaelbel.mobiledevemoji.ui.FigmaIcon
 import org.michaelbel.mobiledevemoji.ui.IconPreviewBox
 import org.michaelbel.mobiledevemoji.ui.TelegramIcon
+import org.michaelbel.mobiledevemoji.ui.theme.AppTheme
 
 @Composable
 fun MainContent() {
@@ -47,9 +47,8 @@ fun MainContent() {
         emojiList = json.decodeFromString(jsonString)
     }
 
-    MaterialTheme {
+    AppTheme {
         Scaffold(
-            modifier = Modifier.fillMaxSize(),
             topBar = {
                 TopAppBar(
                     title = {
@@ -60,15 +59,12 @@ fun MainContent() {
                     actions = {
                         TelegramIcon()
                         FigmaIcon()
-                    },
-                    backgroundColor = Color(0xFF141414),
-                    contentColor = Color.White
+                    }
                 )
-            },
-            backgroundColor = Color(0xFF141414)
-        ) {
+            }
+        ) { innerPadding ->
             Row(
-                modifier = Modifier.fillMaxSize(),
+                modifier = Modifier.padding(innerPadding).fillMaxSize(),
                 horizontalArrangement = Arrangement.Center
             ) {
                 LazyVerticalGrid(

@@ -94,5 +94,197 @@
     "name": "Coil",
     "pack": 1,
     "position": 16
+  },
+  {
+    "id": "detekt",
+    "name": "Detekt",
+    "pack": 1,
+    "position": 17
+  },
+  {
+    "id": "google-firebase",
+    "name": "Google Firebase",
+    "pack": 1,
+    "position": 18
+  },
+  {
+    "id": "google-play-console",
+    "name": "Google Play Console",
+    "pack": 1,
+    "position": 19
+  },
+  {
+    "id": "google-play",
+    "name": "Google Play",
+    "pack": 1,
+    "position": 20
+  },
+  {
+    "id": "google",
+    "name": "Google",
+    "pack": 1,
+    "position": 21
+  },
+  {
+    "id": "google-chrome",
+    "name": "Google Chrome",
+    "pack": 1,
+    "position": 22
+  },
+  {
+    "id": "google-drive",
+    "name": "Google Drive",
+    "pack": 1,
+    "position": 23
+  },
+  {
+    "id": "google-gmail",
+    "name": "Google Gmail",
+    "pack": 1,
+    "position": 24
+  },
+  {
+    "id": "google-meet",
+    "name": "Google Meet",
+    "pack": 1,
+    "position": 25
+  },
+  {
+    "id": "google-podcasts",
+    "name": "Google Podcasts",
+    "pack": 1,
+    "position": 26
+  },
+  {
+    "id": "google-youtube",
+    "name": "YouTube",
+    "pack": 1,
+    "position": 27
+  },
+  {
+    "id": "google-youtube-shorts",
+    "name": "YouTube Shorts",
+    "pack": 1,
+    "position": 28
+  },
+  {
+    "id": "google-android5",
+    "name": "Android 5 Lollipop",
+    "pack": 1,
+    "position": 29
+  },
+  {
+    "id": "google-android6",
+    "name": "Android 6 Marshmallow",
+    "pack": 1,
+    "position": 30
+  },
+  {
+    "id": "google-android7",
+    "name": "Android 7 Nougat",
+    "pack": 1,
+    "position": 31
+  },
+  {
+    "id": "google-android8",
+    "name": "Android 8 Oreo",
+    "pack": 1,
+    "position": 32
+  },
+  {
+    "id": "google-android9",
+    "name": "Android 9 Pie",
+    "pack": 1,
+    "position": 33
+  },
+  {
+    "id": "google-android10",
+    "name": "Android 10 Q",
+    "pack": 1,
+    "position": 34
+  },
+  {
+    "id": "google-android11",
+    "name": "Android 11 Red Velvet Cake",
+    "pack": 1,
+    "position": 35
+  },
+  {
+    "id": "google-android12",
+    "name": "Android 12 Snow Cone",
+    "pack": 1,
+    "position": 36
+  },
+  {
+    "id": "google-android13",
+    "name": "Android 13 Tiramisu",
+    "pack": 1,
+    "position": 37
+  },
+  {
+    "id": "google-android14",
+    "name": "Android 14 Upside Down Cake",
+    "pack": 1,
+    "position": 38
+  },
+  {
+    "id": "google-android15",
+    "name": "Android 15 Vanilla Ice Cream",
+    "pack": 1,
+    "position": 39
+  },
+  {
+    "id": "google-pixel",
+    "name": "Google Pixel",
+    "pack": 1,
+    "position": 40
+  },
+  {
+    "id": "google-go-1",
+    "name": "Go (Programming Language)",
+    "pack": 1,
+    "position": 41
+  },
+  {
+    "id": "google-go-2",
+    "name": "Go (Programming Language)",
+    "pack": 1,
+    "position": 42
+  },
+  {
+    "id": "google-mlkit",
+    "name": "Google ML Kit",
+    "pack": 1,
+    "position": 43
+  },
+  {
+    "id": "google-gemini",
+    "name": "Google Gemini",
+    "pack": 1,
+    "position": 44
+  },
+  {
+    "id": "google-tensorflow",
+    "name": "Google TensorFlow",
+    "pack": 1,
+    "position": 45
+  },
+  {
+    "id": "google-wearos",
+    "name": "Google WearOS",
+    "pack": 1,
+    "position": 46
+  },
+  {
+    "id": "google-assistant",
+    "name": "Google Assistant",
+    "pack": 1,
+    "position": 47
+  },
+  {
+    "id": "google-angular",
+    "name": "Angular",
+    "pack": 1,
+    "position": 48
   }
 ]
