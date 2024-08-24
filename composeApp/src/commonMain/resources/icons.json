@@ -382,5 +382,53 @@
     "name": "Apple",
     "pack": 1,
     "position": 64
+  },
+  {
+    "id": "apple-ios",
+    "name": "iOS",
+    "pack": 1,
+    "position": 65
+  },
+  {
+    "id": "apple-ipados",
+    "name": "iPadOS",
+    "pack": 1,
+    "position": 66
+  },
+  {
+    "id": "apple-macos",
+    "name": "macOS",
+    "pack": 1,
+    "position": 67
+  },
+  {
+    "id": "apple-watchos",
+    "name": "watchOS",
+    "pack": 1,
+    "position": 68
+  },
+  {
+    "id": "apple-tvos",
+    "name": "tvOS",
+    "pack": 1,
+    "position": 69
+  },
+  {
+    "id": "apple-visionos",
+    "name": "visionOS",
+    "pack": 1,
+    "position": 70
+  },
+  {
+    "id": "apple-tv",
+    "name": "Apple TV",
+    "pack": 1,
+    "position": 71
+  },
+  {
+    "id": "apple-appstore-1",
+    "name": "AppStore",
+    "pack": 1,
+    "position": 72
   }
 ]
