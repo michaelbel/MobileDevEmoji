@@ -29,7 +29,6 @@ kotlin {
                 outputFileName = "composeApp.js"
                 devServer = (devServer ?: KotlinWebpackConfig.DevServer()).apply {
                     static = (static ?: mutableListOf()).apply {
-                        // Serve sources to debug inside browser
                         add(project.rootDir.path)
                         add(project.projectDir.path)
                     }
@@ -48,18 +47,12 @@ kotlin {
             implementation(compose.ui)
             implementation(compose.components.resources)
             implementation(libs.kotlinx.serialization.json)
-            implementation(libs.sketch.svg)
-            implementation(libs.sketch.compose)
         }
         jsMain.dependencies {
             implementation(compose.components.resources)
-            implementation(libs.ktor.client.content.negotiation.wasm)
-            implementation(libs.ktor.serialization.kotlinx.json.wasm)
         }
         wasmJsMain.dependencies {
             implementation(compose.components.resources)
-            implementation(libs.ktor.client.content.negotiation.wasm)
-            implementation(libs.ktor.serialization.kotlinx.json.wasm)
         }
     }
 

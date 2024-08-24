@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalComposeUiApi::class)
 
-package org.michaelbel.mobiledevemoji.ui
+package org.michaelbel.mobiledevemoji.ui.topbar
 
 import androidx.compose.material.Icon
 import androidx.compose.material.IconButton
@@ -12,19 +12,19 @@ import androidx.compose.ui.input.pointer.PointerEventType
 import androidx.compose.ui.input.pointer.onPointerEvent
 import androidx.compose.ui.platform.LocalUriHandler
 import org.jetbrains.compose.resources.painterResource
-import org.michaelbel.mobiledevemoji.data.FIGMA_URL
-import org.michaelbel.mobiledevemoji.data.FigmaIconRes
+import org.michaelbel.mobiledevemoji.data.TELEGRAM_URL
+import org.michaelbel.mobiledevemoji.data.TelegramIconRes
 
 @Composable
-fun FigmaIcon() {
+fun TelegramIcon() {
     val uriHandler = LocalUriHandler.current
 
     IconButton(
-        onClick = { uriHandler.openUri(FIGMA_URL) },
-        modifier = Modifier.onPointerEvent(PointerEventType.Press) { uriHandler.openUri(FIGMA_URL) }
+        onClick = { uriHandler.openUri(TELEGRAM_URL) },
+        modifier = Modifier.onPointerEvent(PointerEventType.Press) { uriHandler.openUri(TELEGRAM_URL) }
     ) {
         Icon(
-            painter = painterResource(FigmaIconRes),
+            painter = painterResource(TelegramIconRes),
             contentDescription = null,
             tint = Color.Unspecified
         )

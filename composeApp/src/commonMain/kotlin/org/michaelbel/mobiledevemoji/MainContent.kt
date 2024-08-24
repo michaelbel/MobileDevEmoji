@@ -1,4 +1,4 @@
-@file:OptIn(InternalResourceApi::class, ExperimentalMaterial3Api::class, InternalResourceApi::class)
+@file:OptIn(InternalResourceApi::class, ExperimentalMaterial3Api::class)
 
 package org.michaelbel.mobiledevemoji
 
@@ -44,10 +44,10 @@ import org.michaelbel.mobiledevemoji.data.Emoji
 import org.michaelbel.mobiledevemoji.data.EmojiResponse
 import org.michaelbel.mobiledevemoji.svg.svgPainter
 import org.michaelbel.mobiledevemoji.ui.EmojiIcon
-import org.michaelbel.mobiledevemoji.ui.FigmaIcon
 import org.michaelbel.mobiledevemoji.ui.IconPreviewBox
-import org.michaelbel.mobiledevemoji.ui.TelegramIcon
 import org.michaelbel.mobiledevemoji.ui.theme.AppTheme
+import org.michaelbel.mobiledevemoji.ui.topbar.FigmaIcon
+import org.michaelbel.mobiledevemoji.ui.topbar.TelegramIcon
 
 @Composable
 fun MainContent() {
@@ -96,7 +96,9 @@ fun MainContent() {
             when {
                 emojiList.isNotEmpty() -> {
                     Row(
-                        modifier = Modifier.padding(innerPadding).fillMaxSize(),
+                        modifier = Modifier
+                            .padding(innerPadding)
+                            .fillMaxSize(),
                         horizontalArrangement = Arrangement.Center
                     ) {
                         LazyVerticalGrid(
@@ -105,8 +107,8 @@ fun MainContent() {
                                 .width(856.dp)
                                 .fillMaxHeight(),
                             contentPadding = PaddingValues(top = 16.dp, bottom = 16.dp),
-                            verticalArrangement = Arrangement.spacedBy(8.dp),
-                            horizontalArrangement = Arrangement.spacedBy(8.dp)
+                            verticalArrangement = Arrangement.spacedBy(0.dp),
+                            horizontalArrangement = Arrangement.spacedBy(0.dp)
                         ) {
                             items(emojiList) { emoji ->
                                 EmojiIcon(

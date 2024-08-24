@@ -3,15 +3,9 @@ jdk = "17"
 kotlin = "2.0.10"
 kotlinx-serialization-json = "1.7.1"
 compose = "1.6.11"
-sketch = "4.0.0-alpha07"
-ktor-wasm = "3.0.0-wasm2"
 
 [libraries]
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization-json" }
-sketch-svg = { module = "io.github.panpf.sketch4:sketch-svg", version.ref = "sketch" }
-sketch-compose = { module = "io.github.panpf.sketch4:sketch-compose", version.ref = "sketch" }
-ktor-client-content-negotiation-wasm = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "ktor-wasm" }
-ktor-serialization-kotlinx-json-wasm = { module = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "ktor-wasm" }
 
 [plugins]
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
