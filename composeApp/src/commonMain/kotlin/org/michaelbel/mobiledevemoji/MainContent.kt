@@ -26,6 +26,7 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
@@ -53,19 +54,23 @@ fun MainContent() {
     var emojiList by remember { mutableStateOf<List<Emoji>>(emptyList()) }
     var emojiPreviewVisible by remember { mutableStateOf<String?>(null) }
 
+    var emojiCount by remember { mutableIntStateOf(0) }
+    var emojiLoadedCount by remember { mutableStateOf(0) }
+
     val scope = rememberCoroutineScope()
     scope.launch {
-        val jsonString = readResourceBytes("icons.json").decodeToString()
         val json = Json { ignoreUnknownKeys = true }
+        val jsonString = readResourceBytes("icons.json").decodeToString()
         val emojiResponseList: List<EmojiResponse> = json.decodeFromString(jsonString)
-        val emojis: List<Emoji> = emojiResponseList.map { emojiResponse ->
+        val emojiMutableList: MutableList<Emoji> = mutableListOf()
+        emojiCount = emojiResponseList.count()
+        emojiResponseList.forEachIndexed { index, emojiResponse ->
             val emojiPainter = readResourceBytes("images/${emojiResponse.id}.svg").svgPainter
-            Emoji(
-                emojiResponse = emojiResponse,
-                painter = emojiPainter
-            )
+            val emoji = Emoji(emojiResponse, emojiPainter)
+            emojiMutableList.add(index, emoji)
+            emojiLoadedCount = emojiMutableList.count()
         }
-        emojiList = emojis
+        emojiList = emojiMutableList
     }
 
     AppTheme {
@@ -142,6 +147,16 @@ fun MainContent() {
                                 color = MaterialTheme.colorScheme.onBackground,
                                 style = MaterialTheme.typography.headlineSmall
                             )
+
+                            if (emojiCount != 0) {
+                                Text(
+                                    text = "$emojiLoadedCount of $emojiCount",
+                                    modifier = Modifier.padding(top = 8.dp).fillMaxWidth(),
+                                    textAlign = TextAlign.Center,
+                                    color = MaterialTheme.colorScheme.onBackground,
+                                    style = MaterialTheme.typography.titleSmall
+                                )
+                            }
                         }
                     }
                 }
