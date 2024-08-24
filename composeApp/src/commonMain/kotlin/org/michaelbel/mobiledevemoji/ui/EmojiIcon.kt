@@ -1,5 +1,3 @@
-@file:OptIn(ExperimentalResourceApi::class)
-
 package org.michaelbel.mobiledevemoji.ui
 
 import androidx.compose.foundation.clickable
@@ -10,23 +8,21 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.unit.dp
-import mobiledevemoji.composeapp.generated.resources.Res
-import org.jetbrains.compose.resources.ExperimentalResourceApi
-import org.michaelbel.mobiledevemoji.data.EmojiResponse
+import org.michaelbel.mobiledevemoji.data.Emoji
 
 @Composable
 fun EmojiIcon(
-    emoji: EmojiResponse,
+    emoji: Emoji,
     onClick: (String) -> Unit
 ) {
     Box(
         modifier = Modifier
             .clip(RoundedCornerShape(24.dp))
             .size(100.dp)
-            .clickable { onClick(emoji.id) }
+            .clickable { onClick(emoji.emojiResponse.id) }
     ) {
         SvgIcon(
-            path = Res.getUri("files/${emoji.id}.svg"),
+            painter = emoji.painter,
             modifier = Modifier.size(100.dp)
         )
     }

@@ -1,4 +1,4 @@
-@file:OptIn(InternalResourceApi::class, ExperimentalMaterial3Api::class)
+@file:OptIn(InternalResourceApi::class, ExperimentalMaterial3Api::class, InternalResourceApi::class)
 
 package org.michaelbel.mobiledevemoji
 
@@ -29,7 +29,9 @@ import kotlinx.serialization.json.Json
 import org.jetbrains.compose.resources.InternalResourceApi
 import org.jetbrains.compose.resources.readResourceBytes
 import org.michaelbel.mobiledevemoji.data.APP_NAME
+import org.michaelbel.mobiledevemoji.data.Emoji
 import org.michaelbel.mobiledevemoji.data.EmojiResponse
+import org.michaelbel.mobiledevemoji.svg.svgPainter
 import org.michaelbel.mobiledevemoji.ui.EmojiIcon
 import org.michaelbel.mobiledevemoji.ui.FigmaIcon
 import org.michaelbel.mobiledevemoji.ui.IconPreviewBox
@@ -38,13 +40,21 @@ import org.michaelbel.mobiledevemoji.ui.theme.AppTheme
 
 @Composable
 fun MainContent() {
-    var emojiList by remember { mutableStateOf<List<EmojiResponse>>(emptyList()) }
+    var emojiList by remember { mutableStateOf<List<Emoji>>(emptyList()) }
     var emojiPreviewVisible by remember { mutableStateOf<String?>(null) }
 
     LaunchedEffect(Unit) {
         val jsonString = readResourceBytes("icons.json").decodeToString()
         val json = Json { ignoreUnknownKeys = true }
-        emojiList = json.decodeFromString(jsonString)
+        val emojiResponseList: List<EmojiResponse> = json.decodeFromString(jsonString)
+        val emojis: List<Emoji> = emojiResponseList.map { emojiResponse ->
+            val emojiPainter = readResourceBytes("images/${emojiResponse.id}.svg").svgPainter
+            Emoji(
+                emojiResponse = emojiResponse,
+                painter = emojiPainter
+            )
+        }
+        emojiList = emojis
     }
 
     AppTheme {
@@ -93,7 +103,7 @@ fun MainContent() {
                     visible = emojiPreviewVisible != null
                 ) {
                     IconPreviewBox(
-                        emoji = emojiList.find { it.id == emojiPreviewVisible } ?: EmojiResponse.Empty,
+                        emoji = emojiList.find { it.emojiResponse.id == emojiPreviewVisible } ?: Emoji.Empty,
                         modifier = Modifier.padding(start = 64.dp),
                         onClick = { emojiPreviewVisible = null }
                     )

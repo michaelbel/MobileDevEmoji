@@ -1,5 +1,3 @@
-@file:OptIn(ExperimentalResourceApi::class)
-
 package org.michaelbel.mobiledevemoji.ui
 
 import androidx.compose.foundation.clickable
@@ -19,13 +17,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import mobiledevemoji.composeapp.generated.resources.Res
-import org.jetbrains.compose.resources.ExperimentalResourceApi
-import org.michaelbel.mobiledevemoji.data.EmojiResponse
+import org.michaelbel.mobiledevemoji.data.Emoji
 
 @Composable
 fun IconPreviewBox(
-    emoji: EmojiResponse,
+    emoji: Emoji,
     onClick: () -> Unit,
     modifier: Modifier
 ) {
@@ -41,13 +37,13 @@ fun IconPreviewBox(
                 .clickable { onClick() }
         ) {
             SvgIcon(
-                path = Res.getUri("files/${emoji.id}.svg"),
+                painter = emoji.painter,
                 modifier = Modifier.size(300.dp)
             )
         }
 
         Text(
-            text = emoji.name,
+            text = emoji.emojiResponse.name,
             modifier = Modifier.padding(top = 16.dp),
             textAlign = TextAlign.Center,
             color = MaterialTheme.colorScheme.onBackground,
