@@ -334,5 +334,53 @@
     "name": "Google Forms",
     "pack": 1,
     "position": 56
+  },
+  {
+    "id": "jetbrains",
+    "name": "JetBrains",
+    "pack": 1,
+    "position": 57
+  },
+  {
+    "id": "jetbrains-intellijidea",
+    "name": "JetBrains IntelliJ IDEA",
+    "pack": 1,
+    "position": 58
+  },
+  {
+    "id": "jetbrains-fleet",
+    "name": "JetBrains Fleet",
+    "pack": 1,
+    "position": 59
+  },
+  {
+    "id": "jetbrains-kotlin-multiplatform",
+    "name": "Kotlin Multiplatform",
+    "pack": 1,
+    "position": 60
+  },
+  {
+    "id": "jetbrains-kotlin-1",
+    "name": "Kotlin",
+    "pack": 1,
+    "position": 61
+  },
+  {
+    "id": "jetbrains-kotlin-2",
+    "name": "Kotlin",
+    "pack": 1,
+    "position": 62
+  },
+  {
+    "id": "jetbrains-ktor",
+    "name": "Ktor",
+    "pack": 1,
+    "position": 63
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "pack": 1,
+    "position": 64
   }
 ]
