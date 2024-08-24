@@ -25,15 +25,16 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import kotlinx.coroutines.launch
 import kotlinx.serialization.json.Json
 import org.jetbrains.compose.resources.InternalResourceApi
 import org.jetbrains.compose.resources.readResourceBytes
@@ -52,7 +53,8 @@ fun MainContent() {
     var emojiList by remember { mutableStateOf<List<Emoji>>(emptyList()) }
     var emojiPreviewVisible by remember { mutableStateOf<String?>(null) }
 
-    LaunchedEffect(Unit) {
+    val scope = rememberCoroutineScope()
+    scope.launch {
         val jsonString = readResourceBytes("icons.json").decodeToString()
         val json = Json { ignoreUnknownKeys = true }
         val emojiResponseList: List<EmojiResponse> = json.decodeFromString(jsonString)
