@@ -26,7 +26,9 @@ fun IconPreviewBox(
     modifier: Modifier
 ) {
     Column(
-        modifier = modifier.width(332.dp).fillMaxHeight(),
+        modifier = modifier
+            .width(332.dp)
+            .fillMaxHeight(),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {

@@ -83,8 +83,12 @@ fun MainContent() {
                         )
                     },
                     actions = {
-                        FigmaIcon()
-                        TelegramIcon()
+                        Row(
+                            modifier = Modifier.padding(end = 8.dp)
+                        ) {
+                            FigmaIcon()
+                            TelegramIcon()
+                        }
                     }
                 )
             }
