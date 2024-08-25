@@ -47,10 +47,10 @@ fun EmojiIcon(
     ) {
         Box(
             modifier = Modifier
-                .background(Color.Unspecified)
                 .clip(RoundedCornerShape(24.dp))
                 .size(iconSize)
-                .clickable { onClick(emoji.emojiResponse.id) }
+                .background(if (emoji.isNotEmpty) Color.Unspecified else Color.DarkGray)
+                .clickable(enabled = emoji.isNotEmpty) { onClick(emoji.emojiResponse.id) }
                 .onPointerEvent(PointerEventType.Enter) { active = true }
                 .onPointerEvent(PointerEventType.Exit) { active = false }
         ) {

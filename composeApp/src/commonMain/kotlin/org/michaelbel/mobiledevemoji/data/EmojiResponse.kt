@@ -10,6 +10,9 @@ data class EmojiResponse(
     @SerialName("pack") val pack: Int,
     @SerialName("position") val position: Int
 ) {
+    val isNotEmpty: Boolean
+        get() = this != Empty
+
     companion object {
         val Empty: EmojiResponse = EmojiResponse("", "", -1, -1)
     }
