@@ -13,7 +13,7 @@ import androidx.compose.ui.input.pointer.onPointerEvent
 import androidx.compose.ui.platform.LocalUriHandler
 import org.jetbrains.compose.resources.painterResource
 import org.michaelbel.mobiledevemoji.data.FIGMA_URL
-import org.michaelbel.mobiledevemoji.data.FigmaIconRes
+import org.michaelbel.mobiledevemoji.ui.theme.FigmaIconRes
 
 @Composable
 fun FigmaIcon() {

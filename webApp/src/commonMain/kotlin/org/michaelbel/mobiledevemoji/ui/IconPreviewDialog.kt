@@ -29,8 +29,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.launch
 import org.jetbrains.compose.resources.painterResource
-import org.michaelbel.mobiledevemoji.data.CloseIconRes
 import org.michaelbel.mobiledevemoji.data.Emoji
+import org.michaelbel.mobiledevemoji.ui.theme.CloseIconRes
 
 @Composable
 fun IconPreviewDialog(

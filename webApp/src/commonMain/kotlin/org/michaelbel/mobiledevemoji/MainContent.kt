@@ -7,7 +7,6 @@ import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.grid.GridCells
@@ -15,7 +14,6 @@ import androidx.compose.foundation.lazy.grid.GridItemSpan
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
@@ -37,9 +35,11 @@ import org.jetbrains.compose.resources.readResourceBytes
 import org.michaelbel.mobiledevemoji.data.APP_NAME
 import org.michaelbel.mobiledevemoji.data.Emoji
 import org.michaelbel.mobiledevemoji.data.EmojiResponse
+import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_1
 import org.michaelbel.mobiledevemoji.svg.svgPainter
 import org.michaelbel.mobiledevemoji.ui.EmojiIcon
 import org.michaelbel.mobiledevemoji.ui.IconPreviewDialog
+import org.michaelbel.mobiledevemoji.ui.PackHeader
 import org.michaelbel.mobiledevemoji.ui.topbar.FigmaIcon
 import org.michaelbel.mobiledevemoji.ui.topbar.TelegramIcon
 
@@ -99,18 +99,10 @@ fun MainContent() {
                 item(
                     span = { GridItemSpan(maxLineSpan) }
                 ) {
-                    Box(
-                        modifier = Modifier.fillMaxWidth()
-                    ) {
-                        Text(
-                            text = "Pack 1",
-                            modifier = Modifier
-                                .align(Alignment.CenterStart)
-                                .padding(start = 16.dp, top = 8.dp, end = 16.dp, bottom = 8.dp),
-                            color = MaterialTheme.colorScheme.onBackground,
-                            style = MaterialTheme.typography.titleLarge
-                        )
-                    }
+                    PackHeader(
+                        packName = "Pack 1",
+                        packUrl = TELEGRAM_PACK_1
+                    )
                 }
 
                 items(emojiList) { emoji ->

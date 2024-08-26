@@ -13,7 +13,7 @@ import androidx.compose.ui.input.pointer.onPointerEvent
 import androidx.compose.ui.platform.LocalUriHandler
 import org.jetbrains.compose.resources.painterResource
 import org.michaelbel.mobiledevemoji.data.TELEGRAM_URL
-import org.michaelbel.mobiledevemoji.data.TelegramIconRes
+import org.michaelbel.mobiledevemoji.ui.theme.TelegramIconRes
 
 @Composable
 fun TelegramIcon() {
