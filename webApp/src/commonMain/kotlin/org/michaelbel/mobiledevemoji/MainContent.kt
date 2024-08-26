@@ -106,16 +106,6 @@ fun MainContent() {
                     )
                 }
             }
-
-            /*AnimatedVisibility(
-                visible = emojiPreviewVisible != null
-            ) {
-                IconPreviewBox(
-                    emoji = emojiList.find { it.emojiResponse.id == emojiPreviewVisible } ?: Emoji.Empty,
-                    modifier = Modifier.padding(start = 32.dp),
-                    onClick = { emojiPreviewVisible = null }
-                )
-            }*/
         }
 
         if (emojiPreviewVisible != null) {
