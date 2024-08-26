@@ -57,7 +57,7 @@ fun MainContent() {
         val jsonString = readResourceBytes("icons.json").decodeToString()
         val emojiResponseList = json.decodeFromString<List<EmojiResponse>>(jsonString)
         emojiResponseList.forEachIndexed { index, emojiResponse ->
-            val emojiPainter = readResourceBytes("images/${emojiResponse.id}.svg").svgPainter
+            val emojiPainter = readResourceBytes("pack1/${emojiResponse.id}.svg").svgPainter
             val currentEmoji = emojiSnapshotStateList[index]
             emojiSnapshotStateList[index] = currentEmoji.copy(emojiResponse = emojiResponse, painter = emojiPainter)
             emojiList = emojiSnapshotStateList.toList()
