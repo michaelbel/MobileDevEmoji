@@ -16,18 +16,18 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Run Gradle Tasks
-        run: ./gradlew :composeApp:jsBrowserDistribution
+        run: ./gradlew :webApp:jsBrowserDistribution
 
       - name: Fix permissions
         run: |
-          chmod -v -R +rX "composeApp/build/dist/js/productionExecutable/" | while read line; do
+          chmod -v -R +rX "webApp/build/dist/js/productionExecutable/" | while read line; do
             echo "::warning title=Invalid file permissions automatically fixed::$line"
           done
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: composeApp/build/dist/js/productionExecutable/
+          path: webApp/build/dist/js/productionExecutable/
 
   deploy:
     # Add a dependency to the build job

@@ -1,9 +1,9 @@
 package org.michaelbel.mobiledevemoji.data
 
-import mobiledevemoji.composeapp.generated.resources.Res
-import mobiledevemoji.composeapp.generated.resources.ic_close_24
-import mobiledevemoji.composeapp.generated.resources.ic_figma_24
-import mobiledevemoji.composeapp.generated.resources.ic_telegram_24
+import mobiledevemoji.webapp.generated.resources.Res
+import mobiledevemoji.webapp.generated.resources.ic_close_24
+import mobiledevemoji.webapp.generated.resources.ic_figma_24
+import mobiledevemoji.webapp.generated.resources.ic_telegram_24
 
 const val APP_NAME = "MobileDevEmoji"
 
