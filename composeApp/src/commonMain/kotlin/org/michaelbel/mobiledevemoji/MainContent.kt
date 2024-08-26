@@ -2,7 +2,6 @@
 
 package org.michaelbel.mobiledevemoji
 
-import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
@@ -36,7 +35,7 @@ import org.michaelbel.mobiledevemoji.data.Emoji
 import org.michaelbel.mobiledevemoji.data.EmojiResponse
 import org.michaelbel.mobiledevemoji.svg.svgPainter
 import org.michaelbel.mobiledevemoji.ui.EmojiIcon
-import org.michaelbel.mobiledevemoji.ui.IconPreviewBox
+import org.michaelbel.mobiledevemoji.ui.IconPreviewDialog
 import org.michaelbel.mobiledevemoji.ui.topbar.FigmaIcon
 import org.michaelbel.mobiledevemoji.ui.topbar.TelegramIcon
 
@@ -108,15 +107,23 @@ fun MainContent() {
                 }
             }
 
-            AnimatedVisibility(
+            /*AnimatedVisibility(
                 visible = emojiPreviewVisible != null
             ) {
                 IconPreviewBox(
                     emoji = emojiList.find { it.emojiResponse.id == emojiPreviewVisible } ?: Emoji.Empty,
-                    modifier = Modifier.padding(start = 64.dp),
+                    modifier = Modifier.padding(start = 32.dp),
                     onClick = { emojiPreviewVisible = null }
                 )
-            }
+            }*/
+        }
+
+        if (emojiPreviewVisible != null) {
+            IconPreviewDialog(
+                emoji = emojiList.find { it.emojiResponse.id == emojiPreviewVisible } ?: Emoji.Empty,
+                modifier = Modifier,
+                onDismissRequest = { emojiPreviewVisible = null }
+            )
         }
     }
 }

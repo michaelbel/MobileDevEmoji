@@ -85,7 +85,7 @@
   },
   {
     "id": "google-dart",
-    "name": "Dart",
+    "name": "Dart (Programming Language)",
     "pack": 1,
     "position": 15
   },
@@ -631,7 +631,7 @@
   },
   {
     "id": "meta-threads",
-    "name": "Threads (social network)",
+    "name": "Threads (Social Network)",
     "pack": 1,
     "position": 106
   },
