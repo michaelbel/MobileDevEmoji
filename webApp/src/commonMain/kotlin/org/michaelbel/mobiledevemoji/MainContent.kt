@@ -2,7 +2,7 @@
 
 package org.michaelbel.mobiledevemoji
 
-import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxHeight
@@ -24,6 +24,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.runtime.snapshots.SnapshotStateList
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.launch
@@ -79,20 +80,18 @@ fun MainContent() {
             )
         }
     ) { innerPadding ->
-        Row(
+        Box(
             modifier = Modifier
                 .padding(innerPadding)
                 .fillMaxSize(),
-            horizontalArrangement = Arrangement.Center
+            contentAlignment = Alignment.Center
         ) {
             LazyVerticalGrid(
                 columns = GridCells.Fixed(count = 8),
                 modifier = Modifier
                     .width(856.dp)
                     .fillMaxHeight(),
-                contentPadding = PaddingValues(top = 16.dp, bottom = 16.dp),
-                verticalArrangement = Arrangement.spacedBy(0.dp),
-                horizontalArrangement = Arrangement.spacedBy(0.dp)
+                contentPadding = PaddingValues(all = 16.dp)
             ) {
                 items(emojiList) { emoji ->
                     EmojiIcon(
