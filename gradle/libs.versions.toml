@@ -3,9 +3,11 @@ jdk = "17"
 kotlin = "2.0.20"
 kotlinx-serialization-json = "1.7.1"
 compose = "1.6.11"
+kermit = "2.0.4"
 
 [libraries]
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization-json" }
+kermit = { module = "co.touchlab:kermit", version.ref = "kermit" }
 
 [plugins]
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
