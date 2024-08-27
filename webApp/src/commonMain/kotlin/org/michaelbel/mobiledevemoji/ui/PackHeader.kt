@@ -14,10 +14,11 @@ import androidx.compose.ui.unit.dp
 @Composable
 fun PackHeader(
     packName: String,
-    packUrl: String
+    packUrl: String,
+    modifier: Modifier = Modifier
 ) {
     Box(
-        modifier = Modifier
+        modifier = modifier
             .padding(horizontal = 16.dp)
             .fillMaxWidth()
             .height(56.dp)

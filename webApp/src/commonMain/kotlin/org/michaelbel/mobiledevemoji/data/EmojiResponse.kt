@@ -6,14 +6,12 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class EmojiResponse(
     @SerialName("id") val id: String,
-    @SerialName("name") val name: String,
-    @SerialName("pack") val pack: Int,
-    @SerialName("position") val position: Int
+    @SerialName("name") val name: String
 ) {
     val isNotEmpty: Boolean
         get() = this != Empty
 
     companion object {
-        val Empty: EmojiResponse = EmojiResponse("", "", -1, -1)
+        val Empty: EmojiResponse = EmojiResponse("", "")
     }
 }

@@ -42,7 +42,7 @@ fun GetPackButton(
             )
 
             Text(
-                text = "Get pack on Telegram",
+                text = "Get on Telegram",
                 modifier = Modifier.padding(start = 8.dp),
                 color = Color.White
             )
