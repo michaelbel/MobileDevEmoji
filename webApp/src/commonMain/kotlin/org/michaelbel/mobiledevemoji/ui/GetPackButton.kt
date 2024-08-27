@@ -6,7 +6,7 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
-import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -28,23 +28,22 @@ fun GetPackButton(
         onClick = { uriHandler.openUri(packUrl) },
         modifier = modifier.wrapContentSize(),
         colors = ButtonDefaults.buttonColors().copy(
-            containerColor = MaterialTheme.colorScheme.surface
+            containerColor = Color(0xFFEADDFF),
+            contentColor = Color(0xFF21005D)
         ),
     ) {
         Row(
             verticalAlignment = Alignment.CenterVertically
         ) {
-            androidx.compose.material.Icon(
+            Icon(
                 painter = painterResource(TelegramPlaneIconRes),
                 contentDescription = null,
-                modifier = Modifier.size(16.dp),
-                tint = Color.White
+                modifier = Modifier.size(16.dp)
             )
 
             Text(
                 text = "Get on Telegram",
-                modifier = Modifier.padding(start = 8.dp),
-                color = Color.White
+                modifier = Modifier.padding(start = 8.dp)
             )
         }
     }
