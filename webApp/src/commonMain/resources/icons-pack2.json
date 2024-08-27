@@ -62,5 +62,37 @@
   {
     "id": "mir",
     "name": "Mir (Payment System)"
+  },
+  {
+    "id": "sbp",
+    "name": "Система быстрых платежей"
+  },
+  {
+    "id": "paypal",
+    "name": "PayPal"
+  },
+  {
+    "id": "stripe",
+    "name": "Stripe"
+  },
+  {
+    "id": "cashapp",
+    "name": "Cash App"
+  },
+  {
+    "id": "amazon-1",
+    "name": "Amazon"
+  },
+  {
+    "id": "amazon-2",
+    "name": "Amazon"
+  },
+  {
+    "id": "amazon-web-services",
+    "name": "Amazon Web Services"
+  },
+  {
+    "id": "amazon-alexa",
+    "name": "Amazon Alexa"
   }
 ]
