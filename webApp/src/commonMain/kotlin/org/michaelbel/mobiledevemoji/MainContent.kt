@@ -36,6 +36,7 @@ import org.michaelbel.mobiledevemoji.data.APP_NAME
 import org.michaelbel.mobiledevemoji.data.Emoji
 import org.michaelbel.mobiledevemoji.data.EmojiResponse
 import org.michaelbel.mobiledevemoji.data.PACK_1_SIZE
+import org.michaelbel.mobiledevemoji.data.PACK_2_SIZE
 import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_1
 import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_2
 import org.michaelbel.mobiledevemoji.svg.svgPainter
@@ -118,7 +119,7 @@ fun MainContent() {
                     )
                 }
 
-                items(emojiList.take(200)) { emoji ->
+                items(emojiList.take(PACK_1_SIZE)) { emoji ->
                     EmojiIcon(
                         emoji = emoji,
                         onClick = { emojiId ->
@@ -140,7 +141,7 @@ fun MainContent() {
                     )
                 }
 
-                items(emojiList.takeLast(8)) { emoji ->
+                items(emojiList.takeLast(PACK_2_SIZE)) { emoji ->
                     EmojiIcon(
                         emoji = emoji,
                         onClick = { emojiId ->
