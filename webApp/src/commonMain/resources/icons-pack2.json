@@ -1,0 +1,66 @@
+[
+  {
+    "id": "binance",
+    "name": "Binance"
+  },
+  {
+    "id": "coinbase-1",
+    "name": "Coinbase"
+  },
+  {
+    "id": "coinbase-2",
+    "name": "Coinbase"
+  },
+  {
+    "id": "bitcoin",
+    "name": "Bitcoin"
+  },
+  {
+    "id": "ethereum-1",
+    "name": "Ethereum"
+  },
+  {
+    "id": "ethereum-2",
+    "name": "Ethereum"
+  },
+  {
+    "id": "tether",
+    "name": "Tether (USDT)"
+  },
+  {
+    "id": "ton",
+    "name": "Toncoin"
+  },
+  {
+    "id": "opensea",
+    "name": "OpenSea (NFT Marketplace)"
+  },
+  {
+    "id": "visa",
+    "name": "Visa (Payment System)"
+  },
+  {
+    "id": "mastercard",
+    "name": "Mastercard (Payment System)"
+  },
+  {
+    "id": "maestro",
+    "name": "Maestro (Payment System)"
+  },
+  {
+    "id": "union-pay",
+    "name": "UnionPay (Payment System)"
+  },
+  {
+    "id": "jcb",
+    "name": "JCB (Payment System)"
+  },
+  {
+    "id": "american-express",
+    "name": "American Express (Payment System)"
+  },
+  {
+    "id": "mir",
+    "name": "Mir (Payment System)"
+  }
+]
