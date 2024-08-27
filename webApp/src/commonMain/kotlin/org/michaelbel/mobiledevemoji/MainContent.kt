@@ -1,4 +1,4 @@
-@file:OptIn(InternalResourceApi::class, ExperimentalMaterial3Api::class)
+@file:OptIn(ExperimentalMaterial3Api::class)
 
 package org.michaelbel.mobiledevemoji
 
@@ -30,8 +30,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.launch
 import kotlinx.serialization.json.Json
-import org.jetbrains.compose.resources.InternalResourceApi
-import org.jetbrains.compose.resources.readResourceBytes
 import org.michaelbel.mobiledevemoji.data.APP_NAME
 import org.michaelbel.mobiledevemoji.data.Emoji
 import org.michaelbel.mobiledevemoji.data.EmojiResponse
@@ -39,7 +37,8 @@ import org.michaelbel.mobiledevemoji.data.PACK_1_SIZE
 import org.michaelbel.mobiledevemoji.data.PACK_2_SIZE
 import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_1
 import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_2
-import org.michaelbel.mobiledevemoji.svg.svgPainter
+import org.michaelbel.mobiledevemoji.ktx.decodeJsonToString
+import org.michaelbel.mobiledevemoji.ktx.emojiPainter
 import org.michaelbel.mobiledevemoji.ui.EmojiIcon
 import org.michaelbel.mobiledevemoji.ui.IconPreviewDialog
 import org.michaelbel.mobiledevemoji.ui.PackHeader
@@ -58,20 +57,18 @@ fun MainContent() {
 
         val json = Json { ignoreUnknownKeys = true }
 
-        val jsonString1 = readResourceBytes("icons-pack1.json").decodeToString()
-        val emojiResponseList1 = json.decodeFromString<List<EmojiResponse>>(jsonString1)
+        val emojiResponseList1 = json.decodeFromString<List<EmojiResponse>>("icons-pack1.json".decodeJsonToString())
         emojiResponseList1.forEachIndexed { index, emojiResponse ->
-            val emojiPainter = readResourceBytes("pack1/${emojiResponse.id}.svg").svgPainter
+            val emojiPainter = "pack1/${emojiResponse.id}.svg".emojiPainter()
             val currentEmoji = emojiSnapshotStateList[index]
             emojiSnapshotStateList[index] = currentEmoji.copy(emojiResponse = emojiResponse, painter = emojiPainter)
             emojiList = emojiSnapshotStateList.toList()
         }
 
-        val jsonString2 = readResourceBytes("icons-pack2.json").decodeToString()
-        val emojiResponseList2 = json.decodeFromString<List<EmojiResponse>>(jsonString2)
+        val emojiResponseList2 = json.decodeFromString<List<EmojiResponse>>("icons-pack2.json".decodeJsonToString())
         val position = PACK_1_SIZE
         emojiResponseList2.forEachIndexed { index, emojiResponse ->
-            val emojiPainter = readResourceBytes("pack2/${emojiResponse.id}.svg").svgPainter
+            val emojiPainter = "pack2/${emojiResponse.id}.svg".emojiPainter()
             val currentEmoji = emojiSnapshotStateList[index.plus(position)]
             emojiSnapshotStateList[index.plus(position)] = currentEmoji.copy(emojiResponse = emojiResponse, painter = emojiPainter)
             emojiList = emojiSnapshotStateList.toList()
