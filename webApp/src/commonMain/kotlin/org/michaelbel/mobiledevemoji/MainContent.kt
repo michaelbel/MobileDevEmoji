@@ -35,7 +35,9 @@ import org.jetbrains.compose.resources.readResourceBytes
 import org.michaelbel.mobiledevemoji.data.APP_NAME
 import org.michaelbel.mobiledevemoji.data.Emoji
 import org.michaelbel.mobiledevemoji.data.EmojiResponse
+import org.michaelbel.mobiledevemoji.data.PACK_1_SIZE
 import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_1
+import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_2
 import org.michaelbel.mobiledevemoji.svg.svgPainter
 import org.michaelbel.mobiledevemoji.ui.EmojiIcon
 import org.michaelbel.mobiledevemoji.ui.IconPreviewDialog
@@ -54,12 +56,23 @@ fun MainContent() {
         emojiList = emojiSnapshotStateList.toList()
 
         val json = Json { ignoreUnknownKeys = true }
-        val jsonString = readResourceBytes("icons.json").decodeToString()
-        val emojiResponseList = json.decodeFromString<List<EmojiResponse>>(jsonString)
-        emojiResponseList.forEachIndexed { index, emojiResponse ->
+
+        val jsonString1 = readResourceBytes("icons-pack1.json").decodeToString()
+        val emojiResponseList1 = json.decodeFromString<List<EmojiResponse>>(jsonString1)
+        emojiResponseList1.forEachIndexed { index, emojiResponse ->
             val emojiPainter = readResourceBytes("pack1/${emojiResponse.id}.svg").svgPainter
             val currentEmoji = emojiSnapshotStateList[index]
             emojiSnapshotStateList[index] = currentEmoji.copy(emojiResponse = emojiResponse, painter = emojiPainter)
+            emojiList = emojiSnapshotStateList.toList()
+        }
+
+        val jsonString2 = readResourceBytes("icons-pack2.json").decodeToString()
+        val emojiResponseList2 = json.decodeFromString<List<EmojiResponse>>(jsonString2)
+        val position = PACK_1_SIZE
+        emojiResponseList2.forEachIndexed { index, emojiResponse ->
+            val emojiPainter = readResourceBytes("pack2/${emojiResponse.id}.svg").svgPainter
+            val currentEmoji = emojiSnapshotStateList[index.plus(position)]
+            emojiSnapshotStateList[index.plus(position)] = currentEmoji.copy(emojiResponse = emojiResponse, painter = emojiPainter)
             emojiList = emojiSnapshotStateList.toList()
         }
     }
@@ -105,7 +118,29 @@ fun MainContent() {
                     )
                 }
 
-                items(emojiList) { emoji ->
+                items(emojiList.take(200)) { emoji ->
+                    EmojiIcon(
+                        emoji = emoji,
+                        onClick = { emojiId ->
+                            emojiPreviewVisible = when {
+                                emojiId == emojiPreviewVisible -> null
+                                else -> emojiId
+                            }
+                        }
+                    )
+                }
+
+                item(
+                    span = { GridItemSpan(maxLineSpan) }
+                ) {
+                    PackHeader(
+                        packName = "Pack 2",
+                        packUrl = TELEGRAM_PACK_2,
+                        modifier = Modifier.padding(top = 32.dp)
+                    )
+                }
+
+                items(emojiList.takeLast(8)) { emoji ->
                     EmojiIcon(
                         emoji = emoji,
                         onClick = { emojiId ->
