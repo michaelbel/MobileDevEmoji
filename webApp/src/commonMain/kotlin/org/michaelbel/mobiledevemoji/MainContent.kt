@@ -103,7 +103,7 @@ fun MainContent() {
             LazyVerticalGrid(
                 columns = GridCells.Fixed(count = 8),
                 modifier = Modifier
-                    .width(856.dp)
+                    .width(888.dp) // 100*8 + 16*2 + 8*7
                     .fillMaxHeight(),
                 contentPadding = PaddingValues(all = 16.dp)
             ) {
