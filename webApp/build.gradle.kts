@@ -56,10 +56,6 @@ kotlin {
             implementation(compose.components.resources)
         }
     }
-
-    compilerOptions {
-        jvmToolchain(libs.versions.jdk.get().toInt())
-    }
 }
 
 compose {
