@@ -8,8 +8,8 @@ MobileDevEmoji - это набор эмодзипаков в Telegram. Они д
 
 ## Screenshots
 <p align="center">
-    <img src="config/mde-site-1.png" width="49%">
-    <img src="config/mde-site-2.png" width="49%">
+    <img src=".github/pics/mde-site-1.png" width="49%">
+    <img src=".github/pics/mde-site-2.png" width="49%">
 </p>
 
 ## Technologies
