@@ -1,7 +1,7 @@
 @file:OptIn(ExperimentalKotlinGradlePluginApi::class, ExperimentalWasmDsl::class)
 
 import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
-import org.jetbrains.kotlin.gradle.targets.js.dsl.ExperimentalWasmDsl
+import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
 import org.jetbrains.kotlin.gradle.targets.js.webpack.KotlinWebpackConfig
 
 plugins {
@@ -62,11 +62,13 @@ kotlin {
     }
 }
 
-compose.resources {
-    publicResClass = true
-    generateResClass = always
-}
+compose {
+    resources {
+        publicResClass = true
+        generateResClass = always
+    }
 
-compose.experimental {
-    web.application {}
+    experimental {
+        web.application {}
+    }
 }
