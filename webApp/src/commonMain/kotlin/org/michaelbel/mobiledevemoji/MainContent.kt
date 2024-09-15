@@ -35,8 +35,10 @@ import org.michaelbel.mobiledevemoji.data.Emoji
 import org.michaelbel.mobiledevemoji.data.EmojiResponse
 import org.michaelbel.mobiledevemoji.data.PACK_1_SIZE
 import org.michaelbel.mobiledevemoji.data.PACK_2_SIZE
+import org.michaelbel.mobiledevemoji.data.PACK_3_SIZE
 import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_1
 import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_2
+import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_3
 import org.michaelbel.mobiledevemoji.ktx.decodeJsonToString
 import org.michaelbel.mobiledevemoji.ktx.emojiPainter
 import org.michaelbel.mobiledevemoji.ui.EmojiIcon
@@ -71,6 +73,15 @@ fun MainContent() {
             val emojiPainter = "pack2/${emojiResponse.id}.svg".emojiPainter()
             val currentEmoji = emojiSnapshotStateList[index.plus(position)]
             emojiSnapshotStateList[index.plus(position)] = currentEmoji.copy(emojiResponse = emojiResponse, painter = emojiPainter)
+            emojiList = emojiSnapshotStateList.toList()
+        }
+
+        val emojiResponseList3 = json.decodeFromString<List<EmojiResponse>>("icons-pack3.json".decodeJsonToString())
+        val position2 = PACK_1_SIZE + PACK_2_SIZE
+        emojiResponseList3.forEachIndexed { index, emojiResponse ->
+            val emojiPainter = "pack3/${emojiResponse.id}.svg".emojiPainter()
+            val currentEmoji = emojiSnapshotStateList[index.plus(position2)]
+            emojiSnapshotStateList[index.plus(position2)] = currentEmoji.copy(emojiResponse = emojiResponse, painter = emojiPainter)
             emojiList = emojiSnapshotStateList.toList()
         }
     }
@@ -138,7 +149,29 @@ fun MainContent() {
                     )
                 }
 
-                items(emojiList.takeLast(PACK_2_SIZE)) { emoji ->
+                items(emojiList.subList(PACK_1_SIZE, PACK_1_SIZE.plus(PACK_2_SIZE))) { emoji ->
+                    EmojiIcon(
+                        emoji = emoji,
+                        onClick = { emojiId ->
+                            emojiPreviewVisible = when {
+                                emojiId == emojiPreviewVisible -> null
+                                else -> emojiId
+                            }
+                        }
+                    )
+                }
+
+                item(
+                    span = { GridItemSpan(maxLineSpan) }
+                ) {
+                    PackHeader(
+                        packName = "Pack 3",
+                        packUrl = TELEGRAM_PACK_3,
+                        modifier = Modifier.padding(top = 32.dp)
+                    )
+                }
+
+                items(emojiList.takeLast(PACK_3_SIZE)) { emoji ->
                     EmojiIcon(
                         emoji = emoji,
                         onClick = { emojiId ->

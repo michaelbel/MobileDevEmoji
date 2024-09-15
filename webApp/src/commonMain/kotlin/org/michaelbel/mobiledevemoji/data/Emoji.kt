@@ -11,7 +11,7 @@ data class Emoji(
 
     companion object {
         val Empty: Emoji = Emoji(EmojiResponse.Empty, null)
-        val EmptyList: MutableList<Emoji> = MutableList(size = PACK_1_SIZE + PACK_2_SIZE) {
+        val EmptyList: MutableList<Emoji> = MutableList(size = PACKS_SIZE) {
             Emoji(EmojiResponse.Empty, null)
         }
     }
