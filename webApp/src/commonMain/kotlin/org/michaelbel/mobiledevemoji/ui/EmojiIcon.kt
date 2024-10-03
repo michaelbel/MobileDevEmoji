@@ -30,11 +30,12 @@ import org.michaelbel.mobiledevemoji.data.Emoji
 @Composable
 fun EmojiIcon(
     emoji: Emoji,
+    selected: Boolean,
     onClick: (String) -> Unit
 ) {
     var active by remember { mutableStateOf(false) }
     val iconSize: Dp by animateDpAsState(
-        targetValue = if (active) 104.dp else 100.dp,
+        targetValue = if (active || selected) 104.dp else 100.dp,
         animationSpec = tween(durationMillis = 100, easing = LinearEasing)
     )
 

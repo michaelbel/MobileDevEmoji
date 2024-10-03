@@ -1,0 +1,3004 @@
+[
+  {
+    "id": "google-android-1",
+    "name": "Android",
+    "pack": 1
+  },
+  {
+    "id": "google-android-2",
+    "name": "Android",
+    "pack": 1
+  },
+  {
+    "id": "google-android-3",
+    "name": "Android",
+    "pack": 1
+  },
+  {
+    "id": "google-android-4",
+    "name": "Android",
+    "pack": 1
+  },
+  {
+    "id": "google-android-5",
+    "name": "Android",
+    "pack": 1
+  },
+  {
+    "id": "google-android-6",
+    "name": "Android",
+    "pack": 1
+  },
+  {
+    "id": "google-android-studio",
+    "name": "Android Studio",
+    "pack": 1
+  },
+  {
+    "id": "google-android-jetpack",
+    "name": "Android Jetpack",
+    "pack": 1
+  },
+  {
+    "id": "google-android-jetpack-compose",
+    "name": "Jetpack Compose",
+    "pack": 1
+  },
+  {
+    "id": "google-material3-1",
+    "name": "Material3",
+    "pack": 1
+  },
+  {
+    "id": "google-material3-2",
+    "name": "Material3",
+    "pack": 1
+  },
+  {
+    "id": "gradle-1",
+    "name": "Gradle",
+    "pack": 1
+  },
+  {
+    "id": "gradle-2",
+    "name": "Gradle",
+    "pack": 1
+  },
+  {
+    "id": "google-flutter",
+    "name": "Flutter",
+    "pack": 1
+  },
+  {
+    "id": "google-dart",
+    "name": "Dart (Programming Language)",
+    "pack": 1
+  },
+  {
+    "id": "coil",
+    "name": "Coil",
+    "pack": 1
+  },
+  {
+    "id": "detekt",
+    "name": "Detekt",
+    "pack": 1
+  },
+  {
+    "id": "google-firebase",
+    "name": "Google Firebase",
+    "pack": 1
+  },
+  {
+    "id": "google-play-console",
+    "name": "Google Play Console",
+    "pack": 1
+  },
+  {
+    "id": "google-play",
+    "name": "Google Play",
+    "pack": 1
+  },
+  {
+    "id": "google",
+    "name": "Google",
+    "pack": 1
+  },
+  {
+    "id": "google-chrome",
+    "name": "Google Chrome",
+    "pack": 1
+  },
+  {
+    "id": "google-drive",
+    "name": "Google Drive",
+    "pack": 1
+  },
+  {
+    "id": "google-gmail",
+    "name": "Google Gmail",
+    "pack": 1
+  },
+  {
+    "id": "google-meet",
+    "name": "Google Meet",
+    "pack": 1
+  },
+  {
+    "id": "google-podcasts",
+    "name": "Google Podcasts",
+    "pack": 1
+  },
+  {
+    "id": "google-youtube",
+    "name": "YouTube",
+    "pack": 1
+  },
+  {
+    "id": "google-youtube-shorts",
+    "name": "YouTube Shorts",
+    "pack": 1
+  },
+  {
+    "id": "google-android5",
+    "name": "Android 5 Lollipop",
+    "pack": 1
+  },
+  {
+    "id": "google-android6",
+    "name": "Android 6 Marshmallow",
+    "pack": 1
+  },
+  {
+    "id": "google-android7",
+    "name": "Android 7 Nougat",
+    "pack": 1
+  },
+  {
+    "id": "google-android8",
+    "name": "Android 8 Oreo",
+    "pack": 1
+  },
+  {
+    "id": "google-android9",
+    "name": "Android 9 Pie",
+    "pack": 1
+  },
+  {
+    "id": "google-android10",
+    "name": "Android 10 Q",
+    "pack": 1
+  },
+  {
+    "id": "google-android11",
+    "name": "Android 11 Red Velvet Cake",
+    "pack": 1
+  },
+  {
+    "id": "google-android12",
+    "name": "Android 12 Snow Cone",
+    "pack": 1
+  },
+  {
+    "id": "google-android13",
+    "name": "Android 13 Tiramisu",
+    "pack": 1
+  },
+  {
+    "id": "google-android14",
+    "name": "Android 14 Upside Down Cake",
+    "pack": 1
+  },
+  {
+    "id": "google-android15",
+    "name": "Android 15 Vanilla Ice Cream",
+    "pack": 1
+  },
+  {
+    "id": "google-pixel",
+    "name": "Google Pixel",
+    "pack": 1
+  },
+  {
+    "id": "google-go-1",
+    "name": "Go (Programming Language)",
+    "pack": 1
+  },
+  {
+    "id": "google-go-2",
+    "name": "Go (Programming Language)",
+    "pack": 1
+  },
+  {
+    "id": "google-mlkit",
+    "name": "Google ML Kit",
+    "pack": 1
+  },
+  {
+    "id": "google-gemini",
+    "name": "Google Gemini",
+    "pack": 1
+  },
+  {
+    "id": "google-tensorflow",
+    "name": "Google TensorFlow",
+    "pack": 1
+  },
+  {
+    "id": "google-wearos",
+    "name": "Google WearOS",
+    "pack": 1
+  },
+  {
+    "id": "google-assistant",
+    "name": "Google Assistant",
+    "pack": 1
+  },
+  {
+    "id": "google-angular",
+    "name": "Angular",
+    "pack": 1
+  },
+  {
+    "id": "google-home",
+    "name": "Google Home",
+    "pack": 1
+  },
+  {
+    "id": "google-cloud",
+    "name": "Google Cloud",
+    "pack": 1
+  },
+  {
+    "id": "google-chromium",
+    "name": "Google Chromium",
+    "pack": 1
+  },
+  {
+    "id": "google-docs-editors",
+    "name": "Google Docs Editors",
+    "pack": 1
+  },
+  {
+    "id": "google-docs",
+    "name": "Google Docs",
+    "pack": 1
+  },
+  {
+    "id": "google-sheets",
+    "name": "Google Sheets",
+    "pack": 1
+  },
+  {
+    "id": "google-slides",
+    "name": "Google Slides",
+    "pack": 1
+  },
+  {
+    "id": "google-forms",
+    "name": "Google Forms",
+    "pack": 1
+  },
+  {
+    "id": "jetbrains",
+    "name": "JetBrains",
+    "pack": 1
+  },
+  {
+    "id": "jetbrains-intellijidea",
+    "name": "JetBrains IntelliJ IDEA",
+    "pack": 1
+  },
+  {
+    "id": "jetbrains-fleet",
+    "name": "JetBrains Fleet",
+    "pack": 1
+  },
+  {
+    "id": "jetbrains-kotlin-multiplatform",
+    "name": "Kotlin Multiplatform",
+    "pack": 1
+  },
+  {
+    "id": "jetbrains-kotlin-1",
+    "name": "Kotlin (Programming Language)",
+    "pack": 1
+  },
+  {
+    "id": "jetbrains-kotlin-2",
+    "name": "Kotlin (Programming Language)",
+    "pack": 1
+  },
+  {
+    "id": "jetbrains-ktor",
+    "name": "Ktor",
+    "pack": 1
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "pack": 1
+  },
+  {
+    "id": "apple-ios",
+    "name": "iOS",
+    "pack": 1
+  },
+  {
+    "id": "apple-ipados",
+    "name": "iPadOS",
+    "pack": 1
+  },
+  {
+    "id": "apple-macos",
+    "name": "macOS",
+    "pack": 1
+  },
+  {
+    "id": "apple-watchos",
+    "name": "watchOS",
+    "pack": 1
+  },
+  {
+    "id": "apple-tvos",
+    "name": "tvOS",
+    "pack": 1
+  },
+  {
+    "id": "apple-visionos",
+    "name": "visionOS",
+    "pack": 1
+  },
+  {
+    "id": "apple-tv",
+    "name": "Apple TV",
+    "pack": 1
+  },
+  {
+    "id": "apple-appstore-1",
+    "name": "AppStore",
+    "pack": 1
+  },
+  {
+    "id": "apple-appstore-2",
+    "name": "AppStore",
+    "pack": 1
+  },
+  {
+    "id": "apple-swift-1",
+    "name": "Swift (Programming Language)",
+    "pack": 1
+  },
+  {
+    "id": "apple-swift-2",
+    "name": "Swift (Programming Language)",
+    "pack": 1
+  },
+  {
+    "id": "apple-xcode",
+    "name": "Xcode",
+    "pack": 1
+  },
+  {
+    "id": "apple-metal-1",
+    "name": "Apple Metal",
+    "pack": 1
+  },
+  {
+    "id": "apple-metal-2",
+    "name": "Apple Metal",
+    "pack": 1
+  },
+  {
+    "id": "apple-cocoapods",
+    "name": "Cocoapods",
+    "pack": 1
+  },
+  {
+    "id": "apple-terminal",
+    "name": "Terminal",
+    "pack": 1
+  },
+  {
+    "id": "apple-safari",
+    "name": "Safari",
+    "pack": 1
+  },
+  {
+    "id": "apple-podcasts",
+    "name": "Apple Podcasts",
+    "pack": 1
+  },
+  {
+    "id": "apple-home-kit",
+    "name": "Apple HomeKit",
+    "pack": 1
+  },
+  {
+    "id": "microsoft-1",
+    "name": "Microsoft",
+    "pack": 1
+  },
+  {
+    "id": "microsoft-2",
+    "name": "Microsoft",
+    "pack": 1
+  },
+  {
+    "id": "microsoft-windows",
+    "name": "Windows",
+    "pack": 1
+  },
+  {
+    "id": "microsoft-net",
+    "name": ".NET Framework",
+    "pack": 1
+  },
+  {
+    "id": "microsoft-visual-studio",
+    "name": "Visual Studio",
+    "pack": 1
+  },
+  {
+    "id": "microsoft-vscode-1",
+    "name": "Visual Studio Code",
+    "pack": 1
+  },
+  {
+    "id": "microsoft-vscode-2",
+    "name": "Visual Studio Code",
+    "pack": 1
+  },
+  {
+    "id": "microsoft-c-sharp",
+    "name": "C# (Programming Language)",
+    "pack": 1
+  },
+  {
+    "id": "microsoft-github-1",
+    "name": "GitHub",
+    "pack": 1
+  },
+  {
+    "id": "microsoft-github-2",
+    "name": "GitHub",
+    "pack": 1
+  },
+  {
+    "id": "microsoft-copilot",
+    "name": "Microsoft Copilot",
+    "pack": 1
+  },
+  {
+    "id": "microsoft-onedrive",
+    "name": "Microsoft OneDrive",
+    "pack": 1
+  },
+  {
+    "id": "microsoft-skype",
+    "name": "Skype",
+    "pack": 1
+  },
+  {
+    "id": "microsoft-edge",
+    "name": "Microsoft Edge",
+    "pack": 1
+  },
+  {
+    "id": "microsoft-teams",
+    "name": "Microsoft Teams",
+    "pack": 1
+  },
+  {
+    "id": "microsoft-xbox",
+    "name": "Xbox",
+    "pack": 1
+  },
+  {
+    "id": "microsoft-xamarin",
+    "name": "Xamarin",
+    "pack": 1
+  },
+  {
+    "id": "meta",
+    "name": "Meta",
+    "pack": 1
+  },
+  {
+    "id": "meta-fb",
+    "name": "Facebook",
+    "pack": 1
+  },
+  {
+    "id": "meta-instagram",
+    "name": "Instagram",
+    "pack": 1
+  },
+  {
+    "id": "meta-whatsapp",
+    "name": "WhatsApp",
+    "pack": 1
+  },
+  {
+    "id": "meta-fb-messenger",
+    "name": "Facebook Messenger",
+    "pack": 1
+  },
+  {
+    "id": "meta-threads",
+    "name": "Threads (Social Network)",
+    "pack": 1
+  },
+  {
+    "id": "meta-react",
+    "name": "React",
+    "pack": 1
+  },
+  {
+    "id": "yandex",
+    "name": "Yandex",
+    "pack": 1
+  },
+  {
+    "id": "yandex-browser",
+    "name": "Yandex Browser",
+    "pack": 1
+  },
+  {
+    "id": "yandex-alisa",
+    "name": "Yandex Alise",
+    "pack": 1
+  },
+  {
+    "id": "yandex-disk",
+    "name": "Yandex Disk",
+    "pack": 1
+  },
+  {
+    "id": "yandex-music",
+    "name": "Yandex Music",
+    "pack": 1
+  },
+  {
+    "id": "vk",
+    "name": "VK",
+    "pack": 1
+  },
+  {
+    "id": "vk-odnoklassniki",
+    "name": "Odnoklassniki",
+    "pack": 1
+  },
+  {
+    "id": "vk-video",
+    "name": "VK Video",
+    "pack": 1
+  },
+  {
+    "id": "vk-clips",
+    "name": "VK Clips",
+    "pack": 1
+  },
+  {
+    "id": "vk-music",
+    "name": "VK Music",
+    "pack": 1
+  },
+  {
+    "id": "vk-rustore",
+    "name": "RuStore",
+    "pack": 1
+  },
+  {
+    "id": "vk-dzen",
+    "name": "Dzen",
+    "pack": 1
+  },
+  {
+    "id": "huawei",
+    "name": "Huawei",
+    "pack": 1
+  },
+  {
+    "id": "huawei-appgallery",
+    "name": "Huawei AppGallery",
+    "pack": 1
+  },
+  {
+    "id": "oracle-1",
+    "name": "Oracle",
+    "pack": 1
+  },
+  {
+    "id": "oracle-2",
+    "name": "Oracle",
+    "pack": 1
+  },
+  {
+    "id": "java",
+    "name": "Java (Programming Language)",
+    "pack": 1
+  },
+  {
+    "id": "telegram",
+    "name": "Telegram",
+    "pack": 1
+  },
+  {
+    "id": "telegraph",
+    "name": "Telegraph",
+    "pack": 1
+  },
+  {
+    "id": "pwa-1",
+    "name": "Progressive Web Apps",
+    "pack": 1
+  },
+  {
+    "id": "pwa-2",
+    "name": "Progressive Web Apps",
+    "pack": 1
+  },
+  {
+    "id": "atlassian-jira",
+    "name": "Atlassian Jira",
+    "pack": 1
+  },
+  {
+    "id": "atlassian-confluence",
+    "name": "Atlassian Confluence",
+    "pack": 1
+  },
+  {
+    "id": "atlassian-bitbucket",
+    "name": "Atlassian Bitbucket",
+    "pack": 1
+  },
+  {
+    "id": "atlassian-trello",
+    "name": "Atlassian Trello",
+    "pack": 1
+  },
+  {
+    "id": "boosty-1",
+    "name": "Boosty",
+    "pack": 1
+  },
+  {
+    "id": "boosty-2",
+    "name": "Boosty",
+    "pack": 1
+  },
+  {
+    "id": "patreon",
+    "name": "Patreon",
+    "pack": 1
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "pack": 1
+  },
+  {
+    "id": "midjourney-1",
+    "name": "Midjourney",
+    "pack": 1
+  },
+  {
+    "id": "midjourney-2",
+    "name": "Midjourney",
+    "pack": 1
+  },
+  {
+    "id": "opera",
+    "name": "Opera",
+    "pack": 1
+  },
+  {
+    "id": "firefox",
+    "name": "Mozilla Firefox",
+    "pack": 1
+  },
+  {
+    "id": "tor-browser",
+    "name": "Tor Browser",
+    "pack": 1
+  },
+  {
+    "id": "appbazar",
+    "name": "AppBazar (Apps Store)",
+    "pack": 1
+  },
+  {
+    "id": "onestore",
+    "name": "OneStore (Apps Store)",
+    "pack": 1
+  },
+  {
+    "id": "samsung-galaxy-store",
+    "name": "Galaxy Store",
+    "pack": 1
+  },
+  {
+    "id": "apptoide",
+    "name": "Aptoide (Apps Store)",
+    "pack": 1
+  },
+  {
+    "id": "fdroid",
+    "name": "F-Droid",
+    "pack": 1
+  },
+  {
+    "id": "linkedin",
+    "name": "LinkedIn",
+    "pack": 1
+  },
+  {
+    "id": "discord",
+    "name": "Discord",
+    "pack": 1
+  },
+  {
+    "id": "slack-1",
+    "name": "Slack",
+    "pack": 1
+  },
+  {
+    "id": "slack-2",
+    "name": "Slack",
+    "pack": 1
+  },
+  {
+    "id": "x",
+    "name": "X (Twitter)",
+    "pack": 1
+  },
+  {
+    "id": "tiktok-1",
+    "name": "TikTok",
+    "pack": 1
+  },
+  {
+    "id": "tiktok-2",
+    "name": "TikTok",
+    "pack": 1
+  },
+  {
+    "id": "reddit",
+    "name": "Reddit",
+    "pack": 1
+  },
+  {
+    "id": "medium-1",
+    "name": "Medium",
+    "pack": 1
+  },
+  {
+    "id": "kakaotalk",
+    "name": "KakaoTalk",
+    "pack": 1
+  },
+  {
+    "id": "snapchat",
+    "name": "Snapchat",
+    "pack": 1
+  },
+  {
+    "id": "wechat",
+    "name": "WeChat",
+    "pack": 1
+  },
+  {
+    "id": "line",
+    "name": "Line",
+    "pack": 1
+  },
+  {
+    "id": "signal",
+    "name": "Signal",
+    "pack": 1
+  },
+  {
+    "id": "viber",
+    "name": "Viber",
+    "pack": 1
+  },
+  {
+    "id": "miro",
+    "name": "Miro",
+    "pack": 1
+  },
+  {
+    "id": "figma",
+    "name": "Figma",
+    "pack": 1
+  },
+  {
+    "id": "sketch",
+    "name": "Sketch",
+    "pack": 1
+  },
+  {
+    "id": "notion",
+    "name": "Notion",
+    "pack": 1
+  },
+  {
+    "id": "sublime-text",
+    "name": "Sublime Text",
+    "pack": 1
+  },
+  {
+    "id": "gitlab",
+    "name": "GitLab",
+    "pack": 1
+  },
+  {
+    "id": "git-1",
+    "name": "Git",
+    "pack": 1
+  },
+  {
+    "id": "git-2",
+    "name": "Git",
+    "pack": 1
+  },
+  {
+    "id": "postman",
+    "name": "Postman",
+    "pack": 1
+  },
+  {
+    "id": "habr",
+    "name": "Habr",
+    "pack": 1
+  },
+  {
+    "id": "rx",
+    "name": "ReactiveX",
+    "pack": 1
+  },
+  {
+    "id": "realm",
+    "name": "Realm (Database)",
+    "pack": 1
+  },
+  {
+    "id": "zoom-1",
+    "name": "Zoom",
+    "pack": 1
+  },
+  {
+    "id": "zoom-2",
+    "name": "Zoom",
+    "pack": 1
+  },
+  {
+    "id": "swagger",
+    "name": "Swagger",
+    "pack": 1
+  },
+  {
+    "id": "stackoverflow",
+    "name": "Stack Overflow",
+    "pack": 1
+  },
+  {
+    "id": "oneplus",
+    "name": "OnePlus",
+    "pack": 1
+  },
+  {
+    "id": "lenovo",
+    "name": "Lenovo",
+    "pack": 1
+  },
+  {
+    "id": "xiaomi",
+    "name": "Xiaomi",
+    "pack": 1
+  },
+  {
+    "id": "poco",
+    "name": "Poco",
+    "pack": 1
+  },
+  {
+    "id": "realme",
+    "name": "Realme",
+    "pack": 1
+  },
+  {
+    "id": "oppo",
+    "name": "Oppo",
+    "pack": 1
+  },
+  {
+    "id": "zte",
+    "name": "ZTE",
+    "pack": 1
+  },
+  {
+    "id": "vivo",
+    "name": "Vivo",
+    "pack": 1
+  },
+  {
+    "id": "alcatel",
+    "name": "Alcatel",
+    "pack": 1
+  },
+  {
+    "id": "tecno",
+    "name": "Tecno",
+    "pack": 1
+  },
+  {
+    "id": "nokia",
+    "name": "Nokia",
+    "pack": 1
+  },
+  {
+    "id": "philips",
+    "name": "Philips",
+    "pack": 1
+  },
+  {
+    "id": "asus",
+    "name": "Asus",
+    "pack": 1
+  },
+  {
+    "id": "motorola",
+    "name": "Motorola",
+    "pack": 1
+  },
+  {
+    "id": "samsung",
+    "name": "Samsung",
+    "pack": 1
+  },
+  {
+    "id": "samsung-one-ui",
+    "name": "Samsung One UI",
+    "pack": 1
+  },
+  {
+    "id": "nothing",
+    "name": "Nothing Phone",
+    "pack": 1
+  },
+  {
+    "id": "sony",
+    "name": "Sony",
+    "pack": 1
+  },
+  {
+    "id": "honor-1",
+    "name": "Honor",
+    "pack": 1
+  },
+  {
+    "id": "honor-2",
+    "name": "Honor",
+    "pack": 1
+  },
+  {
+    "id": "blackberry",
+    "name": "BlackBerry",
+    "pack": 1
+  },
+  {
+    "id": "meizu",
+    "name": "Meizu",
+    "pack": 1
+  },
+  {
+    "id": "htc",
+    "name": "HTC",
+    "pack": 1
+  },
+
+  {
+    "id": "binance",
+    "name": "Binance",
+    "pack": 2
+  },
+  {
+    "id": "coinbase-1",
+    "name": "Coinbase",
+    "pack": 2
+  },
+  {
+    "id": "coinbase-2",
+    "name": "Coinbase",
+    "pack": 2
+  },
+  {
+    "id": "bitcoin",
+    "name": "Bitcoin",
+    "pack": 2
+  },
+  {
+    "id": "ethereum-1",
+    "name": "Ethereum",
+    "pack": 2
+  },
+  {
+    "id": "ethereum-2",
+    "name": "Ethereum",
+    "pack": 2
+  },
+  {
+    "id": "tether",
+    "name": "Tether (USDT)",
+    "pack": 2
+  },
+  {
+    "id": "ton",
+    "name": "Toncoin",
+    "pack": 2
+  },
+  {
+    "id": "opensea",
+    "name": "OpenSea (NFT Marketplace)",
+    "pack": 2
+  },
+  {
+    "id": "visa",
+    "name": "Visa (Payment System)",
+    "pack": 2
+  },
+  {
+    "id": "mastercard",
+    "name": "Mastercard (Payment System)",
+    "pack": 2
+  },
+  {
+    "id": "maestro",
+    "name": "Maestro (Payment System)",
+    "pack": 2
+  },
+  {
+    "id": "union-pay",
+    "name": "UnionPay (Payment System)",
+    "pack": 2
+  },
+  {
+    "id": "jcb",
+    "name": "JCB (Payment System)",
+    "pack": 2
+  },
+  {
+    "id": "american-express",
+    "name": "American Express (Payment System)",
+    "pack": 2
+  },
+  {
+    "id": "mir",
+    "name": "Mir (Payment System)",
+    "pack": 2
+  },
+  {
+    "id": "sbp",
+    "name": "Система быстрых платежей",
+    "pack": 2
+  },
+  {
+    "id": "paypal",
+    "name": "PayPal",
+    "pack": 2
+  },
+  {
+    "id": "stripe",
+    "name": "Stripe",
+    "pack": 2
+  },
+  {
+    "id": "cashapp",
+    "name": "Cash App",
+    "pack": 2
+  },
+  {
+    "id": "amazon-1",
+    "name": "Amazon",
+    "pack": 2
+  },
+  {
+    "id": "amazon-2",
+    "name": "Amazon",
+    "pack": 2
+  },
+  {
+    "id": "amazon-web-services",
+    "name": "Amazon Web Services",
+    "pack": 2
+  },
+  {
+    "id": "amazon-alexa",
+    "name": "Amazon Alexa",
+    "pack": 2
+  },
+  {
+    "id": "linux",
+    "name": "Linux",
+    "pack": 2
+  },
+  {
+    "id": "linux-ubuntu",
+    "name": "Ubuntu (Linux Distribution)",
+    "pack": 2
+  },
+  {
+    "id": "linux-debian",
+    "name": "Debian (Linux Distribution)",
+    "pack": 2
+  },
+  {
+    "id": "wireguard",
+    "name": "WireGuard",
+    "pack": 2
+  },
+  {
+    "id": "openvpn",
+    "name": "OpenVPN",
+    "pack": 2
+  },
+  {
+    "id": "steam",
+    "name": "Steam",
+    "pack": 2
+  },
+  {
+    "id": "unity",
+    "name": "Unity (Game Engine)",
+    "pack": 2
+  },
+  {
+    "id": "unreal-engine-1",
+    "name": "Unreal Engine (Game Engine)",
+    "pack": 2
+  },
+  {
+    "id": "unreal-engine-2",
+    "name": "Unreal Engine (Game Engine)",
+    "pack": 2
+  },
+  {
+    "id": "sony-playstation",
+    "name": "Sony PlayStation",
+    "pack": 2
+  },
+  {
+    "id": "nintendo",
+    "name": "Nintendo",
+    "pack": 2
+  },
+  {
+    "id": "ubisoft",
+    "name": "Ubisoft",
+    "pack": 2
+  },
+  {
+    "id": "valve",
+    "name": "Valve",
+    "pack": 2
+  },
+  {
+    "id": "riot-games",
+    "name": "Riot Games",
+    "pack": 2
+  },
+  {
+    "id": "bethesda",
+    "name": "Bethesda",
+    "pack": 2
+  },
+  {
+    "id": "rockstar-games",
+    "name": "Rockstar Games",
+    "pack": 2
+  },
+  {
+    "id": "take-two-interactive",
+    "name": "Take-Two Interactive",
+    "pack": 2
+  },
+  {
+    "id": "epic-games",
+    "name": "Epic Games",
+    "pack": 2
+  },
+  {
+    "id": "electronic-arts",
+    "name": "Electronic Arts",
+    "pack": 2
+  },
+  {
+    "id": "activision-blizzard",
+    "name": "Activision Blizzard",
+    "pack": 2
+  },
+  {
+    "id": "supercell",
+    "name": "Supercell",
+    "pack": 2
+  },
+  {
+    "id": "intel",
+    "name": "Intel",
+    "pack": 2
+  },
+  {
+    "id": "amd",
+    "name": "AMD",
+    "pack": 2
+  },
+  {
+    "id": "qualcomm",
+    "name": "Qualcomm",
+    "pack": 2
+  },
+  {
+    "id": "nvidia-1",
+    "name": "Nvidia",
+    "pack": 2
+  },
+  {
+    "id": "nvidia-2",
+    "name": "Nvidia",
+    "pack": 2
+  },
+  {
+    "id": "nvidia-3",
+    "name": "Nvidia",
+    "pack": 2
+  },
+  {
+    "id": "broadcom",
+    "name": "Broadcom",
+    "pack": 2
+  },
+  {
+    "id": "arm",
+    "name": "ARM",
+    "pack": 2
+  },
+  {
+    "id": "tsmc",
+    "name": "TSMC",
+    "pack": 2
+  },
+  {
+    "id": "mediatek",
+    "name": "MediaTek",
+    "pack": 2
+  },
+  {
+    "id": "ibm",
+    "name": "IBM",
+    "pack": 2
+  },
+  {
+    "id": "acer",
+    "name": "Acer",
+    "pack": 2
+  },
+  {
+    "id": "dell",
+    "name": "Dell",
+    "pack": 2
+  },
+  {
+    "id": "hp",
+    "name": "HP",
+    "pack": 2
+  },
+  {
+    "id": "canon",
+    "name": "Canon",
+    "pack": 2
+  },
+  {
+    "id": "jbl",
+    "name": "JBL",
+    "pack": 2
+  },
+  {
+    "id": "lg",
+    "name": "LG",
+    "pack": 2
+  },
+  {
+    "id": "beats-electronics",
+    "name": "Beats Electronics",
+    "pack": 2
+  },
+  {
+    "id": "soundcloud",
+    "name": "SoundCloud",
+    "pack": 2
+  },
+  {
+    "id": "storytel",
+    "name": "Storytel",
+    "pack": 2
+  },
+  {
+    "id": "castbox",
+    "name": "Castbox",
+    "pack": 2
+  },
+  {
+    "id": "spotify",
+    "name": "Spotify",
+    "pack": 2
+  },
+  {
+    "id": "deezer",
+    "name": "Deezer",
+    "pack": 2
+  },
+  {
+    "id": "behance",
+    "name": "Behance",
+    "pack": 2
+  },
+  {
+    "id": "pinterest",
+    "name": "Pinterest",
+    "pack": 2
+  },
+  {
+    "id": "dribbble",
+    "name": "Dribbble",
+    "pack": 2
+  },
+  {
+    "id": "canva",
+    "name": "Canva",
+    "pack": 2
+  },
+  {
+    "id": "adobe-1",
+    "name": "Adobe",
+    "pack": 2
+  },
+  {
+    "id": "adobe-2",
+    "name": "Adobe",
+    "pack": 2
+  },
+  {
+    "id": "adobe-acrobat",
+    "name": "Adobe Acrobat",
+    "pack": 2
+  },
+  {
+    "id": "adobe-firefly",
+    "name": "Adobe Firefly",
+    "pack": 2
+  },
+  {
+    "id": "adobe-after-effects",
+    "name": "Adobe After Effects",
+    "pack": 2
+  },
+  {
+    "id": "adobe-illustrator",
+    "name": "Adobe Illustrator",
+    "pack": 2
+  },
+  {
+    "id": "adobe-animate",
+    "name": "Adobe Animate",
+    "pack": 2
+  },
+  {
+    "id": "adobe-aero",
+    "name": "Adobe Aero",
+    "pack": 2
+  },
+  {
+    "id": "adobe-audition",
+    "name": "Adobe Audition",
+    "pack": 2
+  },
+  {
+    "id": "adobe-bridge",
+    "name": "Adobe Bridge",
+    "pack": 2
+  },
+  {
+    "id": "adobe-character-animator",
+    "name": "Adobe Character Animator",
+    "pack": 2
+  },
+  {
+    "id": "adobe-dimension",
+    "name": "Adobe Dimension",
+    "pack": 2
+  },
+  {
+    "id": "adobe-dreamweaver",
+    "name": "Adobe Dreamweaver",
+    "pack": 2
+  },
+  {
+    "id": "adobe-indesign",
+    "name": "Adobe InDesign",
+    "pack": 2
+  },
+  {
+    "id": "adobe-lightroom",
+    "name": "Adobe Lightroom",
+    "pack": 2
+  },
+  {
+    "id": "adobe-fresco",
+    "name": "Adobe Fresco",
+    "pack": 2
+  },
+  {
+    "id": "adobe-media-encoder",
+    "name": "Adobe Media Encoder",
+    "pack": 2
+  },
+  {
+    "id": "adobe-premiere-pro",
+    "name": "Adobe Premiere Pro",
+    "pack": 2
+  },
+  {
+    "id": "adobe-photoshop",
+    "name": "Adobe Photoshop",
+    "pack": 2
+  },
+  {
+    "id": "c",
+    "name": "C (Programming Language)",
+    "pack": 2
+  },
+  {
+    "id": "cpp",
+    "name": "C++ (Programming Language)",
+    "pack": 2
+  },
+  {
+    "id": "php",
+    "name": "PHP (Programming Language)",
+    "pack": 2
+  },
+  {
+    "id": "rust",
+    "name": "Rust (Programming Language)",
+    "pack": 2
+  },
+  {
+    "id": "ruby",
+    "name": "Ruby (Programming Language)",
+    "pack": 2
+  },
+  {
+    "id": "python",
+    "name": "Python (Programming Language)",
+    "pack": 2
+  },
+  {
+    "id": "django",
+    "name": "Django (Web Framework)",
+    "pack": 2
+  },
+  {
+    "id": "vue",
+    "name": "Vue (JavaScript Framework)",
+    "pack": 2
+  },
+  {
+    "id": "html5",
+    "name": "HTML5",
+    "pack": 2
+  },
+  {
+    "id": "css3",
+    "name": "CSS3",
+    "pack": 2
+  },
+  {
+    "id": "docker-1",
+    "name": "Docker",
+    "pack": 2
+  },
+  {
+    "id": "docker-2",
+    "name": "Docker",
+    "pack": 2
+  },
+  {
+    "id": "js",
+    "name": "JavaScript (Programming Language)",
+    "pack": 2
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript (Programming Language)",
+    "pack": 2
+  },
+  {
+    "id": "microsoft-vb",
+    "name": "Visual Basic (Programming Language)",
+    "pack": 2
+  },
+  {
+    "id": "webassembly",
+    "name": "WebAssembly (Programming Language)",
+    "pack": 2
+  },
+  {
+    "id": "delphi",
+    "name": "Delphi (Programming Language)",
+    "pack": 2
+  },
+  {
+    "id": "pascal",
+    "name": "Pascal (Programming Language)",
+    "pack": 2
+  },
+  {
+    "id": "scala",
+    "name": "Scala (Programming Language)",
+    "pack": 2
+  },
+  {
+    "id": "json",
+    "name": "JSON",
+    "pack": 2
+  },
+  {
+    "id": "xml",
+    "name": "XML",
+    "pack": 2
+  },
+  {
+    "id": "nodejs-1",
+    "name": "Node.js (JavaScript Runtime)",
+    "pack": 2
+  },
+  {
+    "id": "nodejs-2",
+    "name": "Node.js (JavaScript Runtime)",
+    "pack": 2
+  },
+  {
+    "id": "nodejs-3",
+    "name": "Node.js (JavaScript Runtime)",
+    "pack": 2
+  },
+  {
+    "id": "nestjs",
+    "name": "NestJS (Framework)",
+    "pack": 2
+  },
+  {
+    "id": "utorrent",
+    "name": "μTorrent",
+    "pack": 2
+  },
+  {
+    "id": "wikipedia",
+    "name": "Wikipedia",
+    "pack": 2
+  },
+  {
+    "id": "mit",
+    "name": "The MIT License",
+    "pack": 2
+  },
+  {
+    "id": "salesforce",
+    "name": "Salesforce",
+    "pack": 2
+  },
+  {
+    "id": "wired",
+    "name": "Wired",
+    "pack": 2
+  },
+  {
+    "id": "dropbox-1",
+    "name": "Dropbox",
+    "pack": 2
+  },
+  {
+    "id": "dropbox-2",
+    "name": "Dropbox",
+    "pack": 2
+  },
+  {
+    "id": "rss",
+    "name": "RSS",
+    "pack": 2
+  },
+  {
+    "id": "quora",
+    "name": "Quora",
+    "pack": 2
+  },
+  {
+    "id": "tumblr",
+    "name": "Tumblr",
+    "pack": 2
+  },
+  {
+    "id": "duckduckgo",
+    "name": "DuckDuckGo",
+    "pack": 2
+  },
+  {
+    "id": "blender",
+    "name": "Blender",
+    "pack": 2
+  },
+  {
+    "id": "apache",
+    "name": "Apache",
+    "pack": 2
+  },
+  {
+    "id": "apache-kafka",
+    "name": "Apache Kafka",
+    "pack": 2
+  },
+  {
+    "id": "evernote",
+    "name": "Evernote",
+    "pack": 2
+  },
+  {
+    "id": "upwork",
+    "name": "Upwork",
+    "pack": 2
+  },
+  {
+    "id": "ted",
+    "name": "TED",
+    "pack": 2
+  },
+  {
+    "id": "netflix",
+    "name": "Netflix",
+    "pack": 2
+  },
+  {
+    "id": "pornhub",
+    "name": "Pornhub",
+    "pack": 2
+  },
+  {
+    "id": "twitch",
+    "name": "Twitch",
+    "pack": 2
+  },
+  {
+    "id": "rutube",
+    "name": "Rutube",
+    "pack": 2
+  },
+  {
+    "id": "vulkan",
+    "name": "Vulkan",
+    "pack": 2
+  },
+  {
+    "id": "onlyfans",
+    "name": "OnlyFans",
+    "pack": 2
+  },
+  {
+    "id": "redis",
+    "name": "Redis",
+    "pack": 2
+  },
+  {
+    "id": "rabbitmq",
+    "name": "RabbitMQ",
+    "pack": 2
+  },
+  {
+    "id": "npm",
+    "name": "Npm",
+    "pack": 2
+  },
+  {
+    "id": "raspberry-pi",
+    "name": "Raspberry Pi",
+    "pack": 2
+  },
+  {
+    "id": "redux",
+    "name": "Redux (JavaScript Library)",
+    "pack": 2
+  },
+  {
+    "id": "drawio",
+    "name": "Draw.io",
+    "pack": 2
+  },
+  {
+    "id": "garmin",
+    "name": "Garmin",
+    "pack": 2
+  },
+  {
+    "id": "parallels",
+    "name": "Parallels",
+    "pack": 2
+  },
+  {
+    "id": "gnu-bash",
+    "name": "Bash (Unix Shell)",
+    "pack": 2
+  },
+  {
+    "id": "clickhouse",
+    "name": "ClickHouse",
+    "pack": 2
+  },
+  {
+    "id": "spring",
+    "name": "Spring Framework",
+    "pack": 2
+  },
+  {
+    "id": "nginx-1",
+    "name": "Nginx",
+    "pack": 2
+  },
+  {
+    "id": "nginx-2",
+    "name": "Nginx",
+    "pack": 2
+  },
+  {
+    "id": "rumble",
+    "name": "Rumble",
+    "pack": 2
+  },
+  {
+    "id": "digital-ocean",
+    "name": "DigitalOcean",
+    "pack": 2
+  },
+  {
+    "id": "mysql",
+    "name": "MySQL",
+    "pack": 2
+  },
+  {
+    "id": "sqlite",
+    "name": "SQLite",
+    "pack": 2
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "pack": 2
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "pack": 2
+  },
+  {
+    "id": "microsoft-office",
+    "name": "Microsoft Office",
+    "pack": 2
+  },
+  {
+    "id": "microsoft-365",
+    "name": "Microsoft 365",
+    "pack": 2
+  },
+  {
+    "id": "microsoft-office-word",
+    "name": "Microsoft Word",
+    "pack": 2
+  },
+  {
+    "id": "microsoft-office-excel",
+    "name": "Microsoft Excel",
+    "pack": 2
+  },
+  {
+    "id": "microsoft-office-powerpoint",
+    "name": "Microsoft PowerPoint",
+    "pack": 2
+  },
+  {
+    "id": "microsoft-office-access",
+    "name": "Microsoft Access",
+    "pack": 2
+  },
+  {
+    "id": "microsoft-office-onenote",
+    "name": "Microsoft OneNote",
+    "pack": 2
+  },
+  {
+    "id": "microsoft-outlook",
+    "name": "Microsoft Outlook",
+    "pack": 2
+  },
+  {
+    "id": "microsoft-project",
+    "name": "Microsoft Project",
+    "pack": 2
+  },
+  {
+    "id": "microsoft-sharepoint",
+    "name": "Microsoft SharePoint",
+    "pack": 2
+  },
+  {
+    "id": "microsoft-publisher",
+    "name": "Microsoft Publisher",
+    "pack": 2
+  },
+  {
+    "id": "microsoft-azure",
+    "name": "Microsoft Azure",
+    "pack": 2
+  },
+  {
+    "id": "zigbee",
+    "name": "Zigbee",
+    "pack": 2
+  },
+  {
+    "id": "mqtt",
+    "name": "MQTT",
+    "pack": 2
+  },
+  {
+    "id": "z-wave",
+    "name": "Z-Wave",
+    "pack": 2
+  },
+  {
+    "id": "thread",
+    "name": "Thread (Network Protocol)",
+    "pack": 2
+  },
+  {
+    "id": "matter",
+    "name": "Matter (Standard)",
+    "pack": 2
+  },
+  {
+    "id": "jetbrains-2",
+    "name": "JetBrains",
+    "pack": 2
+  },
+  {
+    "id": "jetbrains-toolbox",
+    "name": "JetBrains Toolbox",
+    "pack": 2
+  },
+  {
+    "id": "jetbrains-aqua",
+    "name": "Jetbrains Aqua",
+    "pack": 2
+  },
+  {
+    "id": "jetbrains-clion",
+    "name": "Jetbrains CLion",
+    "pack": 2
+  },
+  {
+    "id": "jetbrains-datagrip",
+    "name": "Jetbrains DataGrip",
+    "pack": 2
+  },
+  {
+    "id": "jetbrains-datalore",
+    "name": "Jetbrains Datalore",
+    "pack": 2
+  },
+  {
+    "id": "jetbrains-dataspell",
+    "name": "Jetbrains DataSpell",
+    "pack": 2
+  },
+  {
+    "id": "jetbrains-dotcover",
+    "name": "Jetbrains DotCover",
+    "pack": 2
+  },
+  {
+    "id": "jetbrains-dotmemory",
+    "name": "Jetbrains DotMemory",
+    "pack": 2
+  },
+  {
+    "id": "jetbrains-dotpeek",
+    "name": "Jetbrains DotPeek",
+    "pack": 2
+  },
+  {
+    "id": "jetbrains-dottrace",
+    "name": "Jetbrains DotTrace",
+    "pack": 2
+  },
+  {
+    "id": "jetbrains-goland",
+    "name": "Jetbrains GoLand",
+    "pack": 2
+  },
+  {
+    "id": "jetbrains-hub",
+    "name": "Jetbrains Hub",
+    "pack": 2
+  },
+  {
+    "id": "jetbrains-phpstorm",
+    "name": "Jetbrains PhpStorm",
+    "pack": 2
+  },
+  {
+    "id": "jetbrains-pycharm",
+    "name": "Jetbrains PyCharm",
+    "pack": 2
+  },
+  {
+    "id": "jetbrains-qodana",
+    "name": "Jetbrains Qodana",
+    "pack": 2
+  },
+  {
+    "id": "jetbrains-resharper",
+    "name": "Jetbrains ReSharper",
+    "pack": 2
+  },
+  {
+    "id": "jetbrains-resharpercpp",
+    "name": "Jetbrains ReSharper C++",
+    "pack": 2
+  },
+  {
+    "id": "jetbrains-rider",
+    "name": "Jetbrains Rider",
+    "pack": 2
+  },
+  {
+    "id": "jetbrains-riderflow",
+    "name": "Jetbrains RiderFlow",
+    "pack": 2
+  },
+  {
+    "id": "jetbrains-rubymine",
+    "name": "Jetbrains RubyMine",
+    "pack": 2
+  },
+  {
+    "id": "jetbrains-rustrover",
+    "name": "Jetbrains RustRover",
+    "pack": 2
+  },
+  {
+    "id": "jetbrains-teamcity",
+    "name": "Jetbrains TeamCity",
+    "pack": 2
+  },
+  {
+    "id": "jetbrains-webstorm",
+    "name": "Jetbrains WebStorm",
+    "pack": 2
+  },
+  {
+    "id": "jetbrains-youtrack",
+    "name": "Jetbrains YouTrack",
+    "pack": 2
+  },
+
+  {
+    "id": "coursera",
+    "name": "Coursera",
+    "pack": 3
+  },
+  {
+    "id": "udacity",
+    "name": "Udacity",
+    "pack": 3
+  },
+  {
+    "id": "treehouse",
+    "name": "Treehouse",
+    "pack": 3
+  },
+  {
+    "id": "duolingo",
+    "name": "Duolingo",
+    "pack": 3
+  },
+  {
+    "id": "udemy",
+    "name": "Udemy",
+    "pack": 3
+  },
+  {
+    "id": "khan-academy",
+    "name": "Khan Academy",
+    "pack": 3
+  },
+  {
+    "id": "uber",
+    "name": "Uber",
+    "pack": 3
+  },
+  {
+    "id": "lyft",
+    "name": "Lyft",
+    "pack": 3
+  },
+  {
+    "id": "bolt",
+    "name": "Bolt",
+    "pack": 3
+  },
+  {
+    "id": "indeed",
+    "name": "Indeed (Job Search)",
+    "pack": 3
+  },
+  {
+    "id": "hh",
+    "name": "HeadHunter",
+    "pack": 3
+  },
+  {
+    "id": "glassdoor",
+    "name": "Glassdoor",
+    "pack": 3
+  },
+  {
+    "id": "apple-pay",
+    "name": "Apple Pay",
+    "pack": 3
+  },
+  {
+    "id": "apple-webkit",
+    "name": "Apple WebKit",
+    "pack": 3
+  },
+  {
+    "id": "apple-carplay",
+    "name": "Apple CarPlay",
+    "pack": 3
+  },
+  {
+    "id": "apple-wallet",
+    "name": "Apple Wallet",
+    "pack": 3
+  },
+  {
+    "id": "apple-pkl",
+    "name": "Apple Pkl (Programming Language)",
+    "pack": 3
+  },
+  {
+    "id": "google-pay",
+    "name": "Google Pay",
+    "pack": 3
+  },
+  {
+    "id": "google-amp",
+    "name": "AMP (Accelerated Mobile Pages)",
+    "pack": 3
+  },
+  {
+    "id": "google-gemini-2",
+    "name": "Google Gemini",
+    "pack": 3
+  },
+  {
+    "id": "google-android-auto",
+    "name": "Android Auto",
+    "pack": 3
+  },
+  {
+    "id": "google-blogger",
+    "name": "Blogger",
+    "pack": 3
+  },
+  {
+    "id": "google-android-jetpack-2",
+    "name": "Android Jetpack",
+    "pack": 3
+  },
+  {
+    "id": "google-aab",
+    "name": "AAB (Android App Bundle)",
+    "pack": 3
+  },
+  {
+    "id": "google-wallet",
+    "name": "Google Wallet",
+    "pack": 3
+  },
+  {
+    "id": "google-admob",
+    "name": "Google AdMob",
+    "pack": 3
+  },
+  {
+    "id": "google-android",
+    "name": "Android",
+    "pack": 3
+  },
+  {
+    "id": "google-youtube-music",
+    "name": "YouTube Music",
+    "pack": 3
+  },
+  {
+    "id": "google-webrtc",
+    "name": "Google WebRTC",
+    "pack": 3
+  },
+  {
+    "id": "google-io",
+    "name": "Google I/O",
+    "pack": 3
+  },
+  {
+    "id": "google-web-toolkit",
+    "name": "Google Web Toolkit",
+    "pack": 3
+  },
+  {
+    "id": "google-kubernetes",
+    "name": "Kubernetes",
+    "pack": 3
+  },
+  {
+    "id": "google-arcore",
+    "name": "Google ARCore",
+    "pack": 3
+  },
+  {
+    "id": "google-play-services",
+    "name": "Google Play Services",
+    "pack": 3
+  },
+  {
+    "id": "google-play-games",
+    "name": "Google Play Games",
+    "pack": 3
+  },
+  {
+    "id": "google-fuchsia",
+    "name": "Google Fuchsia",
+    "pack": 3
+  },
+  {
+    "id": "google-earth",
+    "name": "Google Earth",
+    "pack": 3
+  },
+  {
+    "id": "google-lighthouse",
+    "name": "Google Lighthouse",
+    "pack": 3
+  },
+  {
+    "id": "google-domains",
+    "name": "Google Domains",
+    "pack": 3
+  },
+  {
+    "id": "google-adsense",
+    "name": "Google AdSense",
+    "pack": 3
+  },
+  {
+    "id": "google-ads",
+    "name": "Google Ads",
+    "pack": 3
+  },
+  {
+    "id": "google-tag-manager",
+    "name": "Google Tag Manager",
+    "pack": 3
+  },
+  {
+    "id": "google-optimize",
+    "name": "Google Optimize",
+    "pack": 3
+  },
+  {
+    "id": "google-fit",
+    "name": "Google Fit",
+    "pack": 3
+  },
+  {
+    "id": "google-marketing-platform",
+    "name": "Google Marketing Platform",
+    "pack": 3
+  },
+  {
+    "id": "google-one",
+    "name": "Google One",
+    "pack": 3
+  },
+  {
+    "id": "microsoft-bing",
+    "name": "Microsoft Bing",
+    "pack": 3
+  },
+  {
+    "id": "microsoft-paint",
+    "name": "Microsoft Paint",
+    "pack": 3
+  },
+  {
+    "id": "microsoft-designer",
+    "name": "Microsoft Designer",
+    "pack": 3
+  },
+  {
+    "id": "microsoft-f-sharp",
+    "name": "Microsoft F#",
+    "pack": 3
+  },
+  {
+    "id": "recaptcha",
+    "name": "reCAPTCHA",
+    "pack": 3
+  },
+  {
+    "id": "hcaptcha",
+    "name": "hCaptcha",
+    "pack": 3
+  },
+  {
+    "id": "yahoo-1",
+    "name": "Yahoo",
+    "pack": 3
+  },
+  {
+    "id": "yahoo-2",
+    "name": "Yahoo",
+    "pack": 3
+  },
+  {
+    "id": "jenkins",
+    "name": "Jenkins",
+    "pack": 3
+  },
+  {
+    "id": "circleci",
+    "name": "CircleCI",
+    "pack": 3
+  },
+  {
+    "id": "travis-ci",
+    "name": "Travis CI",
+    "pack": 3
+  },
+  {
+    "id": "fastlane",
+    "name": "Fastlane",
+    "pack": 3
+  },
+  {
+    "id": "obsidian-1",
+    "name": "Obsidian",
+    "pack": 3
+  },
+  {
+    "id": "obsidian-2",
+    "name": "Obsidian",
+    "pack": 3
+  },
+  {
+    "id": "coda",
+    "name": "Coda",
+    "pack": 3
+  },
+  {
+    "id": "todoist",
+    "name": "Todoist",
+    "pack": 3
+  },
+  {
+    "id": "airtable",
+    "name": "Airtable",
+    "pack": 3
+  },
+  {
+    "id": "calendly",
+    "name": "Calendly",
+    "pack": 3
+  },
+  {
+    "id": "zeplin",
+    "name": "Zeplin",
+    "pack": 3
+  },
+  {
+    "id": "pitch",
+    "name": "Pitch",
+    "pack": 3
+  },
+  {
+    "id": "monday",
+    "name": "Monday",
+    "pack": 3
+  },
+  {
+    "id": "asana",
+    "name": "Asana",
+    "pack": 3
+  },
+  {
+    "id": "hubspot",
+    "name": "HubSpot",
+    "pack": 3
+  },
+  {
+    "id": "quip",
+    "name": "Quip",
+    "pack": 3
+  },
+  {
+    "id": "jetbrains-space",
+    "name": "JetBrains Space",
+    "pack": 3
+  },
+  {
+    "id": "jetbrains-mps",
+    "name": "JetBrains MPS",
+    "pack": 3
+  },
+  {
+    "id": "apache-groovy",
+    "name": "Apache Groovy",
+    "pack": 3
+  },
+  {
+    "id": "apache-tomcat",
+    "name": "Apache Tomcat",
+    "pack": 3
+  },
+  {
+    "id": "apache-netbeans",
+    "name": "Apache NetBeans",
+    "pack": 3
+  },
+  {
+    "id": "apache-subversion",
+    "name": "Apache Subversion",
+    "pack": 3
+  },
+  {
+    "id": "apache-mahout",
+    "name": "Apache Mahout",
+    "pack": 3
+  },
+  {
+    "id": "linux-rocky",
+    "name": "Rocky (Linux Distribution)",
+    "pack": 3
+  },
+  {
+    "id": "linux-manjaro",
+    "name": "Manjaro (Linux Distribution)",
+    "pack": 3
+  },
+  {
+    "id": "linux-fedora",
+    "name": "Fedora (Linux Distribution)",
+    "pack": 3
+  },
+  {
+    "id": "linux-kali",
+    "name": "Kali (Linux Distribution)",
+    "pack": 3
+  },
+  {
+    "id": "bitcoin-cash",
+    "name": "Bitcoin Cash",
+    "pack": 3
+  },
+  {
+    "id": "dogecoin",
+    "name": "Dogecoin",
+    "pack": 3
+  },
+  {
+    "id": "litecoin",
+    "name": "Litecoin",
+    "pack": 3
+  },
+  {
+    "id": "usdc",
+    "name": "USDC",
+    "pack": 3
+  },
+  {
+    "id": "binance-coin",
+    "name": "Binance Coin",
+    "pack": 3
+  },
+  {
+    "id": "coinmarketcap",
+    "name": "CoinMarketCap",
+    "pack": 3
+  },
+  {
+    "id": "polygon",
+    "name": "Polygon",
+    "pack": 3
+  },
+  {
+    "id": "monero",
+    "name": "Monero",
+    "pack": 3
+  },
+  {
+    "id": "solidity",
+    "name": "Solidity (Programming Language)",
+    "pack": 3
+  },
+  {
+    "id": "tron",
+    "name": "Tron",
+    "pack": 3
+  },
+  {
+    "id": "ripple",
+    "name": "Ripple",
+    "pack": 3
+  },
+  {
+    "id": "stellar",
+    "name": "Stellar",
+    "pack": 3
+  },
+  {
+    "id": "namecoin",
+    "name": "Namecoin",
+    "pack": 3
+  },
+  {
+    "id": "solana",
+    "name": "Solana",
+    "pack": 3
+  },
+  {
+    "id": "neo",
+    "name": "Neo",
+    "pack": 3
+  },
+  {
+    "id": "metamask",
+    "name": "MetaMask",
+    "pack": 3
+  },
+  {
+    "id": "codewars",
+    "name": "Codewars",
+    "pack": 3
+  },
+  {
+    "id": "leetcode",
+    "name": "LeetCode",
+    "pack": 3
+  },
+  {
+    "id": "hackerrank",
+    "name": "HackerRank",
+    "pack": 3
+  },
+  {
+    "id": "codechef",
+    "name": "CodeChef",
+    "pack": 3
+  },
+  {
+    "id": "codepen",
+    "name": "CodePen",
+    "pack": 3
+  },
+  {
+    "id": "node-red",
+    "name": "Node-RED",
+    "pack": 3
+  },
+  {
+    "id": "nuxt",
+    "name": "Nuxt",
+    "pack": 3
+  },
+  {
+    "id": "tailwind-css",
+    "name": "Tailwind CSS",
+    "pack": 3
+  },
+  {
+    "id": "fastify",
+    "name": "Fastify",
+    "pack": 3
+  },
+  {
+    "id": "lua",
+    "name": "Lua",
+    "pack": 3
+  },
+  {
+    "id": "vitejs",
+    "name": "Vite",
+    "pack": 3
+  },
+  {
+    "id": "fuelphp",
+    "name": "FuelPHP",
+    "pack": 3
+  },
+  {
+    "id": "yaml",
+    "name": "YAML",
+    "pack": 3
+  },
+  {
+    "id": "cakephp",
+    "name": "CakePHP",
+    "pack": 3
+  },
+  {
+    "id": "phalcon",
+    "name": "Phalcon",
+    "pack": 3
+  },
+  {
+    "id": "symfony",
+    "name": "Symfony",
+    "pack": 3
+  },
+  {
+    "id": "laravel",
+    "name": "Laravel",
+    "pack": 3
+  },
+  {
+    "id": "fortran",
+    "name": "Fortran",
+    "pack": 3
+  },
+  {
+    "id": "toml",
+    "name": "TOML",
+    "pack": 3
+  },
+  {
+    "id": "haskell",
+    "name": "Haskell",
+    "pack": 3
+  },
+  {
+    "id": "clojure",
+    "name": "Clojure",
+    "pack": 3
+  },
+  {
+    "id": "material-ui",
+    "name": "Material UI",
+    "pack": 3
+  },
+  {
+    "id": "pytorch",
+    "name": "PyTorch",
+    "pack": 3
+  },
+  {
+    "id": "qt",
+    "name": "Qt",
+    "pack": 3
+  },
+  {
+    "id": "grpc",
+    "name": "gRPC",
+    "pack": 3
+  },
+  {
+    "id": "electron",
+    "name": "Electron",
+    "pack": 3
+  },
+  {
+    "id": "coffeescript",
+    "name": "CoffeeScript",
+    "pack": 3
+  },
+  {
+    "id": "ada",
+    "name": "Ada (Programming Language)",
+    "pack": 3
+  },
+  {
+    "id": "solidjs",
+    "name": "SolidJS",
+    "pack": 3
+  },
+  {
+    "id": "erlang",
+    "name": "Erlang (Programming Language)",
+    "pack": 3
+  },
+  {
+    "id": "polymer",
+    "name": "Polymer",
+    "pack": 3
+  },
+  {
+    "id": "codeigniter",
+    "name": "CodeIgniter",
+    "pack": 3
+  },
+  {
+    "id": "cyanogenmod",
+    "name": "CyanogenMod",
+    "pack": 3
+  },
+  {
+    "id": "lineageos",
+    "name": "LineageOS",
+    "pack": 3
+  },
+  {
+    "id": "mobileiron",
+    "name": "MobileIron",
+    "pack": 3
+  },
+  {
+    "id": "huawei-harmonyos",
+    "name": "Huawei HarmonyOS",
+    "pack": 3
+  },
+  {
+    "id": "microg",
+    "name": "MicroG",
+    "pack": 3
+  },
+  {
+    "id": "mi-home",
+    "name": "Mi Home",
+    "pack": 3
+  },
+  {
+    "id": "svg",
+    "name": "SVG",
+    "pack": 3
+  },
+  {
+    "id": "jpeg",
+    "name": "JPEG",
+    "pack": 3
+  },
+  {
+    "id": "eclipse",
+    "name": "Eclipse",
+    "pack": 3
+  },
+  {
+    "id": "neovim",
+    "name": "Neovim",
+    "pack": 3
+  },
+  {
+    "id": "claude-ai",
+    "name": "Claude AI",
+    "pack": 3
+  },
+  {
+    "id": "stability-ai",
+    "name": "Stability AI",
+    "pack": 3
+  },
+  {
+    "id": "nintendo-switch",
+    "name": "Nintendo Switch",
+    "pack": 3
+  },
+  {
+    "id": "dice",
+    "name": "Dice",
+    "pack": 3
+  },
+  {
+    "id": "cry-engine",
+    "name": "Cry Engine",
+    "pack": 3
+  },
+  {
+    "id": "bioware",
+    "name": "BioWare",
+    "pack": 3
+  },
+  {
+    "id": "buymeacoffee",
+    "name": "Buy Me a Coffee",
+    "pack": 3
+  },
+  {
+    "id": "donationalerts",
+    "name": "DonationAlerts",
+    "pack": 3
+  },
+  {
+    "id": "clubhouse",
+    "name": "Clubhouse",
+    "pack": 3
+  },
+  {
+    "id": "session-app",
+    "name": "Session App",
+    "pack": 3
+  },
+  {
+    "id": "vimeo-1",
+    "name": "Vimeo",
+    "pack": 3
+  },
+  {
+    "id": "vimeo-2",
+    "name": "Vimeo",
+    "pack": 3
+  },
+  {
+    "id": "protonmail",
+    "name": "Proton Mail",
+    "pack": 3
+  },
+  {
+    "id": "tinder",
+    "name": "Tinder",
+    "pack": 3
+  },
+  {
+    "id": "medium",
+    "name": "Medium",
+    "pack": 3
+  },
+  {
+    "id": "crowdstrike",
+    "name": "CrowdStrike",
+    "pack": 3
+  },
+  {
+    "id": "paloaltonetworks",
+    "name": "Palo Alto Networks",
+    "pack": 3
+  },
+  {
+    "id": "cloudflare",
+    "name": "Cloudflare",
+    "pack": 3
+  },
+  {
+    "id": "verizon",
+    "name": "Verizon",
+    "pack": 3
+  },
+  {
+    "id": "snowflake",
+    "name": "Snowflake",
+    "pack": 3
+  },
+  {
+    "id": "cisco",
+    "name": "Cisco",
+    "pack": 3
+  },
+  {
+    "id": "micron",
+    "name": "Micron",
+    "pack": 3
+  },
+  {
+    "id": "sun-microsystems",
+    "name": "Sun Microsystems",
+    "pack": 3
+  },
+  {
+    "id": "siemens",
+    "name": "Siemens",
+    "pack": 3
+  },
+  {
+    "id": "msi",
+    "name": "MSI",
+    "pack": 3
+  },
+  {
+    "id": "vivaldi",
+    "name": "Vivaldi",
+    "pack": 3
+  },
+  {
+    "id": "gplv3",
+    "name": "GPLv3",
+    "pack": 3
+  },
+  {
+    "id": "freebsd",
+    "name": "FreeBSD",
+    "pack": 3
+  },
+  {
+    "id": "redis-2",
+    "name": "Redis",
+    "pack": 3
+  },
+  {
+    "id": "graphql",
+    "name": "GraphQL",
+    "pack": 3
+  },
+  {
+    "id": "wampserver",
+    "name": "WampServer",
+    "pack": 3
+  },
+  {
+    "id": "xampp",
+    "name": "XAMPP",
+    "pack": 3
+  },
+  {
+    "id": "algolia",
+    "name": "Algolia",
+    "pack": 3
+  },
+  {
+    "id": "sonatype",
+    "name": "Sonatype",
+    "pack": 3
+  },
+  {
+    "id": "http",
+    "name": "HTTP",
+    "pack": 3
+  },
+  {
+    "id": "atlassian-loom",
+    "name": "Atlassian Loom",
+    "pack": 3
+  },
+  {
+    "id": "sentry",
+    "name": "Sentry",
+    "pack": 3
+  },
+  {
+    "id": "opengl",
+    "name": "OpenGL",
+    "pack": 3
+  },
+  {
+    "id": "gnome",
+    "name": "Gnome",
+    "pack": 3
+  },
+  {
+    "id": "webpack",
+    "name": "Webpack",
+    "pack": 3
+  },
+  {
+    "id": "adobe-frameio",
+    "name": "Adobe Frame.io",
+    "pack": 3
+  },
+  {
+    "id": "grav",
+    "name": "Grav",
+    "pack": 3
+  },
+  {
+    "id": "wordpress",
+    "name": "WordPress",
+    "pack": 3
+  },
+  {
+    "id": "mercurial",
+    "name": "Mercurial",
+    "pack": 3
+  },
+  {
+    "id": "gnu",
+    "name": "GNU",
+    "pack": 3
+  },
+  {
+    "id": "gitea",
+    "name": "Gitea",
+    "pack": 3
+  },
+  {
+    "id": "unix",
+    "name": "Unix",
+    "pack": 3
+  },
+  {
+    "id": "dependabot",
+    "name": "Dependabot",
+    "pack": 3
+  },
+  {
+    "id": "grafana",
+    "name": "Grafana",
+    "pack": 3
+  },
+  {
+    "id": "brave",
+    "name": "Brave",
+    "pack": 3
+  },
+  {
+    "id": "apache-maven",
+    "name": "Apache Maven",
+    "pack": 3
+  },
+  {
+    "id": "tor",
+    "name": "Tor",
+    "pack": 3
+  },
+  {
+    "id": "atlassian",
+    "name": "Atlassian",
+    "pack": 3
+  },
+  {
+    "id": "shopify",
+    "name": "Shopify",
+    "pack": 3
+  },
+  {
+    "id": "ruby-on-rails",
+    "name": "Ruby on Rails",
+    "pack": 3
+  },
+  {
+    "id": "broadcom-wmvare",
+    "name": "WMvare",
+    "pack": 3
+  },
+  {
+    "id": "creative-commons",
+    "name": "Creative Commons",
+    "pack": 3
+  },
+  {
+    "id": "atom",
+    "name": "Atom",
+    "pack": 3
+  },
+  {
+    "id": "tilda",
+    "name": "Tilda",
+    "pack": 3
+  },
+  {
+    "id": "jfrog",
+    "name": "JFrog",
+    "pack": 3
+  },
+  {
+    "id": "kaspersky",
+    "name": "Kaspersky",
+    "pack": 3
+  }
+]

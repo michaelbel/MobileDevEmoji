@@ -33,12 +33,13 @@ import kotlinx.serialization.json.Json
 import org.michaelbel.mobiledevemoji.data.APP_NAME
 import org.michaelbel.mobiledevemoji.data.Emoji
 import org.michaelbel.mobiledevemoji.data.EmojiResponse
-import org.michaelbel.mobiledevemoji.data.PACK_1_SIZE
-import org.michaelbel.mobiledevemoji.data.PACK_2_SIZE
-import org.michaelbel.mobiledevemoji.data.PACK_3_SIZE
 import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_1
 import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_2
 import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_3
+import org.michaelbel.mobiledevemoji.data.pack
+import org.michaelbel.mobiledevemoji.data.pack1
+import org.michaelbel.mobiledevemoji.data.pack2
+import org.michaelbel.mobiledevemoji.data.pack3
 import org.michaelbel.mobiledevemoji.ktx.decodeJsonToString
 import org.michaelbel.mobiledevemoji.ktx.emojiPainter
 import org.michaelbel.mobiledevemoji.ui.EmojiIcon
@@ -50,7 +51,7 @@ import org.michaelbel.mobiledevemoji.ui.topbar.TelegramIcon
 @Composable
 fun MainContent() {
     val emojiSnapshotStateList: SnapshotStateList<Emoji> = mutableStateListOf()
-    var emojiList by mutableStateOf<List<Emoji>>(emptyList())
+    var emojiList by remember { mutableStateOf<List<Emoji>>(emptyList()) }
     var emojiPreviewVisible by remember { mutableStateOf<String?>(null) }
     val scope = rememberCoroutineScope()
     scope.launch {
@@ -59,29 +60,11 @@ fun MainContent() {
 
         val json = Json { ignoreUnknownKeys = true }
 
-        val emojiResponseList1 = json.decodeFromString<List<EmojiResponse>>("icons-pack1.json".decodeJsonToString())
-        emojiResponseList1.forEachIndexed { index, emojiResponse ->
-            val emojiPainter = "pack1/${emojiResponse.id}.svg".emojiPainter()
+        val emojiResponseList = json.decodeFromString<List<EmojiResponse>>("icons.json".decodeJsonToString())
+        emojiResponseList.forEachIndexed { index, emojiResponse ->
+            val emojiPainter = "${index.pack}/${emojiResponse.id}.svg".emojiPainter()
             val currentEmoji = emojiSnapshotStateList[index]
             emojiSnapshotStateList[index] = currentEmoji.copy(emojiResponse = emojiResponse, painter = emojiPainter)
-            emojiList = emojiSnapshotStateList.toList()
-        }
-
-        val emojiResponseList2 = json.decodeFromString<List<EmojiResponse>>("icons-pack2.json".decodeJsonToString())
-        val position = PACK_1_SIZE
-        emojiResponseList2.forEachIndexed { index, emojiResponse ->
-            val emojiPainter = "pack2/${emojiResponse.id}.svg".emojiPainter()
-            val currentEmoji = emojiSnapshotStateList[index.plus(position)]
-            emojiSnapshotStateList[index.plus(position)] = currentEmoji.copy(emojiResponse = emojiResponse, painter = emojiPainter)
-            emojiList = emojiSnapshotStateList.toList()
-        }
-
-        val emojiResponseList3 = json.decodeFromString<List<EmojiResponse>>("icons-pack3.json".decodeJsonToString())
-        val position2 = PACK_1_SIZE + PACK_2_SIZE
-        emojiResponseList3.forEachIndexed { index, emojiResponse ->
-            val emojiPainter = "pack3/${emojiResponse.id}.svg".emojiPainter()
-            val currentEmoji = emojiSnapshotStateList[index.plus(position2)]
-            emojiSnapshotStateList[index.plus(position2)] = currentEmoji.copy(emojiResponse = emojiResponse, painter = emojiPainter)
             emojiList = emojiSnapshotStateList.toList()
         }
     }
@@ -127,9 +110,10 @@ fun MainContent() {
                     )
                 }
 
-                items(emojiList.take(PACK_1_SIZE)) { emoji ->
+                items(emojiList.pack1) { emoji ->
                     EmojiIcon(
                         emoji = emoji,
+                        selected = emoji.emojiResponse.id == emojiPreviewVisible,
                         onClick = { emojiId ->
                             emojiPreviewVisible = when {
                                 emojiId == emojiPreviewVisible -> null
@@ -149,9 +133,10 @@ fun MainContent() {
                     )
                 }
 
-                items(emojiList.subList(PACK_1_SIZE, PACK_1_SIZE.plus(PACK_2_SIZE))) { emoji ->
+                items(emojiList.pack2) { emoji ->
                     EmojiIcon(
                         emoji = emoji,
+                        selected = emoji.emojiResponse.id == emojiPreviewVisible,
                         onClick = { emojiId ->
                             emojiPreviewVisible = when {
                                 emojiId == emojiPreviewVisible -> null
@@ -171,9 +156,10 @@ fun MainContent() {
                     )
                 }
 
-                items(emojiList.takeLast(PACK_3_SIZE)) { emoji ->
+                items(emojiList.pack3) { emoji ->
                     EmojiIcon(
                         emoji = emoji,
+                        selected = emoji.emojiResponse.id == emojiPreviewVisible,
                         onClick = { emojiId ->
                             emojiPreviewVisible = when {
                                 emojiId == emojiPreviewVisible -> null
