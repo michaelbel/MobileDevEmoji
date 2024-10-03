@@ -12,6 +12,11 @@ private const val PACK_2_SIZE = 200
 private const val PACK_3_SIZE = 200
 const val PACKS_SIZE = PACK_1_SIZE + PACK_2_SIZE + PACK_3_SIZE
 
+val FILTERS = listOf(
+    "Google", "Android", "JetBrains", "Apple", "Microsoft", "Meta", "Yandex", "VK", "Huawei",
+    "Oracle", "Atlassian", "Samsung", "Amazon", "Linux", "Sony", "Adobe", "Apache"
+)
+
 val <T> List<T>.pack1: List<T>
     get() = take(PACK_1_SIZE)
 
@@ -20,6 +25,10 @@ val <T> List<T>.pack2: List<T>
 
 val <T> List<T>.pack3: List<T>
     get() = takeLast(PACK_3_SIZE)
+
+fun List<Emoji>.filterBy(filter: String): List<Emoji> {
+    return if (filter.isEmpty()) this else this.filter { it.emojiResponse.filters.orEmpty().contains(filter.lowercase()) }
+}
 
 val Int.pack: String
     get() = when (this) {

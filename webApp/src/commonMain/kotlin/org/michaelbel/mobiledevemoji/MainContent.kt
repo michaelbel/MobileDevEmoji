@@ -3,6 +3,7 @@
 package org.michaelbel.mobiledevemoji
 
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxHeight
@@ -33,9 +34,11 @@ import kotlinx.serialization.json.Json
 import org.michaelbel.mobiledevemoji.data.APP_NAME
 import org.michaelbel.mobiledevemoji.data.Emoji
 import org.michaelbel.mobiledevemoji.data.EmojiResponse
+import org.michaelbel.mobiledevemoji.data.FILTERS
 import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_1
 import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_2
 import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_3
+import org.michaelbel.mobiledevemoji.data.filterBy
 import org.michaelbel.mobiledevemoji.data.pack
 import org.michaelbel.mobiledevemoji.data.pack1
 import org.michaelbel.mobiledevemoji.data.pack2
@@ -43,9 +46,11 @@ import org.michaelbel.mobiledevemoji.data.pack3
 import org.michaelbel.mobiledevemoji.ktx.decodeJsonToString
 import org.michaelbel.mobiledevemoji.ktx.emojiPainter
 import org.michaelbel.mobiledevemoji.ui.EmojiIcon
+import org.michaelbel.mobiledevemoji.ui.FilterChips
 import org.michaelbel.mobiledevemoji.ui.IconPreviewDialog
 import org.michaelbel.mobiledevemoji.ui.PackHeader
 import org.michaelbel.mobiledevemoji.ui.topbar.FigmaIcon
+import org.michaelbel.mobiledevemoji.ui.topbar.FiltersIcon
 import org.michaelbel.mobiledevemoji.ui.topbar.TelegramIcon
 
 @Composable
@@ -53,6 +58,10 @@ fun MainContent() {
     val emojiSnapshotStateList: SnapshotStateList<Emoji> = mutableStateListOf()
     var emojiList by remember { mutableStateOf<List<Emoji>>(emptyList()) }
     var emojiPreviewVisible by remember { mutableStateOf<String?>(null) }
+
+    var isFiltersEnabled by remember { mutableStateOf(false) }
+    var selectedFilter by remember { mutableStateOf("") }
+
     val scope = rememberCoroutineScope()
     scope.launch {
         emojiSnapshotStateList.addAll(Emoji.EmptyList.toList())
@@ -71,21 +80,44 @@ fun MainContent() {
 
     Scaffold(
         topBar = {
-            TopAppBar(
-                title = {
-                    Text(
-                        text = APP_NAME
-                    )
-                },
-                actions = {
-                    Row(
-                        modifier = Modifier.padding(end = 8.dp)
-                    ) {
-                        FigmaIcon()
-                        TelegramIcon()
+            Column {
+                TopAppBar(
+                    title = {
+                        Text(
+                            text = APP_NAME
+                        )
+                    },
+                    actions = {
+                        Row(
+                            modifier = Modifier.padding(end = 8.dp),
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            FiltersIcon(
+                                isFiltersEnabled = isFiltersEnabled,
+                                onClick = {
+                                    isFiltersEnabled = !isFiltersEnabled
+                                    if (!isFiltersEnabled) {
+                                        selectedFilter = ""
+                                    }
+                                }
+                            )
+                            FigmaIcon()
+                            TelegramIcon()
+                        }
                     }
+                )
+
+                if (isFiltersEnabled) {
+                    FilterChips(
+                        modifier = Modifier,
+                        filters = FILTERS,
+                        selectedFilter = selectedFilter,
+                        onFilterSelected = { filter ->
+                            selectedFilter = if (selectedFilter == filter) "" else filter
+                        }
+                    )
                 }
-            )
+            }
         }
     ) { innerPadding ->
         Box(
@@ -101,72 +133,81 @@ fun MainContent() {
                     .fillMaxHeight(),
                 contentPadding = PaddingValues(all = 16.dp)
             ) {
-                item(
-                    span = { GridItemSpan(maxLineSpan) }
-                ) {
-                    PackHeader(
-                        packName = "Pack 1",
-                        packUrl = TELEGRAM_PACK_1
-                    )
-                }
+                val pack1 = emojiList.pack1.filterBy(selectedFilter)
+                if (pack1.isNotEmpty()) {
+                    item(
+                        span = { GridItemSpan(maxLineSpan) }
+                    ) {
+                        PackHeader(
+                            packName = "Pack 1",
+                            packUrl = TELEGRAM_PACK_1
+                        )
+                    }
 
-                items(emojiList.pack1) { emoji ->
-                    EmojiIcon(
-                        emoji = emoji,
-                        selected = emoji.emojiResponse.id == emojiPreviewVisible,
-                        onClick = { emojiId ->
-                            emojiPreviewVisible = when {
-                                emojiId == emojiPreviewVisible -> null
-                                else -> emojiId
+                    items(pack1) { emoji ->
+                        EmojiIcon(
+                            emoji = emoji,
+                            selected = emoji.emojiResponse.id == emojiPreviewVisible,
+                            onClick = { emojiId ->
+                                emojiPreviewVisible = when {
+                                    emojiId == emojiPreviewVisible -> null
+                                    else -> emojiId
+                                }
                             }
-                        }
-                    )
+                        )
+                    }
                 }
 
-                item(
-                    span = { GridItemSpan(maxLineSpan) }
-                ) {
-                    PackHeader(
-                        packName = "Pack 2",
-                        packUrl = TELEGRAM_PACK_2,
-                        modifier = Modifier.padding(top = 32.dp)
-                    )
-                }
+                val pack2 = emojiList.pack2.filterBy(selectedFilter)
+                if (pack2.isNotEmpty()) {
+                    item(
+                        span = { GridItemSpan(maxLineSpan) }
+                    ) {
+                        PackHeader(
+                            packName = "Pack 2",
+                            packUrl = TELEGRAM_PACK_2,
+                            modifier = Modifier.padding(top = 32.dp)
+                        )
+                    }
 
-                items(emojiList.pack2) { emoji ->
-                    EmojiIcon(
-                        emoji = emoji,
-                        selected = emoji.emojiResponse.id == emojiPreviewVisible,
-                        onClick = { emojiId ->
-                            emojiPreviewVisible = when {
-                                emojiId == emojiPreviewVisible -> null
-                                else -> emojiId
+                    items(pack2) { emoji ->
+                        EmojiIcon(
+                            emoji = emoji,
+                            selected = emoji.emojiResponse.id == emojiPreviewVisible,
+                            onClick = { emojiId ->
+                                emojiPreviewVisible = when {
+                                    emojiId == emojiPreviewVisible -> null
+                                    else -> emojiId
+                                }
                             }
-                        }
-                    )
+                        )
+                    }
                 }
 
-                item(
-                    span = { GridItemSpan(maxLineSpan) }
-                ) {
-                    PackHeader(
-                        packName = "Pack 3",
-                        packUrl = TELEGRAM_PACK_3,
-                        modifier = Modifier.padding(top = 32.dp)
-                    )
-                }
+                val pack3 = emojiList.pack3.filterBy(selectedFilter)
+                if (pack3.isNotEmpty()) {
+                    item(
+                        span = { GridItemSpan(maxLineSpan) }
+                    ) {
+                        PackHeader(
+                            packName = "Pack 3",
+                            packUrl = TELEGRAM_PACK_3,
+                            modifier = Modifier.padding(top = 32.dp)
+                        )
+                    }
 
-                items(emojiList.pack3) { emoji ->
-                    EmojiIcon(
-                        emoji = emoji,
-                        selected = emoji.emojiResponse.id == emojiPreviewVisible,
-                        onClick = { emojiId ->
-                            emojiPreviewVisible = when {
-                                emojiId == emojiPreviewVisible -> null
-                                else -> emojiId
+                    items(emojiList.pack3.filterBy(selectedFilter)) { emoji ->
+                        EmojiIcon(
+                            emoji = emoji,
+                            selected = emoji.emojiResponse.id == emojiPreviewVisible,
+                            onClick = { emojiId ->
+                                emojiPreviewVisible = when {
+                                    emojiId == emojiPreviewVisible -> null
+                                    else -> emojiId
+                                }
                             }
-                        }
-                    )
+                        )
+                    }
                 }
             }
         }
