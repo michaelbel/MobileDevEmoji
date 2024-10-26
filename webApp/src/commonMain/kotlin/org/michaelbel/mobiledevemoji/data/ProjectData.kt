@@ -30,6 +30,10 @@ fun List<Emoji>.filterBy(filter: String): List<Emoji> {
     return if (filter.isEmpty()) this else this.filter { it.emojiResponse.filters.orEmpty().contains(filter.lowercase()) }
 }
 
+fun List<Emoji>.searchBy(query: String): List<Emoji> {
+    return if (query.isEmpty()) this else this.filter { it.emojiResponse.name.contains(query, ignoreCase = true) }
+}
+
 val Int.pack: String
     get() = when (this) {
         in 0..<200 -> "pack1"

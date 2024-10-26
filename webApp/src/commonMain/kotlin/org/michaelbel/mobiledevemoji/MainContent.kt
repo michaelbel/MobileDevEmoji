@@ -32,6 +32,7 @@ import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.launch
 import kotlinx.serialization.json.Json
 import org.michaelbel.mobiledevemoji.data.APP_NAME
+import org.michaelbel.mobiledevemoji.data.ActionMode
 import org.michaelbel.mobiledevemoji.data.Emoji
 import org.michaelbel.mobiledevemoji.data.EmojiResponse
 import org.michaelbel.mobiledevemoji.data.FILTERS
@@ -43,14 +44,17 @@ import org.michaelbel.mobiledevemoji.data.pack
 import org.michaelbel.mobiledevemoji.data.pack1
 import org.michaelbel.mobiledevemoji.data.pack2
 import org.michaelbel.mobiledevemoji.data.pack3
+import org.michaelbel.mobiledevemoji.data.searchBy
 import org.michaelbel.mobiledevemoji.ktx.decodeJsonToString
 import org.michaelbel.mobiledevemoji.ktx.emojiPainter
 import org.michaelbel.mobiledevemoji.ui.EmojiIcon
 import org.michaelbel.mobiledevemoji.ui.FilterChips
 import org.michaelbel.mobiledevemoji.ui.IconPreviewDialog
 import org.michaelbel.mobiledevemoji.ui.PackHeader
+import org.michaelbel.mobiledevemoji.ui.SearchWidget
 import org.michaelbel.mobiledevemoji.ui.topbar.FigmaIcon
 import org.michaelbel.mobiledevemoji.ui.topbar.FiltersIcon
+import org.michaelbel.mobiledevemoji.ui.topbar.SearchIcon
 import org.michaelbel.mobiledevemoji.ui.topbar.TelegramIcon
 
 @Composable
@@ -59,8 +63,9 @@ fun MainContent() {
     var emojiList by remember { mutableStateOf<List<Emoji>>(emptyList()) }
     var emojiPreviewVisible by remember { mutableStateOf<String?>(null) }
 
-    var isFiltersEnabled by remember { mutableStateOf(false) }
+    var currentActionMode: ActionMode by remember { mutableStateOf(ActionMode.None) }
     var selectedFilter by remember { mutableStateOf("") }
+    var searchQuery by remember { mutableStateOf("") }
 
     val scope = rememberCoroutineScope()
     scope.launch {
@@ -92,11 +97,14 @@ fun MainContent() {
                             modifier = Modifier.padding(end = 8.dp),
                             verticalAlignment = Alignment.CenterVertically
                         ) {
+                            SearchIcon {
+                                currentActionMode = if (currentActionMode is ActionMode.Search) ActionMode.None else ActionMode.Search
+                            }
                             FiltersIcon(
-                                isFiltersEnabled = isFiltersEnabled,
+                                isFiltersEnabled = currentActionMode is ActionMode.Filters,
                                 onClick = {
-                                    isFiltersEnabled = !isFiltersEnabled
-                                    if (!isFiltersEnabled) {
+                                    currentActionMode = if (currentActionMode is ActionMode.Filters) ActionMode.None else ActionMode.Filters
+                                    if (currentActionMode !is ActionMode.Filters) {
                                         selectedFilter = ""
                                     }
                                 }
@@ -106,10 +114,14 @@ fun MainContent() {
                         }
                     }
                 )
-
-                if (isFiltersEnabled) {
+                if (currentActionMode is ActionMode.Search) {
+                    SearchWidget(
+                        query = searchQuery,
+                        onQueryChanged = { searchQuery = it }
+                    )
+                }
+                if (currentActionMode is ActionMode.Filters) {
                     FilterChips(
-                        modifier = Modifier,
                         filters = FILTERS,
                         selectedFilter = selectedFilter,
                         onFilterSelected = { filter ->
@@ -133,7 +145,7 @@ fun MainContent() {
                     .fillMaxHeight(),
                 contentPadding = PaddingValues(all = 16.dp)
             ) {
-                val pack1 = emojiList.pack1.filterBy(selectedFilter)
+                val pack1 = emojiList.pack1.filterBy(selectedFilter).searchBy(searchQuery)
                 if (pack1.isNotEmpty()) {
                     item(
                         span = { GridItemSpan(maxLineSpan) }
@@ -158,7 +170,7 @@ fun MainContent() {
                     }
                 }
 
-                val pack2 = emojiList.pack2.filterBy(selectedFilter)
+                val pack2 = emojiList.pack2.filterBy(selectedFilter).searchBy(searchQuery)
                 if (pack2.isNotEmpty()) {
                     item(
                         span = { GridItemSpan(maxLineSpan) }
@@ -184,7 +196,7 @@ fun MainContent() {
                     }
                 }
 
-                val pack3 = emojiList.pack3.filterBy(selectedFilter)
+                val pack3 = emojiList.pack3.filterBy(selectedFilter).searchBy(searchQuery)
                 if (pack3.isNotEmpty()) {
                     item(
                         span = { GridItemSpan(maxLineSpan) }
@@ -196,7 +208,7 @@ fun MainContent() {
                         )
                     }
 
-                    items(emojiList.pack3.filterBy(selectedFilter)) { emoji ->
+                    items(pack3) { emoji ->
                         EmojiIcon(
                             emoji = emoji,
                             selected = emoji.emojiResponse.id == emojiPreviewVisible,

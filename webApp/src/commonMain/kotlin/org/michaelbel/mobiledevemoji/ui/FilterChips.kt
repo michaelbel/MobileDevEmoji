@@ -20,7 +20,7 @@ import androidx.compose.ui.unit.dp
 
 @Composable
 fun FilterChips(
-    modifier: Modifier,
+    modifier: Modifier = Modifier,
     filters: List<String>,
     selectedFilter: String,
     onFilterSelected: (String) -> Unit

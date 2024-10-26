@@ -5,19 +5,17 @@ import androidx.compose.material.IconButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 import org.jetbrains.compose.resources.painterResource
-import org.michaelbel.mobiledevemoji.ui.theme.FilterOffRes
-import org.michaelbel.mobiledevemoji.ui.theme.FilterOnRes
+import org.michaelbel.mobiledevemoji.ui.theme.SearchRes
 
 @Composable
-fun FiltersIcon(
-    isFiltersEnabled: Boolean,
+fun SearchIcon(
     onClick: () -> Unit
 ) {
     IconButton(
         onClick = onClick
     ) {
         Icon(
-            painter = painterResource(if (isFiltersEnabled) FilterOffRes else FilterOnRes),
+            painter = painterResource(SearchRes),
             contentDescription = null,
             tint = Color.Unspecified
         )
