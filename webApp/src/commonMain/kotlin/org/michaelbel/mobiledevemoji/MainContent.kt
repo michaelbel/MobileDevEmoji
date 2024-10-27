@@ -114,20 +114,28 @@ fun MainContent() {
                         }
                     }
                 )
-                if (currentActionMode is ActionMode.Search) {
-                    SearchWidget(
-                        query = searchQuery,
-                        onQueryChanged = { searchQuery = it }
-                    )
+                when (currentActionMode) {
+                    is ActionMode.Search -> {
+                        SearchWidget(
+                            query = searchQuery,
+                            onQueryChanged = { query ->
+                                searchQuery = query
+                            }
+                        )
+                    }
+                    else -> searchQuery = ""
                 }
-                if (currentActionMode is ActionMode.Filters) {
-                    FilterChips(
-                        filters = FILTERS,
-                        selectedFilter = selectedFilter,
-                        onFilterSelected = { filter ->
-                            selectedFilter = if (selectedFilter == filter) "" else filter
-                        }
-                    )
+                when (currentActionMode) {
+                    is ActionMode.Filters -> {
+                        FilterChips(
+                            filters = FILTERS,
+                            selectedFilter = selectedFilter,
+                            onFilterSelected = { filter ->
+                                selectedFilter = if (selectedFilter == filter) "" else filter
+                            }
+                        )
+                    }
+                    else -> selectedFilter = ""
                 }
             }
         }
