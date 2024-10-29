@@ -49,11 +49,9 @@ kotlin {
             implementation(libs.kermit)
         }
         jsMain.dependencies {
-            implementation(compose.components.resources)
+            implementation(libs.tg.mini.app)
         }
-        wasmJsMain.dependencies {
-            implementation(compose.components.resources)
-        }
+        wasmJsMain.dependencies {}
     }
 }
 

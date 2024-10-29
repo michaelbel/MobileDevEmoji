@@ -4,7 +4,7 @@ MobileDevEmoji
 ![workflow-status](https://img.shields.io/github/actions/workflow/status/michaelbel/MobileDevEmoji/deploy-ci.yml?style=for-the-badge&logo=github&labelColor=3F464F)
 ![last-commit last commit](https://img.shields.io/github/last-commit/michaelbel/MobileDevEmoji?style=for-the-badge&logo=github&labelColor=3F464F)
 
-MobileDevEmoji - это набор эмодзипаков в Telegram. Они доступны пользователям с премиум подпиской. Наборы содержат 600 иконок в высочайшем качестве. Тематика - мобильная разработка и техсфера. Этот репозиторий хранит исходный код сайта, на котором ты можешь легко посмотреть описание каждого эмодзи, а также воспользоваться поиском и фильтрами.
+MobileDevEmoji - это набор эмодзипаков в Telegram. Они доступны пользователям с премиум подпиской. Наборы содержат 600 иконок в высочайшем качестве. Тематика - мобильная разработка и техсфера. Этот репозиторий хранит исходный код [сайта](https://michaelbel.github.io/MobileDevEmoji), на котором ты можешь легко посмотреть описание каждого эмодзи, а также воспользоваться поиском и фильтрами.
 
 ## Screenshots
 <p align="center">
