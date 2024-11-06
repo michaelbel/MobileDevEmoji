@@ -8,12 +8,12 @@ MobileDevEmoji
 MobileDevEmoji - это набор эмодзипаков в Telegram. Они доступны пользователям с премиум подпиской. Наборы содержат 600 иконок в высочайшем качестве. Тематика - мобильная разработка и техсфера. Этот репозиторий хранит исходный код [сайта](https://michaelbel.github.io/MobileDevEmoji), на котором ты можешь легко посмотреть описание каждого эмодзи, а также воспользоваться поиском и фильтрами.
 
 ## Screenshots
-<p align="center">
-    <img src=".github/pics/mde-site-1.png" alt="MobileDevEmoji site image 1" width="49%">
-    <img src=".github/pics/mde-site-2.png" alt="MobileDevEmoji site image 2" width="49%">
-    <img src=".github/pics/mde-site-3.png" alt="MobileDevEmoji site image 3" width="49%">
-    <img src=".github/pics/mde-site-4.png" alt="MobileDevEmoji site image 4" width="49%">
-</p>
+<div align="center">
+    <img src=".github/pics/mde-site-1.png" alt="Project Image 1" width="49%">
+    <img src=".github/pics/mde-site-2.png" alt="Project Image 2" width="49%">
+    <img src=".github/pics/mde-site-3.png" alt="Project Image 3" width="49%">
+    <img src=".github/pics/mde-site-4.png" alt="Project Image 4" width="49%">
+</div>
 
 ## Technologies
 [![wasm](https://img.shields.io/badge/wasm-654FF0.svg?style=for-the-badge&logo=webassembly&logoColor=white)](https://github.com/michaelbel/mobiledevemoji)
