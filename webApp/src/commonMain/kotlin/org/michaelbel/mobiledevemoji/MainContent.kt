@@ -2,6 +2,7 @@
 
 package org.michaelbel.mobiledevemoji
 
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
@@ -50,6 +51,7 @@ import org.michaelbel.mobiledevemoji.data.pack3
 import org.michaelbel.mobiledevemoji.data.searchBy
 import org.michaelbel.mobiledevemoji.ktx.decodeJsonToString
 import org.michaelbel.mobiledevemoji.ktx.emojiPainter
+import org.michaelbel.mobiledevemoji.ktx.isMobileBrowser
 import org.michaelbel.mobiledevemoji.ui.EmojiIcon
 import org.michaelbel.mobiledevemoji.ui.FilterChips
 import org.michaelbel.mobiledevemoji.ui.IconPreviewDialog
@@ -153,11 +155,15 @@ fun MainContent() {
                 .fillMaxSize(),
             contentAlignment = Alignment.Center
         ) {
+            val horizontalArrangementDp = if (isMobileBrowser()) 8.dp else 0.dp
+            val verticalArrangement = if (isMobileBrowser()) 8.dp else 0.dp
+            val gridModifier = if (isMobileBrowser()) Modifier.fillMaxSize() else Modifier.width(888.dp).fillMaxHeight() // 100*8 + 16*2 + 8*7
+
             LazyVerticalGrid(
                 columns = GridCells.Fixed(count = 8),
-                modifier = Modifier
-                    .width(888.dp) // 100*8 + 16*2 + 8*7
-                    .fillMaxHeight(),
+                modifier = gridModifier,
+                horizontalArrangement = Arrangement.spacedBy(horizontalArrangementDp),
+                verticalArrangement = Arrangement.spacedBy(verticalArrangement),
                 contentPadding = PaddingValues(all = 16.dp)
             ) {
                 val pack1 = emojiList.pack1.filterBy(selectedFilter).searchBy(searchQuery)
