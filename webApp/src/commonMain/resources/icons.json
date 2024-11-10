@@ -86,7 +86,7 @@
   {
     "id": "google-dart",
     "name": "Dart (Programming Language)",
-    "filters": ["google", "android"],
+    "filters": ["google", "android", "programming", "language"],
     "pack": 1
   },
   {
@@ -128,7 +128,7 @@
   {
     "id": "google-chrome",
     "name": "Google Chrome",
-    "filters": ["google"],
+    "filters": ["google", "browser"],
     "pack": 1
   },
   {
@@ -140,7 +140,7 @@
   {
     "id": "google-gmail",
     "name": "Google Gmail",
-    "filters": ["google"],
+    "filters": ["google", "mail"],
     "pack": 1
   },
   {
@@ -158,13 +158,13 @@
   {
     "id": "google-youtube",
     "name": "YouTube",
-    "filters": ["google"],
+    "filters": ["google", "video"],
     "pack": 1
   },
   {
     "id": "google-youtube-shorts",
     "name": "YouTube Shorts",
-    "filters": ["google"],
+    "filters": ["google", "video"],
     "pack": 1
   },
   {
@@ -236,7 +236,7 @@
   {
     "id": "google-pixel",
     "name": "Google Pixel",
-    "filters": ["google"],
+    "filters": ["google", "phone"],
     "pack": 1
   },
   {
@@ -248,7 +248,7 @@
   {
     "id": "google-go-2",
     "name": "Go (Programming Language)",
-    "filters": ["google"],
+    "filters": ["google", "programming", "language"],
     "pack": 1
   },
   {
@@ -440,13 +440,13 @@
   {
     "id": "apple-swift-1",
     "name": "Swift (Programming Language)",
-    "filters": ["apple"],
+    "filters": ["apple", "programming", "language"],
     "pack": 1
   },
   {
     "id": "apple-swift-2",
     "name": "Swift (Programming Language)",
-    "filters": ["apple"],
+    "filters": ["apple", "programming", "language"],
     "pack": 1
   },
   {
@@ -751,6 +751,7 @@
   {
     "id": "telegraph",
     "name": "Telegraph",
+    "filters": ["telegram"],
     "pack": 1
   },
   {

@@ -19,6 +19,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
@@ -29,7 +30,9 @@ import androidx.compose.runtime.snapshots.SnapshotStateList
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import kotlinx.serialization.json.Json
 import org.michaelbel.mobiledevemoji.data.APP_NAME
 import org.michaelbel.mobiledevemoji.data.ActionMode
@@ -67,19 +70,23 @@ fun MainContent() {
     var selectedFilter by remember { mutableStateOf("") }
     var searchQuery by remember { mutableStateOf("") }
 
+    val json = Json { ignoreUnknownKeys = true }
     val scope = rememberCoroutineScope()
-    scope.launch {
+
+    LaunchedEffect(Unit) {
         emojiSnapshotStateList.addAll(Emoji.EmptyList.toList())
         emojiList = emojiSnapshotStateList.toList()
 
-        val json = Json { ignoreUnknownKeys = true }
-
         val emojiResponseList = json.decodeFromString<List<EmojiResponse>>("icons.json".decodeJsonToString())
         emojiResponseList.forEachIndexed { index, emojiResponse ->
-            val emojiPainter = "${index.pack}/${emojiResponse.id}.svg".emojiPainter()
-            val currentEmoji = emojiSnapshotStateList[index]
-            emojiSnapshotStateList[index] = currentEmoji.copy(emojiResponse = emojiResponse, painter = emojiPainter)
-            emojiList = emojiSnapshotStateList.toList()
+            scope.launch(Dispatchers.Default) {
+                val emojiPainter = "${index.pack}/${emojiResponse.id}.svg".emojiPainter()
+                val currentEmoji = emojiSnapshotStateList[index]
+                withContext(Dispatchers.Main) {
+                    emojiSnapshotStateList[index] = currentEmoji.copy(emojiResponse = emojiResponse, painter = emojiPainter)
+                    emojiList = emojiSnapshotStateList.toList()
+                }
+            }
         }
     }
 

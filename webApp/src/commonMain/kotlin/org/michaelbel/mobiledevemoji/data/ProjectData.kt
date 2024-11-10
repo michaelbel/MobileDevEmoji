@@ -27,11 +27,18 @@ val <T> List<T>.pack3: List<T>
     get() = takeLast(PACK_3_SIZE)
 
 fun List<Emoji>.filterBy(filter: String): List<Emoji> {
-    return if (filter.isEmpty()) this else this.filter { it.emojiResponse.filters.orEmpty().contains(filter.lowercase()) }
+    if (filter.isEmpty()) return this
+
+    return filter { emoji -> emoji.emojiResponse.filters.orEmpty().contains(filter.lowercase()) }
 }
 
 fun List<Emoji>.searchBy(query: String): List<Emoji> {
-    return if (query.isEmpty()) this else this.filter { it.emojiResponse.name.contains(query, ignoreCase = true) }
+    if (query.isEmpty()) return this
+
+    return filter { emoji ->
+        val emojiResponse = emoji.emojiResponse
+        emojiResponse.name.contains(query, ignoreCase = true) || emojiResponse.filters?.any { filter -> filter.contains(query, ignoreCase = true) } == true
+    }
 }
 
 val Int.pack: String
