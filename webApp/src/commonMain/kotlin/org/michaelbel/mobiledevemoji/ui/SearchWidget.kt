@@ -27,6 +27,7 @@ import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import org.jetbrains.compose.resources.painterResource
+import org.michaelbel.mobiledevemoji.ktx.isMobileBrowser
 import org.michaelbel.mobiledevemoji.ui.theme.ClearRes
 
 @Composable
@@ -44,7 +45,7 @@ fun SearchWidget(
         contentAlignment = Alignment.Center
     ) {
         FlowRow(
-            modifier = modifier.width(888.dp),
+            modifier = Modifier.then(if (isMobileBrowser()) Modifier.padding(horizontal = 16.dp).fillMaxWidth() else Modifier.width(888.dp)),
             horizontalArrangement = Arrangement.Center
         ) {
             TextField(

@@ -14,9 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import org.jetbrains.compose.resources.painterResource
-import org.michaelbel.mobiledevemoji.ktx.isMobileBrowser
 import org.michaelbel.mobiledevemoji.ui.theme.TelegramPlaneIconRes
 
 @Composable
@@ -45,7 +43,6 @@ fun GetPackButton(
 
             Text(
                 text = "Get on Telegram",
-                fontSize = if (isMobileBrowser()) 28.sp else 14.sp,
                 modifier = Modifier.padding(start = 8.dp)
             )
         }
