@@ -8,11 +8,29 @@ MobileDevEmoji
 MobileDevEmoji - это набор эмодзипаков в Telegram. Они доступны пользователям с премиум подпиской. Наборы содержат 600 иконок в высочайшем качестве. Тематика - мобильная разработка и техсфера. Этот репозиторий хранит исходный код [сайта](https://michaelbel.github.io/MobileDevEmoji), на котором ты можешь легко посмотреть описание каждого эмодзи, а также воспользоваться поиском и фильтрами.
 
 ## Screenshots
+
+**Desktop (macOS Safari)**
 <div align="center">
-    <img src=".github/pics/mde-site-1.png" alt="Project Image 1" width="49%">
-    <img src=".github/pics/mde-site-2.png" alt="Project Image 2" width="49%">
-    <img src=".github/pics/mde-site-3.png" alt="Project Image 3" width="49%">
-    <img src=".github/pics/mde-site-4.png" alt="Project Image 4" width="49%">
+    <img src=".github/pics/macos-safari-1.png" alt="Project macOS Image 1" width="49%">
+    <img src=".github/pics/macos-safari-2.png" alt="Project macOS Image 2" width="49%">
+    <img src=".github/pics/macos-safari-3.png" alt="Project macOS Image 3" width="49%">
+    <img src=".github/pics/macos-safari-4.png" alt="Project macOS Image 4" width="49%">
+</div>
+
+**iOS (Safari)**
+<div align="center">
+    <img src=".github/pics/ios-safari-1.jpg" alt="Project iOS Image 1" width="24%">
+    <img src=".github/pics/ios-safari-2.jpg" alt="Project iOS Image 2" width="24%">
+    <img src=".github/pics/ios-safari-3.jpg" alt="Project iOS Image 3" width="24%">
+    <img src=".github/pics/ios-safari-4.jpg" alt="Project iOS Image 4" width="24%">
+</div>
+
+**Android (Chrome)**
+<div align="center">
+    <img src=".github/pics/android-chrome-1.jpg" alt="Project Android Image 1" width="24%">
+    <img src=".github/pics/android-chrome-2.jpg" alt="Project Android Image 2" width="24%">
+    <img src=".github/pics/android-chrome-3.jpg" alt="Project Android Image 3" width="24%">
+    <img src=".github/pics/android-chrome-4.jpg" alt="Project Android Image 4" width="24%">
 </div>
 
 ## Technologies
