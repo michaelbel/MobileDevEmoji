@@ -17,6 +17,8 @@ MobileDevEmoji - это набор эмодзипаков в Telegram. Они д
     <img src=".github/pics/macos-safari-4.png" alt="Project macOS Image 4" width="49%">
 </div>
 
+<br/>
+
 **iOS (Safari)**
 <div align="center">
     <img src=".github/pics/ios-safari-1.jpg" alt="Project iOS Image 1" width="24%">
@@ -24,6 +26,8 @@ MobileDevEmoji - это набор эмодзипаков в Telegram. Они д
     <img src=".github/pics/ios-safari-3.jpg" alt="Project iOS Image 3" width="24%">
     <img src=".github/pics/ios-safari-4.jpg" alt="Project iOS Image 4" width="24%">
 </div>
+
+<br/>
 
 **Android (Chrome)**
 <div align="center">
