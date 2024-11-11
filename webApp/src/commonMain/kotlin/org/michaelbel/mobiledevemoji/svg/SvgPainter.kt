@@ -26,22 +26,16 @@ class SvgPainter(
             svgWidth = viewBox.width
             svgHeight = viewBox.height
         } else {
-            svgWidth = svg.root?.width?.value ?: 0f
-            svgHeight = svg.root?.height?.value ?: 0f
+            svgWidth = svg.root?.width?.value ?: 0F
+            svgHeight = svg.root?.height?.value ?: 0F
         }
 
-        if (viewBox == null && svgWidth > 0f && svgHeight > 0f) {
+        if (viewBox == null && svgWidth > 0F && svgHeight > 0F) {
             svg.root?.viewBox = Rect.makeWH(svgWidth, svgHeight)
         }
 
-        svg.root?.width = SVGLength(
-            value = 100f,
-            unit = SVGLengthUnit.PERCENTAGE,
-        )
-        svg.root?.height = SVGLength(
-            value = 100f,
-            unit = SVGLengthUnit.PERCENTAGE,
-        )
+        svg.root?.width = SVGLength(100F, SVGLengthUnit.PERCENTAGE,)
+        svg.root?.height = SVGLength(100F, SVGLengthUnit.PERCENTAGE,)
         svg.setContainerSize(size.width, size.height)
         svg.render(drawContext.canvas.nativeCanvas)
     }
