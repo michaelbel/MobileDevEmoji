@@ -1,6 +1,7 @@
 package org.michaelbel.mobiledevemoji.ui
 
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.wrapContentSize
@@ -14,7 +15,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import org.jetbrains.compose.resources.painterResource
+import org.michaelbel.mobiledevemoji.ktx.isMobileBrowser
 import org.michaelbel.mobiledevemoji.ui.theme.TelegramPlaneIconRes
 
 @Composable
@@ -26,7 +29,7 @@ fun GetPackButton(
 
     Button(
         onClick = { uriHandler.openUri(packUrl) },
-        modifier = modifier.wrapContentSize(),
+        modifier = modifier.then(if (isMobileBrowser()) Modifier.height(80.dp) else Modifier.wrapContentSize()),
         colors = ButtonDefaults.buttonColors().copy(
             containerColor = Color(0xFFEADDFF),
             contentColor = Color(0xFF21005D)
@@ -38,12 +41,13 @@ fun GetPackButton(
             Icon(
                 painter = painterResource(TelegramPlaneIconRes),
                 contentDescription = null,
-                modifier = Modifier.size(16.dp)
+                modifier = Modifier.size(if (isMobileBrowser()) 32.dp else 16.dp)
             )
 
             Text(
                 text = "Get on Telegram",
-                modifier = Modifier.padding(start = 8.dp)
+                fontSize = if (isMobileBrowser()) 28.sp else 14.sp,
+                modifier = Modifier.padding(start = if (isMobileBrowser()) 16.dp else 8.dp)
             )
         }
     }

@@ -9,6 +9,7 @@ import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.grid.GridCells
@@ -31,6 +32,7 @@ import androidx.compose.runtime.snapshots.SnapshotStateList
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -97,18 +99,25 @@ fun MainContent() {
             Column {
                 TopAppBar(
                     title = {
-                        Text(
-                            text = APP_NAME
-                        )
+                        Box(
+                            modifier = Modifier.fillMaxHeight(),
+                            contentAlignment = Alignment.CenterStart
+                        ) {
+                            Text(
+                                text = APP_NAME,
+                                fontSize = if (isMobileBrowser()) 44.sp else 22.sp
+                            )
+                        }
                     },
+                    modifier = Modifier.height(if (isMobileBrowser()) 96.dp else 64.dp),
                     actions = {
                         Row(
-                            modifier = Modifier.padding(end = 8.dp),
+                            modifier = Modifier.padding(end = if (isMobileBrowser()) 16.dp else 8.dp).fillMaxHeight(),
                             verticalAlignment = Alignment.CenterVertically
                         ) {
-                            SearchIcon {
-                                currentActionMode = if (currentActionMode is ActionMode.Search) ActionMode.None else ActionMode.Search
-                            }
+                            SearchIcon(
+                                onClick = { currentActionMode = if (currentActionMode is ActionMode.Search) ActionMode.None else ActionMode.Search }
+                            )
                             FiltersIcon(
                                 isFiltersEnabled = currentActionMode is ActionMode.Filters,
                                 onClick = {

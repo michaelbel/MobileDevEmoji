@@ -2,6 +2,7 @@
 
 package org.michaelbel.mobiledevemoji.ui.topbar
 
+import androidx.compose.foundation.layout.size
 import androidx.compose.material.Icon
 import androidx.compose.material.IconButton
 import androidx.compose.runtime.Composable
@@ -11,21 +12,28 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.pointer.PointerEventType
 import androidx.compose.ui.input.pointer.onPointerEvent
 import androidx.compose.ui.platform.LocalUriHandler
+import androidx.compose.ui.unit.dp
 import org.jetbrains.compose.resources.painterResource
 import org.michaelbel.mobiledevemoji.data.TELEGRAM_URL
+import org.michaelbel.mobiledevemoji.ktx.isMobileBrowser
 import org.michaelbel.mobiledevemoji.ui.theme.TelegramIconRes
 
 @Composable
-fun TelegramIcon() {
+fun TelegramIcon(
+    modifier: Modifier = Modifier
+) {
     val uriHandler = LocalUriHandler.current
 
     IconButton(
         onClick = { uriHandler.openUri(TELEGRAM_URL) },
-        modifier = Modifier.onPointerEvent(PointerEventType.Press) { uriHandler.openUri(TELEGRAM_URL) }
+        modifier = modifier
+            .size(if (isMobileBrowser()) 84.dp else 48.dp)
+            .onPointerEvent(PointerEventType.Press) { uriHandler.openUri(TELEGRAM_URL) }
     ) {
         Icon(
             painter = painterResource(TelegramIconRes),
             contentDescription = null,
+            modifier = Modifier.size(if (isMobileBrowser()) 48.dp else 24.dp),
             tint = Color.Unspecified
         )
     }
