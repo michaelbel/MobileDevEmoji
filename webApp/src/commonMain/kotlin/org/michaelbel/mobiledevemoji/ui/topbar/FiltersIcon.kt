@@ -20,12 +20,12 @@ fun FiltersIcon(
 ) {
     IconButton(
         onClick = onClick,
-        modifier = modifier.size(if (isMobileBrowser()) 84.dp else 48.dp)
+        modifier = modifier.size(if (isMobileBrowser() && false) 84.dp else 48.dp)
     ) {
         Icon(
             painter = painterResource(if (isFiltersEnabled) FilterOffRes else FilterOnRes),
             contentDescription = null,
-            modifier = Modifier.size(if (isMobileBrowser()) 48.dp else 24.dp),
+            modifier = Modifier.size(if (isMobileBrowser() && false) 48.dp else 24.dp),
             tint = Color.Unspecified
         )
     }

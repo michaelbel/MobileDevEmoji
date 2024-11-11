@@ -27,13 +27,13 @@ fun TelegramIcon(
     IconButton(
         onClick = { uriHandler.openUri(TELEGRAM_URL) },
         modifier = modifier
-            .size(if (isMobileBrowser()) 84.dp else 48.dp)
+            .size(if (isMobileBrowser() && false) 84.dp else 48.dp)
             .onPointerEvent(PointerEventType.Press) { uriHandler.openUri(TELEGRAM_URL) }
     ) {
         Icon(
             painter = painterResource(TelegramIconRes),
             contentDescription = null,
-            modifier = Modifier.size(if (isMobileBrowser()) 48.dp else 24.dp),
+            modifier = Modifier.size(if (isMobileBrowser() && false) 48.dp else 24.dp),
             tint = Color.Unspecified
         )
     }

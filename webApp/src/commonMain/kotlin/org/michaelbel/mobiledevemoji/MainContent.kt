@@ -105,14 +105,14 @@ fun MainContent() {
                         ) {
                             Text(
                                 text = APP_NAME,
-                                fontSize = if (isMobileBrowser()) 44.sp else 22.sp
+                                fontSize = if (isMobileBrowser() && false) 44.sp else 22.sp
                             )
                         }
                     },
-                    modifier = Modifier.height(if (isMobileBrowser()) 96.dp else 64.dp),
+                    modifier = Modifier.height(if (isMobileBrowser() && false) 96.dp else 64.dp),
                     actions = {
                         Row(
-                            modifier = Modifier.padding(end = if (isMobileBrowser()) 16.dp else 8.dp).fillMaxHeight(),
+                            modifier = Modifier.padding(end = if (isMobileBrowser() && false) 16.dp else 8.dp).fillMaxHeight(),
                             verticalAlignment = Alignment.CenterVertically
                         ) {
                             SearchIcon(

@@ -10,7 +10,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import org.michaelbel.mobiledevemoji.ktx.isMobileBrowser
 
 @Composable
@@ -23,13 +22,13 @@ fun PackHeader(
         modifier = modifier
             .padding(horizontal = 16.dp)
             .fillMaxWidth()
-            .height(if (isMobileBrowser()) 112.dp else 56.dp)
+            .height(if (isMobileBrowser() && false) 112.dp else 56.dp)
     ) {
         Text(
             text = packName,
             modifier = Modifier.align(Alignment.CenterStart),
             color = MaterialTheme.colorScheme.onBackground,
-            style = MaterialTheme.typography.titleLarge.copy(fontSize = if (isMobileBrowser()) 44.sp else 22.sp)
+            style = MaterialTheme.typography.titleLarge/*.copy(fontSize = if (isMobileBrowser()) 44.sp else 22.sp)*/
         )
 
         GetPackButton(
