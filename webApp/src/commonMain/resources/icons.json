@@ -38,7 +38,7 @@
   {
     "id": "google-android-studio",
     "name": "Android Studio",
-    "filters": ["google", "android"],
+    "filters": ["google", "android", "ide"],
     "pack": 1
   },
   {
@@ -56,13 +56,13 @@
   {
     "id": "google-material3-1",
     "name": "Material3",
-    "filters": ["google", "android"],
+    "filters": ["google", "android", "design"],
     "pack": 1
   },
   {
     "id": "google-material3-2",
     "name": "Material3",
-    "filters": ["google", "android"],
+    "filters": ["google", "android", "design"],
     "pack": 1
   },
   {
@@ -242,7 +242,7 @@
   {
     "id": "google-go-1",
     "name": "Go (Programming Language)",
-    "filters": ["google"],
+    "filters": ["google", "programming", "language"],
     "pack": 1
   },
   {
@@ -260,7 +260,7 @@
   {
     "id": "google-gemini",
     "name": "Google Gemini",
-    "filters": ["google"],
+    "filters": ["google", "ai"],
     "pack": 1
   },
   {
@@ -284,7 +284,7 @@
   {
     "id": "google-angular",
     "name": "Angular",
-    "filters": ["google"],
+    "filters": ["google", "web"],
     "pack": 1
   },
   {
@@ -302,7 +302,7 @@
   {
     "id": "google-chromium",
     "name": "Google Chromium",
-    "filters": ["google"],
+    "filters": ["google", "browser"],
     "pack": 1
   },
   {
