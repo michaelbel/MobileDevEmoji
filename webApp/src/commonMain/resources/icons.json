@@ -311,6 +311,7 @@
     "filters": ["google"],
     "pack": 1
   },
+
   {
     "id": "google-docs",
     "name": "Google Docs",
@@ -344,13 +345,13 @@
   {
     "id": "jetbrains-intellijidea",
     "name": "JetBrains IntelliJ IDEA",
-    "filters": ["jetbrains"],
+    "filters": ["jetbrains", "ide"],
     "pack": 1
   },
   {
     "id": "jetbrains-fleet",
     "name": "JetBrains Fleet",
-    "filters": ["jetbrains"],
+    "filters": ["jetbrains", "ide"],
     "pack": 1
   },
   {
@@ -362,13 +363,13 @@
   {
     "id": "jetbrains-kotlin-1",
     "name": "Kotlin (Programming Language)",
-    "filters": ["jetbrains"],
+    "filters": ["jetbrains", "programming", "language"],
     "pack": 1
   },
   {
     "id": "jetbrains-kotlin-2",
     "name": "Kotlin (Programming Language)",
-    "filters": ["jetbrains"],
+    "filters": ["jetbrains", "programming", "language"],
     "pack": 1
   },
   {
@@ -452,7 +453,7 @@
   {
     "id": "apple-xcode",
     "name": "Xcode",
-    "filters": ["apple"],
+    "filters": ["apple", "ide"],
     "pack": 1
   },
   {
@@ -482,7 +483,7 @@
   {
     "id": "apple-safari",
     "name": "Safari",
-    "filters": ["apple"],
+    "filters": ["apple", "browser"],
     "pack": 1
   },
   {
@@ -524,25 +525,25 @@
   {
     "id": "microsoft-visual-studio",
     "name": "Visual Studio",
-    "filters": ["microsoft"],
+    "filters": ["microsoft", "ide"],
     "pack": 1
   },
   {
     "id": "microsoft-vscode-1",
     "name": "Visual Studio Code",
-    "filters": ["microsoft"],
+    "filters": ["microsoft", "ide"],
     "pack": 1
   },
   {
     "id": "microsoft-vscode-2",
     "name": "Visual Studio Code",
-    "filters": ["microsoft"],
+    "filters": ["microsoft", "ide"],
     "pack": 1
   },
   {
     "id": "microsoft-c-sharp",
     "name": "C# (Programming Language)",
-    "filters": ["microsoft"],
+    "filters": ["microsoft", "programming", "language"],
     "pack": 1
   },
   {
@@ -578,7 +579,7 @@
   {
     "id": "microsoft-edge",
     "name": "Microsoft Edge",
-    "filters": ["microsoft"],
+    "filters": ["microsoft", "browser"],
     "pack": 1
   },
   {
@@ -650,7 +651,7 @@
   {
     "id": "yandex-browser",
     "name": "Yandex Browser",
-    "filters": ["yandex"],
+    "filters": ["yandex", "browser"],
     "pack": 1
   },
   {
@@ -740,7 +741,7 @@
   {
     "id": "java",
     "name": "Java (Programming Language)",
-    "filters": ["android", "oracle"],
+    "filters": ["android", "oracle", "programming", "language"],
     "pack": 1
   },
   {
@@ -821,16 +822,19 @@
   {
     "id": "opera",
     "name": "Opera",
+    "filters": ["browser"],
     "pack": 1
   },
   {
     "id": "firefox",
     "name": "Mozilla Firefox",
+    "filters": ["browser"],
     "pack": 1
   },
   {
     "id": "tor-browser",
     "name": "Tor Browser",
+    "filters": ["browser"],
     "pack": 1
   },
   {
@@ -1017,77 +1021,91 @@
   {
     "id": "oneplus",
     "name": "OnePlus",
+    "filters": ["phone"],
     "pack": 1
   },
   {
     "id": "lenovo",
     "name": "Lenovo",
+    "filters": ["phone"],
     "pack": 1
   },
   {
     "id": "xiaomi",
     "name": "Xiaomi",
+    "filters": ["phone"],
     "pack": 1
   },
   {
     "id": "poco",
     "name": "Poco",
+    "filters": ["phone"],
     "pack": 1
   },
   {
     "id": "realme",
     "name": "Realme",
+    "filters": ["phone"],
     "pack": 1
   },
   {
     "id": "oppo",
     "name": "Oppo",
+    "filters": ["phone"],
     "pack": 1
   },
   {
     "id": "zte",
     "name": "ZTE",
+    "filters": ["phone"],
     "pack": 1
   },
   {
     "id": "vivo",
     "name": "Vivo",
+    "filters": ["phone"],
     "pack": 1
   },
   {
     "id": "alcatel",
     "name": "Alcatel",
+    "filters": ["phone"],
     "pack": 1
   },
   {
     "id": "tecno",
     "name": "Tecno",
+    "filters": ["phone"],
     "pack": 1
   },
   {
     "id": "nokia",
     "name": "Nokia",
+    "filters": ["phone"],
     "pack": 1
   },
   {
     "id": "philips",
     "name": "Philips",
+    "filters": ["phone"],
     "pack": 1
   },
   {
     "id": "asus",
     "name": "Asus",
+    "filters": ["phone"],
     "pack": 1
   },
   {
     "id": "motorola",
     "name": "Motorola",
+    "filters": ["phone"],
     "pack": 1
   },
   {
     "id": "samsung",
     "name": "Samsung",
-    "filters": ["samsung"],
+    "filters": ["samsung", "phone"],
     "pack": 1
   },
   {
@@ -1099,43 +1117,50 @@
   {
     "id": "nothing",
     "name": "Nothing Phone",
+    "filters": ["phone"],
     "pack": 1
   },
   {
     "id": "sony",
     "name": "Sony",
-    "filters": ["sony"],
+    "filters": ["sony", "phone"],
     "pack": 1
   },
   {
     "id": "honor-1",
     "name": "Honor",
+    "filters": ["phone"],
     "pack": 1
   },
   {
     "id": "honor-2",
     "name": "Honor",
+    "filters": ["phone"],
     "pack": 1
   },
   {
     "id": "blackberry",
     "name": "BlackBerry",
+    "filters": ["phone"],
     "pack": 1
   },
   {
     "id": "meizu",
     "name": "Meizu",
+    "filters": ["phone"],
     "pack": 1
   },
   {
     "id": "htc",
     "name": "HTC",
+    "filters": ["phone"],
     "pack": 1
   },
 
   {
     "id": "binance",
     "name": "Binance",
+    "filters": ["crypto"],
     "pack": 2
   },
   {
