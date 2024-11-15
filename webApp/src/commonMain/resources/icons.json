@@ -1166,41 +1166,49 @@
   {
     "id": "coinbase-1",
     "name": "Coinbase",
+    "filters": ["crypto"],
     "pack": 2
   },
   {
     "id": "coinbase-2",
     "name": "Coinbase",
+    "filters": ["crypto"],
     "pack": 2
   },
   {
     "id": "bitcoin",
     "name": "Bitcoin",
+    "filters": ["crypto"],
     "pack": 2
   },
   {
     "id": "ethereum-1",
     "name": "Ethereum",
+    "filters": ["crypto"],
     "pack": 2
   },
   {
     "id": "ethereum-2",
     "name": "Ethereum",
+    "filters": ["crypto"],
     "pack": 2
   },
   {
     "id": "tether",
     "name": "Tether (USDT)",
+    "filters": ["crypto"],
     "pack": 2
   },
   {
     "id": "ton",
     "name": "Toncoin",
+    "filters": ["crypto"],
     "pack": 2
   },
   {
     "id": "opensea",
     "name": "OpenSea (NFT Marketplace)",
+    "filters": ["crypto"],
     "pack": 2
   },
   {
@@ -1303,11 +1311,13 @@
   {
     "id": "wireguard",
     "name": "WireGuard",
+    "filters": ["vpn"],
     "pack": 2
   },
   {
     "id": "openvpn",
     "name": "OpenVPN",
+    "filters": ["vpn"],
     "pack": 2
   },
   {
@@ -1479,6 +1489,7 @@
   {
     "id": "beats-electronics",
     "name": "Beats Electronics",
+    "filters": ["apple"],
     "pack": 2
   },
   {
@@ -1643,31 +1654,37 @@
   {
     "id": "c",
     "name": "C (Programming Language)",
+    "filters": ["programming", "language"],
     "pack": 2
   },
   {
     "id": "cpp",
     "name": "C++ (Programming Language)",
+    "filters": ["programming", "language"],
     "pack": 2
   },
   {
     "id": "php",
     "name": "PHP (Programming Language)",
+    "filters": ["programming", "language"],
     "pack": 2
   },
   {
     "id": "rust",
     "name": "Rust (Programming Language)",
+    "filters": ["programming", "language"],
     "pack": 2
   },
   {
     "id": "ruby",
     "name": "Ruby (Programming Language)",
+    "filters": ["programming", "language"],
     "pack": 2
   },
   {
     "id": "python",
     "name": "Python (Programming Language)",
+    "filters": ["programming", "language"],
     "pack": 2
   },
   {
@@ -1703,17 +1720,19 @@
   {
     "id": "js",
     "name": "JavaScript (Programming Language)",
+    "filters": ["programming", "language"],
     "pack": 2
   },
   {
     "id": "typescript",
     "name": "TypeScript (Programming Language)",
+    "filters": ["programming", "language"],
     "pack": 2
   },
   {
     "id": "microsoft-vb",
     "name": "Visual Basic (Programming Language)",
-    "filters": ["microsoft"],
+    "filters": ["microsoft", "programming", "language"],
     "pack": 2
   },
   {
@@ -1724,16 +1743,19 @@
   {
     "id": "delphi",
     "name": "Delphi (Programming Language)",
+    "filters": ["programming", "language"],
     "pack": 2
   },
   {
     "id": "pascal",
     "name": "Pascal (Programming Language)",
+    "filters": ["programming", "language"],
     "pack": 2
   },
   {
     "id": "scala",
     "name": "Scala (Programming Language)",
+    "filters": ["programming", "language"],
     "pack": 2
   },
   {
@@ -1856,21 +1878,25 @@
   {
     "id": "netflix",
     "name": "Netflix",
+    "filters": ["video"],
     "pack": 2
   },
   {
     "id": "pornhub",
     "name": "Pornhub",
+    "filters": ["video"],
     "pack": 2
   },
   {
     "id": "twitch",
     "name": "Twitch",
+    "filters": ["video"],
     "pack": 2
   },
   {
     "id": "rutube",
     "name": "Rutube",
+    "filters": ["video"],
     "pack": 2
   },
   {
@@ -2090,7 +2116,7 @@
   {
     "id": "jetbrains-aqua",
     "name": "Jetbrains Aqua",
-    "filters": ["jetbrains"],
+    "filters": ["jetbrains", "ide"],
     "pack": 2
   },
   {
@@ -2144,7 +2170,7 @@
   {
     "id": "jetbrains-goland",
     "name": "Jetbrains GoLand",
-    "filters": ["jetbrains"],
+    "filters": ["jetbrains", "ide"],
     "pack": 2
   },
   {
@@ -2156,13 +2182,13 @@
   {
     "id": "jetbrains-phpstorm",
     "name": "Jetbrains PhpStorm",
-    "filters": ["jetbrains"],
+    "filters": ["jetbrains", "ide"],
     "pack": 2
   },
   {
     "id": "jetbrains-pycharm",
     "name": "Jetbrains PyCharm",
-    "filters": ["jetbrains"],
+    "filters": ["jetbrains", "ide"],
     "pack": 2
   },
   {
@@ -2174,19 +2200,19 @@
   {
     "id": "jetbrains-resharper",
     "name": "Jetbrains ReSharper",
-    "filters": ["jetbrains"],
+    "filters": ["jetbrains", "ide"],
     "pack": 2
   },
   {
     "id": "jetbrains-resharpercpp",
     "name": "Jetbrains ReSharper C++",
-    "filters": ["jetbrains"],
+    "filters": ["jetbrains", "ide"],
     "pack": 2
   },
   {
     "id": "jetbrains-rider",
     "name": "Jetbrains Rider",
-    "filters": ["jetbrains"],
+    "filters": ["jetbrains", "ide"],
     "pack": 2
   },
   {
@@ -2198,7 +2224,7 @@
   {
     "id": "jetbrains-rubymine",
     "name": "Jetbrains RubyMine",
-    "filters": ["jetbrains"],
+    "filters": ["jetbrains", "ide"],
     "pack": 2
   },
   {
@@ -2216,7 +2242,7 @@
   {
     "id": "jetbrains-webstorm",
     "name": "Jetbrains WebStorm",
-    "filters": ["jetbrains"],
+    "filters": ["jetbrains", "ide"],
     "pack": 2
   },
   {
