@@ -66,7 +66,7 @@ fun SearchWidget(
                             Icon(
                                 painter = painterResource(ClearRes),
                                 contentDescription = null,
-                                tint = Color.Unspecified
+                                tint = MaterialTheme.colorScheme.onBackground
                             )
                         }
                     }

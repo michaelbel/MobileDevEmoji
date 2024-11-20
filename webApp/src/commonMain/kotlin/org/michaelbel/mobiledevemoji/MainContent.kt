@@ -9,13 +9,16 @@ import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.GridItemSpan
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
@@ -30,6 +33,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.runtime.snapshots.SnapshotStateList
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -165,6 +169,7 @@ fun MainContent() {
             val horizontalArrangementDp = if (isMobileBrowser()) 8.dp else 0.dp
             val verticalArrangement = if (isMobileBrowser()) 8.dp else 0.dp
             val gridModifier = if (isMobileBrowser()) Modifier.fillMaxSize() else Modifier.width(888.dp).fillMaxHeight() // 100*8 + 16*2 + 8*7
+            var isSearchEmpty by remember { mutableStateOf(false) }
 
             LazyVerticalGrid(
                 columns = GridCells.Fixed(count = 8),
@@ -174,6 +179,9 @@ fun MainContent() {
                 contentPadding = PaddingValues(all = 16.dp)
             ) {
                 val pack1 = emojiList.pack1.filterBy(selectedFilter).searchBy(searchQuery)
+                val pack2 = emojiList.pack2.filterBy(selectedFilter).searchBy(searchQuery)
+                val pack3 = emojiList.pack3.filterBy(selectedFilter).searchBy(searchQuery)
+
                 if (pack1.isNotEmpty()) {
                     item(
                         span = { GridItemSpan(maxLineSpan) }
@@ -198,7 +206,6 @@ fun MainContent() {
                     }
                 }
 
-                val pack2 = emojiList.pack2.filterBy(selectedFilter).searchBy(searchQuery)
                 if (pack2.isNotEmpty()) {
                     item(
                         span = { GridItemSpan(maxLineSpan) }
@@ -224,7 +231,6 @@ fun MainContent() {
                     }
                 }
 
-                val pack3 = emojiList.pack3.filterBy(selectedFilter).searchBy(searchQuery)
                 if (pack3.isNotEmpty()) {
                     item(
                         span = { GridItemSpan(maxLineSpan) }
@@ -249,6 +255,17 @@ fun MainContent() {
                         )
                     }
                 }
+
+                isSearchEmpty = pack1.isEmpty() && pack2.isEmpty() && pack3.isEmpty()
+            }
+
+            if (isSearchEmpty) {
+                Text(
+                    text = "Не найдено",
+                    modifier = Modifier.fillMaxWidth().wrapContentHeight(),
+                    textAlign = TextAlign.Center,
+                    style = MaterialTheme.typography.titleMedium.copy(color = MaterialTheme.colorScheme.onBackground)
+                )
             }
         }
 

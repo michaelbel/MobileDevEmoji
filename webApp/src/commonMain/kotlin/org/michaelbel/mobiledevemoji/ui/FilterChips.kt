@@ -10,7 +10,7 @@ import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
-import androidx.compose.material3.FilterChip
+import androidx.compose.material3.InputChip
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -36,11 +36,15 @@ fun FilterChips(
             horizontalArrangement = Arrangement.Center
         ) {
             filters.forEach { filter ->
-                FilterChip(
+                InputChip(
                     selected = selectedFilter == filter,
                     onClick = { onFilterSelected(filter) },
-                    label = { Text(filter) },
-                    modifier = Modifier.padding(start = 2.dp, end = 2.dp)
+                    label = {
+                        Text(
+                            text = filter
+                        )
+                    },
+                    modifier = Modifier.padding(horizontal = 2.dp)
                 )
             }
         }
