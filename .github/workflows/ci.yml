@@ -37,7 +37,7 @@ jobs:
           path: webApp/build/dist/js/productionExecutable/
 
   deploy:
-    needs: build
+    needs: build-web
     permissions:
       pages: write
       id-token: write
