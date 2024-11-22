@@ -80,7 +80,8 @@ fun SearchWidget(
                     Text(
                         text = "Search..."
                     )
-                }
+                },
+                singleLine = true
             )
         }
     }
