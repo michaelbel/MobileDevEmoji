@@ -2236,7 +2236,7 @@
   {
     "id": "jetbrains-teamcity",
     "name": "Jetbrains TeamCity",
-    "filters": ["jetbrains"],
+    "filters": ["jetbrains", "ci"],
     "pack": 2
   },
   {
@@ -2251,7 +2251,6 @@
     "filters": ["jetbrains"],
     "pack": 2
   },
-
 
   {
     "id": "coursera",
@@ -2286,16 +2285,19 @@
   {
     "id": "uber",
     "name": "Uber",
+    "filters": ["taxi"],
     "pack": 3
   },
   {
     "id": "lyft",
     "name": "Lyft",
+    "filters": ["taxi"],
     "pack": 3
   },
   {
     "id": "bolt",
     "name": "Bolt",
+    "filters": ["taxi"],
     "pack": 3
   },
   {
@@ -2334,7 +2336,7 @@
   {
     "id": "apple-wallet",
     "name": "Apple Wallet",
-    "filters": ["apple"],
+    "filters": ["apple", "payment"],
     "pack": 3
   },
   {
@@ -2346,7 +2348,7 @@
   {
     "id": "google-pay",
     "name": "Google Pay",
-    "filters": ["google"],
+    "filters": ["google", "payment"],
     "pack": 3
   },
   {
@@ -2358,7 +2360,7 @@
   {
     "id": "google-gemini-2",
     "name": "Google Gemini",
-    "filters": ["google"],
+    "filters": ["google", "ai"],
     "pack": 3
   },
   {
@@ -2388,7 +2390,7 @@
   {
     "id": "google-wallet",
     "name": "Google Wallet",
-    "filters": ["google"],
+    "filters": ["google", "payment"],
     "pack": 3
   },
   {
@@ -2538,7 +2540,7 @@
   {
     "id": "microsoft-f-sharp",
     "name": "Microsoft F#",
-    "filters": ["microsoft"],
+    "filters": ["microsoft", "programming", "language"],
     "pack": 3
   },
   {
@@ -2564,21 +2566,25 @@
   {
     "id": "jenkins",
     "name": "Jenkins",
+    "filters": ["ci"],
     "pack": 3
   },
   {
     "id": "circleci",
     "name": "CircleCI",
+    "filters": ["ci"],
     "pack": 3
   },
   {
     "id": "travis-ci",
     "name": "Travis CI",
+    "filters": ["ci"],
     "pack": 3
   },
   {
     "id": "fastlane",
     "name": "Fastlane",
+    "filters": ["ci"],
     "pack": 3
   },
   {
@@ -2710,71 +2716,85 @@
   {
     "id": "bitcoin-cash",
     "name": "Bitcoin Cash",
+    "filters": ["crypto"],
     "pack": 3
   },
   {
     "id": "dogecoin",
     "name": "Dogecoin",
+    "filters": ["crypto"],
     "pack": 3
   },
   {
     "id": "litecoin",
     "name": "Litecoin",
+    "filters": ["crypto"],
     "pack": 3
   },
   {
     "id": "usdc",
     "name": "USDC",
+    "filters": ["crypto"],
     "pack": 3
   },
   {
     "id": "binance-coin",
     "name": "Binance Coin",
+    "filters": ["crypto"],
     "pack": 3
   },
   {
     "id": "coinmarketcap",
     "name": "CoinMarketCap",
+    "filters": ["crypto"],
     "pack": 3
   },
   {
     "id": "polygon",
     "name": "Polygon",
+    "filters": ["crypto"],
     "pack": 3
   },
   {
     "id": "monero",
     "name": "Monero",
+    "filters": ["crypto"],
     "pack": 3
   },
   {
     "id": "solidity",
     "name": "Solidity (Programming Language)",
+    "filters": ["crypto", "programming", "language"],
     "pack": 3
   },
   {
     "id": "tron",
     "name": "Tron",
+    "filters": ["crypto"],
     "pack": 3
   },
   {
     "id": "ripple",
     "name": "Ripple",
+    "filters": ["crypto"],
     "pack": 3
   },
   {
     "id": "stellar",
     "name": "Stellar",
+    "filters": ["crypto"],
     "pack": 3
   },
   {
     "id": "namecoin",
     "name": "Namecoin",
+    "filters": ["crypto"],
     "pack": 3
   },
   {
     "id": "solana",
     "name": "Solana",
+    "filters": ["crypto"],
     "pack": 3
   },
   {
@@ -2785,6 +2805,7 @@
   {
     "id": "metamask",
     "name": "MetaMask",
+    "filters": ["crypto"],
     "pack": 3
   },
   {
