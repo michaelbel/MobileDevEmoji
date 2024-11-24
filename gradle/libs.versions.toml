@@ -1,12 +1,14 @@
 [versions]
 kotlin = "2.0.21"
 kotlinx-serialization = "1.7.1"
+kotlinx-html = "0.11.0"
 compose = "1.7.0"
 kermit = "2.0.4"
 tg-mini-app = "1.1.0"
 
 [libraries]
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization" }
+kotlinx-html = { module = "org.jetbrains.kotlinx:kotlinx-html", version.ref = "kotlinx-html" }
 kermit = { module = "co.touchlab:kermit", version.ref = "kermit" }
 tg-mini-app = { module = "io.github.kirillNay:tg-mini-app", version.ref = "tg-mini-app" }
 
