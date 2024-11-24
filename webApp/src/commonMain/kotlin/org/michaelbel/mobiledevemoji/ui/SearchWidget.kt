@@ -1,12 +1,7 @@
-@file:OptIn(ExperimentalLayoutApi::class)
-
 package org.michaelbel.mobiledevemoji.ui
 
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.ExperimentalLayoutApi
-import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
@@ -45,46 +40,41 @@ fun SearchWidget(
             .background(MaterialTheme.colorScheme.surface),
         contentAlignment = Alignment.Center
     ) {
-        FlowRow(
-            modifier = Modifier.then(if (isMobileBrowser()) Modifier.padding(horizontal = 16.dp).fillMaxWidth() else Modifier.width(888.dp)),
-            horizontalArrangement = Arrangement.Center
-        ) {
-            TextField(
-                value = query,
-                onValueChange = onQueryChanged,
-                modifier = Modifier
-                    .padding(top = 8.dp, bottom = 8.dp)
-                    .fillMaxWidth()
-                    .focusRequester(focusRequester),
-                trailingIcon = {
-                    if (query.isNotEmpty()) {
-                        IconButton(
-                            onClick = {
-                                onQueryChanged("")
-                                focusRequester.requestFocus()
-                            }
-                        ) {
-                            Icon(
-                                painter = painterResource(ClearRes),
-                                contentDescription = null,
-                                tint = MaterialTheme.colorScheme.onBackground
-                            )
+        TextField(
+            value = query,
+            onValueChange = onQueryChanged,
+            modifier = Modifier
+                .padding(horizontal = if (isMobileBrowser()) 16.dp else 0.dp, vertical = 8.dp)
+                .then(if (isMobileBrowser()) Modifier.fillMaxWidth() else Modifier.width(888.dp))
+                .focusRequester(focusRequester),
+            trailingIcon = {
+                if (query.isNotEmpty()) {
+                    IconButton(
+                        onClick = {
+                            onQueryChanged("")
+                            focusRequester.requestFocus()
                         }
+                    ) {
+                        Icon(
+                            painter = painterResource(ClearRes),
+                            contentDescription = null,
+                            tint = MaterialTheme.colorScheme.onBackground
+                        )
                     }
-                },
-                shape = RoundedCornerShape(50.dp),
-                colors = TextFieldDefaults.colors().copy(
-                    unfocusedIndicatorColor = Color.Transparent,
-                    focusedIndicatorColor = Color.Transparent
-                ),
-                placeholder = {
-                    Text(
-                        text = "Search..."
-                    )
-                },
-                singleLine = true
-            )
-        }
+                }
+            },
+            shape = RoundedCornerShape(50.dp),
+            colors = TextFieldDefaults.colors().copy(
+                unfocusedIndicatorColor = Color.Transparent,
+                focusedIndicatorColor = Color.Transparent
+            ),
+            placeholder = {
+                Text(
+                    text = "Search..."
+                )
+            },
+            singleLine = true
+        )
     }
 
     LaunchedEffect(Unit) {
