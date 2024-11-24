@@ -23,7 +23,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import org.jetbrains.compose.resources.painterResource
 import org.michaelbel.mobiledevemoji.ktx.isMobileBrowser
-import org.michaelbel.mobiledevemoji.ktx.showKeyboard
 import org.michaelbel.mobiledevemoji.ui.theme.ClearRes
 
 @Composable
@@ -79,8 +78,5 @@ fun SearchWidget(
 
     LaunchedEffect(Unit) {
         focusRequester.requestFocus()
-        if (isMobileBrowser()) {
-            showKeyboard()
-        }
     }
 }
