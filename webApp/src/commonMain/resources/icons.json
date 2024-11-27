@@ -2931,6 +2931,7 @@
   {
     "id": "grpc",
     "name": "gRPC",
+    "filters": ["google"],
     "pack": 3
   },
   {
@@ -2946,6 +2947,7 @@
   {
     "id": "ada",
     "name": "Ada (Programming Language)",
+    "filters": ["programming", "language"],
     "pack": 3
   },
   {
@@ -2956,6 +2958,7 @@
   {
     "id": "erlang",
     "name": "Erlang (Programming Language)",
+    "filters": ["programming", "language"],
     "pack": 3
   },
   {
@@ -3012,6 +3015,7 @@
   {
     "id": "eclipse",
     "name": "Eclipse",
+    "filters": ["ide"],
     "pack": 3
   },
   {
@@ -3022,11 +3026,13 @@
   {
     "id": "claude-ai",
     "name": "Claude AI",
+    "filters": ["ai"],
     "pack": 3
   },
   {
     "id": "stability-ai",
     "name": "Stability AI",
+    "filters": ["ai"],
     "pack": 3
   },
   {
@@ -3259,6 +3265,7 @@
   {
     "id": "dependabot",
     "name": "Dependabot",
+    "filters": ["github"],
     "pack": 3
   },
   {
