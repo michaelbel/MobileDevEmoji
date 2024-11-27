@@ -52,7 +52,6 @@ kotlin {
         jsMain.dependencies {
             implementation(libs.tg.mini.app)
         }
-        wasmJsMain.dependencies {}
     }
 }
 
