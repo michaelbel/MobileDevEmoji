@@ -311,7 +311,6 @@
     "filters": ["google"],
     "pack": 1
   },
-
   {
     "id": "google-docs",
     "name": "Google Docs",
@@ -3334,5 +3333,678 @@
     "id": "kaspersky",
     "name": "Kaspersky",
     "pack": 3
+  },
+
+  {
+    "id": "google-android16",
+    "name": "Android 16 Baklava"
+  },
+  {
+    "id": "google-chrome-web-store",
+    "name": "Google Chrome Web Store"
+  },
+  {
+    "id": "google-keep",
+    "name": "Google Keep"
+  },
+  {
+    "id": "google-lens",
+    "name": "Google Lens"
+  },
+  {
+    "id": "google-snapseed",
+    "name": "Snapseed"
+  },
+  {
+    "id": "google-waymo",
+    "name": "Waymo"
+  },
+  {
+    "id": "google-x",
+    "name": "Google X"
+  },
+  {
+    "id": "google-alphabet",
+    "name": "Alphabet"
+  },
+  {
+    "id": "google-deepmind",
+    "name": "Google Deepmind"
+  },
+  {
+    "id": "google-looker",
+    "name": "Google Looker"
+  },
+  {
+    "id": "apple-icloud",
+    "name": "Apple iCloud"
+  },
+  {
+    "id": "apple-intelligence-1",
+    "name": "Apple Intelligence"
+  },
+  {
+    "id": "apple-numbers",
+    "name": "Numbers"
+  },
+  {
+    "id": "apple-pages",
+    "name": "Pages"
+  },
+  {
+    "id": "microsoft-notepad",
+    "name": "Microsoft Notepad"
+  },
+  {
+    "id": "microsoft-cortana",
+    "name": "Microsoft Cortana"
+  },
+  {
+    "id": "microsoft-github-copilot",
+    "name": "Github Copilot"
+  },
+  {
+    "id": "microsoft-minecraft",
+    "name": "Minecraft"
+  },
+  {
+    "id": "microsoft-powershell",
+    "name": "Microsoft Powershell"
+  },
+  {
+    "id": "meta-oculus",
+    "name": "Oculus"
+  },
+  {
+    "id": "samsung-pay",
+    "name": "Samsung Pay"
+  },
+  {
+    "id": "samsung-bixby",
+    "name": "Samsung Bixby"
+  },
+  {
+    "id": "yandex-mail",
+    "name": "Yandex Mail"
+  },
+  {
+    "id": "yandex-coderun",
+    "name": "Yandex CodeRun"
+  },
+  {
+    "id": "jetbrains-upsource",
+    "name": "JetBrains Upsource"
+  },
+  {
+    "id": "adobe-magento",
+    "name": "Adobe Magento"
+  },
+  {
+    "id": "x-xai",
+    "name": "xAI"
+  },
+  {
+    "id": "x-grok",
+    "name": "Grok"
+  },
+  {
+    "id": "bybit",
+    "name": "Bybit"
+  },
+  {
+    "id": "cryptocom",
+    "name": "Crypto.com"
+  },
+  {
+    "id": "gateio",
+    "name": "Gate.io"
+  },
+  {
+    "id": "kucoin",
+    "name": "KuCoin"
+  },
+  {
+    "id": "polymarket",
+    "name": "Polymarket"
+  },
+  {
+    "id": "dai",
+    "name": "Dai"
+  },
+  {
+    "id": "polkadot",
+    "name": "Polkadot"
+  },
+  {
+    "id": "imdb",
+    "name": "IMDb"
+  },
+  {
+    "id": "tmdb",
+    "name": "The Movie Database (TMDB)"
+  },
+  {
+    "id": "outline-vpn",
+    "name": "Outline VPN"
+  },
+  {
+    "id": "tunnelbear",
+    "name": "TunnelBear"
+  },
+  {
+    "id": "mistral-ai",
+    "name": "Mistral AI"
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity AI"
+  },
+  {
+    "id": "claude",
+    "name": "Claude"
+  },
+  {
+    "id": "recraft",
+    "name": "Recraft"
+  },
+  {
+    "id": "anthropic",
+    "name": "Anthropic"
+  },
+  {
+    "id": "higgsfield",
+    "name": "Higgsfield AI"
+  },
+  {
+    "id": "unsplash",
+    "name": "Unsplash"
+  },
+  {
+    "id": "shutterstock",
+    "name": "Shutterstock"
+  },
+  {
+    "id": "imgur",
+    "name": "Imgur"
+  },
+  {
+    "id": "giphy",
+    "name": "Giphy"
+  },
+  {
+    "id": "flickr",
+    "name": "Flickr"
+  },
+  {
+    "id": "deviantart",
+    "name": "DeviantArt"
+  },
+  {
+    "id": "pixabay",
+    "name": "Pixabay"
+  },
+  {
+    "id": "fortnite",
+    "name": "Fortnite"
+  },
+  {
+    "id": "roblox",
+    "name": "Roblox"
+  },
+  {
+    "id": "doom",
+    "name": "Doom"
+  },
+  {
+    "id": "atari",
+    "name": "Atari"
+  },
+  {
+    "id": "cisco-splunk",
+    "name": "Splunk Technology"
+  },
+  {
+    "id": "cisco-webex",
+    "name": "Cisco Webex"
+  },
+  {
+    "id": "objective-c",
+    "name": "Objective-C"
+  },
+  {
+    "id": "cobol",
+    "name": "Cobol"
+  },
+  {
+    "id": "r",
+    "name": "R"
+  },
+  {
+    "id": "racket",
+    "name": "Racket"
+  },
+  {
+    "id": "julia",
+    "name": "Julia"
+  },
+  {
+    "id": "clojurescript",
+    "name": "ClojureScript"
+  },
+  {
+    "id": "deepnote",
+    "name": "Deepnote"
+  },
+  {
+    "id": "amplitude",
+    "name": "Amplitude"
+  },
+  {
+    "id": "startpage",
+    "name": "Startpage"
+  },
+  {
+    "id": "qwant",
+    "name": "Qwant"
+  },
+  {
+    "id": "ecosia",
+    "name": "Ecosia"
+  },
+  {
+    "id": "linux-zorin",
+    "name": "Zorin (Linux Distribution)"
+  },
+  {
+    "id": "languagetool",
+    "name": "LanguageTool"
+  },
+  {
+    "id": "grammarly",
+    "name": "Grammarly"
+  },
+  {
+    "id": "nasdaq",
+    "name": "Nasdaq"
+  },
+  {
+    "id": "ycombinator",
+    "name": "Y Combinator"
+  },
+  {
+    "id": "citrix",
+    "name": "Citrix Systems"
+  },
+  {
+    "id": "citrix-gotomeeting",
+    "name": "GoTo Meeting"
+  },
+  {
+    "id": "bluesky",
+    "name": "Bluesky"
+  },
+  {
+    "id": "mastodon",
+    "name": "Mastodon"
+  },
+  {
+    "id": "weibo",
+    "name": "Weibo"
+  },
+  {
+    "id": "flipboard",
+    "name": "Flipboard"
+  },
+  {
+    "id": "foursquare",
+    "name": "Foursquare"
+  },
+  {
+    "id": "valkey",
+    "name": "Valkey"
+  },
+  {
+    "id": "mariadb",
+    "name": "MariaDB"
+  },
+  {
+    "id": "supabase",
+    "name": "Supabase"
+  },
+  {
+    "id": "influxdb",
+    "name": "InfluxDB"
+  },
+  {
+    "id": "neo4j",
+    "name": "Neo4J"
+  },
+  {
+    "id": "datadog",
+    "name": "Datadog"
+  },
+  {
+    "id": "memcached",
+    "name": "Memcached"
+  },
+  {
+    "id": "framer",
+    "name": "Framer"
+  },
+  {
+    "id": "excalidraw",
+    "name": "Excalidraw"
+  },
+  {
+    "id": "mermaidchart",
+    "name": "Mermaid Chart"
+  },
+  {
+    "id": "tableau",
+    "name": "Tableau"
+  },
+  {
+    "id": "skia",
+    "name": "Skia Graphics Engine"
+  },
+  {
+    "id": "invision",
+    "name": "Invision"
+  },
+  {
+    "id": "robot-framework",
+    "name": "Robot Framework"
+  },
+  {
+    "id": "cucumber",
+    "name": "Cucumber"
+  },
+  {
+    "id": "katalon",
+    "name": "Katalon"
+  },
+  {
+    "id": "bitrise",
+    "name": "Bitrise"
+  },
+  {
+    "id": "appium",
+    "name": "Appium"
+  },
+  {
+    "id": "pinia",
+    "name": "Pinia"
+  },
+  {
+    "id": "lodash",
+    "name": "Lodash"
+  },
+  {
+    "id": "zapier",
+    "name": "Zapier"
+  },
+  {
+    "id": "vercel",
+    "name": "Vercel"
+  },
+  {
+    "id": "webflow",
+    "name": "Webflow"
+  },
+  {
+    "id": "wix",
+    "name": "Wix"
+  },
+  {
+    "id": "vuex",
+    "name": "Vuex"
+  },
+  {
+    "id": "pandas",
+    "name": "Pandas"
+  },
+  {
+    "id": "deepl",
+    "name": "Deepl"
+  },
+  {
+    "id": "unicode",
+    "name": "Unicode"
+  },
+  {
+    "id": "pastebin",
+    "name": "Pastebin"
+  },
+  {
+    "id": "palantir",
+    "name": "Palantir"
+  },
+  {
+    "id": "dovetail",
+    "name": "Dovetail"
+  },
+  {
+    "id": "mediawiki",
+    "name": "MediaWiki"
+  },
+  {
+    "id": "arduino",
+    "name": "Arduino"
+  },
+  {
+    "id": "kickstarter",
+    "name": "Kickstarter"
+  },
+  {
+    "id": "ifttt",
+    "name": "IFTTT"
+  },
+  {
+    "id": "dolby",
+    "name": "Dolby"
+  },
+  {
+    "id": "wolfram",
+    "name": "Wolfram"
+  },
+  {
+    "id": "1c",
+    "name": "1C Company"
+  },
+  {
+    "id": "tesla",
+    "name": "Tesla"
+  },
+  {
+    "id": "neuralink",
+    "name": "Neuralink"
+  },
+  {
+    "id": "robinhood",
+    "name": "Robinhood"
+  },
+  {
+    "id": "downdetektor",
+    "name": "Downdetektor"
+  },
+  {
+    "id": "airbnb",
+    "name": "Airbnb"
+  },
+  {
+    "id": "ansible",
+    "name": "Ansible"
+  },
+  {
+    "id": "sisense",
+    "name": "Sisense"
+  },
+  {
+    "id": "tencent",
+    "name": "Tencent"
+  },
+  {
+    "id": "alipay",
+    "name": "Alipay"
+  },
+  {
+    "id": "techcrunch",
+    "name": "TechCrunch"
+  },
+  {
+    "id": "at&t",
+    "name": "AT&T"
+  },
+  {
+    "id": "pocket",
+    "name": "Pocket"
+  },
+  {
+    "id": "heroku",
+    "name": "Heroku"
+  },
+  {
+    "id": "mobius",
+    "name": "Mobius"
+  },
+  {
+    "id": "shareit",
+    "name": "Shareit"
+  },
+  {
+    "id": "internet-archive",
+    "name": "Internet Archive"
+  },
+  {
+    "id": "riskified",
+    "name": "Riskified"
+  },
+  {
+    "id": "notepad++",
+    "name": "Notepad++"
+  },
+  {
+    "id": "linode",
+    "name": "Linode"
+  },
+  {
+    "id": "positive-technologies",
+    "name": "Positive Technologies"
+  },
+  {
+    "id": "aol",
+    "name": "AOL"
+  },
+  {
+    "id": "obs-studio",
+    "name": "OBS Studio"
+  },
+  {
+    "id": "winrar",
+    "name": "WinRAR"
+  },
+  {
+    "id": "terraform",
+    "name": "Terraform"
+  },
+  {
+    "id": "logitech",
+    "name": "Logitech"
+  },
+  {
+    "id": "revenuecat",
+    "name": "RevenueCat"
+  },
+  {
+    "id": "abbyy",
+    "name": "ABBYY"
+  },
+  {
+    "id": "uipath",
+    "name": "UiPath"
+  },
+  {
+    "id": "bitly",
+    "name": "Bitly"
+  },
+  {
+    "id": "homebrew",
+    "name": "Homebrew"
+  },
+  {
+    "id": "kong",
+    "name": "Kong"
+  },
+  {
+    "id": "arc-browser",
+    "name": "Arc Browser"
+  },
+  {
+    "id": "bytedance",
+    "name": "ByteDance"
+  },
+  {
+    "id": "gobot",
+    "name": "Gobot"
+  },
+  {
+    "id": "baidu",
+    "name": "Baidu"
+  },
+  {
+    "id": "strava",
+    "name": "Strava"
+  },
+  {
+    "id": "gerrit",
+    "name": "Gerrit"
+  },
+  {
+    "id": "typeform",
+    "name": "Typeform"
+  },
+  {
+    "id": "sourceforge",
+    "name": "SourceForge"
+  },
+  {
+    "id": "drupal",
+    "name": "Drupal"
+  },
+  {
+    "id": "markdown",
+    "name": "Markdown"
+  },
+  {
+    "id": "compiler-explorer",
+    "name": "Compiler Explorer"
+  },
+  {
+    "id": "replit",
+    "name": "Replit"
+  },
+  {
+    "id": "adguard",
+    "name": "Adguard"
+  },
+  {
+    "id": "zendesk",
+    "name": "Zendesk"
+  },
+  {
+    "id": "godaddy",
+    "name": "GoDaddy"
+  },
+  {
+    "id": "gravatar",
+    "name": "Gravatar"
+  },
+  {
+    "id": "clickup",
+    "name": "Clickup"
+  },
+  {
+    "id": "latex",
+    "name": "Latex"
   }
 ]

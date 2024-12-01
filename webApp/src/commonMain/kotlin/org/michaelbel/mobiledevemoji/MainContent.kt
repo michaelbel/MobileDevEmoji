@@ -47,11 +47,13 @@ import org.michaelbel.mobiledevemoji.data.FILTERS
 import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_1
 import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_2
 import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_3
+import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_4
 import org.michaelbel.mobiledevemoji.data.filterBy
 import org.michaelbel.mobiledevemoji.data.pack
 import org.michaelbel.mobiledevemoji.data.pack1
 import org.michaelbel.mobiledevemoji.data.pack2
 import org.michaelbel.mobiledevemoji.data.pack3
+import org.michaelbel.mobiledevemoji.data.pack4
 import org.michaelbel.mobiledevemoji.data.searchBy
 import org.michaelbel.mobiledevemoji.ktx.decodeJsonToString
 import org.michaelbel.mobiledevemoji.ktx.emojiPainter
@@ -181,6 +183,7 @@ fun MainContent() {
                 val pack1 = emojiList.pack1.filterBy(selectedFilter).searchBy(searchQuery)
                 val pack2 = emojiList.pack2.filterBy(selectedFilter).searchBy(searchQuery)
                 val pack3 = emojiList.pack3.filterBy(selectedFilter).searchBy(searchQuery)
+                val pack4 = emojiList.pack4.filterBy(selectedFilter).searchBy(searchQuery)
 
                 if (pack1.isNotEmpty()) {
                     item(
@@ -256,7 +259,32 @@ fun MainContent() {
                     }
                 }
 
-                isSearchEmpty = pack1.isEmpty() && pack2.isEmpty() && pack3.isEmpty()
+                if (pack4.isNotEmpty()) {
+                    item(
+                        span = { GridItemSpan(maxLineSpan) }
+                    ) {
+                        PackHeader(
+                            packName = "Pack 4",
+                            packUrl = TELEGRAM_PACK_4,
+                            modifier = Modifier.padding(top = 32.dp)
+                        )
+                    }
+
+                    items(pack4) { emoji ->
+                        EmojiIcon(
+                            emoji = emoji,
+                            selected = emoji.emojiResponse.id == emojiPreviewVisible,
+                            onClick = { emojiId ->
+                                emojiPreviewVisible = when {
+                                    emojiId == emojiPreviewVisible -> null
+                                    else -> emojiId
+                                }
+                            }
+                        )
+                    }
+                }
+
+                isSearchEmpty = pack1.isEmpty() && pack2.isEmpty() && pack3.isEmpty() && pack4.isEmpty()
             }
 
             if (isSearchEmpty) {
