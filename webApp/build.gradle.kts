@@ -16,6 +16,12 @@ kotlin {
         browser {
             commonWebpackConfig {
                 outputFileName = "composeApp.js"
+                devServer = (devServer ?: KotlinWebpackConfig.DevServer()).apply {
+                    static = (static ?: mutableListOf()).apply {
+                        add(project.rootDir.path)
+                        add(project.projectDir.path)
+                    }
+                }
             }
         }
         binaries.executable()
@@ -59,5 +65,12 @@ compose {
     resources {
         publicResClass = true
         generateResClass = always
+    }
+}
+
+tasks.named("jsBrowserDevelopmentRun") {
+    doFirst {
+        val devServer = mapOf("allowedHosts" to "all")
+        project.extensions.extraProperties["webpack.devServer"] = devServer
     }
 }
