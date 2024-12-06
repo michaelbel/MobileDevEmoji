@@ -66,18 +66,6 @@
     "pack": 1
   },
   {
-    "id": "gradle-1",
-    "name": "Gradle",
-    "filters": ["android"],
-    "pack": 1
-  },
-  {
-    "id": "gradle-2",
-    "name": "Gradle",
-    "filters": ["android"],
-    "pack": 1
-  },
-  {
     "id": "google-flutter",
     "name": "Flutter",
     "filters": ["google", "android"],
@@ -87,18 +75,6 @@
     "id": "google-dart",
     "name": "Dart (Programming Language)",
     "filters": ["google", "android", "programming", "language"],
-    "pack": 1
-  },
-  {
-    "id": "coil",
-    "name": "Coil",
-    "filters": ["android"],
-    "pack": 1
-  },
-  {
-    "id": "detekt",
-    "name": "Detekt",
-    "filters": ["android"],
     "pack": 1
   },
   {
@@ -1015,6 +991,30 @@
   {
     "id": "stackoverflow",
     "name": "Stack Overflow",
+    "pack": 1
+  },
+  {
+    "id": "gradle-1",
+    "name": "Gradle",
+    "filters": ["android"],
+    "pack": 1
+  },
+  {
+    "id": "gradle-2",
+    "name": "Gradle",
+    "filters": ["android"],
+    "pack": 1
+  },
+  {
+    "id": "coil",
+    "name": "Coil",
+    "filters": ["android"],
+    "pack": 1
+  },
+  {
+    "id": "detekt",
+    "name": "Detekt",
+    "filters": ["android"],
     "pack": 1
   },
   {
@@ -2399,7 +2399,7 @@
     "pack": 3
   },
   {
-    "id": "google-android",
+    "id": "google-android-7",
     "name": "Android",
     "filters": ["google", "android"],
     "pack": 3
