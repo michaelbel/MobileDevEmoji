@@ -10,11 +10,8 @@ MobileDevEmoji – это набор эмодзипаков в Telegram. Они 
 ## Screenshots
 
 **Desktop (macOS Safari)**
-<div align="center">
-    <img src=".github/pics/macos-safari-1.png" alt="Project macOS Image 1" width="49%">
-    <img src=".github/pics/macos-safari-2.png" alt="Project macOS Image 2" width="49%">
-    <img src=".github/pics/macos-safari-3.png" alt="Project macOS Image 3" width="49%">
-    <img src=".github/pics/macos-safari-4.png" alt="Project macOS Image 4" width="49%">
+<div align="left">
+    <img src=".github/pics/macos-safari.gif" alt="Project macOS Gif" width="74%">
 </div>
 
 <br/>
