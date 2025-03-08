@@ -3285,54 +3285,44 @@
   },
   {
     "id": "tor",
-    "name": "Tor",
-    "pack": 3
+    "name": "Tor"
   },
   {
     "id": "atlassian",
     "name": "Atlassian",
-    "filters": ["atlassian"],
-    "pack": 3
+    "filters": ["atlassian"]
   },
   {
     "id": "shopify",
-    "name": "Shopify",
-    "pack": 3
+    "name": "Shopify"
   },
   {
     "id": "ruby-on-rails",
-    "name": "Ruby on Rails",
-    "pack": 3
+    "name": "Ruby on Rails"
   },
   {
     "id": "broadcom-wmvare",
-    "name": "WMvare",
-    "pack": 3
+    "name": "WMvare"
   },
   {
     "id": "creative-commons",
-    "name": "Creative Commons",
-    "pack": 3
+    "name": "Creative Commons"
   },
   {
     "id": "atom",
-    "name": "Atom",
-    "pack": 3
+    "name": "Atom"
   },
   {
     "id": "tilda",
-    "name": "Tilda",
-    "pack": 3
+    "name": "Tilda"
   },
   {
     "id": "jfrog",
-    "name": "JFrog",
-    "pack": 3
+    "name": "JFrog"
   },
   {
     "id": "kaspersky",
-    "name": "Kaspersky",
-    "pack": 3
+    "name": "Kaspersky"
   },
 
   {
