@@ -3233,55 +3233,45 @@
   },
   {
     "id": "grav",
-    "name": "Grav",
-    "pack": 3
+    "name": "Grav"
   },
   {
     "id": "wordpress",
-    "name": "WordPress",
-    "pack": 3
+    "name": "WordPress"
   },
   {
     "id": "mercurial",
-    "name": "Mercurial",
-    "pack": 3
+    "name": "Mercurial"
   },
   {
     "id": "gnu",
-    "name": "GNU",
-    "pack": 3
+    "name": "GNU"
   },
   {
     "id": "gitea",
-    "name": "Gitea",
-    "pack": 3
+    "name": "Gitea"
   },
   {
     "id": "unix",
-    "name": "Unix",
-    "pack": 3
+    "name": "Unix"
   },
   {
     "id": "dependabot",
     "name": "Dependabot",
-    "filters": ["github"],
-    "pack": 3
+    "filters": ["github"]
   },
   {
     "id": "grafana",
-    "name": "Grafana",
-    "pack": 3
+    "name": "Grafana"
   },
   {
     "id": "brave",
-    "name": "Brave",
-    "pack": 3
+    "name": "Brave"
   },
   {
     "id": "apache-maven",
     "name": "Apache Maven",
-    "filters": ["apache"],
-    "pack": 3
+    "filters": ["apache"]
   },
   {
     "id": "tor",
