@@ -3181,55 +3181,45 @@
   },
   {
     "id": "xampp",
-    "name": "XAMPP",
-    "pack": 3
+    "name": "XAMPP"
   },
   {
     "id": "algolia",
-    "name": "Algolia",
-    "pack": 3
+    "name": "Algolia"
   },
   {
     "id": "sonatype",
-    "name": "Sonatype",
-    "pack": 3
+    "name": "Sonatype"
   },
   {
     "id": "http",
-    "name": "HTTP",
-    "pack": 3
+    "name": "HTTP"
   },
   {
     "id": "atlassian-loom",
     "name": "Atlassian Loom",
-    "filters": ["atlassian"],
-    "pack": 3
+    "filters": ["atlassian"]
   },
   {
     "id": "sentry",
-    "name": "Sentry",
-    "pack": 3
+    "name": "Sentry"
   },
   {
     "id": "opengl",
-    "name": "OpenGL",
-    "pack": 3
+    "name": "OpenGL"
   },
   {
     "id": "gnome",
-    "name": "Gnome",
-    "pack": 3
+    "name": "Gnome"
   },
   {
     "id": "webpack",
-    "name": "Webpack",
-    "pack": 3
+    "name": "Webpack"
   },
   {
     "id": "adobe-frameio",
     "name": "Adobe Frame.io",
-    "filters": ["adobe"],
-    "pack": 3
+    "filters": ["adobe"]
   },
   {
     "id": "grav",
