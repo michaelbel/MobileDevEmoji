@@ -3131,53 +3131,43 @@
   },
   {
     "id": "micron",
-    "name": "Micron",
-    "pack": 3
+    "name": "Micron"
   },
   {
     "id": "sun-microsystems",
-    "name": "Sun Microsystems",
-    "pack": 3
+    "name": "Sun Microsystems"
   },
   {
     "id": "siemens",
-    "name": "Siemens",
-    "pack": 3
+    "name": "Siemens"
   },
   {
     "id": "msi",
-    "name": "MSI",
-    "pack": 3
+    "name": "MSI"
   },
   {
     "id": "vivaldi",
-    "name": "Vivaldi",
-    "pack": 3
+    "name": "Vivaldi"
   },
   {
     "id": "gplv3",
-    "name": "GPLv3",
-    "pack": 3
+    "name": "GPLv3"
   },
   {
     "id": "freebsd",
-    "name": "FreeBSD",
-    "pack": 3
+    "name": "FreeBSD"
   },
   {
     "id": "redis-2",
-    "name": "Redis",
-    "pack": 3
+    "name": "Redis"
   },
   {
     "id": "graphql",
-    "name": "GraphQL",
-    "pack": 3
+    "name": "GraphQL"
   },
   {
     "id": "wampserver",
-    "name": "WampServer",
-    "pack": 3
+    "name": "WampServer"
   },
   {
     "id": "xampp",
