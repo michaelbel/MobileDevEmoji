@@ -3081,53 +3081,43 @@
   },
   {
     "id": "vimeo-2",
-    "name": "Vimeo",
-    "pack": 3
+    "name": "Vimeo"
   },
   {
     "id": "protonmail",
-    "name": "Proton Mail",
-    "pack": 3
+    "name": "Proton Mail"
   },
   {
     "id": "tinder",
-    "name": "Tinder",
-    "pack": 3
+    "name": "Tinder"
   },
   {
     "id": "medium",
-    "name": "Medium",
-    "pack": 3
+    "name": "Medium"
   },
   {
     "id": "crowdstrike",
-    "name": "CrowdStrike",
-    "pack": 3
+    "name": "CrowdStrike"
   },
   {
     "id": "paloaltonetworks",
-    "name": "Palo Alto Networks",
-    "pack": 3
+    "name": "Palo Alto Networks"
   },
   {
     "id": "cloudflare",
-    "name": "Cloudflare",
-    "pack": 3
+    "name": "Cloudflare"
   },
   {
     "id": "verizon",
-    "name": "Verizon",
-    "pack": 3
+    "name": "Verizon"
   },
   {
     "id": "snowflake",
-    "name": "Snowflake",
-    "pack": 3
+    "name": "Snowflake"
   },
   {
     "id": "cisco",
-    "name": "Cisco",
-    "pack": 3
+    "name": "Cisco"
   },
   {
     "id": "micron",
