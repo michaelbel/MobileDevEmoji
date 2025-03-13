@@ -3031,53 +3031,43 @@
   {
     "id": "stability-ai",
     "name": "Stability AI",
-    "filters": ["ai"],
-    "pack": 3
+    "filters": ["ai"]
   },
   {
     "id": "nintendo-switch",
-    "name": "Nintendo Switch",
-    "pack": 3
+    "name": "Nintendo Switch"
   },
   {
     "id": "dice",
-    "name": "Dice",
-    "pack": 3
+    "name": "Dice"
   },
   {
     "id": "cry-engine",
-    "name": "Cry Engine",
-    "pack": 3
+    "name": "Cry Engine"
   },
   {
     "id": "bioware",
-    "name": "BioWare",
-    "pack": 3
+    "name": "BioWare"
   },
   {
     "id": "buymeacoffee",
-    "name": "Buy Me a Coffee",
-    "pack": 3
+    "name": "Buy Me a Coffee"
   },
   {
     "id": "donationalerts",
-    "name": "DonationAlerts",
-    "pack": 3
+    "name": "DonationAlerts"
   },
   {
     "id": "clubhouse",
-    "name": "Clubhouse",
-    "pack": 3
+    "name": "Clubhouse"
   },
   {
     "id": "session-app",
-    "name": "Session App",
-    "pack": 3
+    "name": "Session App"
   },
   {
     "id": "vimeo-1",
-    "name": "Vimeo",
-    "pack": 3
+    "name": "Vimeo"
   },
   {
     "id": "vimeo-2",
