@@ -2874,159 +2874,129 @@
   },
   {
     "id": "cakephp",
-    "name": "CakePHP",
-    "pack": 3
+    "name": "CakePHP"
   },
   {
     "id": "phalcon",
-    "name": "Phalcon",
-    "pack": 3
+    "name": "Phalcon"
   },
   {
     "id": "symfony",
-    "name": "Symfony",
-    "pack": 3
+    "name": "Symfony"
   },
   {
     "id": "laravel",
-    "name": "Laravel",
-    "pack": 3
+    "name": "Laravel"
   },
   {
     "id": "fortran",
-    "name": "Fortran",
-    "pack": 3
+    "name": "Fortran"
   },
   {
     "id": "toml",
-    "name": "TOML",
-    "pack": 3
+    "name": "TOML"
   },
   {
     "id": "haskell",
-    "name": "Haskell",
-    "pack": 3
+    "name": "Haskell"
   },
   {
     "id": "clojure",
-    "name": "Clojure",
-    "pack": 3
+    "name": "Clojure"
   },
   {
     "id": "material-ui",
-    "name": "Material UI",
-    "pack": 3
+    "name": "Material UI"
   },
   {
     "id": "pytorch",
-    "name": "PyTorch",
-    "pack": 3
+    "name": "PyTorch"
   },
   {
     "id": "qt",
-    "name": "Qt",
-    "pack": 3
+    "name": "Qt"
   },
   {
     "id": "grpc",
     "name": "gRPC",
-    "filters": ["google"],
-    "pack": 3
+    "filters": ["google"]
   },
   {
     "id": "electron",
-    "name": "Electron",
-    "pack": 3
+    "name": "Electron"
   },
   {
     "id": "coffeescript",
-    "name": "CoffeeScript",
-    "pack": 3
+    "name": "CoffeeScript"
   },
   {
     "id": "ada",
     "name": "Ada (Programming Language)",
-    "filters": ["programming", "language"],
-    "pack": 3
+    "filters": ["programming", "language"]
   },
   {
     "id": "solidjs",
-    "name": "SolidJS",
-    "pack": 3
+    "name": "SolidJS"
   },
   {
     "id": "erlang",
     "name": "Erlang (Programming Language)",
-    "filters": ["programming", "language"],
-    "pack": 3
+    "filters": ["programming", "language"]
   },
   {
     "id": "polymer",
-    "name": "Polymer",
-    "pack": 3
+    "name": "Polymer"
   },
   {
     "id": "codeigniter",
-    "name": "CodeIgniter",
-    "pack": 3
+    "name": "CodeIgniter"
   },
   {
     "id": "cyanogenmod",
-    "name": "CyanogenMod",
-    "pack": 3
+    "name": "CyanogenMod"
   },
   {
     "id": "lineageos",
-    "name": "LineageOS",
-    "pack": 3
+    "name": "LineageOS"
   },
   {
     "id": "mobileiron",
-    "name": "MobileIron",
-    "pack": 3
+    "name": "MobileIron"
   },
   {
     "id": "huawei-harmonyos",
     "name": "Huawei HarmonyOS",
-    "filters": ["huawei"],
-    "pack": 3
+    "filters": ["huawei"]
   },
   {
     "id": "microg",
-    "name": "MicroG",
-    "pack": 3
+    "name": "MicroG"
   },
   {
     "id": "mi-home",
-    "name": "Mi Home",
-    "pack": 3
+    "name": "Mi Home"
   },
   {
     "id": "svg",
-    "name": "SVG",
-    "pack": 3
+    "name": "SVG"
   },
   {
     "id": "jpeg",
-    "name": "JPEG",
-    "pack": 3
+    "name": "JPEG"
   },
   {
     "id": "eclipse",
     "name": "Eclipse",
-    "filters": ["ide"],
-    "pack": 3
+    "filters": ["ide"]
   },
   {
     "id": "neovim",
-    "name": "Neovim",
-    "pack": 3
+    "name": "Neovim"
   },
   {
     "id": "claude-ai",
     "name": "Claude AI",
-    "filters": ["ai"],
-    "pack": 3
+    "filters": ["ai"]
   },
   {
     "id": "stability-ai",
