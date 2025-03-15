@@ -2769,108 +2769,88 @@
   {
     "id": "tron",
     "name": "Tron",
-    "filters": ["crypto"],
-    "pack": 3
+    "filters": ["crypto"]
   },
   {
     "id": "ripple",
     "name": "Ripple",
-    "filters": ["crypto"],
-    "pack": 3
+    "filters": ["crypto"]
   },
   {
     "id": "stellar",
     "name": "Stellar",
-    "filters": ["crypto"],
-    "pack": 3
+    "filters": ["crypto"]
   },
   {
     "id": "namecoin",
     "name": "Namecoin",
-    "filters": ["crypto"],
-    "pack": 3
+    "filters": ["crypto"]
   },
   {
     "id": "solana",
     "name": "Solana",
-    "filters": ["crypto"],
-    "pack": 3
+    "filters": ["crypto"]
   },
   {
     "id": "neo",
-    "name": "Neo",
-    "pack": 3
+    "name": "Neo"
   },
   {
     "id": "metamask",
     "name": "MetaMask",
-    "filters": ["crypto"],
-    "pack": 3
+    "filters": ["crypto"]
   },
   {
     "id": "codewars",
-    "name": "Codewars",
-    "pack": 3
+    "name": "Codewars"
   },
   {
     "id": "leetcode",
-    "name": "LeetCode",
-    "pack": 3
+    "name": "LeetCode"
   },
   {
     "id": "hackerrank",
-    "name": "HackerRank",
-    "pack": 3
+    "name": "HackerRank"
   },
   {
     "id": "codechef",
-    "name": "CodeChef",
-    "pack": 3
+    "name": "CodeChef"
   },
   {
     "id": "codepen",
-    "name": "CodePen",
-    "pack": 3
+    "name": "CodePen"
   },
   {
     "id": "node-red",
-    "name": "Node-RED",
-    "pack": 3
+    "name": "Node-RED"
   },
   {
     "id": "nuxt",
-    "name": "Nuxt",
-    "pack": 3
+    "name": "Nuxt"
   },
   {
     "id": "tailwind-css",
-    "name": "Tailwind CSS",
-    "pack": 3
+    "name": "Tailwind CSS"
   },
   {
     "id": "fastify",
-    "name": "Fastify",
-    "pack": 3
+    "name": "Fastify"
   },
   {
     "id": "lua",
-    "name": "Lua",
-    "pack": 3
+    "name": "Lua"
   },
   {
     "id": "vitejs",
-    "name": "Vite",
-    "pack": 3
+    "name": "Vite"
   },
   {
     "id": "fuelphp",
-    "name": "FuelPHP",
-    "pack": 3
+    "name": "FuelPHP"
   },
   {
     "id": "yaml",
-    "name": "YAML",
-    "pack": 3
+    "name": "YAML"
   },
   {
     "id": "cakephp",
