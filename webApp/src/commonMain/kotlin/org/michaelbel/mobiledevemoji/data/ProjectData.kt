@@ -33,13 +33,11 @@ val <T> List<T>.pack4: List<T>
 
 fun List<Emoji>.filterBy(filter: String): List<Emoji> {
     if (filter.isEmpty()) return this
-
     return filter { emoji -> emoji.emojiResponse.filters.orEmpty().contains(filter.lowercase()) }
 }
 
 fun List<Emoji>.searchBy(query: String): List<Emoji> {
     if (query.isEmpty()) return this
-
     return filter { emoji ->
         val emojiResponse = emoji.emojiResponse
         emojiResponse.name.contains(query, ignoreCase = true) || emojiResponse.filters?.any { filter -> filter.contains(query, ignoreCase = true) } == true
