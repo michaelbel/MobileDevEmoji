@@ -2649,122 +2649,102 @@
   {
     "id": "jetbrains-space",
     "name": "JetBrains Space",
-    "filters": ["jetbrains"],
-    "pack": 3
+    "filters": ["jetbrains"]
   },
   {
     "id": "jetbrains-mps",
     "name": "JetBrains MPS",
-    "filters": ["jetbrains"],
-    "pack": 3
+    "filters": ["jetbrains"]
   },
   {
     "id": "apache-groovy",
     "name": "Apache Groovy",
-    "filters": ["apache"],
-    "pack": 3
+    "filters": ["apache"]
   },
   {
     "id": "apache-tomcat",
     "name": "Apache Tomcat",
-    "filters": ["apache"],
-    "pack": 3
+    "filters": ["apache"]
   },
   {
     "id": "apache-netbeans",
     "name": "Apache NetBeans",
-    "filters": ["apache"],
-    "pack": 3
+    "filters": ["apache"]
   },
   {
     "id": "apache-subversion",
     "name": "Apache Subversion",
-    "filters": ["apache"],
-    "pack": 3
+    "filters": ["apache"]
   },
   {
     "id": "apache-mahout",
     "name": "Apache Mahout",
-    "filters": ["apache"],
-    "pack": 3
+    "filters": ["apache"]
   },
   {
     "id": "linux-rocky",
     "name": "Rocky (Linux Distribution)",
-    "filters": ["linux"],
-    "pack": 3
+    "filters": ["linux"]
   },
   {
     "id": "linux-manjaro",
     "name": "Manjaro (Linux Distribution)",
-    "filters": ["linux"],
-    "pack": 3
+    "filters": ["linux"]
   },
   {
     "id": "linux-fedora",
     "name": "Fedora (Linux Distribution)",
-    "filters": ["linux"],
-    "pack": 3
+    "filters": ["linux"]
   },
   {
     "id": "linux-kali",
     "name": "Kali (Linux Distribution)",
-    "filters": ["linux"],
-    "pack": 3
+    "filters": ["linux"]
   },
   {
     "id": "bitcoin-cash",
     "name": "Bitcoin Cash",
-    "filters": ["crypto"],
-    "pack": 3
+    "filters": ["crypto"]
   },
   {
     "id": "dogecoin",
     "name": "Dogecoin",
-    "filters": ["crypto"],
-    "pack": 3
+    "filters": ["crypto"]
   },
   {
     "id": "litecoin",
     "name": "Litecoin",
-    "filters": ["crypto"],
-    "pack": 3
+    "filters": ["crypto"]
   },
   {
     "id": "usdc",
     "name": "USDC",
-    "filters": ["crypto"],
-    "pack": 3
+    "filters": ["crypto"]
   },
   {
     "id": "binance-coin",
     "name": "Binance Coin",
-    "filters": ["crypto"],
-    "pack": 3
+    "filters": ["crypto"]
   },
   {
     "id": "coinmarketcap",
     "name": "CoinMarketCap",
-    "filters": ["crypto"],
-    "pack": 3
+    "filters": ["crypto"]
   },
   {
     "id": "polygon",
     "name": "Polygon",
-    "filters": ["crypto"],
-    "pack": 3
+    "filters": ["crypto"]
   },
   {
     "id": "monero",
     "name": "Monero",
-    "filters": ["crypto"],
-    "pack": 3
+    "filters": ["crypto"]
   },
   {
     "id": "solidity",
     "name": "Solidity (Programming Language)",
-    "filters": ["crypto", "programming", "language"],
-    "pack": 3
+    "filters": ["crypto", "programming", "language"]
   },
   {
     "id": "tron",
