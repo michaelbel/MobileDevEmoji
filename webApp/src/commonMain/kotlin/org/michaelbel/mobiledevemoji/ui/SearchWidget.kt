@@ -67,11 +67,7 @@ fun SearchWidget(
                 unfocusedIndicatorColor = Color.Transparent,
                 focusedIndicatorColor = Color.Transparent
             ),
-            placeholder = {
-                Text(
-                    text = "Search..."
-                )
-            },
+            placeholder = { Text("Search...") },
             singleLine = true
         )
     }

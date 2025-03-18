@@ -2,2649 +2,2179 @@
   {
     "id": "google-android-1",
     "name": "Android",
-    "filters": ["google", "android"],
-    "pack": 1
+    "filters": ["google", "android"]
   },
   {
     "id": "google-android-2",
     "name": "Android",
-    "filters": ["google", "android"],
-    "pack": 1
+    "filters": ["google", "android"]
   },
   {
     "id": "google-android-3",
     "name": "Android",
-    "filters": ["google", "android"],
-    "pack": 1
+    "filters": ["google", "android"]
   },
   {
     "id": "google-android-4",
     "name": "Android",
-    "filters": ["google", "android"],
-    "pack": 1
+    "filters": ["google", "android"]
   },
   {
     "id": "google-android-5",
     "name": "Android",
-    "filters": ["google", "android"],
-    "pack": 1
+    "filters": ["google", "android"]
   },
   {
     "id": "google-android-6",
     "name": "Android",
-    "filters": ["google", "android"],
-    "pack": 1
+    "filters": ["google", "android"]
   },
   {
     "id": "google-android-studio",
     "name": "Android Studio",
-    "filters": ["google", "android", "ide"],
-    "pack": 1
+    "filters": ["google", "android", "ide"]
   },
   {
     "id": "google-android-jetpack",
     "name": "Android Jetpack",
-    "filters": ["google", "android"],
-    "pack": 1
+    "filters": ["google", "android"]
   },
   {
     "id": "google-android-jetpack-compose",
     "name": "Jetpack Compose",
-    "filters": ["google", "android"],
-    "pack": 1
+    "filters": ["google", "android"]
   },
   {
     "id": "google-material3-1",
     "name": "Material3",
-    "filters": ["google", "android", "design"],
-    "pack": 1
+    "filters": ["google", "android", "design"]
   },
   {
     "id": "google-material3-2",
     "name": "Material3",
-    "filters": ["google", "android", "design"],
-    "pack": 1
+    "filters": ["google", "android", "design"]
   },
   {
     "id": "google-flutter",
     "name": "Flutter",
-    "filters": ["google", "android"],
-    "pack": 1
+    "filters": ["google", "android"]
   },
   {
     "id": "google-dart",
     "name": "Dart (Programming Language)",
-    "filters": ["google", "android", "programming", "language"],
-    "pack": 1
+    "filters": ["google", "android", "programming", "language"]
   },
   {
     "id": "google-firebase",
     "name": "Google Firebase",
-    "filters": ["google"],
-    "pack": 1
+    "filters": ["google"]
   },
   {
     "id": "google-play-console",
     "name": "Google Play Console",
-    "filters": ["google"],
-    "pack": 1
+    "filters": ["google"]
   },
   {
     "id": "google-play",
     "name": "Google Play",
-    "filters": ["google"],
-    "pack": 1
+    "filters": ["google"]
   },
   {
     "id": "google",
     "name": "Google",
-    "filters": ["google"],
-    "pack": 1
+    "filters": ["google"]
   },
   {
     "id": "google-chrome",
     "name": "Google Chrome",
-    "filters": ["google", "browser"],
-    "pack": 1
+    "filters": ["google", "browser"]
   },
   {
     "id": "google-drive",
     "name": "Google Drive",
-    "filters": ["google"],
-    "pack": 1
+    "filters": ["google"]
   },
   {
     "id": "google-gmail",
     "name": "Google Gmail",
-    "filters": ["google", "mail"],
-    "pack": 1
+    "filters": ["google", "mail"]
   },
   {
     "id": "google-meet",
     "name": "Google Meet",
-    "filters": ["google"],
-    "pack": 1
+    "filters": ["google"]
   },
   {
     "id": "google-podcasts",
     "name": "Google Podcasts",
-    "filters": ["google"],
-    "pack": 1
+    "filters": ["google"]
   },
   {
     "id": "google-youtube",
     "name": "YouTube",
-    "filters": ["google", "video"],
-    "pack": 1
+    "filters": ["google", "video"]
   },
   {
     "id": "google-youtube-shorts",
     "name": "YouTube Shorts",
-    "filters": ["google", "video"],
-    "pack": 1
+    "filters": ["google", "video"]
   },
   {
     "id": "google-android5",
     "name": "Android 5 Lollipop",
-    "filters": ["google", "android"],
-    "pack": 1
+    "filters": ["google", "android"]
   },
   {
     "id": "google-android6",
     "name": "Android 6 Marshmallow",
-    "filters": ["google", "android"],
-    "pack": 1
+    "filters": ["google", "android"]
   },
   {
     "id": "google-android7",
     "name": "Android 7 Nougat",
-    "filters": ["google", "android"],
-    "pack": 1
+    "filters": ["google", "android"]
   },
   {
     "id": "google-android8",
     "name": "Android 8 Oreo",
-    "filters": ["google", "android"],
-    "pack": 1
+    "filters": ["google", "android"]
   },
   {
     "id": "google-android9",
     "name": "Android 9 Pie",
-    "filters": ["google", "android"],
-    "pack": 1
+    "filters": ["google", "android"]
   },
   {
     "id": "google-android10",
     "name": "Android 10 Q",
-    "filters": ["google", "android"],
-    "pack": 1
+    "filters": ["google", "android"]
   },
   {
     "id": "google-android11",
     "name": "Android 11 Red Velvet Cake",
-    "filters": ["google", "android"],
-    "pack": 1
+    "filters": ["google", "android"]
   },
   {
     "id": "google-android12",
     "name": "Android 12 Snow Cone",
-    "filters": ["google", "android"],
-    "pack": 1
+    "filters": ["google", "android"]
   },
   {
     "id": "google-android13",
     "name": "Android 13 Tiramisu",
-    "filters": ["google", "android"],
-    "pack": 1
+    "filters": ["google", "android"]
   },
   {
     "id": "google-android14",
     "name": "Android 14 Upside Down Cake",
-    "filters": ["google", "android"],
-    "pack": 1
+    "filters": ["google", "android"]
   },
   {
     "id": "google-android15",
     "name": "Android 15 Vanilla Ice Cream",
-    "filters": ["google", "android"],
-    "pack": 1
+    "filters": ["google", "android"]
   },
   {
     "id": "google-pixel",
     "name": "Google Pixel",
-    "filters": ["google", "phone"],
-    "pack": 1
+    "filters": ["google", "phone"]
   },
   {
     "id": "google-go-1",
     "name": "Go (Programming Language)",
-    "filters": ["google", "programming", "language"],
-    "pack": 1
+    "filters": ["google", "programming", "language"]
   },
   {
     "id": "google-go-2",
     "name": "Go (Programming Language)",
-    "filters": ["google", "programming", "language"],
-    "pack": 1
+    "filters": ["google", "programming", "language"]
   },
   {
     "id": "google-mlkit",
     "name": "Google ML Kit",
-    "filters": ["google"],
-    "pack": 1
+    "filters": ["google"]
   },
   {
     "id": "google-gemini",
     "name": "Google Gemini",
-    "filters": ["google", "ai"],
-    "pack": 1
+    "filters": ["google", "ai"]
   },
   {
     "id": "google-tensorflow",
     "name": "Google TensorFlow",
-    "filters": ["google"],
-    "pack": 1
+    "filters": ["google"]
   },
   {
     "id": "google-wearos",
     "name": "Google WearOS",
-    "filters": ["google"],
-    "pack": 1
+    "filters": ["google"]
   },
   {
     "id": "google-assistant",
     "name": "Google Assistant",
-    "filters": ["google"],
-    "pack": 1
+    "filters": ["google"]
   },
   {
     "id": "google-angular",
     "name": "Angular",
-    "filters": ["google", "web"],
-    "pack": 1
+    "filters": ["google", "web"]
   },
   {
     "id": "google-home",
     "name": "Google Home",
-    "filters": ["google"],
-    "pack": 1
+    "filters": ["google"]
   },
   {
     "id": "google-cloud",
     "name": "Google Cloud",
-    "filters": ["google"],
-    "pack": 1
+    "filters": ["google"]
   },
   {
     "id": "google-chromium",
     "name": "Google Chromium",
-    "filters": ["google", "browser"],
-    "pack": 1
+    "filters": ["google", "browser"]
   },
   {
     "id": "google-docs-editors",
     "name": "Google Docs Editors",
-    "filters": ["google"],
-    "pack": 1
+    "filters": ["google"]
   },
   {
     "id": "google-docs",
     "name": "Google Docs",
-    "filters": ["google"],
-    "pack": 1
+    "filters": ["google"]
   },
   {
     "id": "google-sheets",
     "name": "Google Sheets",
-    "filters": ["google"],
-    "pack": 1
+    "filters": ["google"]
   },
   {
     "id": "google-slides",
     "name": "Google Slides",
-    "filters": ["google"],
-    "pack": 1
+    "filters": ["google"]
   },
   {
     "id": "google-forms",
     "name": "Google Forms",
-    "filters": ["google"],
-    "pack": 1
+    "filters": ["google"]
   },
   {
     "id": "jetbrains",
     "name": "JetBrains",
-    "filters": ["jetbrains"],
-    "pack": 1
+    "filters": ["jetbrains"]
   },
   {
     "id": "jetbrains-intellijidea",
     "name": "JetBrains IntelliJ IDEA",
-    "filters": ["jetbrains", "ide"],
-    "pack": 1
+    "filters": ["jetbrains", "ide"]
   },
   {
     "id": "jetbrains-fleet",
     "name": "JetBrains Fleet",
-    "filters": ["jetbrains", "ide"],
-    "pack": 1
+    "filters": ["jetbrains", "ide"]
   },
   {
     "id": "jetbrains-kotlin-multiplatform",
     "name": "Kotlin Multiplatform",
-    "filters": ["jetbrains"],
-    "pack": 1
+    "filters": ["jetbrains"]
   },
   {
     "id": "jetbrains-kotlin-1",
     "name": "Kotlin (Programming Language)",
-    "filters": ["jetbrains", "programming", "language"],
-    "pack": 1
+    "filters": ["jetbrains", "programming", "language"]
   },
   {
     "id": "jetbrains-kotlin-2",
     "name": "Kotlin (Programming Language)",
-    "filters": ["jetbrains", "programming", "language"],
-    "pack": 1
+    "filters": ["jetbrains", "programming", "language"]
   },
   {
     "id": "jetbrains-ktor",
     "name": "Ktor",
-    "filters": ["jetbrains"],
-    "pack": 1
+    "filters": ["jetbrains"]
   },
   {
     "id": "apple",
     "name": "Apple",
-    "filters": ["apple"],
-    "pack": 1
+    "filters": ["apple"]
   },
   {
     "id": "apple-ios",
     "name": "iOS",
-    "filters": ["apple"],
-    "pack": 1
+    "filters": ["apple"]
   },
   {
     "id": "apple-ipados",
     "name": "iPadOS",
-    "filters": ["apple"],
-    "pack": 1
+    "filters": ["apple"]
   },
   {
     "id": "apple-macos",
     "name": "macOS",
-    "filters": ["apple"],
-    "pack": 1
+    "filters": ["apple"]
   },
   {
     "id": "apple-watchos",
     "name": "watchOS",
-    "filters": ["apple"],
-    "pack": 1
+    "filters": ["apple"]
   },
   {
     "id": "apple-tvos",
     "name": "tvOS",
-    "filters": ["apple"],
-    "pack": 1
+    "filters": ["apple"]
   },
   {
     "id": "apple-visionos",
     "name": "visionOS",
-    "filters": ["apple"],
-    "pack": 1
+    "filters": ["apple"]
   },
   {
     "id": "apple-tv",
     "name": "Apple TV",
-    "filters": ["apple"],
-    "pack": 1
+    "filters": ["apple"]
   },
   {
     "id": "apple-appstore-1",
     "name": "AppStore",
-    "filters": ["apple"],
-    "pack": 1
+    "filters": ["apple"]
   },
   {
     "id": "apple-appstore-2",
     "name": "AppStore",
-    "filters": ["apple"],
-    "pack": 1
+    "filters": ["apple"]
   },
   {
     "id": "apple-swift-1",
     "name": "Swift (Programming Language)",
-    "filters": ["apple", "programming", "language"],
-    "pack": 1
+    "filters": ["apple", "programming", "language"]
   },
   {
     "id": "apple-swift-2",
     "name": "Swift (Programming Language)",
-    "filters": ["apple", "programming", "language"],
-    "pack": 1
+    "filters": ["apple", "programming", "language"]
   },
   {
     "id": "apple-xcode",
     "name": "Xcode",
-    "filters": ["apple", "ide"],
-    "pack": 1
+    "filters": ["apple", "ide"]
   },
   {
     "id": "apple-metal-1",
     "name": "Apple Metal",
-    "filters": ["apple"],
-    "pack": 1
+    "filters": ["apple"]
   },
   {
     "id": "apple-metal-2",
     "name": "Apple Metal",
-    "filters": ["apple"],
-    "pack": 1
+    "filters": ["apple"]
   },
   {
     "id": "apple-cocoapods",
     "name": "Cocoapods",
-    "filters": ["apple"],
-    "pack": 1
+    "filters": ["apple"]
   },
   {
     "id": "apple-terminal",
     "name": "Terminal",
-    "filters": ["apple"],
-    "pack": 1
+    "filters": ["apple"]
   },
   {
     "id": "apple-safari",
     "name": "Safari",
-    "filters": ["apple", "browser"],
-    "pack": 1
+    "filters": ["apple", "browser"]
   },
   {
     "id": "apple-podcasts",
     "name": "Apple Podcasts",
-    "filters": ["apple"],
-    "pack": 1
+    "filters": ["apple"]
   },
   {
     "id": "apple-home-kit",
     "name": "Apple HomeKit",
-    "filters": ["apple"],
-    "pack": 1
+    "filters": ["apple"]
   },
   {
     "id": "microsoft-1",
     "name": "Microsoft",
-    "filters": ["microsoft"],
-    "pack": 1
+    "filters": ["microsoft"]
   },
   {
     "id": "microsoft-2",
     "name": "Microsoft",
-    "filters": ["microsoft"],
-    "pack": 1
+    "filters": ["microsoft"]
   },
   {
     "id": "microsoft-windows",
     "name": "Windows",
-    "filters": ["microsoft"],
-    "pack": 1
+    "filters": ["microsoft"]
   },
   {
     "id": "microsoft-net",
     "name": ".NET Framework",
-    "filters": ["microsoft"],
-    "pack": 1
+    "filters": ["microsoft"]
   },
   {
     "id": "microsoft-visual-studio",
     "name": "Visual Studio",
-    "filters": ["microsoft", "ide"],
-    "pack": 1
+    "filters": ["microsoft", "ide"]
   },
   {
     "id": "microsoft-vscode-1",
     "name": "Visual Studio Code",
-    "filters": ["microsoft", "ide"],
-    "pack": 1
+    "filters": ["microsoft", "ide"]
   },
   {
     "id": "microsoft-vscode-2",
     "name": "Visual Studio Code",
-    "filters": ["microsoft", "ide"],
-    "pack": 1
+    "filters": ["microsoft", "ide"]
   },
   {
     "id": "microsoft-c-sharp",
     "name": "C# (Programming Language)",
-    "filters": ["microsoft", "programming", "language"],
-    "pack": 1
+    "filters": ["microsoft", "programming", "language"]
   },
   {
     "id": "microsoft-github-1",
     "name": "GitHub",
-    "filters": ["microsoft"],
-    "pack": 1
+    "filters": ["microsoft"]
   },
   {
     "id": "microsoft-github-2",
     "name": "GitHub",
-    "filters": ["microsoft"],
-    "pack": 1
+    "filters": ["microsoft"]
   },
   {
     "id": "microsoft-copilot",
     "name": "Microsoft Copilot",
-    "filters": ["microsoft"],
-    "pack": 1
+    "filters": ["microsoft"]
   },
   {
     "id": "microsoft-onedrive",
     "name": "Microsoft OneDrive",
-    "filters": ["microsoft"],
-    "pack": 1
+    "filters": ["microsoft"]
   },
   {
     "id": "microsoft-skype",
     "name": "Skype",
-    "filters": ["microsoft"],
-    "pack": 1
+    "filters": ["microsoft"]
   },
   {
     "id": "microsoft-edge",
     "name": "Microsoft Edge",
-    "filters": ["microsoft", "browser"],
-    "pack": 1
+    "filters": ["microsoft", "browser"]
   },
   {
     "id": "microsoft-teams",
     "name": "Microsoft Teams",
-    "filters": ["microsoft"],
-    "pack": 1
+    "filters": ["microsoft"]
   },
   {
     "id": "microsoft-xbox",
     "name": "Xbox",
-    "filters": ["microsoft"],
-    "pack": 1
+    "filters": ["microsoft"]
   },
   {
     "id": "microsoft-xamarin",
     "name": "Xamarin",
-    "filters": ["microsoft"],
-    "pack": 1
+    "filters": ["microsoft"]
   },
   {
     "id": "meta",
     "name": "Meta",
-    "filters": ["meta"],
-    "pack": 1
+    "filters": ["meta"]
   },
   {
     "id": "meta-fb",
     "name": "Facebook",
-    "filters": ["meta"],
-    "pack": 1
+    "filters": ["meta"]
   },
   {
     "id": "meta-instagram",
     "name": "Instagram",
-    "filters": ["meta"],
-    "pack": 1
+    "filters": ["meta"]
   },
   {
     "id": "meta-whatsapp",
     "name": "WhatsApp",
-    "filters": ["meta"],
-    "pack": 1
+    "filters": ["meta"]
   },
   {
     "id": "meta-fb-messenger",
     "name": "Facebook Messenger",
-    "filters": ["meta"],
-    "pack": 1
+    "filters": ["meta"]
   },
   {
     "id": "meta-threads",
     "name": "Threads (Social Network)",
-    "filters": ["meta"],
-    "pack": 1
+    "filters": ["meta"]
   },
   {
     "id": "meta-react",
     "name": "React",
-    "filters": ["meta"],
-    "pack": 1
+    "filters": ["meta"]
   },
   {
     "id": "yandex",
     "name": "Yandex",
-    "filters": ["yandex"],
-    "pack": 1
+    "filters": ["yandex"]
   },
   {
     "id": "yandex-browser",
     "name": "Yandex Browser",
-    "filters": ["yandex", "browser"],
-    "pack": 1
+    "filters": ["yandex", "browser"]
   },
   {
     "id": "yandex-alisa",
     "name": "Yandex Alise",
-    "filters": ["yandex"],
-    "pack": 1
+    "filters": ["yandex"]
   },
   {
     "id": "yandex-disk",
     "name": "Yandex Disk",
-    "filters": ["yandex"],
-    "pack": 1
+    "filters": ["yandex"]
   },
   {
     "id": "yandex-music",
     "name": "Yandex Music",
-    "filters": ["yandex"],
-    "pack": 1
+    "filters": ["yandex"]
   },
   {
     "id": "vk",
     "name": "VK",
-    "filters": ["vk"],
-    "pack": 1
+    "filters": ["vk"]
   },
   {
     "id": "vk-odnoklassniki",
     "name": "Odnoklassniki",
-    "filters": ["vk"],
-    "pack": 1
+    "filters": ["vk"]
   },
   {
     "id": "vk-video",
     "name": "VK Video",
-    "filters": ["vk"],
-    "pack": 1
+    "filters": ["vk"]
   },
   {
     "id": "vk-clips",
     "name": "VK Clips",
-    "filters": ["vk"],
-    "pack": 1
+    "filters": ["vk"]
   },
   {
     "id": "vk-music",
     "name": "VK Music",
-    "filters": ["vk"],
-    "pack": 1
+    "filters": ["vk"]
   },
   {
     "id": "vk-rustore",
     "name": "RuStore",
-    "filters": ["vk"],
-    "pack": 1
+    "filters": ["vk"]
   },
   {
     "id": "vk-dzen",
     "name": "Dzen",
-    "filters": ["vk"],
-    "pack": 1
+    "filters": ["vk"]
   },
   {
     "id": "huawei",
     "name": "Huawei",
-    "filters": ["huawei"],
-    "pack": 1
+    "filters": ["huawei"]
   },
   {
     "id": "huawei-appgallery",
     "name": "Huawei AppGallery",
-    "filters": ["huawei"],
-    "pack": 1
+    "filters": ["huawei"]
   },
   {
     "id": "oracle-1",
     "name": "Oracle",
-    "filters": ["oracle"],
-    "pack": 1
+    "filters": ["oracle"]
   },
   {
     "id": "oracle-2",
     "name": "Oracle",
-    "filters": ["oracle"],
-    "pack": 1
+    "filters": ["oracle"]
   },
   {
     "id": "java",
     "name": "Java (Programming Language)",
-    "filters": ["android", "oracle", "programming", "language"],
-    "pack": 1
+    "filters": ["android", "oracle", "programming", "language"]
   },
   {
     "id": "telegram",
-    "name": "Telegram",
-    "pack": 1
+    "name": "Telegram"
   },
   {
     "id": "telegraph",
     "name": "Telegraph",
-    "filters": ["telegram"],
-    "pack": 1
+    "filters": ["telegram"]
   },
   {
     "id": "pwa-1",
-    "name": "Progressive Web Apps",
-    "pack": 1
+    "name": "Progressive Web Apps"
   },
   {
     "id": "pwa-2",
-    "name": "Progressive Web Apps",
-    "pack": 1
+    "name": "Progressive Web Apps"
   },
   {
     "id": "atlassian-jira",
     "name": "Atlassian Jira",
-    "filters": ["atlassian"],
-    "pack": 1
+    "filters": ["atlassian"]
   },
   {
     "id": "atlassian-confluence",
     "name": "Atlassian Confluence",
-    "filters": ["atlassian"],
-    "pack": 1
+    "filters": ["atlassian"]
   },
   {
     "id": "atlassian-bitbucket",
     "name": "Atlassian Bitbucket",
-    "filters": ["atlassian"],
-    "pack": 1
+    "filters": ["atlassian"]
   },
   {
     "id": "atlassian-trello",
     "name": "Atlassian Trello",
-    "filters": ["atlassian"],
-    "pack": 1
+    "filters": ["atlassian"]
   },
   {
     "id": "boosty-1",
-    "name": "Boosty",
-    "pack": 1
+    "name": "Boosty"
   },
   {
     "id": "boosty-2",
-    "name": "Boosty",
-    "pack": 1
+    "name": "Boosty"
   },
   {
     "id": "patreon",
-    "name": "Patreon",
-    "pack": 1
+    "name": "Patreon"
   },
   {
     "id": "chatgpt",
-    "name": "ChatGPT",
-    "pack": 1
+    "name": "ChatGPT"
   },
   {
     "id": "midjourney-1",
-    "name": "Midjourney",
-    "pack": 1
+    "name": "Midjourney"
   },
   {
     "id": "midjourney-2",
-    "name": "Midjourney",
-    "pack": 1
+    "name": "Midjourney"
   },
   {
     "id": "opera",
     "name": "Opera",
-    "filters": ["browser"],
-    "pack": 1
+    "filters": ["browser"]
   },
   {
     "id": "firefox",
     "name": "Mozilla Firefox",
-    "filters": ["browser"],
-    "pack": 1
+    "filters": ["browser"]
   },
   {
     "id": "tor-browser",
     "name": "Tor Browser",
-    "filters": ["browser"],
-    "pack": 1
+    "filters": ["browser"]
   },
   {
     "id": "appbazar",
-    "name": "AppBazar (Apps Store)",
-    "pack": 1
+    "name": "AppBazar (Apps Store)"
   },
   {
     "id": "onestore",
-    "name": "OneStore (Apps Store)",
-    "pack": 1
+    "name": "OneStore (Apps Store)"
   },
   {
     "id": "samsung-galaxy-store",
     "name": "Galaxy Store",
-    "filters": ["samsung"],
-    "pack": 1
+    "filters": ["samsung"]
   },
   {
     "id": "apptoide",
-    "name": "Aptoide (Apps Store)",
-    "pack": 1
+    "name": "Aptoide (Apps Store)"
   },
   {
     "id": "fdroid",
-    "name": "F-Droid",
-    "pack": 1
+    "name": "F-Droid"
   },
   {
     "id": "linkedin",
-    "name": "LinkedIn",
-    "pack": 1
+    "name": "LinkedIn"
   },
   {
     "id": "discord",
-    "name": "Discord",
-    "pack": 1
+    "name": "Discord"
   },
   {
     "id": "slack-1",
-    "name": "Slack",
-    "pack": 1
+    "name": "Slack"
   },
   {
     "id": "slack-2",
-    "name": "Slack",
-    "pack": 1
+    "name": "Slack"
   },
   {
     "id": "x",
-    "name": "X (Twitter)",
-    "pack": 1
+    "name": "X (Twitter)"
   },
   {
     "id": "tiktok-1",
-    "name": "TikTok",
-    "pack": 1
+    "name": "TikTok"
   },
   {
     "id": "tiktok-2",
-    "name": "TikTok",
-    "pack": 1
+    "name": "TikTok"
   },
   {
     "id": "reddit",
-    "name": "Reddit",
-    "pack": 1
+    "name": "Reddit"
   },
   {
     "id": "medium-1",
-    "name": "Medium",
-    "pack": 1
+    "name": "Medium"
   },
   {
     "id": "kakaotalk",
-    "name": "KakaoTalk",
-    "pack": 1
+    "name": "KakaoTalk"
   },
   {
     "id": "snapchat",
-    "name": "Snapchat",
-    "pack": 1
+    "name": "Snapchat"
   },
   {
     "id": "wechat",
-    "name": "WeChat",
-    "pack": 1
+    "name": "WeChat"
   },
   {
     "id": "line",
-    "name": "Line",
-    "pack": 1
+    "name": "Line"
   },
   {
     "id": "signal",
-    "name": "Signal",
-    "pack": 1
+    "name": "Signal"
   },
   {
     "id": "viber",
-    "name": "Viber",
-    "pack": 1
+    "name": "Viber"
   },
   {
     "id": "miro",
-    "name": "Miro",
-    "pack": 1
+    "name": "Miro"
   },
   {
     "id": "figma",
-    "name": "Figma",
-    "pack": 1
+    "name": "Figma"
   },
   {
     "id": "sketch",
-    "name": "Sketch",
-    "pack": 1
+    "name": "Sketch"
   },
   {
     "id": "notion",
-    "name": "Notion",
-    "pack": 1
+    "name": "Notion"
   },
   {
     "id": "sublime-text",
-    "name": "Sublime Text",
-    "pack": 1
+    "name": "Sublime Text"
   },
   {
     "id": "gitlab",
-    "name": "GitLab",
-    "pack": 1
+    "name": "GitLab"
   },
   {
     "id": "git-1",
-    "name": "Git",
-    "pack": 1
+    "name": "Git"
   },
   {
     "id": "git-2",
-    "name": "Git",
-    "pack": 1
+    "name": "Git"
   },
   {
     "id": "postman",
-    "name": "Postman",
-    "pack": 1
+    "name": "Postman"
   },
   {
     "id": "habr",
-    "name": "Habr",
-    "pack": 1
+    "name": "Habr"
   },
   {
     "id": "rx",
-    "name": "ReactiveX",
-    "pack": 1
+    "name": "ReactiveX"
   },
   {
     "id": "realm",
-    "name": "Realm (Database)",
-    "pack": 1
+    "name": "Realm (Database)"
   },
   {
     "id": "zoom-1",
-    "name": "Zoom",
-    "pack": 1
+    "name": "Zoom"
   },
   {
     "id": "zoom-2",
-    "name": "Zoom",
-    "pack": 1
+    "name": "Zoom"
   },
   {
     "id": "swagger",
-    "name": "Swagger",
-    "pack": 1
+    "name": "Swagger"
   },
   {
     "id": "stackoverflow",
-    "name": "Stack Overflow",
-    "pack": 1
+    "name": "Stack Overflow"
   },
   {
     "id": "gradle-1",
     "name": "Gradle",
-    "filters": ["android"],
-    "pack": 1
+    "filters": ["android"]
   },
   {
     "id": "gradle-2",
     "name": "Gradle",
-    "filters": ["android"],
-    "pack": 1
+    "filters": ["android"]
   },
   {
     "id": "coil",
     "name": "Coil",
-    "filters": ["android"],
-    "pack": 1
+    "filters": ["android"]
   },
   {
     "id": "detekt",
     "name": "Detekt",
-    "filters": ["android"],
-    "pack": 1
+    "filters": ["android"]
   },
   {
     "id": "oneplus",
     "name": "OnePlus",
-    "filters": ["phone"],
-    "pack": 1
+    "filters": ["phone"]
   },
   {
     "id": "lenovo",
     "name": "Lenovo",
-    "filters": ["phone"],
-    "pack": 1
+    "filters": ["phone"]
   },
   {
     "id": "xiaomi",
     "name": "Xiaomi",
-    "filters": ["phone"],
-    "pack": 1
+    "filters": ["phone"]
   },
   {
     "id": "poco",
     "name": "Poco",
-    "filters": ["phone"],
-    "pack": 1
+    "filters": ["phone"]
   },
   {
     "id": "realme",
     "name": "Realme",
-    "filters": ["phone"],
-    "pack": 1
+    "filters": ["phone"]
   },
   {
     "id": "oppo",
     "name": "Oppo",
-    "filters": ["phone"],
-    "pack": 1
+    "filters": ["phone"]
   },
   {
     "id": "zte",
     "name": "ZTE",
-    "filters": ["phone"],
-    "pack": 1
+    "filters": ["phone"]
   },
   {
     "id": "vivo",
     "name": "Vivo",
-    "filters": ["phone"],
-    "pack": 1
+    "filters": ["phone"]
   },
   {
     "id": "alcatel",
     "name": "Alcatel",
-    "filters": ["phone"],
-    "pack": 1
+    "filters": ["phone"]
   },
   {
     "id": "tecno",
     "name": "Tecno",
-    "filters": ["phone"],
-    "pack": 1
+    "filters": ["phone"]
   },
   {
     "id": "nokia",
     "name": "Nokia",
-    "filters": ["phone"],
-    "pack": 1
+    "filters": ["phone"]
   },
   {
     "id": "philips",
     "name": "Philips",
-    "filters": ["phone"],
-    "pack": 1
+    "filters": ["phone"]
   },
   {
     "id": "asus",
     "name": "Asus",
-    "filters": ["phone"],
-    "pack": 1
+    "filters": ["phone"]
   },
   {
     "id": "motorola",
     "name": "Motorola",
-    "filters": ["phone"],
-    "pack": 1
+    "filters": ["phone"]
   },
   {
     "id": "samsung",
     "name": "Samsung",
-    "filters": ["samsung", "phone"],
-    "pack": 1
+    "filters": ["samsung", "phone"]
   },
   {
     "id": "samsung-one-ui",
     "name": "Samsung One UI",
-    "filters": ["samsung"],
-    "pack": 1
+    "filters": ["samsung"]
   },
   {
     "id": "nothing",
     "name": "Nothing Phone",
-    "filters": ["phone"],
-    "pack": 1
+    "filters": ["phone"]
   },
   {
     "id": "sony",
     "name": "Sony",
-    "filters": ["sony", "phone"],
-    "pack": 1
+    "filters": ["sony", "phone"]
   },
   {
     "id": "honor-1",
     "name": "Honor",
-    "filters": ["phone"],
-    "pack": 1
+    "filters": ["phone"]
   },
   {
     "id": "honor-2",
     "name": "Honor",
-    "filters": ["phone"],
-    "pack": 1
+    "filters": ["phone"]
   },
   {
     "id": "blackberry",
     "name": "BlackBerry",
-    "filters": ["phone"],
-    "pack": 1
+    "filters": ["phone"]
   },
   {
     "id": "meizu",
     "name": "Meizu",
-    "filters": ["phone"],
-    "pack": 1
+    "filters": ["phone"]
   },
   {
     "id": "htc",
     "name": "HTC",
-    "filters": ["phone"],
-    "pack": 1
+    "filters": ["phone"]
   },
 
   {
     "id": "binance",
     "name": "Binance",
-    "filters": ["crypto"],
-    "pack": 2
+    "filters": ["crypto"]
   },
   {
     "id": "coinbase-1",
     "name": "Coinbase",
-    "filters": ["crypto"],
-    "pack": 2
+    "filters": ["crypto"]
   },
   {
     "id": "coinbase-2",
     "name": "Coinbase",
-    "filters": ["crypto"],
-    "pack": 2
+    "filters": ["crypto"]
   },
   {
     "id": "bitcoin",
     "name": "Bitcoin",
-    "filters": ["crypto"],
-    "pack": 2
+    "filters": ["crypto"]
   },
   {
     "id": "ethereum-1",
     "name": "Ethereum",
-    "filters": ["crypto"],
-    "pack": 2
+    "filters": ["crypto"]
   },
   {
     "id": "ethereum-2",
     "name": "Ethereum",
-    "filters": ["crypto"],
-    "pack": 2
+    "filters": ["crypto"]
   },
   {
     "id": "tether",
     "name": "Tether (USDT)",
-    "filters": ["crypto"],
-    "pack": 2
+    "filters": ["crypto"]
   },
   {
     "id": "ton",
     "name": "Toncoin",
-    "filters": ["crypto"],
-    "pack": 2
+    "filters": ["crypto"]
   },
   {
     "id": "opensea",
     "name": "OpenSea (NFT Marketplace)",
-    "filters": ["crypto"],
-    "pack": 2
+    "filters": ["crypto"]
   },
   {
     "id": "visa",
-    "name": "Visa (Payment System)",
-    "pack": 2
+    "name": "Visa (Payment System)"
   },
   {
     "id": "mastercard",
-    "name": "Mastercard (Payment System)",
-    "pack": 2
+    "name": "Mastercard (Payment System)"
   },
   {
     "id": "maestro",
-    "name": "Maestro (Payment System)",
-    "pack": 2
+    "name": "Maestro (Payment System)"
   },
   {
     "id": "union-pay",
-    "name": "UnionPay (Payment System)",
-    "pack": 2
+    "name": "UnionPay (Payment System)"
   },
   {
     "id": "jcb",
-    "name": "JCB (Payment System)",
-    "pack": 2
+    "name": "JCB (Payment System)"
   },
   {
     "id": "american-express",
-    "name": "American Express (Payment System)",
-    "pack": 2
+    "name": "American Express (Payment System)"
   },
   {
     "id": "mir",
-    "name": "Mir (Payment System)",
-    "pack": 2
+    "name": "Mir (Payment System)"
   },
   {
     "id": "sbp",
-    "name": "Система быстрых платежей",
-    "pack": 2
+    "name": "Система быстрых платежей"
   },
   {
     "id": "paypal",
-    "name": "PayPal",
-    "pack": 2
+    "name": "PayPal"
   },
   {
     "id": "stripe",
-    "name": "Stripe",
-    "pack": 2
+    "name": "Stripe"
   },
   {
     "id": "cashapp",
-    "name": "Cash App",
-    "pack": 2
+    "name": "Cash App"
   },
   {
     "id": "amazon-1",
     "name": "Amazon",
-    "filters": ["amazon"],
-    "pack": 2
+    "filters": ["amazon"]
   },
   {
     "id": "amazon-2",
     "name": "Amazon",
-    "filters": ["amazon"],
-    "pack": 2
+    "filters": ["amazon"]
   },
   {
     "id": "amazon-web-services",
     "name": "Amazon Web Services",
-    "filters": ["amazon"],
-    "pack": 2
+    "filters": ["amazon"]
   },
   {
     "id": "amazon-alexa",
     "name": "Amazon Alexa",
-    "filters": ["amazon"],
-    "pack": 2
+    "filters": ["amazon"]
   },
   {
     "id": "linux",
     "name": "Linux",
-    "filters": ["linux"],
-    "pack": 2
+    "filters": ["linux"]
   },
   {
     "id": "linux-ubuntu",
     "name": "Ubuntu (Linux Distribution)",
-    "filters": ["linux"],
-    "pack": 2
+    "filters": ["linux"]
   },
   {
     "id": "linux-debian",
     "name": "Debian (Linux Distribution)",
-    "filters": ["linux"],
-    "pack": 2
+    "filters": ["linux"]
   },
   {
     "id": "wireguard",
     "name": "WireGuard",
-    "filters": ["vpn"],
-    "pack": 2
+    "filters": ["vpn"]
   },
   {
     "id": "openvpn",
     "name": "OpenVPN",
-    "filters": ["vpn"],
-    "pack": 2
+    "filters": ["vpn"]
   },
   {
     "id": "steam",
-    "name": "Steam",
-    "pack": 2
+    "name": "Steam"
   },
   {
     "id": "unity",
-    "name": "Unity (Game Engine)",
-    "pack": 2
+    "name": "Unity (Game Engine)"
   },
   {
     "id": "unreal-engine-1",
-    "name": "Unreal Engine (Game Engine)",
-    "pack": 2
+    "name": "Unreal Engine (Game Engine)"
   },
   {
     "id": "unreal-engine-2",
-    "name": "Unreal Engine (Game Engine)",
-    "pack": 2
+    "name": "Unreal Engine (Game Engine)"
   },
   {
     "id": "sony-playstation",
     "name": "Sony PlayStation",
-    "filters": ["sony"],
-    "pack": 2
+    "filters": ["sony"]
   },
   {
     "id": "nintendo",
-    "name": "Nintendo",
-    "pack": 2
+    "name": "Nintendo"
   },
   {
     "id": "ubisoft",
-    "name": "Ubisoft",
-    "pack": 2
+    "name": "Ubisoft"
   },
   {
     "id": "valve",
-    "name": "Valve",
-    "pack": 2
+    "name": "Valve"
   },
   {
     "id": "riot-games",
-    "name": "Riot Games",
-    "pack": 2
+    "name": "Riot Games"
   },
   {
     "id": "bethesda",
-    "name": "Bethesda",
-    "pack": 2
+    "name": "Bethesda"
   },
   {
     "id": "rockstar-games",
-    "name": "Rockstar Games",
-    "pack": 2
+    "name": "Rockstar Games"
   },
   {
     "id": "take-two-interactive",
-    "name": "Take-Two Interactive",
-    "pack": 2
+    "name": "Take-Two Interactive"
   },
   {
     "id": "epic-games",
-    "name": "Epic Games",
-    "pack": 2
+    "name": "Epic Games"
   },
   {
     "id": "electronic-arts",
-    "name": "Electronic Arts",
-    "pack": 2
+    "name": "Electronic Arts"
   },
   {
     "id": "activision-blizzard",
-    "name": "Activision Blizzard",
-    "pack": 2
+    "name": "Activision Blizzard"
   },
   {
     "id": "supercell",
-    "name": "Supercell",
-    "pack": 2
+    "name": "Supercell"
   },
   {
     "id": "intel",
-    "name": "Intel",
-    "pack": 2
+    "name": "Intel"
   },
   {
     "id": "amd",
-    "name": "AMD",
-    "pack": 2
+    "name": "AMD"
   },
   {
     "id": "qualcomm",
-    "name": "Qualcomm",
-    "pack": 2
+    "name": "Qualcomm"
   },
   {
     "id": "nvidia-1",
-    "name": "Nvidia",
-    "pack": 2
+    "name": "Nvidia"
   },
   {
     "id": "nvidia-2",
-    "name": "Nvidia",
-    "pack": 2
+    "name": "Nvidia"
   },
   {
     "id": "nvidia-3",
-    "name": "Nvidia",
-    "pack": 2
+    "name": "Nvidia"
   },
   {
     "id": "broadcom",
-    "name": "Broadcom",
-    "pack": 2
+    "name": "Broadcom"
   },
   {
     "id": "arm",
-    "name": "ARM",
-    "pack": 2
+    "name": "ARM"
   },
   {
     "id": "tsmc",
-    "name": "TSMC",
-    "pack": 2
+    "name": "TSMC"
   },
   {
     "id": "mediatek",
-    "name": "MediaTek",
-    "pack": 2
+    "name": "MediaTek"
   },
   {
     "id": "ibm",
-    "name": "IBM",
-    "pack": 2
+    "name": "IBM"
   },
   {
     "id": "acer",
-    "name": "Acer",
-    "pack": 2
+    "name": "Acer"
   },
   {
     "id": "dell",
-    "name": "Dell",
-    "pack": 2
+    "name": "Dell"
   },
   {
     "id": "hp",
-    "name": "HP",
-    "pack": 2
+    "name": "HP"
   },
   {
     "id": "canon",
-    "name": "Canon",
-    "pack": 2
+    "name": "Canon"
   },
   {
     "id": "jbl",
-    "name": "JBL",
-    "pack": 2
+    "name": "JBL"
   },
   {
     "id": "lg",
-    "name": "LG",
-    "pack": 2
+    "name": "LG"
   },
   {
     "id": "beats-electronics",
     "name": "Beats Electronics",
-    "filters": ["apple"],
-    "pack": 2
+    "filters": ["apple"]
   },
   {
     "id": "soundcloud",
-    "name": "SoundCloud",
-    "pack": 2
+    "name": "SoundCloud"
   },
   {
     "id": "storytel",
-    "name": "Storytel",
-    "pack": 2
+    "name": "Storytel"
   },
   {
     "id": "castbox",
-    "name": "Castbox",
-    "pack": 2
+    "name": "Castbox"
   },
   {
     "id": "spotify",
-    "name": "Spotify",
-    "pack": 2
+    "name": "Spotify"
   },
   {
     "id": "deezer",
-    "name": "Deezer",
-    "pack": 2
+    "name": "Deezer"
   },
   {
     "id": "behance",
-    "name": "Behance",
-    "pack": 2
+    "name": "Behance"
   },
   {
     "id": "pinterest",
-    "name": "Pinterest",
-    "pack": 2
+    "name": "Pinterest"
   },
   {
     "id": "dribbble",
-    "name": "Dribbble",
-    "pack": 2
+    "name": "Dribbble"
   },
   {
     "id": "canva",
-    "name": "Canva",
-    "pack": 2
+    "name": "Canva"
   },
   {
     "id": "adobe-1",
     "name": "Adobe",
-    "filters": ["adobe"],
-    "pack": 2
+    "filters": ["adobe"]
   },
   {
     "id": "adobe-2",
     "name": "Adobe",
-    "filters": ["adobe"],
-    "pack": 2
+    "filters": ["adobe"]
   },
   {
     "id": "adobe-acrobat",
     "name": "Adobe Acrobat",
-    "filters": ["adobe"],
-    "pack": 2
+    "filters": ["adobe"]
   },
   {
     "id": "adobe-firefly",
     "name": "Adobe Firefly",
-    "filters": ["adobe"],
-    "pack": 2
+    "filters": ["adobe"]
   },
   {
     "id": "adobe-after-effects",
     "name": "Adobe After Effects",
-    "filters": ["adobe"],
-    "pack": 2
+    "filters": ["adobe"]
   },
   {
     "id": "adobe-illustrator",
     "name": "Adobe Illustrator",
-    "filters": ["adobe"],
-    "pack": 2
+    "filters": ["adobe"]
   },
   {
     "id": "adobe-animate",
     "name": "Adobe Animate",
-    "filters": ["adobe"],
-    "pack": 2
+    "filters": ["adobe"]
   },
   {
     "id": "adobe-aero",
     "name": "Adobe Aero",
-    "filters": ["adobe"],
-    "pack": 2
+    "filters": ["adobe"]
   },
   {
     "id": "adobe-audition",
     "name": "Adobe Audition",
-    "filters": ["adobe"],
-    "pack": 2
+    "filters": ["adobe"]
   },
   {
     "id": "adobe-bridge",
     "name": "Adobe Bridge",
-    "filters": ["adobe"],
-    "pack": 2
+    "filters": ["adobe"]
   },
   {
     "id": "adobe-character-animator",
     "name": "Adobe Character Animator",
-    "filters": ["adobe"],
-    "pack": 2
+    "filters": ["adobe"]
   },
   {
     "id": "adobe-dimension",
     "name": "Adobe Dimension",
-    "filters": ["adobe"],
-    "pack": 2
+    "filters": ["adobe"]
   },
   {
     "id": "adobe-dreamweaver",
     "name": "Adobe Dreamweaver",
-    "filters": ["adobe"],
-    "pack": 2
+    "filters": ["adobe"]
   },
   {
     "id": "adobe-indesign",
     "name": "Adobe InDesign",
-    "filters": ["adobe"],
-    "pack": 2
+    "filters": ["adobe"]
   },
   {
     "id": "adobe-lightroom",
     "name": "Adobe Lightroom",
-    "filters": ["adobe"],
-    "pack": 2
+    "filters": ["adobe"]
   },
   {
     "id": "adobe-fresco",
     "name": "Adobe Fresco",
-    "filters": ["adobe"],
-    "pack": 2
+    "filters": ["adobe"]
   },
   {
     "id": "adobe-media-encoder",
     "name": "Adobe Media Encoder",
-    "filters": ["adobe"],
-    "pack": 2
+    "filters": ["adobe"]
   },
   {
     "id": "adobe-premiere-pro",
     "name": "Adobe Premiere Pro",
-    "filters": ["adobe"],
-    "pack": 2
+    "filters": ["adobe"]
   },
   {
     "id": "adobe-photoshop",
     "name": "Adobe Photoshop",
-    "filters": ["adobe"],
-    "pack": 2
+    "filters": ["adobe"]
   },
   {
     "id": "c",
     "name": "C (Programming Language)",
-    "filters": ["programming", "language"],
-    "pack": 2
+    "filters": ["programming", "language"]
   },
   {
     "id": "cpp",
     "name": "C++ (Programming Language)",
-    "filters": ["programming", "language"],
-    "pack": 2
+    "filters": ["programming", "language"]
   },
   {
     "id": "php",
     "name": "PHP (Programming Language)",
-    "filters": ["programming", "language"],
-    "pack": 2
+    "filters": ["programming", "language"]
   },
   {
     "id": "rust",
     "name": "Rust (Programming Language)",
-    "filters": ["programming", "language"],
-    "pack": 2
+    "filters": ["programming", "language"]
   },
   {
     "id": "ruby",
     "name": "Ruby (Programming Language)",
-    "filters": ["programming", "language"],
-    "pack": 2
+    "filters": ["programming", "language"]
   },
   {
     "id": "python",
     "name": "Python (Programming Language)",
-    "filters": ["programming", "language"],
-    "pack": 2
+    "filters": ["programming", "language"]
   },
   {
     "id": "django",
-    "name": "Django (Web Framework)",
-    "pack": 2
+    "name": "Django (Web Framework)"
   },
   {
     "id": "vue",
-    "name": "Vue (JavaScript Framework)",
-    "pack": 2
+    "name": "Vue (JavaScript Framework)"
   },
   {
     "id": "html5",
-    "name": "HTML5",
-    "pack": 2
+    "name": "HTML5"
   },
   {
     "id": "css3",
-    "name": "CSS3",
-    "pack": 2
+    "name": "CSS3"
   },
   {
     "id": "docker-1",
-    "name": "Docker",
-    "pack": 2
+    "name": "Docker"
   },
   {
     "id": "docker-2",
-    "name": "Docker",
-    "pack": 2
+    "name": "Docker"
   },
   {
     "id": "js",
     "name": "JavaScript (Programming Language)",
-    "filters": ["programming", "language"],
-    "pack": 2
+    "filters": ["programming", "language"]
   },
   {
     "id": "typescript",
     "name": "TypeScript (Programming Language)",
-    "filters": ["programming", "language"],
-    "pack": 2
+    "filters": ["programming", "language"]
   },
   {
     "id": "microsoft-vb",
     "name": "Visual Basic (Programming Language)",
-    "filters": ["microsoft", "programming", "language"],
-    "pack": 2
+    "filters": ["microsoft", "programming", "language"]
   },
   {
     "id": "webassembly",
-    "name": "WebAssembly (Programming Language)",
-    "pack": 2
+    "name": "WebAssembly (Programming Language)"
   },
   {
     "id": "delphi",
     "name": "Delphi (Programming Language)",
-    "filters": ["programming", "language"],
-    "pack": 2
+    "filters": ["programming", "language"]
   },
   {
     "id": "pascal",
     "name": "Pascal (Programming Language)",
-    "filters": ["programming", "language"],
-    "pack": 2
+    "filters": ["programming", "language"]
   },
   {
     "id": "scala",
     "name": "Scala (Programming Language)",
-    "filters": ["programming", "language"],
-    "pack": 2
+    "filters": ["programming", "language"]
   },
   {
     "id": "json",
-    "name": "JSON",
-    "pack": 2
+    "name": "JSON"
   },
   {
     "id": "xml",
-    "name": "XML",
-    "pack": 2
+    "name": "XML"
   },
   {
     "id": "nodejs-1",
-    "name": "Node.js (JavaScript Runtime)",
-    "pack": 2
+    "name": "Node.js (JavaScript Runtime)"
   },
   {
     "id": "nodejs-2",
-    "name": "Node.js (JavaScript Runtime)",
-    "pack": 2
+    "name": "Node.js (JavaScript Runtime)"
   },
   {
     "id": "nodejs-3",
-    "name": "Node.js (JavaScript Runtime)",
-    "pack": 2
+    "name": "Node.js (JavaScript Runtime)"
   },
   {
     "id": "nestjs",
-    "name": "NestJS (Framework)",
-    "pack": 2
+    "name": "NestJS (Framework)"
   },
   {
     "id": "utorrent",
-    "name": "μTorrent",
-    "pack": 2
+    "name": "μTorrent"
   },
   {
     "id": "wikipedia",
-    "name": "Wikipedia",
-    "pack": 2
+    "name": "Wikipedia"
   },
   {
     "id": "mit",
-    "name": "The MIT License",
-    "pack": 2
+    "name": "The MIT License"
   },
   {
     "id": "salesforce",
-    "name": "Salesforce",
-    "pack": 2
+    "name": "Salesforce"
   },
   {
     "id": "wired",
-    "name": "Wired",
-    "pack": 2
+    "name": "Wired"
   },
   {
     "id": "dropbox-1",
-    "name": "Dropbox",
-    "pack": 2
+    "name": "Dropbox"
   },
   {
     "id": "dropbox-2",
-    "name": "Dropbox",
-    "pack": 2
+    "name": "Dropbox"
   },
   {
     "id": "rss",
-    "name": "RSS",
-    "pack": 2
+    "name": "RSS"
   },
   {
     "id": "quora",
-    "name": "Quora",
-    "pack": 2
+    "name": "Quora"
   },
   {
     "id": "tumblr",
-    "name": "Tumblr",
-    "pack": 2
+    "name": "Tumblr"
   },
   {
     "id": "duckduckgo",
-    "name": "DuckDuckGo",
-    "pack": 2
+    "name": "DuckDuckGo"
   },
   {
     "id": "blender",
-    "name": "Blender",
-    "pack": 2
+    "name": "Blender"
   },
   {
     "id": "apache",
     "name": "Apache",
-    "filters": ["apache"],
-    "pack": 2
+    "filters": ["apache"]
   },
   {
     "id": "apache-kafka",
     "name": "Apache Kafka",
-    "filters": ["apache"],
-    "pack": 2
+    "filters": ["apache"]
   },
   {
     "id": "evernote",
-    "name": "Evernote",
-    "pack": 2
+    "name": "Evernote"
   },
   {
     "id": "upwork",
-    "name": "Upwork",
-    "pack": 2
+    "name": "Upwork"
   },
   {
     "id": "ted",
-    "name": "TED",
-    "pack": 2
+    "name": "TED"
   },
   {
     "id": "netflix",
     "name": "Netflix",
-    "filters": ["video"],
-    "pack": 2
+    "filters": ["video"]
   },
   {
     "id": "pornhub",
     "name": "Pornhub",
-    "filters": ["video"],
-    "pack": 2
+    "filters": ["video"]
   },
   {
     "id": "twitch",
     "name": "Twitch",
-    "filters": ["video"],
-    "pack": 2
+    "filters": ["video"]
   },
   {
     "id": "rutube",
     "name": "Rutube",
-    "filters": ["video"],
-    "pack": 2
+    "filters": ["video"]
   },
   {
     "id": "vulkan",
-    "name": "Vulkan",
-    "pack": 2
+    "name": "Vulkan"
   },
   {
     "id": "onlyfans",
-    "name": "OnlyFans",
-    "pack": 2
+    "name": "OnlyFans"
   },
   {
     "id": "redis",
-    "name": "Redis",
-    "pack": 2
+    "name": "Redis"
   },
   {
     "id": "rabbitmq",
-    "name": "RabbitMQ",
-    "pack": 2
+    "name": "RabbitMQ"
   },
   {
     "id": "npm",
-    "name": "Npm",
-    "pack": 2
+    "name": "Npm"
   },
   {
     "id": "raspberry-pi",
-    "name": "Raspberry Pi",
-    "pack": 2
+    "name": "Raspberry Pi"
   },
   {
     "id": "redux",
-    "name": "Redux (JavaScript Library)",
-    "pack": 2
+    "name": "Redux (JavaScript Library)"
   },
   {
     "id": "drawio",
-    "name": "Draw.io",
-    "pack": 2
+    "name": "Draw.io"
   },
   {
     "id": "garmin",
-    "name": "Garmin",
-    "pack": 2
+    "name": "Garmin"
   },
   {
     "id": "parallels",
-    "name": "Parallels",
-    "pack": 2
+    "name": "Parallels"
   },
   {
     "id": "gnu-bash",
-    "name": "Bash (Unix Shell)",
-    "pack": 2
+    "name": "Bash (Unix Shell)"
   },
   {
     "id": "clickhouse",
-    "name": "ClickHouse",
-    "pack": 2
+    "name": "ClickHouse"
   },
   {
     "id": "spring",
-    "name": "Spring Framework",
-    "pack": 2
+    "name": "Spring Framework"
   },
   {
     "id": "nginx-1",
-    "name": "Nginx",
-    "pack": 2
+    "name": "Nginx"
   },
   {
     "id": "nginx-2",
-    "name": "Nginx",
-    "pack": 2
+    "name": "Nginx"
   },
   {
     "id": "rumble",
-    "name": "Rumble",
-    "pack": 2
+    "name": "Rumble"
   },
   {
     "id": "digital-ocean",
-    "name": "DigitalOcean",
-    "pack": 2
+    "name": "DigitalOcean"
   },
   {
     "id": "mysql",
-    "name": "MySQL",
-    "pack": 2
+    "name": "MySQL"
   },
   {
     "id": "sqlite",
-    "name": "SQLite",
-    "pack": 2
+    "name": "SQLite"
   },
   {
     "id": "postgresql",
-    "name": "PostgreSQL",
-    "pack": 2
+    "name": "PostgreSQL"
   },
   {
     "id": "mongodb",
-    "name": "MongoDB",
-    "pack": 2
+    "name": "MongoDB"
   },
   {
     "id": "microsoft-office",
     "name": "Microsoft Office",
-    "filters": ["microsoft"],
-    "pack": 2
+    "filters": ["microsoft"]
   },
   {
     "id": "microsoft-365",
     "name": "Microsoft 365",
-    "filters": ["microsoft"],
-    "pack": 2
+    "filters": ["microsoft"]
   },
   {
     "id": "microsoft-office-word",
     "name": "Microsoft Word",
-    "filters": ["microsoft"],
-    "pack": 2
+    "filters": ["microsoft"]
   },
   {
     "id": "microsoft-office-excel",
     "name": "Microsoft Excel",
-    "filters": ["microsoft"],
-    "pack": 2
+    "filters": ["microsoft"]
   },
   {
     "id": "microsoft-office-powerpoint",
     "name": "Microsoft PowerPoint",
-    "filters": ["microsoft"],
-    "pack": 2
+    "filters": ["microsoft"]
   },
   {
     "id": "microsoft-office-access",
     "name": "Microsoft Access",
-    "filters": ["microsoft"],
-    "pack": 2
+    "filters": ["microsoft"]
   },
   {
     "id": "microsoft-office-onenote",
     "name": "Microsoft OneNote",
-    "filters": ["microsoft"],
-    "pack": 2
+    "filters": ["microsoft"]
   },
   {
     "id": "microsoft-outlook",
     "name": "Microsoft Outlook",
-    "filters": ["microsoft"],
-    "pack": 2
+    "filters": ["microsoft"]
   },
   {
     "id": "microsoft-project",
     "name": "Microsoft Project",
-    "filters": ["microsoft"],
-    "pack": 2
+    "filters": ["microsoft"]
   },
   {
     "id": "microsoft-sharepoint",
     "name": "Microsoft SharePoint",
-    "filters": ["microsoft"],
-    "pack": 2
+    "filters": ["microsoft"]
   },
   {
     "id": "microsoft-publisher",
     "name": "Microsoft Publisher",
-    "filters": ["microsoft"],
-    "pack": 2
+    "filters": ["microsoft"]
   },
   {
     "id": "microsoft-azure",
     "name": "Microsoft Azure",
-    "filters": ["microsoft"],
-    "pack": 2
+    "filters": ["microsoft"]
   },
   {
     "id": "zigbee",
-    "name": "Zigbee",
-    "pack": 2
+    "name": "Zigbee"
   },
   {
     "id": "mqtt",
-    "name": "MQTT",
-    "pack": 2
+    "name": "MQTT"
   },
   {
     "id": "z-wave",
-    "name": "Z-Wave",
-    "pack": 2
+    "name": "Z-Wave"
   },
   {
     "id": "thread",
-    "name": "Thread (Network Protocol)",
-    "pack": 2
+    "name": "Thread (Network Protocol)"
   },
   {
     "id": "matter",
-    "name": "Matter (Standard)",
-    "pack": 2
+    "name": "Matter (Standard)"
   },
   {
     "id": "jetbrains-2",
     "name": "JetBrains",
-    "filters": ["jetbrains"],
-    "pack": 2
+    "filters": ["jetbrains"]
   },
   {
     "id": "jetbrains-toolbox",
     "name": "JetBrains Toolbox",
-    "filters": ["jetbrains"],
-    "pack": 2
+    "filters": ["jetbrains"]
   },
   {
     "id": "jetbrains-aqua",
     "name": "Jetbrains Aqua",
-    "filters": ["jetbrains", "ide"],
-    "pack": 2
+    "filters": ["jetbrains", "ide"]
   },
   {
     "id": "jetbrains-clion",
     "name": "Jetbrains CLion",
-    "filters": ["jetbrains"],
-    "pack": 2
+    "filters": ["jetbrains"]
   },
   {
     "id": "jetbrains-datagrip",
     "name": "Jetbrains DataGrip",
-    "filters": ["jetbrains"],
-    "pack": 2
+    "filters": ["jetbrains"]
   },
   {
     "id": "jetbrains-datalore",
     "name": "Jetbrains Datalore",
-    "filters": ["jetbrains"],
-    "pack": 2
+    "filters": ["jetbrains"]
   },
   {
     "id": "jetbrains-dataspell",
     "name": "Jetbrains DataSpell",
-    "filters": ["jetbrains"],
-    "pack": 2
+    "filters": ["jetbrains"]
   },
   {
     "id": "jetbrains-dotcover",
     "name": "Jetbrains DotCover",
-    "filters": ["jetbrains"],
-    "pack": 2
+    "filters": ["jetbrains"]
   },
   {
     "id": "jetbrains-dotmemory",
     "name": "Jetbrains DotMemory",
-    "filters": ["jetbrains"],
-    "pack": 2
+    "filters": ["jetbrains"]
   },
   {
     "id": "jetbrains-dotpeek",
     "name": "Jetbrains DotPeek",
-    "filters": ["jetbrains"],
-    "pack": 2
+    "filters": ["jetbrains"]
   },
   {
     "id": "jetbrains-dottrace",
     "name": "Jetbrains DotTrace",
-    "filters": ["jetbrains"],
-    "pack": 2
+    "filters": ["jetbrains"]
   },
   {
     "id": "jetbrains-goland",
     "name": "Jetbrains GoLand",
-    "filters": ["jetbrains", "ide"],
-    "pack": 2
+    "filters": ["jetbrains", "ide"]
   },
   {
     "id": "jetbrains-hub",
     "name": "Jetbrains Hub",
-    "filters": ["jetbrains"],
-    "pack": 2
+    "filters": ["jetbrains"]
   },
   {
     "id": "jetbrains-phpstorm",
     "name": "Jetbrains PhpStorm",
-    "filters": ["jetbrains", "ide"],
-    "pack": 2
+    "filters": ["jetbrains", "ide"]
   },
   {
     "id": "jetbrains-pycharm",
     "name": "Jetbrains PyCharm",
-    "filters": ["jetbrains", "ide"],
-    "pack": 2
+    "filters": ["jetbrains", "ide"]
   },
   {
     "id": "jetbrains-qodana",
     "name": "Jetbrains Qodana",
-    "filters": ["jetbrains"],
-    "pack": 2
+    "filters": ["jetbrains"]
   },
   {
     "id": "jetbrains-resharper",
     "name": "Jetbrains ReSharper",
-    "filters": ["jetbrains", "ide"],
-    "pack": 2
+    "filters": ["jetbrains", "ide"]
   },
   {
     "id": "jetbrains-resharpercpp",
     "name": "Jetbrains ReSharper C++",
-    "filters": ["jetbrains", "ide"],
-    "pack": 2
+    "filters": ["jetbrains", "ide"]
   },
   {
     "id": "jetbrains-rider",
     "name": "Jetbrains Rider",
-    "filters": ["jetbrains", "ide"],
-    "pack": 2
+    "filters": ["jetbrains", "ide"]
   },
   {
     "id": "jetbrains-riderflow",
     "name": "Jetbrains RiderFlow",
-    "filters": ["jetbrains"],
-    "pack": 2
+    "filters": ["jetbrains"]
   },
   {
     "id": "jetbrains-rubymine",
     "name": "Jetbrains RubyMine",
-    "filters": ["jetbrains", "ide"],
-    "pack": 2
+    "filters": ["jetbrains", "ide"]
   },
   {
     "id": "jetbrains-rustrover",
     "name": "Jetbrains RustRover",
-    "filters": ["jetbrains"],
-    "pack": 2
+    "filters": ["jetbrains"]
   },
   {
     "id": "jetbrains-teamcity",
     "name": "Jetbrains TeamCity",
-    "filters": ["jetbrains", "ci"],
-    "pack": 2
+    "filters": ["jetbrains", "ci"]
   },
   {
     "id": "jetbrains-webstorm",
     "name": "Jetbrains WebStorm",
-    "filters": ["jetbrains", "ide"],
-    "pack": 2
+    "filters": ["jetbrains", "ide"]
   },
   {
     "id": "jetbrains-youtrack",
     "name": "Jetbrains YouTrack",
-    "filters": ["jetbrains"],
-    "pack": 2
+    "filters": ["jetbrains"]
   },
 
   {
     "id": "coursera",
-    "name": "Coursera",
-    "pack": 3
+    "name": "Coursera"
   },
   {
     "id": "udacity",
-    "name": "Udacity",
-    "pack": 3
+    "name": "Udacity"
   },
   {
     "id": "treehouse",
-    "name": "Treehouse",
-    "pack": 3
+    "name": "Treehouse"
   },
   {
     "id": "duolingo",
-    "name": "Duolingo",
-    "pack": 3
+    "name": "Duolingo"
   },
   {
     "id": "udemy",
-    "name": "Udemy",
-    "pack": 3
+    "name": "Udemy"
   },
   {
     "id": "khan-academy",
-    "name": "Khan Academy",
-    "pack": 3
+    "name": "Khan Academy"
   },
   {
     "id": "uber",
     "name": "Uber",
-    "filters": ["taxi"],
-    "pack": 3
+    "filters": ["taxi"]
   },
   {
     "id": "lyft",
     "name": "Lyft",
-    "filters": ["taxi"],
-    "pack": 3
+    "filters": ["taxi"]
   },
   {
     "id": "bolt",
     "name": "Bolt",
-    "filters": ["taxi"],
-    "pack": 3
+    "filters": ["taxi"]
   },
   {
     "id": "indeed",
-    "name": "Indeed (Job Search)",
-    "pack": 3
+    "name": "Indeed (Job Search)"
   },
   {
     "id": "hh",
-    "name": "HeadHunter",
-    "pack": 3
+    "name": "HeadHunter"
   },
   {
     "id": "glassdoor",
-    "name": "Glassdoor",
-    "pack": 3
+    "name": "Glassdoor"
   },
   {
     "id": "apple-pay",
     "name": "Apple Pay",
-    "filters": ["apple"],
-    "pack": 3
+    "filters": ["apple"]
   },
   {
     "id": "apple-webkit",
     "name": "Apple WebKit",
-    "filters": ["apple"],
-    "pack": 3
+    "filters": ["apple"]
   },
   {
     "id": "apple-carplay",
     "name": "Apple CarPlay",
-    "filters": ["apple"],
-    "pack": 3
+    "filters": ["apple"]
   },
   {
     "id": "apple-wallet",
     "name": "Apple Wallet",
-    "filters": ["apple", "payment"],
-    "pack": 3
+    "filters": ["apple", "payment"]
   },
   {
     "id": "apple-pkl",
     "name": "Apple Pkl (Programming Language)",
-    "filters": ["apple"],
-    "pack": 3
+    "filters": ["apple"]
   },
   {
     "id": "google-pay",
     "name": "Google Pay",
-    "filters": ["google", "payment"],
-    "pack": 3
+    "filters": ["google", "payment"]
   },
   {
     "id": "google-amp",
     "name": "AMP (Accelerated Mobile Pages)",
-    "filters": ["google"],
-    "pack": 3
+    "filters": ["google"]
   },
   {
     "id": "google-gemini-2",
     "name": "Google Gemini",
-    "filters": ["google", "ai"],
-    "pack": 3
+    "filters": ["google", "ai"]
   },
   {
     "id": "google-android-auto",
     "name": "Android Auto",
-    "filters": ["google", "android"],
-    "pack": 3
+    "filters": ["google", "android"]
   },
   {
     "id": "google-blogger",
     "name": "Blogger",
-    "filters": ["google"],
-    "pack": 3
+    "filters": ["google"]
   },
   {
     "id": "google-android-jetpack-2",
     "name": "Android Jetpack",
-    "filters": ["google", "android"],
-    "pack": 3
+    "filters": ["google", "android"]
   },
   {
     "id": "google-aab",
     "name": "AAB (Android App Bundle)",
-    "filters": ["google", "android"],
-    "pack": 3
+    "filters": ["google", "android"]
   },
   {
     "id": "google-wallet",
     "name": "Google Wallet",
-    "filters": ["google", "payment"],
-    "pack": 3
+    "filters": ["google", "payment"]
   },
   {
     "id": "google-admob",
     "name": "Google AdMob",
-    "filters": ["google"],
-    "pack": 3
+    "filters": ["google"]
   },
   {
     "id": "google-android-7",
     "name": "Android",
-    "filters": ["google", "android"],
-    "pack": 3
+    "filters": ["google", "android"]
   },
   {
     "id": "google-youtube-music",
     "name": "YouTube Music",
-    "filters": ["google"],
-    "pack": 3
+    "filters": ["google"]
   },
   {
     "id": "google-webrtc",
     "name": "Google WebRTC",
-    "filters": ["google"],
-    "pack": 3
+    "filters": ["google"]
   },
   {
     "id": "google-io",
     "name": "Google I/O",
-    "filters": ["google"],
-    "pack": 3
+    "filters": ["google"]
   },
   {
     "id": "google-web-toolkit",
     "name": "Google Web Toolkit",
-    "filters": ["google"],
-    "pack": 3
+    "filters": ["google"]
   },
   {
     "id": "google-kubernetes",
     "name": "Kubernetes",
-    "filters": ["google"],
-    "pack": 3
+    "filters": ["google"]
   },
   {
     "id": "google-arcore",
     "name": "Google ARCore",
-    "filters": ["google"],
-    "pack": 3
+    "filters": ["google"]
   },
   {
     "id": "google-play-services",
     "name": "Google Play Services",
-    "filters": ["google", "android"],
-    "pack": 3
+    "filters": ["google", "android"]
   },
   {
     "id": "google-play-games",
     "name": "Google Play Games",
-    "filters": ["google", "android"],
-    "pack": 3
+    "filters": ["google", "android"]
   },
   {
     "id": "google-fuchsia",
     "name": "Google Fuchsia",
-    "filters": ["google"],
-    "pack": 3
+    "filters": ["google"]
   },
   {
     "id": "google-earth",
     "name": "Google Earth",
-    "filters": ["google"],
-    "pack": 3
+    "filters": ["google"]
   },
   {
     "id": "google-lighthouse",
     "name": "Google Lighthouse",
-    "filters": ["google"],
-    "pack": 3
+    "filters": ["google"]
   },
   {
     "id": "google-domains",
     "name": "Google Domains",
-    "filters": ["google"],
-    "pack": 3
+    "filters": ["google"]
   },
   {
     "id": "google-adsense",
     "name": "Google AdSense",
-    "filters": ["google"],
-    "pack": 3
+    "filters": ["google"]
   },
   {
     "id": "google-ads",
     "name": "Google Ads",
-    "filters": ["google"],
-    "pack": 3
+    "filters": ["google"]
   },
   {
     "id": "google-tag-manager",
     "name": "Google Tag Manager",
-    "filters": ["google"],
-    "pack": 3
+    "filters": ["google"]
   },
   {
     "id": "google-optimize",
     "name": "Google Optimize",
-    "filters": ["google"],
-    "pack": 3
+    "filters": ["google"]
   },
   {
     "id": "google-fit",
     "name": "Google Fit",
-    "filters": ["google"],
-    "pack": 3
+    "filters": ["google"]
   },
   {
     "id": "google-marketing-platform",
     "name": "Google Marketing Platform",
-    "filters": ["google"],
-    "pack": 3
+    "filters": ["google"]
   },
   {
     "id": "google-one",
     "name": "Google One",
-    "filters": ["google"],
-    "pack": 3
+    "filters": ["google"]
   },
   {
     "id": "microsoft-bing",
     "name": "Microsoft Bing",
-    "filters": ["microsoft"],
-    "pack": 3
+    "filters": ["microsoft"]
   },
   {
     "id": "microsoft-paint",
     "name": "Microsoft Paint",
-    "filters": ["microsoft"],
-    "pack": 3
+    "filters": ["microsoft"]
   },
   {
     "id": "microsoft-designer",
     "name": "Microsoft Designer",
-    "filters": ["microsoft"],
-    "pack": 3
+    "filters": ["microsoft"]
   },
   {
     "id": "microsoft-f-sharp",
     "name": "Microsoft F#",
-    "filters": ["microsoft", "programming", "language"],
-    "pack": 3
+    "filters": ["microsoft", "programming", "language"]
   },
   {
     "id": "recaptcha",
-    "name": "reCAPTCHA",
-    "pack": 3
+    "name": "reCAPTCHA"
   },
   {
     "id": "hcaptcha",
-    "name": "hCaptcha",
-    "pack": 3
+    "name": "hCaptcha"
   },
   {
     "id": "yahoo-1",
-    "name": "Yahoo",
-    "pack": 3
+    "name": "Yahoo"
   },
   {
     "id": "yahoo-2",
-    "name": "Yahoo",
-    "pack": 3
+    "name": "Yahoo"
   },
   {
     "id": "jenkins",
     "name": "Jenkins",
-    "filters": ["ci"],
-    "pack": 3
+    "filters": ["ci"]
   },
   {
     "id": "circleci",
     "name": "CircleCI",
-    "filters": ["ci"],
-    "pack": 3
+    "filters": ["ci"]
   },
   {
     "id": "travis-ci",
     "name": "Travis CI",
-    "filters": ["ci"],
-    "pack": 3
+    "filters": ["ci"]
   },
   {
     "id": "fastlane",
     "name": "Fastlane",
-    "filters": ["ci"],
-    "pack": 3
+    "filters": ["ci"]
   },
   {
     "id": "obsidian-1",
-    "name": "Obsidian",
-    "pack": 3
+    "name": "Obsidian"
   },
   {
     "id": "obsidian-2",
-    "name": "Obsidian",
-    "pack": 3
+    "name": "Obsidian"
   },
   {
     "id": "coda",
-    "name": "Coda",
-    "pack": 3
+    "name": "Coda"
   },
   {
     "id": "todoist",
-    "name": "Todoist",
-    "pack": 3
+    "name": "Todoist"
   },
   {
     "id": "airtable",
-    "name": "Airtable",
-    "pack": 3
+    "name": "Airtable"
   },
   {
     "id": "calendly",
-    "name": "Calendly",
-    "pack": 3
+    "name": "Calendly"
   },
   {
     "id": "zeplin",
-    "name": "Zeplin",
-    "pack": 3
+    "name": "Zeplin"
   },
   {
     "id": "pitch",
-    "name": "Pitch",
-    "pack": 3
+    "name": "Pitch"
   },
   {
     "id": "monday",
-    "name": "Monday",
-    "pack": 3
+    "name": "Monday"
   },
   {
     "id": "asana",
-    "name": "Asana",
-    "pack": 3
+    "name": "Asana"
   },
   {
     "id": "hubspot",
-    "name": "HubSpot",
-    "pack": 3
+    "name": "HubSpot"
   },
   {
     "id": "quip",
-    "name": "Quip",
-    "pack": 3
+    "name": "Quip"
   },
   {
     "id": "jetbrains-space",
@@ -3255,79 +2785,133 @@
   },
   {
     "id": "apple-numbers",
-    "name": "Numbers"
+    "name": "Numbers",
+    "filters": ["apple"]
   },
   {
     "id": "apple-pages",
-    "name": "Pages"
+    "name": "Pages",
+    "filters": ["apple"]
+  },
+  {
+    "id": "apple-shazam",
+    "name": "Shazam",
+    "filters": ["apple"]
   },
   {
     "id": "microsoft-notepad",
-    "name": "Microsoft Notepad"
+    "name": "Microsoft Notepad",
+    "filters": ["microsoft"]
   },
   {
     "id": "microsoft-cortana",
-    "name": "Microsoft Cortana"
+    "name": "Microsoft Cortana",
+    "filters": ["microsoft"]
   },
   {
     "id": "microsoft-github-copilot",
-    "name": "Github Copilot"
+    "name": "Github Copilot",
+    "filters": ["microsoft"]
   },
   {
     "id": "microsoft-minecraft",
-    "name": "Minecraft"
+    "name": "Minecraft",
+    "filters": ["microsoft"]
   },
   {
     "id": "microsoft-powershell",
-    "name": "Microsoft Powershell"
+    "name": "Microsoft Powershell",
+    "filters": ["microsoft"]
+  },
+  {
+    "id": "apache-airflow",
+    "name": "Apache Airflow",
+    "filters": ["apache"]
+  },
+  {
+    "id": "apache-flink",
+    "name": "Apache Flink",
+    "filters": ["apache"]
+  },
+  {
+    "id": "apache-nifi",
+    "name": "Apache NiFi",
+    "filters": ["apache"]
+  },
+  {
+    "id": "apache-spark",
+    "name": "Apache Spark",
+    "filters": ["apache"]
   },
   {
     "id": "meta-oculus",
-    "name": "Oculus"
+    "name": "Oculus",
+    "filters": ["meta"]
   },
   {
     "id": "samsung-pay",
-    "name": "Samsung Pay"
+    "name": "Samsung Pay",
+    "filters": ["samsung"]
   },
   {
     "id": "samsung-bixby",
-    "name": "Samsung Bixby"
+    "name": "Samsung Bixby",
+    "filters": ["samsung"]
   },
   {
     "id": "yandex-mail",
-    "name": "Yandex Mail"
+    "name": "Yandex Mail",
+    "filters": ["yandex"]
   },
   {
     "id": "yandex-coderun",
-    "name": "Yandex CodeRun"
+    "name": "Yandex CodeRun",
+    "filters": ["yandex"]
   },
   {
     "id": "jetbrains-upsource",
-    "name": "JetBrains Upsource"
+    "name": "JetBrains Upsource",
+    "filters": ["jetbrains"]
+  },
+  {
+    "id": "jetbrains-junie",
+    "name": "JetBrains Junie",
+    "filters": ["jetbrains"]
   },
   {
     "id": "adobe-magento",
-    "name": "Adobe Magento"
+    "name": "Adobe Magento",
+    "filters": ["adobe"]
   },
   {
     "id": "x-xai",
-    "name": "xAI"
+    "name": "xAI",
+    "filters": ["ai"]
   },
   {
-    "id": "x-grok",
-    "name": "Grok"
+    "id": "x-grok-1",
+    "name": "Grok",
+    "filters": ["ai"]
+  },
+  {
+    "id": "x-grok-2",
+    "name": "Grok",
+    "filters": ["ai"]
   },
   {
     "id": "bybit",
-    "name": "Bybit"
+    "name": "Bybit",
+    "filters": ["crypto"]
   },
   {
     "id": "cryptocom",
-    "name": "Crypto.com"
+    "name": "Crypto.com",
+    "filters": ["crypto"]
   },
   {
     "id": "gateio",
-    "name": "Gate.io"
+    "name": "Gate.io",
+    "filters": ["crypto"]
   },
   {
     "id": "kucoin",
@@ -3355,35 +2939,58 @@
   },
   {
     "id": "outline-vpn",
-    "name": "Outline VPN"
+    "name": "Outline VPN",
+    "filters": ["vpn"]
   },
   {
     "id": "tunnelbear",
-    "name": "TunnelBear"
+    "name": "TunnelBear",
+    "filters": ["vpn"]
   },
   {
     "id": "mistral-ai",
-    "name": "Mistral AI"
+    "name": "Mistral AI",
+    "filters": ["ai"]
   },
   {
     "id": "perplexity",
-    "name": "Perplexity AI"
+    "name": "Perplexity AI",
+    "filters": ["ai"]
   },
   {
     "id": "claude",
-    "name": "Claude"
+    "name": "Claude",
+    "filters": ["ai"]
   },
   {
     "id": "recraft",
-    "name": "Recraft"
+    "name": "Recraft",
+    "filters": ["ai"]
   },
   {
     "id": "anthropic",
-    "name": "Anthropic"
+    "name": "Anthropic",
+    "filters": ["ai"]
   },
   {
     "id": "higgsfield",
-    "name": "Higgsfield AI"
+    "name": "Higgsfield AI",
+    "filters": ["ai"]
+  },
+  {
+    "id": "data-ai",
+    "name": "Data.ai",
+    "filters": ["ai"]
+  },
+  {
+    "id": "neural-love",
+    "name": "Neural Love",
+    "filters": ["ai"]
+  },
+  {
+    "id": "deepseek",
+    "name": "DeepSeek",
+    "filters": ["ai"]
   },
   {
     "id": "unsplash",
@@ -3430,6 +3037,10 @@
     "name": "Atari"
   },
   {
+    "id": "league-of-legends",
+    "name": "League of Legends"
+  },
+  {
     "id": "cisco-splunk",
     "name": "Splunk Technology"
   },
@@ -3439,7 +3050,8 @@
   },
   {
     "id": "objective-c",
-    "name": "Objective-C"
+    "name": "Objective-C",
+    "filters": ["programming", "language"]
   },
   {
     "id": "cobol",
@@ -3460,6 +3072,38 @@
   {
     "id": "clojurescript",
     "name": "ClojureScript"
+  },
+  {
+    "id": "perl",
+    "name": "Perl (Programming Language)",
+    "filters": ["programming", "language"]
+  },
+  {
+    "id": "lisp",
+    "name": "Lisp (Programming Language)",
+    "filters": ["programming", "language"]
+  },
+  {
+    "id": "crystal",
+    "name": "Crystal (Programming Language)",
+    "filters": ["programming", "language"]
+  },
+  {
+    "id": "purescript",
+    "name": "PureScript"
+  },
+  {
+    "id": "matlab",
+    "name": "MATLAB"
+  },
+  {
+    "id": "nim",
+    "name": "Nim (Programming Language)",
+    "filters": ["programming", "language"]
+  },
+  {
+    "id": "svelte",
+    "name": "Svelte"
   },
   {
     "id": "deepnote",
@@ -3556,6 +3200,10 @@
   {
     "id": "memcached",
     "name": "Memcached"
+  },
+  {
+    "id": "dbeaver",
+    "name": "DBeaver"
   },
   {
     "id": "framer",
@@ -3876,5 +3524,57 @@
   {
     "id": "latex",
     "name": "Latex"
+  },
+  {
+    "id": "codeimage",
+    "name": "CodeImage"
+  },
+  {
+    "id": "autodesk",
+    "name": "Autodesk"
+  },
+  {
+    "id": "vlc",
+    "name": "VLC Media Player"
+  },
+  {
+    "id": "bluetooth",
+    "name": "Bluetooth"
+  },
+  {
+    "id": "geekbench",
+    "name": "Geekbench"
+  },
+  {
+    "id": "snapdragon",
+    "name": "Snapdragon"
+  },
+  {
+    "id": "debezium",
+    "name": "Debezium"
+  },
+  {
+    "id": "zebra",
+    "name": "Zebra Technologies"
+  },
+  {
+    "id": "beamery",
+    "name": "Beamery"
+  },
+  {
+    "id": "opencv",
+    "name": "OpenCV"
+  },
+  {
+    "id": "openxr",
+    "name": "OpenXR"
+  },
+  {
+    "id": "helm",
+    "name": "Helm"
+  },
+  {
+    "id": "prometheus",
+    "name": "Prometheus"
   }
 ]
