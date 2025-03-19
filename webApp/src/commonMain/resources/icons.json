@@ -2737,51 +2737,63 @@
 
   {
     "id": "google-android16",
-    "name": "Android 16 Baklava"
+    "name": "Android 16 Baklava",
+    "filters": ["google", "android"]
   },
   {
     "id": "google-chrome-web-store",
-    "name": "Google Chrome Web Store"
+    "name": "Google Chrome Web Store",
+    "filters": ["google"]
   },
   {
     "id": "google-keep",
-    "name": "Google Keep"
+    "name": "Google Keep",
+    "filters": ["google"]
   },
   {
     "id": "google-lens",
-    "name": "Google Lens"
+    "name": "Google Lens",
+    "filters": ["google"]
   },
   {
     "id": "google-snapseed",
-    "name": "Snapseed"
+    "name": "Snapseed",
+    "filters": ["google"]
   },
   {
     "id": "google-waymo",
-    "name": "Waymo"
+    "name": "Waymo",
+    "filters": ["google"]
   },
   {
     "id": "google-x",
-    "name": "Google X"
+    "name": "Google X",
+    "filters": ["google"]
   },
   {
     "id": "google-alphabet",
-    "name": "Alphabet"
+    "name": "Alphabet",
+    "filters": ["google"]
   },
   {
     "id": "google-deepmind",
-    "name": "Google Deepmind"
+    "name": "Google Deepmind",
+    "filters": ["google"]
   },
   {
     "id": "google-looker",
-    "name": "Google Looker"
+    "name": "Google Looker",
+    "filters": ["google"]
   },
   {
     "id": "apple-icloud",
-    "name": "Apple iCloud"
+    "name": "Apple iCloud",
+    "filters": ["apple"]
   },
   {
     "id": "apple-intelligence-1",
-    "name": "Apple Intelligence"
+    "name": "Apple Intelligence",
+    "filters": ["apple"]
   },
   {
     "id": "apple-numbers",
