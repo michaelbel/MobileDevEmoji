@@ -12,7 +12,7 @@ plugins {
 
 kotlin {
     js {
-        moduleName = "webApp"
+        outputModuleName = "webApp"
         browser {
             commonWebpackConfig {
                 outputFileName = "composeApp.js"
@@ -28,7 +28,7 @@ kotlin {
         useEsModules()
     }
     wasmJs {
-        moduleName = "webApp"
+        outputModuleName = "webApp"
         browser {
             commonWebpackConfig {
                 outputFileName = "composeApp.js"
