@@ -802,7 +802,8 @@
   },
   {
     "id": "realm",
-    "name": "Realm (Database)"
+    "name": "Realm (Database)",
+    "filters": ["database"]
   },
   {
     "id": "zoom-1",
@@ -1003,47 +1004,58 @@
   },
   {
     "id": "visa",
-    "name": "Visa (Payment System)"
+    "name": "Visa (Payment System)",
+    "filters": ["payment"]
   },
   {
     "id": "mastercard",
-    "name": "Mastercard (Payment System)"
+    "name": "Mastercard (Payment System)",
+    "filters": ["payment"]
   },
   {
     "id": "maestro",
-    "name": "Maestro (Payment System)"
+    "name": "Maestro (Payment System)",
+    "filters": ["payment"]
   },
   {
     "id": "union-pay",
-    "name": "UnionPay (Payment System)"
+    "name": "UnionPay (Payment System)",
+    "filters": ["payment"]
   },
   {
     "id": "jcb",
-    "name": "JCB (Payment System)"
+    "name": "JCB (Payment System)",
+    "filters": ["payment"]
   },
   {
     "id": "american-express",
-    "name": "American Express (Payment System)"
+    "name": "American Express (Payment System)",
+    "filters": ["payment"]
   },
   {
     "id": "mir",
-    "name": "Mir (Payment System)"
+    "name": "Mir (Payment System)",
+    "filters": ["payment"]
   },
   {
     "id": "sbp",
-    "name": "Система быстрых платежей"
+    "name": "Система быстрых платежей",
+    "filters": ["payment"]
   },
   {
     "id": "paypal",
-    "name": "PayPal"
+    "name": "PayPal",
+    "filters": ["payment"]
   },
   {
     "id": "stripe",
-    "name": "Stripe"
+    "name": "Stripe",
+    "filters": ["payment"]
   },
   {
     "id": "cashapp",
-    "name": "Cash App"
+    "name": "Cash App",
+    "filters": ["payment"]
   },
   {
     "id": "amazon-1",
@@ -1631,19 +1643,23 @@
   },
   {
     "id": "mysql",
-    "name": "MySQL"
+    "name": "MySQL",
+    "filters": ["database", "sql"]
   },
   {
     "id": "sqlite",
-    "name": "SQLite"
+    "name": "SQLite",
+    "filters": ["database", "sql"]
   },
   {
     "id": "postgresql",
-    "name": "PostgreSQL"
+    "name": "PostgreSQL",
+    "filters": ["database", "sql"]
   },
   {
     "id": "mongodb",
-    "name": "MongoDB"
+    "name": "MongoDB",
+    "filters": ["database"]
   },
   {
     "id": "microsoft-office",
@@ -3067,11 +3083,13 @@
   },
   {
     "id": "cobol",
-    "name": "Cobol"
+    "name": "Cobol",
+    "filters": ["programming", "language"]
   },
   {
     "id": "r",
-    "name": "R"
+    "name": "R",
+    "filters": ["programming", "language"]
   },
   {
     "id": "racket",
