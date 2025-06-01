@@ -497,7 +497,7 @@
   {
     "id": "meta-whatsapp",
     "name": "WhatsApp",
-    "filters": ["meta"]
+    "filters": ["meta", "messenger"]
   },
   {
     "id": "meta-fb-messenger",
@@ -601,7 +601,8 @@
   },
   {
     "id": "telegram",
-    "name": "Telegram"
+    "name": "Telegram",
+    "filters": ["messenger"]
   },
   {
     "id": "telegraph",
@@ -610,11 +611,13 @@
   },
   {
     "id": "pwa-1",
-    "name": "Progressive Web Apps"
+    "name": "Progressive Web Apps",
+    "filters": ["pwa"]
   },
   {
     "id": "pwa-2",
-    "name": "Progressive Web Apps"
+    "name": "Progressive Web Apps",
+    "filters": ["pwa"]
   },
   {
     "id": "atlassian-jira",
@@ -638,27 +641,33 @@
   },
   {
     "id": "boosty-1",
-    "name": "Boosty"
+    "name": "Boosty",
+    "filters": ["donation"]
   },
   {
     "id": "boosty-2",
-    "name": "Boosty"
+    "name": "Boosty",
+    "filters": ["donation"]
   },
   {
     "id": "patreon",
-    "name": "Patreon"
+    "name": "Patreon",
+    "filters": ["donation"]
   },
   {
     "id": "chatgpt",
-    "name": "ChatGPT"
+    "name": "ChatGPT",
+    "filters": ["ai"]
   },
   {
     "id": "midjourney-1",
-    "name": "Midjourney"
+    "name": "Midjourney",
+    "filters": ["ai"]
   },
   {
     "id": "midjourney-2",
-    "name": "Midjourney"
+    "name": "Midjourney",
+    "filters": ["ai"]
   },
   {
     "id": "opera",
@@ -734,27 +743,33 @@
   },
   {
     "id": "kakaotalk",
-    "name": "KakaoTalk"
+    "name": "KakaoTalk",
+    "filters": ["messenger"]
   },
   {
     "id": "snapchat",
-    "name": "Snapchat"
+    "name": "Snapchat",
+    "filters": ["messenger"]
   },
   {
     "id": "wechat",
-    "name": "WeChat"
+    "name": "WeChat",
+    "filters": ["messenger"]
   },
   {
     "id": "line",
-    "name": "Line"
+    "name": "Line",
+    "filters": ["messenger"]
   },
   {
     "id": "signal",
-    "name": "Signal"
+    "name": "Signal",
+    "filters": ["messenger"]
   },
   {
     "id": "viber",
-    "name": "Viber"
+    "name": "Viber",
+    "filters": ["messenger"]
   },
   {
     "id": "miro",
@@ -2527,11 +2542,13 @@
   },
   {
     "id": "buymeacoffee",
-    "name": "Buy Me a Coffee"
+    "name": "Buy Me a Coffee",
+    "filters": ["donation"]
   },
   {
     "id": "donationalerts",
-    "name": "DonationAlerts"
+    "name": "DonationAlerts",
+    "filters": ["donation"]
   },
   {
     "id": "clubhouse",
