@@ -707,35 +707,43 @@
   },
   {
     "id": "linkedin",
-    "name": "LinkedIn"
+    "name": "LinkedIn",
+    "filters": ["social"]
   },
   {
     "id": "discord",
-    "name": "Discord"
+    "name": "Discord",
+    "filters": ["messenger"]
   },
   {
     "id": "slack-1",
-    "name": "Slack"
+    "name": "Slack",
+    "filters": ["messenger"]
   },
   {
     "id": "slack-2",
-    "name": "Slack"
+    "name": "Slack",
+    "filters": ["messenger"]
   },
   {
     "id": "x",
-    "name": "X (Twitter)"
+    "name": "X (Twitter)",
+    "filters": ["social"]
   },
   {
     "id": "tiktok-1",
-    "name": "TikTok"
+    "name": "TikTok",
+    "filters": ["social"]
   },
   {
     "id": "tiktok-2",
-    "name": "TikTok"
+    "name": "TikTok",
+    "filters": ["social"]
   },
   {
     "id": "reddit",
-    "name": "Reddit"
+    "name": "Reddit",
+    "filters": ["social"]
   },
   {
     "id": "medium-1",
@@ -777,11 +785,13 @@
   },
   {
     "id": "figma",
-    "name": "Figma"
+    "name": "Figma",
+    "filters": ["design"]
   },
   {
     "id": "sketch",
-    "name": "Sketch"
+    "name": "Sketch",
+    "filters": ["design"]
   },
   {
     "id": "notion",
