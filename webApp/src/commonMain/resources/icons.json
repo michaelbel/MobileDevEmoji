@@ -747,7 +747,8 @@
   },
   {
     "id": "medium-1",
-    "name": "Medium"
+    "name": "Medium",
+    "filters": ["blog"]
   },
   {
     "id": "kakaotalk",
@@ -781,7 +782,8 @@
   },
   {
     "id": "miro",
-    "name": "Miro"
+    "name": "Miro",
+    "filters": ["design"]
   },
   {
     "id": "figma",
@@ -799,7 +801,8 @@
   },
   {
     "id": "sublime-text",
-    "name": "Sublime Text"
+    "name": "Sublime Text",
+    "filters": ["ide"]
   },
   {
     "id": "gitlab",
@@ -1129,68 +1132,83 @@
   },
   {
     "id": "steam",
-    "name": "Steam"
+    "name": "Steam",
+    "filters": ["gaming"]
   },
   {
     "id": "unity",
-    "name": "Unity (Game Engine)"
+    "name": "Unity (Game Engine)",
+    "filters": ["gaming"]
   },
   {
     "id": "unreal-engine-1",
-    "name": "Unreal Engine (Game Engine)"
+    "name": "Unreal Engine (Game Engine)",
+    "filters": ["gaming"]
   },
   {
     "id": "unreal-engine-2",
-    "name": "Unreal Engine (Game Engine)"
+    "name": "Unreal Engine (Game Engine)",
+    "filters": ["gaming"]
   },
   {
     "id": "sony-playstation",
     "name": "Sony PlayStation",
-    "filters": ["sony"]
+    "filters": ["sony", "gaming"]
   },
   {
     "id": "nintendo",
-    "name": "Nintendo"
+    "name": "Nintendo",
+    "filters": ["gaming"]
   },
   {
     "id": "ubisoft",
-    "name": "Ubisoft"
+    "name": "Ubisoft",
+    "filters": ["gaming"]
   },
   {
     "id": "valve",
-    "name": "Valve"
+    "name": "Valve",
+    "filters": ["gaming"]
   },
   {
     "id": "riot-games",
-    "name": "Riot Games"
+    "name": "Riot Games",
+    "filters": ["gaming"]
   },
   {
     "id": "bethesda",
-    "name": "Bethesda"
+    "name": "Bethesda",
+    "filters": ["gaming"]
   },
   {
     "id": "rockstar-games",
-    "name": "Rockstar Games"
+    "name": "Rockstar Games",
+    "filters": ["gaming"]
   },
   {
     "id": "take-two-interactive",
-    "name": "Take-Two Interactive"
+    "name": "Take-Two Interactive",
+    "filters": ["gaming"]
   },
   {
     "id": "epic-games",
-    "name": "Epic Games"
+    "name": "Epic Games",
+    "filters": ["gaming"]
   },
   {
     "id": "electronic-arts",
-    "name": "Electronic Arts"
+    "name": "Electronic Arts",
+    "filters": ["gaming"]
   },
   {
     "id": "activision-blizzard",
-    "name": "Activision Blizzard"
+    "name": "Activision Blizzard",
+    "filters": ["gaming"]
   },
   {
     "id": "supercell",
-    "name": "Supercell"
+    "name": "Supercell",
+    "filters": ["gaming"]
   },
   {
     "id": "intel",
@@ -2586,7 +2604,8 @@
   },
   {
     "id": "medium",
-    "name": "Medium"
+    "name": "Medium",
+    "filters": ["blog"]
   },
   {
     "id": "crowdstrike",
