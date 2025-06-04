@@ -810,19 +810,23 @@
   },
   {
     "id": "git-1",
-    "name": "Git"
+    "name": "Git",
+    "filters": ["vcs"]
   },
   {
     "id": "git-2",
-    "name": "Git"
+    "name": "Git",
+    "filters": ["vcs"]
   },
   {
     "id": "postman",
-    "name": "Postman"
+    "name": "Postman",
+    "filters": ["api"]
   },
   {
     "id": "habr",
-    "name": "Habr"
+    "name": "Habr",
+    "filters": ["blog"]
   },
   {
     "id": "rx",
@@ -843,11 +847,13 @@
   },
   {
     "id": "swagger",
-    "name": "Swagger"
+    "name": "Swagger",
+    "filters": ["api"]
   },
   {
     "id": "stackoverflow",
-    "name": "Stack Overflow"
+    "name": "Stack Overflow",
+    "filters": ["qa"]
   },
   {
     "id": "gradle-1",
@@ -1548,11 +1554,13 @@
   },
   {
     "id": "dropbox-1",
-    "name": "Dropbox"
+    "name": "Dropbox",
+    "filters": ["cloud"]
   },
   {
     "id": "dropbox-2",
-    "name": "Dropbox"
+    "name": "Dropbox",
+    "filters": ["cloud"]
   },
   {
     "id": "rss",
@@ -1560,7 +1568,8 @@
   },
   {
     "id": "quora",
-    "name": "Quora"
+    "name": "Quora",
+    "filters": ["qa"]
   },
   {
     "id": "tumblr",
@@ -1572,7 +1581,8 @@
   },
   {
     "id": "blender",
-    "name": "Blender"
+    "name": "Blender",
+    "filters": ["design"]
   },
   {
     "id": "apache",
