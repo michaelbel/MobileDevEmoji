@@ -1656,7 +1656,8 @@
   },
   {
     "id": "drawio",
-    "name": "Draw.io"
+    "name": "Draw.io",
+    "filters": ["uml"]
   },
   {
     "id": "garmin",
@@ -1776,23 +1777,28 @@
   },
   {
     "id": "zigbee",
-    "name": "Zigbee"
+    "name": "Zigbee",
+    "filters": ["iot"]
   },
   {
     "id": "mqtt",
-    "name": "MQTT"
+    "name": "MQTT",
+    "filters": ["iot"]
   },
   {
     "id": "z-wave",
-    "name": "Z-Wave"
+    "name": "Z-Wave",
+    "filters": ["iot"]
   },
   {
     "id": "thread",
-    "name": "Thread (Network Protocol)"
+    "name": "Thread (Network Protocol)",
+    "filters": ["iot"]
   },
   {
     "id": "matter",
-    "name": "Matter (Standard)"
+    "name": "Matter (Standard)",
+    "filters": ["iot"]
   },
   {
     "id": "jetbrains-2",
@@ -2417,7 +2423,8 @@
   },
   {
     "id": "lua",
-    "name": "Lua"
+    "name": "Lua",
+    "filters": ["programming", "language"]
   },
   {
     "id": "vitejs",
@@ -2598,15 +2605,18 @@
   },
   {
     "id": "vimeo-1",
-    "name": "Vimeo"
+    "name": "Vimeo",
+    "filters": ["video"]
   },
   {
     "id": "vimeo-2",
-    "name": "Vimeo"
+    "name": "Vimeo",
+    "filters": ["video"]
   },
   {
     "id": "protonmail",
-    "name": "Proton Mail"
+    "name": "Proton Mail",
+    "filters": ["mail"]
   },
   {
     "id": "tinder",
