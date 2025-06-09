@@ -10,8 +10,8 @@ data class Emoji(
         get() = emojiResponse.isNotEmpty && painter != null
 
     companion object {
-        val Empty: Emoji = Emoji(EmojiResponse.Empty, null)
-        val EmptyList: MutableList<Emoji> = MutableList(size = PACKS_SIZE) {
+        val Empty = Emoji(EmojiResponse.Empty, null)
+        val EmptyList = MutableList(size = PACKS_SIZE) {
             Emoji(EmojiResponse.Empty, null)
         }
     }

@@ -13,6 +13,6 @@ data class EmojiResponse(
         get() = this != Empty
 
     companion object {
-        val Empty: EmojiResponse = EmojiResponse("", "", null)
+        val Empty = EmojiResponse("", "", null)
     }
 }

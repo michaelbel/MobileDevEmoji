@@ -72,10 +72,7 @@ fun IconPreviewDialog(
                 Box(
                     modifier = Modifier
                         .padding(top = 24.dp)
-                        .shadow(
-                            elevation = 8.dp,
-                            shape = RoundedCornerShape(72.dp)
-                        )
+                        .shadow(elevation = 8.dp, shape = RoundedCornerShape(72.dp))
                         .clip(RoundedCornerShape(72.dp))
                         .size(300.dp)
                 ) {

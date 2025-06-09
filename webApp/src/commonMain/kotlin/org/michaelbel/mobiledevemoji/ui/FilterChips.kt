@@ -39,11 +39,7 @@ fun FilterChips(
                 InputChip(
                     selected = selectedFilter == filter,
                     onClick = { onFilterSelected(filter) },
-                    label = {
-                        Text(
-                            text = filter
-                        )
-                    },
+                    label = { Text(text = filter) },
                     modifier = Modifier.padding(horizontal = 2.dp)
                 )
             }
