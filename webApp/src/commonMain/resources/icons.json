@@ -1218,15 +1218,18 @@
   },
   {
     "id": "intel",
-    "name": "Intel"
+    "name": "Intel",
+    "filters": ["semiconductors", "chips"]
   },
   {
     "id": "amd",
-    "name": "AMD"
+    "name": "AMD",
+    "filters": ["semiconductors", "chips"]
   },
   {
     "id": "qualcomm",
-    "name": "Qualcomm"
+    "name": "Qualcomm",
+    "filters": ["semiconductors", "chips"]
   },
   {
     "id": "nvidia-1",
@@ -1246,11 +1249,13 @@
   },
   {
     "id": "arm",
-    "name": "ARM"
+    "name": "ARM",
+    "filters": ["semiconductors", "chips"]
   },
   {
     "id": "tsmc",
-    "name": "TSMC"
+    "name": "TSMC",
+    "filters": ["semiconductors", "chips"]
   },
   {
     "id": "mediatek",
