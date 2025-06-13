@@ -1,7 +1,6 @@
 package org.michaelbel.mobiledevemoji.data
 
 const val APP_NAME = "MobileDevEmoji"
-
 const val TELEGRAM_URL = "https://t.me/foundout"
 const val TELEGRAM_PACK_1 = "https://t.me/addstickers/MobileDevEmojiTgs"
 const val TELEGRAM_PACK_2 = "https://t.me/addstickers/MobileDevEmojiTgs2"
@@ -37,12 +36,13 @@ val <T> List<T>.pack5: List<T>
     get() = drop(PACK_1_SIZE + PACK_2_SIZE + PACK_3_SIZE + PACK_4_SIZE).take(PACK_5_SIZE)
 
 fun List<Emoji>.filterBy(filter: String): List<Emoji> {
-    if (filter.isEmpty()) return this
-    return filter { emoji -> emoji.emojiResponse.filters.orEmpty().contains(filter.lowercase()) }
+    if (filter.isEmpty() || filter.isBlank()) return this
+    val textLowercase = filter.lowercase()
+    return filter { emoji -> emoji.emojiResponse.filters.orEmpty().contains(textLowercase) }
 }
 
 fun List<Emoji>.searchBy(query: String): List<Emoji> {
-    if (query.isEmpty()) return this
+    if (query.isEmpty() || query.isBlank()) return this
     return filter { emoji ->
         val emojiResponse = emoji.emojiResponse
         emojiResponse.name.contains(query, ignoreCase = true) || emojiResponse.filters?.any { filter -> filter.contains(query, ignoreCase = true) } == true
