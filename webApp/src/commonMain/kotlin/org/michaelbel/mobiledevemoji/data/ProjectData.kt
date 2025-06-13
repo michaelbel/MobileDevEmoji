@@ -7,12 +7,14 @@ const val TELEGRAM_PACK_1 = "https://t.me/addstickers/MobileDevEmojiTgs"
 const val TELEGRAM_PACK_2 = "https://t.me/addstickers/MobileDevEmojiTgs2"
 const val TELEGRAM_PACK_3 = "https://t.me/addstickers/MobileDevEmojiTgs3"
 const val TELEGRAM_PACK_4 = "https://t.me/addstickers/MobileDevEmojiTgs4"
+const val TELEGRAM_PACK_5 = "https://t.me/addstickers/MobileDevEmojiTgs5"
 const val FIGMA_URL = "https://www.figma.com/community/file/1385339470177359146"
 private const val PACK_1_SIZE = 200
 private const val PACK_2_SIZE = 200
 private const val PACK_3_SIZE = 200
 private const val PACK_4_SIZE = 200
-const val PACKS_SIZE = PACK_1_SIZE + PACK_2_SIZE + PACK_3_SIZE + PACK_4_SIZE
+private const val PACK_5_SIZE = 64
+const val PACKS_SIZE = PACK_1_SIZE + PACK_2_SIZE + PACK_3_SIZE + PACK_4_SIZE + PACK_5_SIZE
 
 val FILTERS = listOf(
     "Google", "Android", "JetBrains", "Apple", "Microsoft", "Meta", "Yandex", "VK", "Huawei",
@@ -30,6 +32,9 @@ val <T> List<T>.pack3: List<T>
 
 val <T> List<T>.pack4: List<T>
     get() = drop(PACK_1_SIZE + PACK_2_SIZE + PACK_3_SIZE).take(PACK_4_SIZE)
+
+val <T> List<T>.pack5: List<T>
+    get() = drop(PACK_1_SIZE + PACK_2_SIZE + PACK_3_SIZE + PACK_4_SIZE).take(PACK_5_SIZE)
 
 fun List<Emoji>.filterBy(filter: String): List<Emoji> {
     if (filter.isEmpty()) return this
@@ -49,5 +54,6 @@ val Int.pack: String
         in 0..<200 -> "pack1"
         in 200..399 -> "pack2"
         in 400..599 -> "pack3"
-        else -> "pack4"
+        in 600..799 -> "pack4"
+        else -> "pack5"
     }

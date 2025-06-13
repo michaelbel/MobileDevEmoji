@@ -3677,5 +3677,262 @@
   {
     "id": "prometheus",
     "name": "Prometheus"
+  },
+
+  {
+    "id": "google-android-studio-nightly",
+    "name": "Android Studio Nightly"
+  },
+  {
+    "id": "google-firebase-studio",
+    "name": "Firebase Studio"
+  },
+  {
+    "id": "google-vertex-ai",
+    "name": "Google Vertex AI"
+  },
+  {
+    "id": "google-idx",
+    "name": "Google Project IDX"
+  },
+  {
+    "id": "google-colab",
+    "name": "Google Colab"
+  },
+  {
+    "id": "google-youtube-kids",
+    "name": "YouTube Kids"
+  },
+  {
+    "id": "google-dialogflow",
+    "name": "Google Dialogflow"
+  },
+  {
+    "id": "google-ai",
+    "name": "Google AI"
+  },
+  {
+    "id": "google-fitbit",
+    "name": "Google Fitbit"
+  },
+  {
+    "id": "google-gemma",
+    "name": "Google Gemma"
+  },
+  {
+    "id": "microsoft-viva-engage",
+    "name": "Microsoft Viva Engage"
+  },
+  {
+    "id": "microsoft-defender",
+    "name": "Microsoft Defender"
+  },
+  {
+    "id": "microsoft-editor",
+    "name": "Microsoft Editor"
+  },
+  {
+    "id": "microsoft-clipchamp",
+    "name": "Microsoft Clipchamp"
+  },
+  {
+    "id": "apple-music",
+    "name": "Apple Music"
+  },
+  {
+    "id": "apple-shortcuts",
+    "name": "Apple Shortcuts"
+  },
+  {
+    "id": "jetbrains-ai",
+    "name": "Jetbrains AI"
+  },
+  {
+    "id": "jetbrains-kotlin-conf",
+    "name": "KotlinConf"
+  },
+  {
+    "id": "mts",
+    "name": "МТС"
+  },
+  {
+    "id": "megafon",
+    "name": "Мегафон"
+  },
+  {
+    "id": "beeline",
+    "name": "Билайн"
+  },
+  {
+    "id": "t2",
+    "name": "T2"
+  },
+  {
+    "id": "yota",
+    "name": "Yota"
+  },
+  {
+    "id": "tbank",
+    "name": "Т-Банк"
+  },
+  {
+    "id": "rostelecom",
+    "name": "Ростелеком"
+  },
+  {
+    "id": "lamoda-tech",
+    "name": "Lamoda Tech"
+  },
+  {
+    "id": "gosuslugi",
+    "name": "Госуслуги"
+  },
+  {
+    "id": "bell-integrator",
+    "name": "Bell Integrator"
+  },
+  {
+    "id": "ibs",
+    "name": "IBS"
+  },
+  {
+    "id": "sber-tech",
+    "name": "Sber Tech"
+  },
+  {
+    "id": "magnit-tech",
+    "name": "Magnit Tech"
+  },
+  {
+    "id": "lanit",
+    "name": "Ланит"
+  },
+  {
+    "id": "x5-tech",
+    "name": "X5 Tech"
+  },
+  {
+    "id": "avito-tech",
+    "name": "Avito Tech"
+  },
+  {
+    "id": "rostec",
+    "name": "Ростех"
+  },
+  {
+    "id": "avrora",
+    "name": "ОС Аврора"
+  },
+  {
+    "id": "yandex-gpt",
+    "name": "YandexGPT"
+  },
+  {
+    "id": "yandex-divkit",
+    "name": "DivKit"
+  },
+  {
+    "id": "amazon-nova",
+    "name": "Amazon Nova"
+  },
+  {
+    "id": "risc-v",
+    "name": "RISC-V"
+  },
+  {
+    "id": "hibernate",
+    "name": "Hibernate"
+  },
+  {
+    "id": "bootstrap",
+    "name": "Bootstrap"
+  },
+  {
+    "id": "max",
+    "name": "Max"
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor"
+  },
+  {
+    "id": "teamviewer",
+    "name": "TeamViewer"
+  },
+  {
+    "id": "qwen",
+    "name": "Qwen"
+  },
+  {
+    "id": "cline",
+    "name": "Cline"
+  },
+  {
+    "id": "grab",
+    "name": "Grab"
+  },
+  {
+    "id": "devin",
+    "name": "Devin AI"
+  },
+  {
+    "id": "elm",
+    "name": "Elm"
+  },
+  {
+    "id": "sequoia-capital",
+    "name": "Sequoia Capital"
+  },
+  {
+    "id": "windsurf",
+    "name": "Windsurf"
+  },
+  {
+    "id": "haxe",
+    "name": "Haxe"
+  },
+  {
+    "id": "character-ai",
+    "name": "Character.ai"
+  },
+  {
+    "id": "astro",
+    "name": "Astro"
+  },
+  {
+    "id": "anydesk",
+    "name": "AnyDesk"
+  },
+  {
+    "id": "alibaba-cloud",
+    "name": "Alibaba Cloud"
+  },
+  {
+    "id": "replicate",
+    "name": "Replicate"
+  },
+  {
+    "id": "sensor-tower",
+    "name": "SensorTower"
+  },
+  {
+    "id": "2gis",
+    "name": "2GIS"
+  },
+  {
+    "id": "snap-zenly",
+    "name": "Zenly"
+  },
+  {
+    "id": "likee",
+    "name": "Likee"
+  },
+  {
+    "id": "valve-dota-2",
+    "name": "Dota 2"
+  },
+  {
+    "id": "nebius",
+    "name": "Nebius"
   }
 ]

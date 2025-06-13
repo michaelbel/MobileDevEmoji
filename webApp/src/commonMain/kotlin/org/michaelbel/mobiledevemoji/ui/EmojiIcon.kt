@@ -65,8 +65,9 @@ fun EmojiIcon(
                 .clickable(
                     enabled = emoji.isNotEmpty,
                     indication = null,
-                    interactionSource = remember { MutableInteractionSource() }
-                ) { onClick(emoji.emojiResponse.id) }
+                    interactionSource = remember { MutableInteractionSource() },
+                    onClick = { onClick(emoji.emojiResponse.id) }
+                )
                 .onPointerEvent(PointerEventType.Enter) { active = true }
                 .onPointerEvent(PointerEventType.Exit) { active = false },
             contentAlignment = Alignment.Center
