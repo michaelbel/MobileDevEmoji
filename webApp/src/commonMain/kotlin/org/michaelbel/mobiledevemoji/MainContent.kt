@@ -43,7 +43,6 @@ import org.michaelbel.mobiledevemoji.data.APP_NAME
 import org.michaelbel.mobiledevemoji.data.ActionMode
 import org.michaelbel.mobiledevemoji.data.Emoji
 import org.michaelbel.mobiledevemoji.data.EmojiResponse
-import org.michaelbel.mobiledevemoji.data.FILTERS
 import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_1
 import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_2
 import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_3
@@ -74,6 +73,7 @@ import org.michaelbel.mobiledevemoji.ui.topbar.TelegramIcon
 fun MainContent() {
     val emojiSnapshotStateList: SnapshotStateList<Emoji> = mutableStateListOf()
     var emojiList by remember { mutableStateOf<List<Emoji>>(emptyList()) }
+    var filtersList by remember { mutableStateOf<List<String>>(emptyList()) }
     var emojiPreviewVisible by remember { mutableStateOf<String?>(null) }
 
     var currentActionMode: ActionMode by remember { mutableStateOf(ActionMode.None) }
@@ -88,6 +88,9 @@ fun MainContent() {
         emojiList = emojiSnapshotStateList.toList()
 
         val emojiResponseList = json.decodeFromString<List<EmojiResponse>>("icons.json".decodeJsonToString())
+
+        filtersList = emojiResponseList.flatMap { it.filters.orEmpty() }.distinct().sorted()
+
         emojiResponseList.forEachIndexed { index, emojiResponse ->
             scope.launch(Dispatchers.Default) {
                 val emojiPainter = "${index.pack}/${emojiResponse.id}.svg".emojiPainter()
@@ -152,7 +155,7 @@ fun MainContent() {
                 when (currentActionMode) {
                     is ActionMode.Filters -> {
                         FilterChips(
-                            filters = FILTERS,
+                            filters = filtersList,
                             selectedFilter = selectedFilter,
                             onFilterSelected = { filter ->
                                 selectedFilter = if (selectedFilter == filter) "" else filter

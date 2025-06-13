@@ -15,11 +15,6 @@ private const val PACK_4_SIZE = 200
 private const val PACK_5_SIZE = 64
 const val PACKS_SIZE = PACK_1_SIZE + PACK_2_SIZE + PACK_3_SIZE + PACK_4_SIZE + PACK_5_SIZE
 
-val FILTERS = listOf(
-    "Google", "Android", "JetBrains", "Apple", "Microsoft", "Meta", "Yandex", "VK", "Huawei",
-    "Oracle", "Atlassian", "Samsung", "Amazon", "Linux", "Sony", "Adobe", "Apache"
-)
-
 val <T> List<T>.pack1: List<T>
     get() = take(PACK_1_SIZE)
 
