@@ -758,7 +758,7 @@
   {
     "id": "snapchat",
     "name": "Snapchat",
-    "filters": ["messenger"]
+    "filters": ["snap", "messenger"]
   },
   {
     "id": "wechat",
@@ -1174,7 +1174,7 @@
   {
     "id": "valve",
     "name": "Valve",
-    "filters": ["gaming"]
+    "filters": ["valve", "gaming"]
   },
   {
     "id": "riot-games",
@@ -3681,75 +3681,93 @@
 
   {
     "id": "google-android-studio-nightly",
-    "name": "Android Studio Nightly"
+    "name": "Android Studio Nightly",
+    "filters": ["google", "android"]
   },
   {
     "id": "google-firebase-studio",
-    "name": "Firebase Studio"
+    "name": "Firebase Studio",
+    "filters": ["google", "android", "ai"]
   },
   {
     "id": "google-vertex-ai",
-    "name": "Google Vertex AI"
+    "name": "Google Vertex AI",
+    "filters": ["google", "ai"]
   },
   {
     "id": "google-idx",
-    "name": "Google Project IDX"
+    "name": "Google Project IDX",
+    "filters": ["google"]
   },
   {
     "id": "google-colab",
-    "name": "Google Colab"
+    "name": "Google Colab",
+    "filters": ["google"]
   },
   {
     "id": "google-youtube-kids",
-    "name": "YouTube Kids"
+    "name": "YouTube Kids",
+    "filters": ["google"]
   },
   {
     "id": "google-dialogflow",
-    "name": "Google Dialogflow"
+    "name": "Google Dialogflow",
+    "filters": ["google"]
   },
   {
     "id": "google-ai",
-    "name": "Google AI"
+    "name": "Google AI",
+    "filters": ["google", "ai"]
   },
   {
     "id": "google-fitbit",
-    "name": "Google Fitbit"
+    "name": "Google Fitbit",
+    "filters": ["google"]
   },
   {
     "id": "google-gemma",
-    "name": "Google Gemma"
+    "name": "Google Gemma",
+    "filters": ["google"]
   },
   {
     "id": "microsoft-viva-engage",
-    "name": "Microsoft Viva Engage"
+    "name": "Microsoft Viva Engage",
+    "filters": ["microsoft"]
   },
   {
     "id": "microsoft-defender",
-    "name": "Microsoft Defender"
+    "name": "Microsoft Defender",
+    "filters": ["microsoft"]
   },
   {
     "id": "microsoft-editor",
-    "name": "Microsoft Editor"
+    "name": "Microsoft Editor",
+    "filters": ["microsoft"]
   },
   {
     "id": "microsoft-clipchamp",
-    "name": "Microsoft Clipchamp"
+    "name": "Microsoft Clipchamp",
+    "filters": ["microsoft"]
   },
   {
     "id": "apple-music",
-    "name": "Apple Music"
+    "name": "Apple Music",
+    "filters": ["apple"]
   },
   {
     "id": "apple-shortcuts",
-    "name": "Apple Shortcuts"
+    "name": "Apple Shortcuts",
+    "filters": ["apple"]
   },
   {
     "id": "jetbrains-ai",
-    "name": "Jetbrains AI"
+    "name": "Jetbrains AI",
+    "filters": ["jetbrains", "ai"]
   },
   {
     "id": "jetbrains-kotlin-conf",
-    "name": "KotlinConf"
+    "name": "KotlinConf",
+    "filters": ["jetbrains"]
   },
   {
     "id": "mts",
@@ -3825,15 +3843,18 @@
   },
   {
     "id": "yandex-gpt",
-    "name": "YandexGPT"
+    "name": "YandexGPT",
+    "filters": ["yandex", "ai"]
   },
   {
     "id": "yandex-divkit",
-    "name": "DivKit"
+    "name": "DivKit",
+    "filters": ["yandex"]
   },
   {
     "id": "amazon-nova",
-    "name": "Amazon Nova"
+    "name": "Amazon Nova",
+    "filters": ["amazon"]
   },
   {
     "id": "risc-v",
@@ -3853,7 +3874,8 @@
   },
   {
     "id": "cursor",
-    "name": "Cursor"
+    "name": "Cursor",
+    "filters": ["ai"]
   },
   {
     "id": "teamviewer",
@@ -3861,7 +3883,8 @@
   },
   {
     "id": "qwen",
-    "name": "Qwen"
+    "name": "Qwen",
+    "filters": ["ai"]
   },
   {
     "id": "cline",
@@ -3885,7 +3908,8 @@
   },
   {
     "id": "windsurf",
-    "name": "Windsurf"
+    "name": "Windsurf",
+    "filters": ["ai"]
   },
   {
     "id": "haxe",
@@ -3893,7 +3917,8 @@
   },
   {
     "id": "character-ai",
-    "name": "Character.ai"
+    "name": "Character.ai",
+    "filters": ["ai"]
   },
   {
     "id": "astro",
@@ -3921,7 +3946,8 @@
   },
   {
     "id": "snap-zenly",
-    "name": "Zenly"
+    "name": "Zenly",
+    "filters": ["snap"]
   },
   {
     "id": "likee",
@@ -3929,7 +3955,8 @@
   },
   {
     "id": "valve-dota-2",
-    "name": "Dota 2"
+    "name": "Dota 2",
+    "filters": ["valve"]
   },
   {
     "id": "nebius",
