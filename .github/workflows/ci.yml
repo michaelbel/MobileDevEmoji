@@ -13,22 +13,22 @@ jobs:
     name: Build Kotlin/Wasm
     runs-on: ubuntu-latest
     steps:
-      - name: Set up JDK
+      - name: setup jdk
         uses: actions/setup-java@v4
         with:
           distribution: 'adopt'
-          java-version: '11'
+          java-version: '21'
 
-      - name: Checkout code
+      - name: checkout code
         uses: actions/checkout@v4
 
-      - name: Run Gradle Tasks
+      - name: run gradle tasks
         run: ./gradlew :webApp:jsBrowserDistribution
 
-      - name: Fix permissions
+      - name: fix permissions
         run: chmod -R 0755 "webApp/build/dist/js/productionExecutable/"
 
-      - name: Upload Pages artifact
+      - name: upload pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: webApp/build/dist/js/productionExecutable/
