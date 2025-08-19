@@ -12,7 +12,7 @@ private const val PACK_1_SIZE = 200
 private const val PACK_2_SIZE = 200
 private const val PACK_3_SIZE = 200
 private const val PACK_4_SIZE = 200
-private const val PACK_5_SIZE = 64
+private const val PACK_5_SIZE = 128
 const val PACKS_SIZE = PACK_1_SIZE + PACK_2_SIZE + PACK_3_SIZE + PACK_4_SIZE + PACK_5_SIZE
 
 val <T> List<T>.pack1: List<T>

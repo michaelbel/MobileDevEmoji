@@ -3961,5 +3961,306 @@
   {
     "id": "nebius",
     "name": "Nebius"
+  },
+  {
+    "id": "alfa-bank",
+    "name": "Альфа-Банк",
+    "filters": ["bank"]
+  },
+  {
+    "id": "amazon-prime-video",
+    "name": "Amazon Prime Video",
+    "filters": ["amazon", "video"]
+  },
+  {
+    "id": "avito",
+    "name": "Авито"
+  },
+  {
+    "id": "bank-domrf",
+    "name": "Банк ДОМ.РФ",
+    "filters": ["bank"]
+  },
+  {
+    "id": "bank131",
+    "name": "Банк 131",
+    "filters": ["bank"]
+  },
+  {
+    "id": "boston-dynamics",
+    "name": "Boston Dynamics"
+  },
+  {
+    "id": "cd-projekt",
+    "name": "CD Projekt",
+    "filters": ["gaming"]
+  },
+  {
+    "id": "cdek",
+    "name": "CDEK"
+  },
+  {
+    "id": "cloudtips",
+    "name": "CloudTips",
+    "filters": ["payment"]
+  },
+  {
+    "id": "codeberg",
+    "name": "Codeberg",
+    "filters": ["git", "vcs"]
+  },
+  {
+    "id": "corning",
+    "name": "Corning"
+  },
+  {
+    "id": "disney-plus",
+    "name": "Disney+",
+    "filters": ["video"]
+  },
+  {
+    "id": "dodo",
+    "name": "Dodo Brands"
+  },
+  {
+    "id": "ebay",
+    "name": "eBay"
+  },
+  {
+    "id": "element",
+    "name": "Element",
+    "filters": ["messenger"]
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "filters": ["ai", "audio"]
+  },
+  {
+    "id": "flowwow",
+    "name": "Flowwow"
+  },
+  {
+    "id": "gazprombank",
+    "name": "Газпромбанк",
+    "filters": ["bank"]
+  },
+  {
+    "id": "google-ai-studio",
+    "name": "Google AI Studio",
+    "filters": ["google", "ai"]
+  },
+  {
+    "id": "google-cast",
+    "name": "Google Cast",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-chat",
+    "name": "Google Chat",
+    "filters": ["google", "messenger"]
+  },
+  {
+    "id": "google-notebooklm",
+    "name": "Google NotebookLM",
+    "filters": ["google", "ai"]
+  },
+  {
+    "id": "google-photos",
+    "name": "Google Photos",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-tv",
+    "name": "Google TV",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-web-dev",
+    "name": "Google web.dev",
+    "filters": ["google"]
+  },
+  {
+    "id": "hackerone",
+    "name": "HackerOne"
+  },
+  {
+    "id": "hulu",
+    "name": "Hulu",
+    "filters": ["video"]
+  },
+  {
+    "id": "keras",
+    "name": "Keras",
+    "filters": ["ai"]
+  },
+  {
+    "id": "linear",
+    "name": "Linear"
+  },
+  {
+    "id": "linux-kaios",
+    "name": "Linux KaiOS",
+    "filters": ["linux"]
+  },
+  {
+    "id": "linux-nixos",
+    "name": "Linux NixOS",
+    "filters": ["linux"]
+  },
+  {
+    "id": "litres",
+    "name": "ЛитРес"
+  },
+  {
+    "id": "meta-ai",
+    "name": "Meta AI",
+    "filters": ["meta", "ai"]
+  },
+  {
+    "id": "movavi",
+    "name": "Movavi",
+    "filters": ["video"]
+  },
+  {
+    "id": "mts-link",
+    "name": "МТС Линк",
+    "filters": ["messenger"]
+  },
+  {
+    "id": "mvideo",
+    "name": "М.Видео"
+  },
+  {
+    "id": "notion-calendar",
+    "name": "Notion Calendar",
+    "filters": ["notion", "calendar"]
+  },
+  {
+    "id": "notion-mail",
+    "name": "Notion Mail",
+    "filters": ["notion", "mail"]
+  },
+  {
+    "id": "oracle-virtualbox",
+    "name": "Oracle VirtualBox",
+    "filters": ["oracle"]
+  },
+  {
+    "id": "ozon",
+    "name": "Ozon"
+  },
+  {
+    "id": "perplexity-comet",
+    "name": "Perplexity Comet",
+    "filters": ["ai", "browser"]
+  },
+  {
+    "id": "psb",
+    "name": "ПСБ",
+    "filters": ["bank"]
+  },
+  {
+    "id": "ramp",
+    "name": "Ramp",
+    "filters": ["payment"]
+  },
+  {
+    "id": "renessans-bank",
+    "name": "Ренессанс Банк",
+    "filters": ["bank"]
+  },
+  {
+    "id": "rkn",
+    "name": "Роскомнадзор"
+  },
+  {
+    "id": "samsung-internet",
+    "name": "Samsung Internet",
+    "filters": ["samsung", "browser"]
+  },
+  {
+    "id": "shadowsocks",
+    "name": "Shadowsocks",
+    "filters": ["vpn"]
+  },
+  {
+    "id": "similarweb",
+    "name": "Similarweb"
+  },
+  {
+    "id": "suno",
+    "name": "Suno",
+    "filters": ["ai", "audio"]
+  },
+  {
+    "id": "tauri",
+    "name": "Tauri"
+  },
+  {
+    "id": "tea",
+    "name": "Tea",
+    "filters": ["social"]
+  },
+  {
+    "id": "uzum",
+    "name": "Uzum Technologies",
+    "filters": ["bank"]
+  },
+  {
+    "id": "vk-mail",
+    "name": "VK Mail",
+    "filters": ["vk", "mail"]
+  },
+  {
+    "id": "vk-max",
+    "name": "MAX",
+    "filters": ["vk", "messenger"]
+  },
+  {
+    "id": "vtb",
+    "name": "ВТБ",
+    "filters": ["bank"]
+  },
+  {
+    "id": "xda",
+    "name": "XDA"
+  },
+  {
+    "id": "yandex-360",
+    "name": "Яндекс 360",
+    "filters": ["yandex"]
+  },
+  {
+    "id": "yandex-books",
+    "name": "Яндекс Книги",
+    "filters": ["yandex"]
+  },
+  {
+    "id": "yandex-cloud",
+    "name": "Yandex Cloud",
+    "filters": ["yandex"]
+  },
+  {
+    "id": "yandex-internet",
+    "name": "Яндекс Интернетометр",
+    "filters": ["yandex"]
+  },
+  {
+    "id": "yandex-kinopoisk",
+    "name": "Кинопоиск",
+    "filters": ["yandex", "video"]
+  },
+  {
+    "id": "иннотех",
+    "name": "Иннотех"
+  },
+  {
+    "id": "купибилет",
+    "name": "Купибилет"
+  },
+  {
+    "id": "минцифры",
+    "name": "Минцифры"
   }
 ]
