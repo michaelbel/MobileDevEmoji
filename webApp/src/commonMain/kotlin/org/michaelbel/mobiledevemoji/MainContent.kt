@@ -206,6 +206,7 @@ fun MainContent() {
                         PackHeader(
                             packName = "Pack 1",
                             packUrl = TELEGRAM_PACK_1,
+                            expanded = isPack1Expanded,
                             onClick = { isPack1Expanded = !isPack1Expanded }
                         )
                     }
@@ -235,6 +236,7 @@ fun MainContent() {
                         PackHeader(
                             packName = "Pack 2",
                             packUrl = TELEGRAM_PACK_2,
+                            expanded = isPack2Expanded,
                             onClick = { isPack2Expanded = !isPack2Expanded },
                             modifier = Modifier.padding(top = 32.dp)
                         )
@@ -265,6 +267,7 @@ fun MainContent() {
                         PackHeader(
                             packName = "Pack 3",
                             packUrl = TELEGRAM_PACK_3,
+                            expanded = isPack3Expanded,
                             onClick = { isPack3Expanded = !isPack3Expanded },
                             modifier = Modifier.padding(top = 32.dp)
                         )
@@ -295,6 +298,7 @@ fun MainContent() {
                         PackHeader(
                             packName = "Pack 4",
                             packUrl = TELEGRAM_PACK_4,
+                            expanded = isPack4Expanded,
                             onClick = { isPack4Expanded = !isPack4Expanded },
                             modifier = Modifier.padding(top = 32.dp)
                         )
@@ -327,6 +331,7 @@ fun MainContent() {
                         PackHeader(
                             packName = "Pack 5",
                             packUrl = TELEGRAM_PACK_5,
+                            expanded = isPack5Expanded,
                             onClick = { isPack5Expanded = !isPack5Expanded },
                             modifier = Modifier.padding(top = 32.dp)
                         )
