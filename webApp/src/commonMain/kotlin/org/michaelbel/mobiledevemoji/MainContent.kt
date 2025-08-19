@@ -80,6 +80,21 @@ fun MainContent() {
     var selectedFilter by remember { mutableStateOf("") }
     var searchQuery by remember { mutableStateOf("") }
 
+    val pack1 = emojiList.pack1.filterBy(selectedFilter).searchBy(searchQuery)
+    val pack2 = emojiList.pack2.filterBy(selectedFilter).searchBy(searchQuery)
+    val pack3 = emojiList.pack3.filterBy(selectedFilter).searchBy(searchQuery)
+    val pack4 = emojiList.pack4.filterBy(selectedFilter).searchBy(searchQuery)
+    val pack5 = emojiList.pack5.filterBy(selectedFilter).searchBy(searchQuery)
+
+    var isSearchEmpty by remember { mutableStateOf(false) }
+    isSearchEmpty = pack1.isEmpty() && pack2.isEmpty() && pack3.isEmpty() && pack4.isEmpty() && pack5.isEmpty()
+
+    var isPack1Expanded by remember { mutableStateOf(true) }
+    var isPack2Expanded by remember { mutableStateOf(true) }
+    var isPack3Expanded by remember { mutableStateOf(true) }
+    var isPack4Expanded by remember { mutableStateOf(true) }
+    var isPack5Expanded by remember { mutableStateOf(true) }
+
     val json = Json { ignoreUnknownKeys = true }
     val scope = rememberCoroutineScope()
 
@@ -176,7 +191,6 @@ fun MainContent() {
             val horizontalArrangementDp = if (isMobileBrowser()) 8.dp else 0.dp
             val verticalArrangement = if (isMobileBrowser()) 8.dp else 0.dp
             val gridModifier = if (isMobileBrowser()) Modifier.fillMaxSize() else Modifier.width(888.dp).fillMaxHeight() // 100*8 + 16*2 + 8*7
-            var isSearchEmpty by remember { mutableStateOf(false) }
 
             LazyVerticalGrid(
                 columns = GridCells.Fixed(count = 8),
@@ -185,35 +199,32 @@ fun MainContent() {
                 verticalArrangement = Arrangement.spacedBy(verticalArrangement),
                 contentPadding = PaddingValues(all = 16.dp)
             ) {
-                val pack1 = emojiList.pack1.filterBy(selectedFilter).searchBy(searchQuery)
-                val pack2 = emojiList.pack2.filterBy(selectedFilter).searchBy(searchQuery)
-                val pack3 = emojiList.pack3.filterBy(selectedFilter).searchBy(searchQuery)
-                val pack4 = emojiList.pack4.filterBy(selectedFilter).searchBy(searchQuery)
-                val pack5 = emojiList.pack5.filterBy(selectedFilter).searchBy(searchQuery)
-
                 if (pack1.isNotEmpty()) {
                     item(
                         span = { GridItemSpan(maxLineSpan) }
                     ) {
                         PackHeader(
                             packName = "Pack 1",
-                            packUrl = TELEGRAM_PACK_1
+                            packUrl = TELEGRAM_PACK_1,
+                            onClick = { isPack1Expanded = !isPack1Expanded }
                         )
                     }
 
-                    items(
-                        items = pack1
-                    ) { emoji ->
-                        EmojiIcon(
-                            emoji = emoji,
-                            selected = emoji.emojiResponse.id == emojiPreviewVisible,
-                            onClick = { emojiId ->
-                                emojiPreviewVisible = when {
-                                    emojiId == emojiPreviewVisible -> null
-                                    else -> emojiId
+                    if (isPack1Expanded) {
+                        items(
+                            items = pack1
+                        ) { emoji ->
+                            EmojiIcon(
+                                emoji = emoji,
+                                selected = emoji.emojiResponse.id == emojiPreviewVisible,
+                                onClick = { emojiId ->
+                                    emojiPreviewVisible = when {
+                                        emojiId == emojiPreviewVisible -> null
+                                        else -> emojiId
+                                    }
                                 }
-                            }
-                        )
+                            )
+                        }
                     }
                 }
 
@@ -224,23 +235,26 @@ fun MainContent() {
                         PackHeader(
                             packName = "Pack 2",
                             packUrl = TELEGRAM_PACK_2,
+                            onClick = { isPack2Expanded = !isPack2Expanded },
                             modifier = Modifier.padding(top = 32.dp)
                         )
                     }
 
-                    items(
-                        items = pack2
-                    ) { emoji ->
-                        EmojiIcon(
-                            emoji = emoji,
-                            selected = emoji.emojiResponse.id == emojiPreviewVisible,
-                            onClick = { emojiId ->
-                                emojiPreviewVisible = when {
-                                    emojiId == emojiPreviewVisible -> null
-                                    else -> emojiId
+                    if (isPack2Expanded) {
+                        items(
+                            items = pack2
+                        ) { emoji ->
+                            EmojiIcon(
+                                emoji = emoji,
+                                selected = emoji.emojiResponse.id == emojiPreviewVisible,
+                                onClick = { emojiId ->
+                                    emojiPreviewVisible = when {
+                                        emojiId == emojiPreviewVisible -> null
+                                        else -> emojiId
+                                    }
                                 }
-                            }
-                        )
+                            )
+                        }
                     }
                 }
 
@@ -251,23 +265,26 @@ fun MainContent() {
                         PackHeader(
                             packName = "Pack 3",
                             packUrl = TELEGRAM_PACK_3,
+                            onClick = { isPack3Expanded = !isPack3Expanded },
                             modifier = Modifier.padding(top = 32.dp)
                         )
                     }
 
-                    items(
-                        items = pack3
-                    ) { emoji ->
-                        EmojiIcon(
-                            emoji = emoji,
-                            selected = emoji.emojiResponse.id == emojiPreviewVisible,
-                            onClick = { emojiId ->
-                                emojiPreviewVisible = when {
-                                    emojiId == emojiPreviewVisible -> null
-                                    else -> emojiId
+                    if (isPack3Expanded) {
+                        items(
+                            items = pack3
+                        ) { emoji ->
+                            EmojiIcon(
+                                emoji = emoji,
+                                selected = emoji.emojiResponse.id == emojiPreviewVisible,
+                                onClick = { emojiId ->
+                                    emojiPreviewVisible = when {
+                                        emojiId == emojiPreviewVisible -> null
+                                        else -> emojiId
+                                    }
                                 }
-                            }
-                        )
+                            )
+                        }
                     }
                 }
 
@@ -278,24 +295,29 @@ fun MainContent() {
                         PackHeader(
                             packName = "Pack 4",
                             packUrl = TELEGRAM_PACK_4,
+                            onClick = { isPack4Expanded = !isPack4Expanded },
                             modifier = Modifier.padding(top = 32.dp)
                         )
                     }
 
-                    items(
-                        items = pack4
-                    ) { emoji ->
-                        EmojiIcon(
-                            emoji = emoji,
-                            selected = emoji.emojiResponse.id == emojiPreviewVisible,
-                            onClick = { emojiId ->
-                                emojiPreviewVisible = when {
-                                    emojiId == emojiPreviewVisible -> null
-                                    else -> emojiId
+                    if (isPack4Expanded) {
+                        items(
+                            items = pack4
+                        ) { emoji ->
+                            EmojiIcon(
+                                emoji = emoji,
+                                selected = emoji.emojiResponse.id == emojiPreviewVisible,
+                                onClick = { emojiId ->
+                                    emojiPreviewVisible = when {
+                                        emojiId == emojiPreviewVisible -> null
+                                        else -> emojiId
+                                    }
                                 }
-                            }
-                        )
+                            )
+                        }
                     }
+
+
                 }
 
                 if (pack5.isNotEmpty()) {
@@ -305,27 +327,28 @@ fun MainContent() {
                         PackHeader(
                             packName = "Pack 5",
                             packUrl = TELEGRAM_PACK_5,
+                            onClick = { isPack5Expanded = !isPack5Expanded },
                             modifier = Modifier.padding(top = 32.dp)
                         )
                     }
 
-                    items(
-                        items = pack5
-                    ) { emoji ->
-                        EmojiIcon(
-                            emoji = emoji,
-                            selected = emoji.emojiResponse.id == emojiPreviewVisible,
-                            onClick = { emojiId ->
-                                emojiPreviewVisible = when {
-                                    emojiId == emojiPreviewVisible -> null
-                                    else -> emojiId
+                    if (isPack5Expanded) {
+                        items(
+                            items = pack5
+                        ) { emoji ->
+                            EmojiIcon(
+                                emoji = emoji,
+                                selected = emoji.emojiResponse.id == emojiPreviewVisible,
+                                onClick = { emojiId ->
+                                    emojiPreviewVisible = when {
+                                        emojiId == emojiPreviewVisible -> null
+                                        else -> emojiId
+                                    }
                                 }
-                            }
-                        )
+                            )
+                        }
                     }
                 }
-
-                isSearchEmpty = pack1.isEmpty() && pack2.isEmpty() && pack3.isEmpty() && pack4.isEmpty() && pack5.isEmpty()
             }
 
             if (isSearchEmpty) {
