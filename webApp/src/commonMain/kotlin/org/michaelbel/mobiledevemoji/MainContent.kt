@@ -369,6 +369,7 @@ fun MainContent() {
         if (emojiPreviewVisible != null) {
             IconPreviewDialog(
                 emoji = emojiList.find { it.emojiResponse.id == emojiPreviewVisible } ?: Emoji.Empty,
+                query = if (currentActionMode is ActionMode.Search) searchQuery.trim() else "",
                 modifier = Modifier,
                 onDismissRequest = { emojiPreviewVisible = null }
             )

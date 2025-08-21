@@ -10,9 +10,9 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.SheetValue
@@ -24,7 +24,11 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.shadow
+import androidx.compose.ui.text.AnnotatedString
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.launch
 import org.jetbrains.compose.resources.painterResource
@@ -34,6 +38,7 @@ import org.michaelbel.mobiledevemoji.ui.theme.CloseIconRes
 @Composable
 fun IconPreviewDialog(
     emoji: Emoji,
+    query: String,
     onDismissRequest: () -> Unit,
     modifier: Modifier
 ) {
@@ -50,6 +55,33 @@ fun IconPreviewDialog(
 
     fun hide() {
         scope.launch { sheetState.hide() }
+    }
+
+    val annotatedName = run {
+        val name = emoji.emojiResponse.name
+        val q = query.trim()
+        when {
+            q.isEmpty() -> AnnotatedString(name)
+            else -> {
+                val nameLc = name.lowercase()
+                val qLc = q.lowercase()
+                val highlightStyle = SpanStyle(
+                    background = MaterialTheme.colorScheme.secondaryContainer,
+                    color = MaterialTheme.colorScheme.onSecondaryContainer
+                )
+                buildAnnotatedString {
+                    var start = 0
+                    var idx = nameLc.indexOf(qLc, start)
+                    while (idx >= 0) {
+                        append(name.substring(start, idx))
+                        withStyle(highlightStyle) { append(name.substring(idx, idx + q.length)) }
+                        start = idx + q.length
+                        idx = nameLc.indexOf(qLc, start)
+                    }
+                    append(name.substring(start))
+                }
+            }
+        }
     }
 
     ModalBottomSheet(
@@ -83,7 +115,7 @@ fun IconPreviewDialog(
                 }
 
                 Text(
-                    text = emoji.emojiResponse.name,
+                    text = annotatedName,
                     modifier = Modifier.padding(start = 16.dp, top = 16.dp, end = 16.dp, bottom = 48.dp),
                     textAlign = TextAlign.Center,
                     color = MaterialTheme.colorScheme.onBackground,
