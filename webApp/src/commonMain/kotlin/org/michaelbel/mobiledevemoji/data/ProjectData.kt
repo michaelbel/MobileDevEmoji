@@ -40,7 +40,7 @@ fun List<Emoji>.searchBy(query: String): List<Emoji> {
     if (query.isEmpty() || query.isBlank()) return this
     return filter { emoji ->
         val emojiResponse = emoji.emojiResponse
-        emojiResponse.name.contains(query, ignoreCase = true) || emojiResponse.filters?.any { filter -> filter.contains(query, ignoreCase = true) } == true
+        emojiResponse.name.contains(query, ignoreCase = true) || emojiResponse.id.contains(query, ignoreCase = true) || emojiResponse.filters?.any { filter -> filter.contains(query, ignoreCase = true) } == true
     }
 }
 
