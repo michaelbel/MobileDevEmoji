@@ -102,7 +102,7 @@
   {
     "id": "google-meet",
     "name": "Google Meet",
-    "filters": ["google"]
+    "filters": ["google", "messenger"]
   },
   {
     "id": "google-podcasts",
@@ -217,7 +217,7 @@
   {
     "id": "google-angular",
     "name": "Angular",
-    "filters": ["google", "web"]
+    "filters": ["google"]
   },
   {
     "id": "google-home",
@@ -437,17 +437,17 @@
   {
     "id": "microsoft-github-1",
     "name": "GitHub",
-    "filters": ["microsoft"]
+    "filters": ["microsoft", "github"]
   },
   {
     "id": "microsoft-github-2",
     "name": "GitHub",
-    "filters": ["microsoft"]
+    "filters": ["microsoft", "github"]
   },
   {
     "id": "microsoft-copilot",
     "name": "Microsoft Copilot",
-    "filters": ["microsoft"]
+    "filters": ["microsoft", "github"]
   },
   {
     "id": "microsoft-onedrive",
@@ -457,7 +457,7 @@
   {
     "id": "microsoft-skype",
     "name": "Skype",
-    "filters": ["microsoft"]
+    "filters": ["microsoft", "messenger"]
   },
   {
     "id": "microsoft-edge",
@@ -467,7 +467,7 @@
   {
     "id": "microsoft-teams",
     "name": "Microsoft Teams",
-    "filters": ["microsoft"]
+    "filters": ["microsoft", "messenger"]
   },
   {
     "id": "microsoft-xbox",
@@ -487,27 +487,27 @@
   {
     "id": "meta-fb",
     "name": "Facebook",
-    "filters": ["meta"]
+    "filters": ["meta", "social"]
   },
   {
     "id": "meta-instagram",
     "name": "Instagram",
-    "filters": ["meta"]
+    "filters": ["meta", "social"]
   },
   {
     "id": "meta-whatsapp",
     "name": "WhatsApp",
-    "filters": ["meta", "messenger"]
+    "filters": ["meta", "messenger", "social"]
   },
   {
     "id": "meta-fb-messenger",
     "name": "Facebook Messenger",
-    "filters": ["meta"]
+    "filters": ["meta", "messenger", "social"]
   },
   {
     "id": "meta-threads",
     "name": "Threads (Social Network)",
-    "filters": ["meta"]
+    "filters": ["meta", "social"]
   },
   {
     "id": "meta-react",
@@ -542,22 +542,22 @@
   {
     "id": "vk",
     "name": "VK",
-    "filters": ["vk"]
+    "filters": ["vk", "social"]
   },
   {
     "id": "vk-odnoklassniki",
     "name": "Odnoklassniki",
-    "filters": ["vk"]
+    "filters": ["vk", "social"]
   },
   {
     "id": "vk-video",
     "name": "VK Video",
-    "filters": ["vk"]
+    "filters": ["vk", "social", "video"]
   },
   {
     "id": "vk-clips",
     "name": "VK Clips",
-    "filters": ["vk"]
+    "filters": ["vk", "social"]
   },
   {
     "id": "vk-music",
@@ -572,7 +572,7 @@
   {
     "id": "vk-dzen",
     "name": "Dzen",
-    "filters": ["vk"]
+    "filters": ["vk", "social"]
   },
   {
     "id": "huawei",
@@ -602,7 +602,7 @@
   {
     "id": "telegram",
     "name": "Telegram",
-    "filters": ["messenger"]
+    "filters": ["telegram", "messenger"]
   },
   {
     "id": "telegraph",
@@ -642,12 +642,12 @@
   {
     "id": "boosty-1",
     "name": "Boosty",
-    "filters": ["donation"]
+    "filters": ["donation", "social"]
   },
   {
     "id": "boosty-2",
     "name": "Boosty",
-    "filters": ["donation"]
+    "filters": ["donation", "social"]
   },
   {
     "id": "patreon",
@@ -708,22 +708,22 @@
   {
     "id": "linkedin",
     "name": "LinkedIn",
-    "filters": ["social"]
+    "filters": ["microsoft", "social"]
   },
   {
     "id": "discord",
     "name": "Discord",
-    "filters": ["messenger"]
+    "filters": ["messenger", "social"]
   },
   {
     "id": "slack-1",
     "name": "Slack",
-    "filters": ["messenger"]
+    "filters": ["messenger", "social"]
   },
   {
     "id": "slack-2",
     "name": "Slack",
-    "filters": ["messenger"]
+    "filters": ["messenger", "social"]
   },
   {
     "id": "x",
@@ -747,8 +747,7 @@
   },
   {
     "id": "medium-1",
-    "name": "Medium",
-    "filters": ["blog"]
+    "name": "Medium"
   },
   {
     "id": "kakaotalk",
@@ -758,27 +757,27 @@
   {
     "id": "snapchat",
     "name": "Snapchat",
-    "filters": ["snap", "messenger"]
+    "filters": ["snap", "messenger", "social"]
   },
   {
     "id": "wechat",
     "name": "WeChat",
-    "filters": ["messenger"]
+    "filters": ["messenger", "social"]
   },
   {
     "id": "line",
     "name": "Line",
-    "filters": ["messenger"]
+    "filters": ["messenger", "social"]
   },
   {
     "id": "signal",
     "name": "Signal",
-    "filters": ["messenger"]
+    "filters": ["messenger", "social"]
   },
   {
     "id": "viber",
     "name": "Viber",
-    "filters": ["messenger"]
+    "filters": ["messenger", "social"]
   },
   {
     "id": "miro",
@@ -797,7 +796,8 @@
   },
   {
     "id": "notion",
-    "name": "Notion"
+    "name": "Notion",
+    "filters": ["notion"]
   },
   {
     "id": "sublime-text",
@@ -825,8 +825,7 @@
   },
   {
     "id": "habr",
-    "name": "Habr",
-    "filters": ["blog"]
+    "name": "Habr"
   },
   {
     "id": "rx",
@@ -839,11 +838,13 @@
   },
   {
     "id": "zoom-1",
-    "name": "Zoom"
+    "name": "Zoom",
+    "filters": ["messenger"]
   },
   {
     "id": "zoom-2",
-    "name": "Zoom"
+    "name": "Zoom",
+    "filters": ["messenger"]
   },
   {
     "id": "swagger",
@@ -1219,17 +1220,17 @@
   {
     "id": "intel",
     "name": "Intel",
-    "filters": ["semiconductors", "chips"]
+    "filters": ["semiconductors"]
   },
   {
     "id": "amd",
     "name": "AMD",
-    "filters": ["semiconductors", "chips"]
+    "filters": ["semiconductors"]
   },
   {
     "id": "qualcomm",
     "name": "Qualcomm",
-    "filters": ["semiconductors", "chips"]
+    "filters": ["semiconductors"]
   },
   {
     "id": "nvidia-1",
@@ -1250,12 +1251,12 @@
   {
     "id": "arm",
     "name": "ARM",
-    "filters": ["semiconductors", "chips"]
+    "filters": ["semiconductors"]
   },
   {
     "id": "tsmc",
     "name": "TSMC",
-    "filters": ["semiconductors", "chips"]
+    "filters": ["semiconductors"]
   },
   {
     "id": "mediatek",
@@ -1559,13 +1560,11 @@
   },
   {
     "id": "dropbox-1",
-    "name": "Dropbox",
-    "filters": ["cloud"]
+    "name": "Dropbox"
   },
   {
     "id": "dropbox-2",
-    "name": "Dropbox",
-    "filters": ["cloud"]
+    "name": "Dropbox"
   },
   {
     "id": "rss",
@@ -1823,42 +1822,42 @@
   {
     "id": "jetbrains-clion",
     "name": "Jetbrains CLion",
-    "filters": ["jetbrains"]
+    "filters": ["jetbrains", "ide"]
   },
   {
     "id": "jetbrains-datagrip",
     "name": "Jetbrains DataGrip",
-    "filters": ["jetbrains"]
+    "filters": ["jetbrains", "ide"]
   },
   {
     "id": "jetbrains-datalore",
     "name": "Jetbrains Datalore",
-    "filters": ["jetbrains"]
+    "filters": ["jetbrains", "ide"]
   },
   {
     "id": "jetbrains-dataspell",
     "name": "Jetbrains DataSpell",
-    "filters": ["jetbrains"]
+    "filters": ["jetbrains", "ide"]
   },
   {
     "id": "jetbrains-dotcover",
     "name": "Jetbrains DotCover",
-    "filters": ["jetbrains"]
+    "filters": ["jetbrains", "ide"]
   },
   {
     "id": "jetbrains-dotmemory",
     "name": "Jetbrains DotMemory",
-    "filters": ["jetbrains"]
+    "filters": ["jetbrains", "ide"]
   },
   {
     "id": "jetbrains-dotpeek",
     "name": "Jetbrains DotPeek",
-    "filters": ["jetbrains"]
+    "filters": ["jetbrains", "ide"]
   },
   {
     "id": "jetbrains-dottrace",
     "name": "Jetbrains DotTrace",
-    "filters": ["jetbrains"]
+    "filters": ["jetbrains", "ide"]
   },
   {
     "id": "jetbrains-goland",
@@ -1883,7 +1882,7 @@
   {
     "id": "jetbrains-qodana",
     "name": "Jetbrains Qodana",
-    "filters": ["jetbrains"]
+    "filters": ["jetbrains", "ide"]
   },
   {
     "id": "jetbrains-resharper",
@@ -1903,7 +1902,7 @@
   {
     "id": "jetbrains-riderflow",
     "name": "Jetbrains RiderFlow",
-    "filters": ["jetbrains"]
+    "filters": ["jetbrains", "ide"]
   },
   {
     "id": "jetbrains-rubymine",
@@ -1913,7 +1912,7 @@
   {
     "id": "jetbrains-rustrover",
     "name": "Jetbrains RustRover",
-    "filters": ["jetbrains"]
+    "filters": ["jetbrains", "ide"]
   },
   {
     "id": "jetbrains-teamcity",
@@ -2230,7 +2229,8 @@
   },
   {
     "id": "calendly",
-    "name": "Calendly"
+    "name": "Calendly",
+    "filters": ["calendar"]
   },
   {
     "id": "zeplin",
@@ -2629,8 +2629,7 @@
   },
   {
     "id": "medium",
-    "name": "Medium",
-    "filters": ["blog"]
+    "name": "Medium"
   },
   {
     "id": "crowdstrike",
@@ -4212,7 +4211,7 @@
   {
     "id": "codeberg",
     "name": "Codeberg",
-    "filters": ["git", "vcs"]
+    "filters": ["vcs"]
   },
   {
     "id": "ebay",

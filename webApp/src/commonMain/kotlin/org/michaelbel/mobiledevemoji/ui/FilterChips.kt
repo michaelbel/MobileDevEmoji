@@ -3,6 +3,7 @@
 package org.michaelbel.mobiledevemoji.ui
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
@@ -10,6 +11,7 @@ import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.material3.InputChip
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -32,8 +34,11 @@ fun FilterChips(
         contentAlignment = Alignment.Center
     ) {
         FlowRow(
-            modifier = modifier.width(888.dp),
-            horizontalArrangement = Arrangement.Center
+            modifier = modifier
+                .width(888.dp)
+                .horizontalScroll(rememberScrollState()),
+            horizontalArrangement = Arrangement.Center,
+            maxLines = 1
         ) {
             filters.forEach { filter ->
                 InputChip(
