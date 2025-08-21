@@ -7,26 +7,46 @@ on:
   pull_request:
     paths-ignore:
       - '**.md'
+  workflow_dispatch:
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   build-web:
     name: Build Kotlin/Wasm
     runs-on: ubuntu-latest
     steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
       - name: setup jdk
         uses: actions/setup-java@v4
         with:
-          distribution: 'adopt'
+          distribution: temurin
           java-version: '21'
 
-      - name: checkout code
-        uses: actions/checkout@v4
+      - name: setup gradle cache
+        uses: gradle/actions/setup-gradle@v3
 
-      - name: run gradle tasks
+      - name: build with token
+        if: ${{ github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.pull_request.head.repo.fork == false) }}
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: ./gradlew :webApp:jsBrowserDistribution
 
+      - name: build without token (fork PR)
+        if: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.fork == true }}
+        run: ./gradlew :webApp:jsBrowserDistribution -PALLOW_EMPTY_GH_TOKEN=true
+
       - name: fix permissions
-        run: chmod -R 0755 "webApp/build/dist/js/productionExecutable/"
+        run: chmod -R 0755 webApp/build/dist/js/productionExecutable/
 
       - name: upload pages artifact
         uses: actions/upload-pages-artifact@v3
@@ -34,15 +54,13 @@ jobs:
           path: webApp/build/dist/js/productionExecutable/
 
   deploy:
+    name: Deploy to GitHub Pages
     needs: build-web
-    permissions:
-      pages: write
-      id-token: write
+    runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
     steps:
-      - name: Deploy to GitHub Pages
+      - name: deploy
         id: deployment
         uses: actions/deploy-pages@v4

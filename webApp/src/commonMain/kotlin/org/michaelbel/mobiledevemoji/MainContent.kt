@@ -13,10 +13,12 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.wrapContentHeight
+import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.GridItemSpan
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.items
+import androidx.compose.material3.Button
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -33,7 +35,11 @@ import androidx.compose.runtime.setValue
 import androidx.compose.runtime.snapshots.SnapshotStateList
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -56,6 +62,7 @@ import org.michaelbel.mobiledevemoji.data.pack3
 import org.michaelbel.mobiledevemoji.data.pack4
 import org.michaelbel.mobiledevemoji.data.pack5
 import org.michaelbel.mobiledevemoji.data.searchBy
+import org.michaelbel.mobiledevemoji.issue.NetworkClient
 import org.michaelbel.mobiledevemoji.ktx.decodeJsonToString
 import org.michaelbel.mobiledevemoji.ktx.emojiPainter
 import org.michaelbel.mobiledevemoji.ktx.isMobileBrowser
@@ -97,6 +104,9 @@ fun MainContent() {
 
     val json = Json { ignoreUnknownKeys = true }
     val scope = rememberCoroutineScope()
+
+    val submittedQueries = remember { mutableStateListOf<String>() }
+    val alreadySubmitted = searchQuery.trim().isNotEmpty() && submittedQueries.any { it.equals(searchQuery.trim(), ignoreCase = true) }
 
     LaunchedEffect(Unit) {
         emojiSnapshotStateList.addAll(Emoji.EmptyList.toList())
@@ -357,12 +367,58 @@ fun MainContent() {
             }
 
             if (isSearchEmpty) {
-                Text(
-                    text = "Не найдено",
-                    modifier = Modifier.fillMaxWidth().wrapContentHeight(),
-                    textAlign = TextAlign.Center,
-                    style = MaterialTheme.typography.titleMedium.copy(color = MaterialTheme.colorScheme.onBackground)
-                )
+                Column(
+                    modifier = Modifier.fillMaxWidth(),
+                    verticalArrangement = Arrangement.Center,
+                    horizontalAlignment = Alignment.CenterHorizontally
+                ) {
+                    Text(
+                        text = "Ничего не нашлось",
+                        modifier = Modifier.fillMaxWidth().wrapContentHeight(),
+                        textAlign = TextAlign.Center,
+                        style = MaterialTheme.typography.titleMedium.copy(color = MaterialTheme.colorScheme.onBackground)
+                    )
+
+                    when {
+                        alreadySubmitted -> {
+                            Text(
+                                text = buildAnnotatedString {
+                                    append("Запрос на добавление ")
+                                    withStyle(SpanStyle(fontWeight = FontWeight.Bold)) { append(searchQuery.trim()) }
+                                    append(" отправлен. Максимальная благодарочка")
+                                },
+                                modifier = Modifier.padding(top = 16.dp),
+                                textAlign = TextAlign.Center,
+                                style = MaterialTheme.typography.bodyMedium.copy(color = MaterialTheme.colorScheme.onBackground)
+                            )
+                        }
+                        else -> {
+                            Button(
+                                onClick = {
+                                    scope.launch {
+                                        try {
+                                            NetworkClient.createIssue(searchQuery.trim())
+                                        } catch (e: Throwable) {
+                                            e.printStackTrace()
+                                        } finally {
+                                            submittedQueries.add(searchQuery.trim())
+                                        }
+                                    }
+                                },
+                                modifier = Modifier
+                                    .padding(top = 16.dp)
+                                    .wrapContentSize()
+                            ) {
+                                Text(
+                                    text = buildAnnotatedString {
+                                        append("Предложить добавить ")
+                                        withStyle(SpanStyle(fontWeight = FontWeight.Bold)) { append(searchQuery.trim()) }
+                                    }
+                                )
+                            }
+                        }
+                    }
+                }
             }
         }
 

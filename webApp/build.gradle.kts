@@ -1,13 +1,27 @@
 @file:OptIn(ExperimentalWasmDsl::class)
 
+import com.codingfeline.buildkonfig.compiler.FieldSpec
 import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
 import org.jetbrains.kotlin.gradle.targets.js.webpack.KotlinWebpackConfig
+import java.util.Properties
+
+private val ghToken: String by lazy {
+    val fromGradle = providers.gradleProperty("GH_TOKEN").orNull
+    val fromLocal = rootProject.file("local.properties").let { f ->
+        if (f.exists()) Properties().apply { f.inputStream().use { load(it) } }.getProperty("GH_TOKEN") else null
+    }
+    val fromEnv = System.getenv("GH_TOKEN")
+    val v = listOfNotNull(fromGradle, fromLocal, fromEnv).firstOrNull().orEmpty()
+    if (v.isBlank()) throw GradleException("GH_TOKEN is empty")
+    v
+}
 
 plugins {
     alias(libs.plugins.kotlin.multiplatform)
     alias(libs.plugins.kotlin.serialization)
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.compose)
+    alias(libs.plugins.buildkonfig)
 }
 
 kotlin {
@@ -53,6 +67,15 @@ kotlin {
             implementation(compose.components.resources)
             implementation(compose.components.uiToolingPreview)
             implementation(libs.kotlinx.serialization.json)
+            implementation(libs.ktor.client.core)
+            implementation(libs.ktor.client.content.negotiation)
+            implementation(libs.ktor.serialization.kotlinx.json)
+        }
+        jsMain.dependencies {
+            implementation(libs.ktor.client.js)
+        }
+        wasmJsMain.dependencies {
+            implementation(libs.ktor.client.js)
         }
     }
 }
@@ -61,6 +84,13 @@ compose {
     resources {
         publicResClass = true
         generateResClass = always
+    }
+}
+
+buildkonfig {
+    packageName = "org.michaelbel.mobiledevemoji"
+    defaultConfigs {
+        buildConfigField(FieldSpec.Type.STRING, "GH_TOKEN", ghToken)
     }
 }
 
