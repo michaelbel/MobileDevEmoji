@@ -51,13 +51,6 @@ jobs:
       - name: fix permissions
         run: chmod -R 0755 webApp/build/dist/js/productionExecutable/
 
-      - name: compute dist size
-        id: size
-        run: |
-          BYTES=$(du -sb webApp/build/dist/js/productionExecutable/ | cut -f1)
-          echo "bytes=$BYTES" >> "$GITHUB_OUTPUT"
-          echo "human=$(numfmt --to=iec-i --suffix=B "$BYTES")" >> "$GITHUB_OUTPUT"
-
       - name: upload pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
