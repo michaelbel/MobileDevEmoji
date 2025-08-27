@@ -19,6 +19,18 @@ permissions:
   id-token: write
 
 jobs:
+  job-common:
+    runs-on: ubuntu-24.04
+    outputs:
+      SHORT_SHA: ${{ steps.expose_sha.outputs.short_sha }}
+    steps:
+      - name: expose short commit sha
+        id: expose_sha
+        run: |
+          SHORT_SHA=${GITHUB_SHA::7}
+          echo "short_sha=$SHORT_SHA" >> $GITHUB_ENV
+          echo "SHORT_SHA=$SHORT_SHA" >> $GITHUB_OUTPUT
+
   build-web:
     name: Build Kotlin/Wasm
     runs-on: ubuntu-latest
@@ -58,7 +70,7 @@ jobs:
 
   deploy:
     name: Deploy to GitHub Pages
-    needs: build-web
+    needs: [build-web, job-common]
     runs-on: ubuntu-latest
     environment:
       name: github-pages
