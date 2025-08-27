@@ -733,12 +733,12 @@
   {
     "id": "tiktok-1",
     "name": "TikTok",
-    "filters": ["social"]
+    "filters": ["social", "bytedance"]
   },
   {
     "id": "tiktok-2",
     "name": "TikTok",
-    "filters": ["social"]
+    "filters": ["social", "bytedance"]
   },
   {
     "id": "reddit",
@@ -2485,7 +2485,8 @@
   },
   {
     "id": "qt",
-    "name": "Qt"
+    "name": "Qt",
+    "filters": ["ide"]
   },
   {
     "id": "grpc",
@@ -2545,7 +2546,8 @@
   },
   {
     "id": "mi-home",
-    "name": "Mi Home"
+    "name": "Mi Home",
+    "filters": ["xiaomi"]
   },
   {
     "id": "svg",
@@ -2562,7 +2564,8 @@
   },
   {
     "id": "neovim",
-    "name": "Neovim"
+    "name": "Neovim",
+    "filters": ["ide"]
   },
   {
     "id": "claude-ai",
@@ -2580,15 +2583,18 @@
   },
   {
     "id": "dice",
-    "name": "Dice"
+    "name": "Dice",
+    "filters": ["gaming"]
   },
   {
     "id": "cry-engine",
-    "name": "Cry Engine"
+    "name": "Cry Engine",
+    "filters": ["gaming"]
   },
   {
     "id": "bioware",
-    "name": "BioWare"
+    "name": "BioWare",
+    "filters": ["gaming"]
   },
   {
     "id": "buymeacoffee",
@@ -2602,7 +2608,8 @@
   },
   {
     "id": "clubhouse",
-    "name": "Clubhouse"
+    "name": "Clubhouse",
+    "filters": ["social"]
   },
   {
     "id": "session-app",
@@ -2611,12 +2618,12 @@
   {
     "id": "vimeo-1",
     "name": "Vimeo",
-    "filters": ["video"]
+    "filters": ["video", "social"]
   },
   {
     "id": "vimeo-2",
     "name": "Vimeo",
-    "filters": ["video"]
+    "filters": ["video", "social"]
   },
   {
     "id": "protonmail",
@@ -2625,11 +2632,13 @@
   },
   {
     "id": "tinder",
-    "name": "Tinder"
+    "name": "Tinder",
+    "filters": ["social"]
   },
   {
     "id": "medium",
-    "name": "Medium"
+    "name": "Medium",
+    "filters": ["social"]
   },
   {
     "id": "crowdstrike",
@@ -2747,7 +2756,8 @@
   },
   {
     "id": "mercurial",
-    "name": "Mercurial"
+    "name": "Mercurial",
+    "filters": ["vcs"]
   },
   {
     "id": "gnu",
@@ -2755,7 +2765,8 @@
   },
   {
     "id": "gitea",
-    "name": "Gitea"
+    "name": "Gitea",
+    "filters": ["vcs"]
   },
   {
     "id": "unix",
@@ -2781,7 +2792,8 @@
   },
   {
     "id": "tor",
-    "name": "Tor"
+    "name": "Tor",
+    "filters": ["browser"]
   },
   {
     "id": "atlassian",
@@ -3029,7 +3041,8 @@
   },
   {
     "id": "imdb",
-    "name": "IMDb"
+    "name": "IMDb",
+    "filters": ["social"]
   },
   {
     "id": "tmdb",
@@ -3120,23 +3133,28 @@
   },
   {
     "id": "fortnite",
-    "name": "Fortnite"
+    "name": "Fortnite",
+    "filters": ["gaming"]
   },
   {
     "id": "roblox",
-    "name": "Roblox"
+    "name": "Roblox",
+    "filters": ["gaming"]
   },
   {
     "id": "doom",
-    "name": "Doom"
+    "name": "Doom",
+    "filters": ["gaming"]
   },
   {
     "id": "atari",
-    "name": "Atari"
+    "name": "Atari",
+    "filters": ["gaming"]
   },
   {
     "id": "league-of-legends",
-    "name": "League of Legends"
+    "name": "League of Legends",
+    "filters": ["gaming"]
   },
   {
     "id": "cisco-splunk",
@@ -3255,15 +3273,18 @@
   },
   {
     "id": "bluesky",
-    "name": "Bluesky"
+    "name": "Bluesky",
+    "filters": ["social"]
   },
   {
     "id": "mastodon",
-    "name": "Mastodon"
+    "name": "Mastodon",
+    "filters": ["social"]
   },
   {
     "id": "weibo",
-    "name": "Weibo"
+    "name": "Weibo",
+    "filters": ["social"]
   },
   {
     "id": "flipboard",
@@ -3271,7 +3292,8 @@
   },
   {
     "id": "foursquare",
-    "name": "Foursquare"
+    "name": "Foursquare",
+    "filters": ["social"]
   },
   {
     "id": "valkey",
@@ -3555,11 +3577,13 @@
   },
   {
     "id": "arc-browser",
-    "name": "Arc Browser"
+    "name": "Arc Browser",
+    "filters": ["browser"]
   },
   {
     "id": "bytedance",
-    "name": "ByteDance"
+    "name": "ByteDance",
+    "filters": ["bytedance"]
   },
   {
     "id": "gobot",
@@ -4068,7 +4092,7 @@
   },
   {
     "id": "max",
-    "name": "Max"
+    "name": "Max (HBO)"
   },
   {
     "id": "cursor",
@@ -4094,7 +4118,8 @@
   },
   {
     "id": "devin",
-    "name": "Devin AI"
+    "name": "Devin AI",
+    "filters": ["ai"]
   },
   {
     "id": "elm",
@@ -4140,7 +4165,8 @@
   },
   {
     "id": "2gis",
-    "name": "2GIS"
+    "name": "2GIS",
+    "filters": ["maps"]
   },
   {
     "id": "snap-zenly",

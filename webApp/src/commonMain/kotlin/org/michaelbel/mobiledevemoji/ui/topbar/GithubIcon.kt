@@ -12,21 +12,21 @@ import androidx.compose.ui.input.pointer.PointerEventType
 import androidx.compose.ui.input.pointer.onPointerEvent
 import androidx.compose.ui.platform.LocalUriHandler
 import org.jetbrains.compose.resources.painterResource
-import org.michaelbel.mobiledevemoji.data.FIGMA_URL
-import org.michaelbel.mobiledevemoji.ui.theme.FigmaIconRes
+import org.michaelbel.mobiledevemoji.data.GITHUB_URL
+import org.michaelbel.mobiledevemoji.ui.theme.GithubIconRes
 
 @Composable
-fun FigmaIcon(
+fun GithubIcon(
     modifier: Modifier = Modifier
 ) {
     val uriHandler = LocalUriHandler.current
 
     IconButton(
-        onClick = { uriHandler.openUri(FIGMA_URL) },
-        modifier = modifier.onPointerEvent(PointerEventType.Press) { uriHandler.openUri(FIGMA_URL) }
+        onClick = { uriHandler.openUri(GITHUB_URL) },
+        modifier = modifier.onPointerEvent(PointerEventType.Press) { uriHandler.openUri(GITHUB_URL) }
     ) {
         Icon(
-            painter = painterResource(FigmaIconRes),
+            painter = painterResource(GithubIconRes),
             contentDescription = null,
             tint = Color.Unspecified
         )
