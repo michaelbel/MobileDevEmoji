@@ -6,13 +6,14 @@ import kotlinx.serialization.Serializable
 data class IssueRequest(
     val title: String,
     val body: String,
-    val labels: List<String> = listOf("feature request", "emoji")
+    val labels: List<String>
 ) {
     companion object {
         fun create(query: String): IssueRequest {
             return IssueRequest(
                 title = "Добавить новое эмодзи: $query",
-                body = "Добавить эмодзи «$query».\nОтправлено из приложения."
+                body = "Добавить эмодзи «$query».\nОтправлено из приложения.",
+                labels = listOf("feature request", "emoji")
             )
         }
     }
