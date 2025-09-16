@@ -3788,6 +3788,81 @@
     "filters": ["google"]
   },
   {
+    "id": "google-calendar",
+    "name": "Google Calendar",
+    "filters": ["google", "calendar"]
+  },
+  {
+    "id": "google-maps",
+    "name": "Google Maps",
+    "filters": ["google", "maps"]
+  },
+  {
+    "id": "google-password-manager",
+    "name": "Google Password Manager",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-apps-script",
+    "name": "Google Apps Script",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-gboard",
+    "name": "Gboard",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-translate",
+    "name": "Google Translate",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-play-books",
+    "name": "Google Play Books",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-contacts",
+    "name": "Google Contacts",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-voice",
+    "name": "Google Voice",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-tasks",
+    "name": "Google Tasks",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-appsheet",
+    "name": "Google AppSheet",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-sites",
+    "name": "Google Sites",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-vids",
+    "name": "Google Vids",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-recorder",
+    "name": "Google Recorder",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-nano-banana",
+    "name": "Google Nano Banana",
+    "filters": ["google", "ai"]
+  },
+  {
     "id": "microsoft-viva-engage",
     "name": "Microsoft Viva Engage",
     "filters": ["microsoft"]
@@ -3818,6 +3893,21 @@
     "filters": ["apple"]
   },
   {
+    "id": "apple-facetime",
+    "name": "FaceTime",
+    "filters": ["apple"]
+  },
+  {
+    "id": "apple-messages",
+    "name": "Apple Messages",
+    "filters": ["apple", "messenger"]
+  },
+  {
+    "id": "apple-journal",
+    "name": "Apple Journal",
+    "filters": ["apple"]
+  },
+  {
     "id": "jetbrains-ai",
     "name": "Jetbrains AI",
     "filters": ["jetbrains", "ai"]
@@ -3825,6 +3915,11 @@
   {
     "id": "jetbrains-kotlin-conf",
     "name": "KotlinConf",
+    "filters": ["jetbrains"]
+  },
+  {
+    "id": "jetbrains-compose-multiplatform",
+    "name": "Compose Multiplatform",
     "filters": ["jetbrains"]
   },
   {
@@ -3863,6 +3958,41 @@
     "filters": ["yandex", "video"]
   },
   {
+    "id": "yandex-go",
+    "name": "Яндекс Go",
+    "filters": ["yandex"]
+  },
+  {
+    "id": "yandex-eats",
+    "name": "Яндекс Еда",
+    "filters": ["yandex"]
+  },
+  {
+    "id": "yandex-market",
+    "name": "Яндекс Маркет",
+    "filters": ["yandex"]
+  },
+  {
+    "id": "yandex-нейро",
+    "name": "Яндекс Нейро",
+    "filters": ["yandex", "ai"]
+  },
+  {
+    "id": "yandex-maps",
+    "name": "Яндекс Карты",
+    "filters": ["yandex", "maps"]
+  },
+  {
+    "id": "yandex-plus",
+    "name": "Яндекс Плюс",
+    "filters": ["yandex"]
+  },
+  {
+    "id": "yandex-appmetrica",
+    "name": "Яндекс AppMetrica",
+    "filters": ["yandex"]
+  },
+  {
     "id": "amazon-nova",
     "name": "Amazon Nova",
     "filters": ["amazon"]
@@ -3881,6 +4011,11 @@
     "id": "vk-max",
     "name": "MAX",
     "filters": ["vk", "messenger"]
+  },
+  {
+    "id": "vk-youla",
+    "name": "Юла",
+    "filters": ["vk"]
   },
   {
     "id": "notion-calendar",
@@ -3903,6 +4038,41 @@
     "filters": ["linux"]
   },
   {
+    "id": "linux-mint",
+    "name": "Linux Mint",
+    "filters": ["linux"]
+  },
+  {
+    "id": "linux-arch",
+    "name": "Arch Linux",
+    "filters": ["linux"]
+  },
+  {
+    "id": "linux-gentoo",
+    "name": "Gentoo Linux",
+    "filters": ["linux"]
+  },
+  {
+    "id": "linux-red-hat-enterprise",
+    "name": "Red Hat Enterprise Linux",
+    "filters": ["linux"]
+  },
+  {
+    "id": "linux-alpine",
+    "name": "Alpine Linux",
+    "filters": ["linux"]
+  },
+  {
+    "id": "linux-suse",
+    "name": "SUSE Linux",
+    "filters": ["linux"]
+  },
+  {
+    "id": "linux-parrotos",
+    "name": "Parrot OS",
+    "filters": ["linux"]
+  },
+  {
     "id": "oracle-virtualbox",
     "name": "Oracle VirtualBox",
     "filters": ["oracle"]
@@ -3916,6 +4086,51 @@
     "id": "samsung-internet",
     "name": "Samsung Internet",
     "filters": ["samsung", "browser"]
+  },
+  {
+    "id": "elastic",
+    "name": "Elastic",
+    "filters": ["elastic"]
+  },
+  {
+    "id": "elastic-search",
+    "name": "Elastic Search",
+    "filters": ["elastic"]
+  },
+  {
+    "id": "elastic-logstash",
+    "name": "Elastic Logstash",
+    "filters": ["elastic"]
+  },
+  {
+    "id": "elastic-kibana",
+    "name": "Elastic Kibana",
+    "filters": ["elastic"]
+  },
+  {
+    "id": "elastic-cloud",
+    "name": "Elastic Cloud",
+    "filters": ["elastic"]
+  },
+  {
+    "id": "elastic-observability",
+    "name": "Elastic Observability",
+    "filters": ["elastic"]
+  },
+  {
+    "id": "elastic-stack",
+    "name": "Elastic Stack",
+    "filters": ["elastic"]
+  },
+  {
+    "id": "elastic-beats",
+    "name": "Elastic Beats",
+    "filters": ["elastic"]
+  },
+  {
+    "id": "elastic-apm",
+    "name": "Elastic APM",
+    "filters": ["elastic"]
   },
   {
     "id": "mts",
@@ -3963,7 +4178,13 @@
   },
   {
     "id": "sber-tech",
-    "name": "Sber Tech"
+    "name": "Sber Tech",
+    "filters": ["sber", "bank"]
+  },
+  {
+    "id": "sber-yoomoney",
+    "name": "ЮMoney",
+    "filters": ["sber", "bank"]
   },
   {
     "id": "magnit-tech",
@@ -4077,6 +4298,18 @@
   {
     "id": "dodo",
     "name": "Dodo Brands"
+  },
+  {
+    "id": "ред-софт",
+    "name": "Ред Софт"
+  },
+  {
+    "id": "aviasales",
+    "name": "Aviasales"
+  },
+  {
+    "id": "cian",
+    "name": "Циан"
   },
   {
     "id": "risc-v",
@@ -4287,5 +4520,109 @@
     "id": "keras",
     "name": "Keras",
     "filters": ["ai"]
+  },
+  {
+    "id": "yappy",
+    "name": "Yappy"
+  },
+  {
+    "id": "render",
+    "name": "Render"
+  },
+  {
+    "id": "booking",
+    "name": "Booking"
+  },
+  {
+    "id": "rode",
+    "name": "RØDE"
+  },
+  {
+    "id": "rotten-tomatoes",
+    "name": "Rotten Tomatoes"
+  },
+  {
+    "id": "metacritic",
+    "name": "Metacritic"
+  },
+  {
+    "id": "opencritic",
+    "name": "OpenCritic"
+  },
+  {
+    "id": "rovio",
+    "name": "Rovio",
+    "filters": ["gaming"]
+  },
+  {
+    "id": "zulip",
+    "name": "Zulip"
+  },
+  {
+    "id": "mattermost",
+    "name": "Mattermost"
+  },
+  {
+    "id": "yelp",
+    "name": "Yelp"
+  },
+  {
+    "id": "bitwarden",
+    "name": "Bitwarden"
+  },
+  {
+    "id": "based-labs-ai",
+    "name": "Based Labs AI",
+    "filters": ["ai"]
+  },
+  {
+    "id": "graphene-os",
+    "name": "GrapheneOS"
+  },
+  {
+    "id": "kiloo",
+    "name": "Kiloo"
+  },
+  {
+    "id": "leonardo-ai",
+    "name": "Leonardo AI",
+    "filters": ["ai"]
+  },
+  {
+    "id": "centos",
+    "name": "CentOS"
+  },
+  {
+    "id": "flask",
+    "name": "Flask"
+  },
+  {
+    "id": "waze",
+    "name": "Waze"
+  },
+  {
+    "id": "netlify",
+    "name": "Netlify"
+  },
+  {
+    "id": "zabbix",
+    "name": "Zabbix"
+  },
+  {
+    "id": "opensearch",
+    "name": "OpenSearch"
+  },
+  {
+    "id": "tiobe",
+    "name": "TIOBE Index"
+  },
+  {
+    "id": "box",
+    "name": "Box"
+  },
+  {
+    "id": "revolut",
+    "name": "Revolut",
+    "filters": ["bank"]
   }
 ]
