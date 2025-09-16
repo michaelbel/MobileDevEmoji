@@ -16,7 +16,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import org.jetbrains.compose.resources.painterResource
 import org.michaelbel.mobiledevemoji.ui.theme.ChevronDown
@@ -59,7 +58,7 @@ fun PackHeader(
                 modifier = Modifier
                     .padding(start = 4.dp, end = 8.dp)
                     .size(24.dp),
-                tint = Color.White
+                tint = MaterialTheme.colorScheme.onBackground
             )
         }
 

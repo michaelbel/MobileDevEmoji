@@ -4,10 +4,10 @@ package org.michaelbel.mobiledevemoji.ui.topbar
 
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.pointer.PointerEventType
 import androidx.compose.ui.input.pointer.onPointerEvent
 import androidx.compose.ui.platform.LocalUriHandler
@@ -28,7 +28,7 @@ fun GithubIcon(
         Icon(
             painter = painterResource(GithubIconRes),
             contentDescription = null,
-            tint = Color.Unspecified
+            tint = MaterialTheme.colorScheme.onBackground
         )
     }
 }
