@@ -71,8 +71,8 @@ import org.michaelbel.mobiledevemoji.ui.FilterChips
 import org.michaelbel.mobiledevemoji.ui.IconPreviewDialog
 import org.michaelbel.mobiledevemoji.ui.PackHeader
 import org.michaelbel.mobiledevemoji.ui.SearchWidget
-import org.michaelbel.mobiledevemoji.ui.topbar.GithubIcon
 import org.michaelbel.mobiledevemoji.ui.topbar.FiltersIcon
+import org.michaelbel.mobiledevemoji.ui.topbar.GithubIcon
 import org.michaelbel.mobiledevemoji.ui.topbar.SearchIcon
 import org.michaelbel.mobiledevemoji.ui.topbar.TelegramIcon
 
@@ -385,7 +385,7 @@ fun MainContent() {
                                 text = buildAnnotatedString {
                                     append("Запрос на добавление ")
                                     withStyle(SpanStyle(fontWeight = FontWeight.Bold)) { append(searchQuery.trim()) }
-                                    append(" отправлен. Максимальная благодарочка")
+                                    append(" отправлен.\nМаксимальная благодарочка")
                                 },
                                 modifier = Modifier.padding(top = 16.dp),
                                 textAlign = TextAlign.Center,

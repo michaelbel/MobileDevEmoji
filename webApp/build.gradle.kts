@@ -1,6 +1,7 @@
-@file:OptIn(ExperimentalWasmDsl::class)
+@file:OptIn(ExperimentalWasmDsl::class, ExperimentalKotlinGradlePluginApi::class)
 
 import com.codingfeline.buildkonfig.compiler.FieldSpec
+import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
 import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
 import org.jetbrains.kotlin.gradle.targets.js.webpack.KotlinWebpackConfig
 import java.util.Properties
@@ -56,7 +57,12 @@ kotlin {
         }
         binaries.executable()
     }
-
+    dependencies {
+        implementation(libs.kotlinx.serialization.json)
+        implementation(libs.ktor.client.core)
+        implementation(libs.ktor.client.content.negotiation)
+        implementation(libs.ktor.serialization.kotlinx.json)
+    }
     sourceSets {
         commonMain.dependencies {
             implementation(compose.runtime)
@@ -66,10 +72,6 @@ kotlin {
             implementation(compose.ui)
             implementation(compose.components.resources)
             implementation(compose.components.uiToolingPreview)
-            implementation(libs.kotlinx.serialization.json)
-            implementation(libs.ktor.client.core)
-            implementation(libs.ktor.client.content.negotiation)
-            implementation(libs.ktor.serialization.kotlinx.json)
         }
         jsMain.dependencies {
             implementation(libs.ktor.client.js)
