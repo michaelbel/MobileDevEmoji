@@ -655,7 +655,7 @@
     "filters": ["donation"]
   },
   {
-    "id": "chatgpt",
+    "id": "openai-chatgpt",
     "name": "ChatGPT",
     "filters": ["ai"]
   },
