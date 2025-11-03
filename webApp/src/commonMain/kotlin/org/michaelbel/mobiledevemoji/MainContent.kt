@@ -54,6 +54,7 @@ import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_2
 import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_3
 import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_4
 import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_5
+import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_6
 import org.michaelbel.mobiledevemoji.data.filterBy
 import org.michaelbel.mobiledevemoji.data.pack
 import org.michaelbel.mobiledevemoji.data.pack1
@@ -61,6 +62,7 @@ import org.michaelbel.mobiledevemoji.data.pack2
 import org.michaelbel.mobiledevemoji.data.pack3
 import org.michaelbel.mobiledevemoji.data.pack4
 import org.michaelbel.mobiledevemoji.data.pack5
+import org.michaelbel.mobiledevemoji.data.pack6
 import org.michaelbel.mobiledevemoji.data.searchBy
 import org.michaelbel.mobiledevemoji.issue.NetworkClient
 import org.michaelbel.mobiledevemoji.ktx.decodeJsonToString
@@ -92,6 +94,7 @@ fun MainContent() {
     val pack3 = emojiList.pack3.filterBy(selectedFilter).searchBy(searchQuery)
     val pack4 = emojiList.pack4.filterBy(selectedFilter).searchBy(searchQuery)
     val pack5 = emojiList.pack5.filterBy(selectedFilter).searchBy(searchQuery)
+    val pack6 = emojiList.pack6.filterBy(selectedFilter).searchBy(searchQuery)
 
     var isSearchEmpty by remember { mutableStateOf(false) }
     isSearchEmpty = pack1.isEmpty() && pack2.isEmpty() && pack3.isEmpty() && pack4.isEmpty() && pack5.isEmpty()
@@ -101,6 +104,7 @@ fun MainContent() {
     var isPack3Expanded by remember { mutableStateOf(true) }
     var isPack4Expanded by remember { mutableStateOf(true) }
     var isPack5Expanded by remember { mutableStateOf(true) }
+    var isPack6Expanded by remember { mutableStateOf(true) }
 
     val json = Json { ignoreUnknownKeys = true }
     val scope = rememberCoroutineScope()
@@ -350,6 +354,37 @@ fun MainContent() {
                     if (isPack5Expanded) {
                         items(
                             items = pack5
+                        ) { emoji ->
+                            EmojiIcon(
+                                emoji = emoji,
+                                selected = emoji.emojiResponse.id == emojiPreviewVisible,
+                                onClick = { emojiId ->
+                                    emojiPreviewVisible = when {
+                                        emojiId == emojiPreviewVisible -> null
+                                        else -> emojiId
+                                    }
+                                }
+                            )
+                        }
+                    }
+                }
+
+                if (pack6.isNotEmpty()) {
+                    item(
+                        span = { GridItemSpan(maxLineSpan) }
+                    ) {
+                        PackHeader(
+                            packName = "Pack 6",
+                            packUrl = TELEGRAM_PACK_6,
+                            expanded = isPack6Expanded,
+                            onClick = { isPack6Expanded = !isPack6Expanded },
+                            modifier = Modifier.padding(top = 32.dp)
+                        )
+                    }
+
+                    if (isPack6Expanded) {
+                        items(
+                            items = pack6
                         ) { emoji ->
                             EmojiIcon(
                                 emoji = emoji,

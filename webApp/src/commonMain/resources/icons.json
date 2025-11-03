@@ -5,22 +5,7 @@
     "filters": ["google", "android"]
   },
   {
-    "id": "google-android-2",
-    "name": "Android",
-    "filters": ["google", "android"]
-  },
-  {
     "id": "google-android-3",
-    "name": "Android",
-    "filters": ["google", "android"]
-  },
-  {
-    "id": "google-android-4",
-    "name": "Android",
-    "filters": ["google", "android"]
-  },
-  {
-    "id": "google-android-5",
     "name": "Android",
     "filters": ["google", "android"]
   },
@@ -45,12 +30,7 @@
     "filters": ["google", "android"]
   },
   {
-    "id": "google-material3-1",
-    "name": "Material3",
-    "filters": ["google", "android", "design"]
-  },
-  {
-    "id": "google-material3-2",
+    "id": "google-material3",
     "name": "Material3",
     "filters": ["google", "android", "design"]
   },
@@ -87,6 +67,16 @@
   {
     "id": "google-chrome",
     "name": "Google Chrome",
+    "filters": ["google", "browser"]
+  },
+  {
+    "id": "google-chrome-canary",
+    "name": "Google Chrome Canary",
+    "filters": ["google", "browser"]
+  },
+  {
+    "id": "google-chromium",
+    "name": "Google Chromium",
     "filters": ["google", "browser"]
   },
   {
@@ -230,11 +220,6 @@
     "filters": ["google"]
   },
   {
-    "id": "google-chromium",
-    "name": "Google Chromium",
-    "filters": ["google", "browser"]
-  },
-  {
     "id": "google-docs-editors",
     "name": "Google Docs Editors",
     "filters": ["google"]
@@ -260,6 +245,86 @@
     "filters": ["google"]
   },
   {
+    "id": "google-palm",
+    "name": "Google Palm",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-news",
+    "name": "Google News",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-fonts",
+    "name": "Google Fonts",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-travel",
+    "name": "Google Travel",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-family-link",
+    "name": "Google Family Link",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-play-pass",
+    "name": "Google Play Pass",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-classroom",
+    "name": "Google Classroom",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-street-view",
+    "name": "Google Street View",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-authenticator",
+    "name": "Google Authenticator",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-fi-wireless",
+    "name": "Google Fi Eireless",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-files",
+    "name": "Google Files",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-messages",
+    "name": "Google Messages",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-currents",
+    "name": "Google Currents",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-identity-platform",
+    "name": "Google Identity Platform",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-developers",
+    "name": "Google Developers",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-shopping",
+    "name": "Google Shopping",
+    "filters": ["google"]
+  },
+  {
     "id": "jetbrains",
     "name": "JetBrains",
     "filters": ["jetbrains"]
@@ -275,19 +340,24 @@
     "filters": ["jetbrains", "ide"]
   },
   {
-    "id": "jetbrains-kotlin-multiplatform",
-    "name": "Kotlin Multiplatform",
-    "filters": ["jetbrains"]
-  },
-  {
     "id": "jetbrains-kotlin-1",
-    "name": "Kotlin (Programming Language)",
+    "name": "Kotlin",
     "filters": ["jetbrains", "programming", "language"]
   },
   {
     "id": "jetbrains-kotlin-2",
-    "name": "Kotlin (Programming Language)",
+    "name": "Kotlin",
     "filters": ["jetbrains", "programming", "language"]
+  },
+  {
+    "id": "jetbrains-kotlin-multiplatform-1",
+    "name": "Kotlin Multiplatform",
+    "filters": ["jetbrains"]
+  },
+  {
+    "id": "jetbrains-kotlin-multiplatform-2",
+    "name": "Kotlin Multiplatform",
+    "filters": ["jetbrains"]
   },
   {
     "id": "jetbrains-ktor",
@@ -335,22 +405,12 @@
     "filters": ["apple"]
   },
   {
-    "id": "apple-appstore-1",
+    "id": "apple-appstore",
     "name": "AppStore",
     "filters": ["apple"]
   },
   {
-    "id": "apple-appstore-2",
-    "name": "AppStore",
-    "filters": ["apple"]
-  },
-  {
-    "id": "apple-swift-1",
-    "name": "Swift (Programming Language)",
-    "filters": ["apple", "programming", "language"]
-  },
-  {
-    "id": "apple-swift-2",
+    "id": "apple-swift",
     "name": "Swift (Programming Language)",
     "filters": ["apple", "programming", "language"]
   },
@@ -360,12 +420,7 @@
     "filters": ["apple", "ide"]
   },
   {
-    "id": "apple-metal-1",
-    "name": "Apple Metal",
-    "filters": ["apple"]
-  },
-  {
-    "id": "apple-metal-2",
+    "id": "apple-metal",
     "name": "Apple Metal",
     "filters": ["apple"]
   },
@@ -395,12 +450,7 @@
     "filters": ["apple"]
   },
   {
-    "id": "microsoft-1",
-    "name": "Microsoft",
-    "filters": ["microsoft"]
-  },
-  {
-    "id": "microsoft-2",
+    "id": "microsoft",
     "name": "Microsoft",
     "filters": ["microsoft"]
   },
@@ -420,12 +470,7 @@
     "filters": ["microsoft", "ide"]
   },
   {
-    "id": "microsoft-vscode-1",
-    "name": "Visual Studio Code",
-    "filters": ["microsoft", "ide"]
-  },
-  {
-    "id": "microsoft-vscode-2",
+    "id": "microsoft-vscode",
     "name": "Visual Studio Code",
     "filters": ["microsoft", "ide"]
   },
@@ -435,12 +480,7 @@
     "filters": ["microsoft", "programming", "language"]
   },
   {
-    "id": "microsoft-github-1",
-    "name": "GitHub",
-    "filters": ["microsoft", "github"]
-  },
-  {
-    "id": "microsoft-github-2",
+    "id": "microsoft-github",
     "name": "GitHub",
     "filters": ["microsoft", "github"]
   },
@@ -585,13 +625,13 @@
     "filters": ["huawei"]
   },
   {
-    "id": "oracle-1",
+    "id": "oracle",
     "name": "Oracle",
     "filters": ["oracle"]
   },
   {
-    "id": "oracle-2",
-    "name": "Oracle",
+    "id": "oracle-plsql",
+    "name": "Oracle PL/SQL",
     "filters": ["oracle"]
   },
   {
@@ -608,16 +648,6 @@
     "id": "telegraph",
     "name": "Telegraph",
     "filters": ["telegram"]
-  },
-  {
-    "id": "pwa-1",
-    "name": "Progressive Web Apps",
-    "filters": ["pwa"]
-  },
-  {
-    "id": "pwa-2",
-    "name": "Progressive Web Apps",
-    "filters": ["pwa"]
   },
   {
     "id": "atlassian-jira",
@@ -640,12 +670,7 @@
     "filters": ["atlassian"]
   },
   {
-    "id": "boosty-1",
-    "name": "Boosty",
-    "filters": ["donation", "social"]
-  },
-  {
-    "id": "boosty-2",
+    "id": "boosty",
     "name": "Boosty",
     "filters": ["donation", "social"]
   },
@@ -660,12 +685,12 @@
     "filters": ["ai"]
   },
   {
-    "id": "midjourney-1",
-    "name": "Midjourney",
+    "id": "openai-sora",
+    "name": "OpenAI Sora",
     "filters": ["ai"]
   },
   {
-    "id": "midjourney-2",
+    "id": "midjourney",
     "name": "Midjourney",
     "filters": ["ai"]
   },
@@ -716,12 +741,7 @@
     "filters": ["messenger", "social"]
   },
   {
-    "id": "slack-1",
-    "name": "Slack",
-    "filters": ["messenger", "social"]
-  },
-  {
-    "id": "slack-2",
+    "id": "slack",
     "name": "Slack",
     "filters": ["messenger", "social"]
   },
@@ -731,12 +751,7 @@
     "filters": ["social"]
   },
   {
-    "id": "tiktok-1",
-    "name": "TikTok",
-    "filters": ["social", "bytedance"]
-  },
-  {
-    "id": "tiktok-2",
+    "id": "tiktok",
     "name": "TikTok",
     "filters": ["social", "bytedance"]
   },
@@ -809,12 +824,7 @@
     "name": "GitLab"
   },
   {
-    "id": "git-1",
-    "name": "Git",
-    "filters": ["vcs"]
-  },
-  {
-    "id": "git-2",
+    "id": "git",
     "name": "Git",
     "filters": ["vcs"]
   },
@@ -837,12 +847,7 @@
     "filters": ["database"]
   },
   {
-    "id": "zoom-1",
-    "name": "Zoom",
-    "filters": ["messenger"]
-  },
-  {
-    "id": "zoom-2",
+    "id": "zoom",
     "name": "Zoom",
     "filters": ["messenger"]
   },
@@ -857,12 +862,7 @@
     "filters": ["qa"]
   },
   {
-    "id": "gradle-1",
-    "name": "Gradle",
-    "filters": ["android"]
-  },
-  {
-    "id": "gradle-2",
+    "id": "gradle",
     "name": "Gradle",
     "filters": ["android"]
   },
@@ -875,6 +875,11 @@
     "id": "detekt",
     "name": "Detekt",
     "filters": ["android"]
+  },
+  {
+    "id": "pwa",
+    "name": "Progressive Web Apps",
+    "filters": ["pwa"]
   },
   {
     "id": "oneplus",
@@ -967,12 +972,7 @@
     "filters": ["sony", "phone"]
   },
   {
-    "id": "honor-1",
-    "name": "Honor",
-    "filters": ["phone"]
-  },
-  {
-    "id": "honor-2",
+    "id": "honor",
     "name": "Honor",
     "filters": ["phone"]
   },
@@ -998,12 +998,7 @@
     "filters": ["crypto"]
   },
   {
-    "id": "coinbase-1",
-    "name": "Coinbase",
-    "filters": ["crypto"]
-  },
-  {
-    "id": "coinbase-2",
+    "id": "coinbase",
     "name": "Coinbase",
     "filters": ["crypto"]
   },
@@ -1013,12 +1008,7 @@
     "filters": ["crypto"]
   },
   {
-    "id": "ethereum-1",
-    "name": "Ethereum",
-    "filters": ["crypto"]
-  },
-  {
-    "id": "ethereum-2",
+    "id": "ethereum",
     "name": "Ethereum",
     "filters": ["crypto"]
   },
@@ -1093,12 +1083,7 @@
     "filters": ["payment"]
   },
   {
-    "id": "amazon-1",
-    "name": "Amazon",
-    "filters": ["amazon"]
-  },
-  {
-    "id": "amazon-2",
+    "id": "amazon",
     "name": "Amazon",
     "filters": ["amazon"]
   },
@@ -1148,18 +1133,28 @@
     "filters": ["gaming"]
   },
   {
-    "id": "unreal-engine-1",
+    "id": "unreal-engine",
     "name": "Unreal Engine (Game Engine)",
     "filters": ["gaming"]
   },
   {
-    "id": "unreal-engine-2",
-    "name": "Unreal Engine (Game Engine)",
+    "id": "frostbite",
+    "name": "Frostbite",
     "filters": ["gaming"]
   },
   {
     "id": "sony-playstation",
     "name": "Sony PlayStation",
+    "filters": ["sony", "gaming"]
+  },
+  {
+    "id": "sony-ps-remote-play",
+    "name": "Sony PS Remote Play",
+    "filters": ["sony", "gaming"]
+  },
+  {
+    "id": "sony-playstation-plus",
+    "name": "Sony PlayStation Plus",
     "filters": ["sony", "gaming"]
   },
   {
@@ -1208,6 +1203,11 @@
     "filters": ["gaming"]
   },
   {
+    "id": "ea-play",
+    "name": "EA Play",
+    "filters": ["gaming"]
+  },
+  {
     "id": "activision-blizzard",
     "name": "Activision Blizzard",
     "filters": ["gaming"]
@@ -1215,6 +1215,11 @@
   {
     "id": "supercell",
     "name": "Supercell",
+    "filters": ["gaming"]
+  },
+  {
+    "id": "santa-monica-studio",
+    "name": "Santa Monica Studio",
     "filters": ["gaming"]
   },
   {
@@ -1233,15 +1238,7 @@
     "filters": ["semiconductors"]
   },
   {
-    "id": "nvidia-1",
-    "name": "Nvidia"
-  },
-  {
-    "id": "nvidia-2",
-    "name": "Nvidia"
-  },
-  {
-    "id": "nvidia-3",
+    "id": "nvidia",
     "name": "Nvidia"
   },
   {
@@ -1265,6 +1262,10 @@
   {
     "id": "ibm",
     "name": "IBM"
+  },
+  {
+    "id": "asml",
+    "name": "ASML"
   },
   {
     "id": "acer",
@@ -1332,12 +1333,7 @@
     "name": "Canva"
   },
   {
-    "id": "adobe-1",
-    "name": "Adobe",
-    "filters": ["adobe"]
-  },
-  {
-    "id": "adobe-2",
+    "id": "adobe",
     "name": "Adobe",
     "filters": ["adobe"]
   },
@@ -1427,6 +1423,11 @@
     "filters": ["adobe"]
   },
   {
+    "id": "adobe-pdf",
+    "name": "Adobe PDF",
+    "filters": ["adobe"]
+  },
+  {
     "id": "c",
     "name": "C (Programming Language)",
     "filters": ["programming", "language"]
@@ -1469,15 +1470,11 @@
     "name": "HTML5"
   },
   {
-    "id": "css3",
-    "name": "CSS3"
+    "id": "css",
+    "name": "CSS"
   },
   {
-    "id": "docker-1",
-    "name": "Docker"
-  },
-  {
-    "id": "docker-2",
+    "id": "docker",
     "name": "Docker"
   },
   {
@@ -1501,17 +1498,17 @@
   },
   {
     "id": "delphi",
-    "name": "Delphi (Programming Language)",
+    "name": "Delphi",
     "filters": ["programming", "language"]
   },
   {
     "id": "pascal",
-    "name": "Pascal (Programming Language)",
+    "name": "Pascal",
     "filters": ["programming", "language"]
   },
   {
     "id": "scala",
-    "name": "Scala (Programming Language)",
+    "name": "Scala",
     "filters": ["programming", "language"]
   },
   {
@@ -1523,15 +1520,7 @@
     "name": "XML"
   },
   {
-    "id": "nodejs-1",
-    "name": "Node.js (JavaScript Runtime)"
-  },
-  {
-    "id": "nodejs-2",
-    "name": "Node.js (JavaScript Runtime)"
-  },
-  {
-    "id": "nodejs-3",
+    "id": "nodejs",
     "name": "Node.js (JavaScript Runtime)"
   },
   {
@@ -1539,8 +1528,22 @@
     "name": "NestJS (Framework)"
   },
   {
+    "id": "gleam",
+    "name": "Gleam",
+    "filters": ["programming", "language"]
+  },
+  {
+    "id": "ocaml",
+    "name": "OCaml",
+    "filters": ["programming", "language"]
+  },
+  {
     "id": "utorrent",
     "name": "μTorrent"
+  },
+  {
+    "id": "bittorrent",
+    "name": "BitTorrent"
   },
   {
     "id": "wikipedia",
@@ -1559,11 +1562,7 @@
     "name": "Wired"
   },
   {
-    "id": "dropbox-1",
-    "name": "Dropbox"
-  },
-  {
-    "id": "dropbox-2",
+    "id": "dropbox",
     "name": "Dropbox"
   },
   {
@@ -1684,11 +1683,7 @@
     "name": "Spring Framework"
   },
   {
-    "id": "nginx-1",
-    "name": "Nginx"
-  },
-  {
-    "id": "nginx-2",
+    "id": "nginx",
     "name": "Nginx"
   },
   {
@@ -1730,27 +1725,27 @@
     "filters": ["microsoft"]
   },
   {
-    "id": "microsoft-office-word",
+    "id": "microsoft-word",
     "name": "Microsoft Word",
     "filters": ["microsoft"]
   },
   {
-    "id": "microsoft-office-excel",
+    "id": "microsoft-excel",
     "name": "Microsoft Excel",
     "filters": ["microsoft"]
   },
   {
-    "id": "microsoft-office-powerpoint",
+    "id": "microsoft-powerpoint",
     "name": "Microsoft PowerPoint",
     "filters": ["microsoft"]
   },
   {
-    "id": "microsoft-office-access",
+    "id": "microsoft-access",
     "name": "Microsoft Access",
     "filters": ["microsoft"]
   },
   {
-    "id": "microsoft-office-onenote",
+    "id": "microsoft-onenote",
     "name": "Microsoft OneNote",
     "filters": ["microsoft"]
   },
@@ -1775,8 +1770,18 @@
     "filters": ["microsoft"]
   },
   {
+    "id": "microsoft-forms",
+    "name": "Microsoft Forms",
+    "filters": ["microsoft"]
+  },
+  {
     "id": "microsoft-azure",
     "name": "Microsoft Azure",
+    "filters": ["microsoft"]
+  },
+  {
+    "id": "microsoft-todo",
+    "name": "Microsoft Todo",
     "filters": ["microsoft"]
   },
   {
@@ -2017,11 +2022,6 @@
     "filters": ["google"]
   },
   {
-    "id": "google-gemini-2",
-    "name": "Google Gemini",
-    "filters": ["google", "ai"]
-  },
-  {
     "id": "google-android-auto",
     "name": "Android Auto",
     "filters": ["google", "android"]
@@ -2050,11 +2050,6 @@
     "id": "google-admob",
     "name": "Google AdMob",
     "filters": ["google"]
-  },
-  {
-    "id": "google-android-7",
-    "name": "Android",
-    "filters": ["google", "android"]
   },
   {
     "id": "google-youtube-music",
@@ -2152,6 +2147,31 @@
     "filters": ["google"]
   },
   {
+    "id": "google-search-console",
+    "name": "Google Search Console",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-arts-culture",
+    "name": "Google Arts Culture",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-finance",
+    "name": "Google Finance",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-analytics",
+    "name": "Google Analytics",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-cloud-code",
+    "name": "Google Cloud Code",
+    "filters": ["google"]
+  },
+  {
     "id": "microsoft-bing",
     "name": "Microsoft Bing",
     "filters": ["microsoft"]
@@ -2180,14 +2200,6 @@
     "name": "hCaptcha"
   },
   {
-    "id": "yahoo-1",
-    "name": "Yahoo"
-  },
-  {
-    "id": "yahoo-2",
-    "name": "Yahoo"
-  },
-  {
     "id": "jenkins",
     "name": "Jenkins",
     "filters": ["ci"]
@@ -2208,11 +2220,7 @@
     "filters": ["ci"]
   },
   {
-    "id": "obsidian-1",
-    "name": "Obsidian"
-  },
-  {
-    "id": "obsidian-2",
+    "id": "obsidian",
     "name": "Obsidian"
   },
   {
@@ -2616,12 +2624,7 @@
     "name": "Session App"
   },
   {
-    "id": "vimeo-1",
-    "name": "Vimeo",
-    "filters": ["video", "social"]
-  },
-  {
-    "id": "vimeo-2",
+    "id": "vimeo",
     "name": "Vimeo",
     "filters": ["video", "social"]
   },
@@ -2832,6 +2835,10 @@
     "id": "kaspersky",
     "name": "Kaspersky"
   },
+  {
+    "id": "yahoo",
+    "name": "Yahoo"
+  },
 
   {
     "id": "google-android16",
@@ -2881,6 +2888,16 @@
   {
     "id": "google-looker",
     "name": "Google Looker",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-my-business",
+    "name": "Google My Business",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-scholar",
+    "name": "Google Scholar",
     "filters": ["google"]
   },
   {
@@ -2999,12 +3016,7 @@
     "filters": ["ai"]
   },
   {
-    "id": "x-grok-1",
-    "name": "Grok",
-    "filters": ["ai"]
-  },
-  {
-    "id": "x-grok-2",
+    "id": "x-grok",
     "name": "Grok",
     "filters": ["ai"]
   },
@@ -3066,11 +3078,6 @@
   {
     "id": "perplexity",
     "name": "Perplexity AI",
-    "filters": ["ai"]
-  },
-  {
-    "id": "claude",
-    "name": "Claude",
     "filters": ["ai"]
   },
   {
@@ -4624,5 +4631,261 @@
     "id": "revolut",
     "name": "Revolut",
     "filters": ["bank"]
+  },
+
+  {
+    "id": "google-developer-program",
+    "name": "Google Developer Program",
+    "filters": ["google"]
+  },
+  {
+    "id": "google-ad-manager",
+    "name": "Google Ad Manager",
+    "filters": ["google"]
+  },
+  {
+    "id": "yandex-afisha",
+    "name": "Яндекс Афиша"
+  },
+  {
+    "id": "yandex-delivery",
+    "name": "Яндекс Деливери"
+  },
+  {
+    "id": "yandex-lavka",
+    "name": "Яндекс Лавка"
+  },
+  {
+    "id": "yandex-fuel",
+    "name": "Яндекс Заправки"
+  },
+  {
+    "id": "yandex-praktikum",
+    "name": "Яндекс Практикум"
+  },
+  {
+    "id": "proton-authenticator",
+    "name": "Proton Authenticator"
+  },
+  {
+    "id": "proton-drive",
+    "name": "Proton Drive"
+  },
+  {
+    "id": "proton-pass",
+    "name": "Proton Pass"
+  },
+  {
+    "id": "proton-vpn",
+    "name": "Proton VPN",
+    "filters": ["vpn"]
+  },
+  {
+    "id": "proton-wallet",
+    "name": "Proton Wallet"
+  },
+  {
+    "id": "proton-calendar",
+    "name": "Proton Calendar",
+    "filters": ["calendar"]
+  },
+  {
+    "id": "proton-meet",
+    "name": "Proton Meet"
+  },
+  {
+    "id": "proton-lumo",
+    "name": "Proton Lumo",
+    "filters": ["ai"]
+  },
+  {
+    "id": "uml",
+    "name": "UML"
+  },
+  {
+    "id": "fastapi",
+    "name": "FastAPI"
+  },
+  {
+    "id": "sber-gigachat",
+    "name": "Giga Chat",
+    "filters": ["ai"]
+  },
+  {
+    "id": "wink",
+    "name": "Wink"
+  },
+  {
+    "id": "firecrawl",
+    "name": "Firecrawl"
+  },
+  {
+    "id": "dynatrace",
+    "name": "Dynatrace"
+  },
+  {
+    "id": "tproger",
+    "name": "Tproger"
+  },
+  {
+    "id": "heygen",
+    "name": "Heygen"
+  },
+  {
+    "id": "mapbox",
+    "name": "Mapbox"
+  },
+  {
+    "id": "segment",
+    "name": "Segment"
+  },
+  {
+    "id": "whatwg",
+    "name": "WHATWG"
+  },
+  {
+    "id": "jasmine",
+    "name": "Jasmine"
+  },
+  {
+    "id": "powersync",
+    "name": "PowerSync"
+  },
+  {
+    "id": "zen-browser",
+    "name": "Zen Browser",
+    "filters": ["browser"]
+  },
+  {
+    "id": "ahrefs",
+    "name": "Ahrefs"
+  },
+  {
+    "id": "semrush",
+    "name": "Semrush"
+  },
+  {
+    "id": "sourcegraph",
+    "name": "Sourcegraph"
+  },
+  {
+    "id": "tidal",
+    "name": "Tidal"
+  },
+  {
+    "id": "zig",
+    "name": "Zig"
+  },
+  {
+    "id": "sass",
+    "name": "Sass"
+  },
+  {
+    "id": "model-context-protocol",
+    "name": "Model Context Protocol",
+    "filters": ["ai"]
+  },
+  {
+    "id": "eslint",
+    "name": "ESLint"
+  },
+  {
+    "id": "elementor",
+    "name": "Elementor"
+  },
+  {
+    "id": "pulumi",
+    "name": "Pulumi"
+  },
+  {
+    "id": "factory-ai",
+    "name": "Factory ai",
+    "filters": ["ai"]
+  },
+  {
+    "id": "mubi",
+    "name": "Mubi"
+  },
+  {
+    "id": "accenture",
+    "name": "Accenture"
+  },
+  {
+    "id": "hedra",
+    "name": "Hedra"
+  },
+  {
+    "id": "firefiles",
+    "name": "Firefiles ai",
+    "filters": ["ai"]
+  },
+  {
+    "id": "weshop",
+    "name": "WeShop"
+  },
+  {
+    "id": "sider",
+    "name": "Sider"
+  },
+  {
+    "id": "ideogram",
+    "name": "Ideogram"
+  },
+  {
+    "id": "udio",
+    "name": "Udio",
+    "filters": ["ai"]
+  },
+  {
+    "id": "flair-ai",
+    "name": "Flair ai",
+    "filters": ["ai"]
+  },
+  {
+    "id": "kling",
+    "name": "Kling AI",
+    "filters": ["ai"]
+  },
+  {
+    "id": "warp",
+    "name": "Warp"
+  },
+  {
+    "id": "civitai",
+    "name": "Civitai",
+    "filters": ["ai"]
+  },
+  {
+    "id": "vodafone",
+    "name": "Vodafone"
+  },
+  {
+    "id": "opentelemetry",
+    "name": "OpenTelemetry"
+  },
+  {
+    "id": "mixpanel",
+    "name": "Mixpanel"
+  },
+  {
+    "id": "n8n",
+    "name": "n8n"
+  },
+  {
+    "id": "expedia",
+    "name": "Expedia"
+  },
+  {
+    "id": "hostinger",
+    "name": "Hostinger"
+  },
+  {
+    "id": "xrp",
+    "name": "XRP",
+    "filters": ["crypto"]
+  },
+  {
+    "id": "qoder",
+    "name": "Qoder"
   }
 ]

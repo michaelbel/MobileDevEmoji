@@ -32,10 +32,8 @@ kotlin {
             commonWebpackConfig {
                 outputFileName = "composeApp.js"
                 devServer = (devServer ?: KotlinWebpackConfig.DevServer()).apply {
-                    static = (static ?: mutableListOf()).apply {
-                        add(project.rootDir.path)
-                        add(project.projectDir.path)
-                    }
+                    static(project.rootDir.path)
+                    static(project.projectDir.path)
                 }
             }
         }
@@ -48,10 +46,8 @@ kotlin {
             commonWebpackConfig {
                 outputFileName = "composeApp.js"
                 devServer = (devServer ?: KotlinWebpackConfig.DevServer()).apply {
-                    static = (static ?: mutableListOf()).apply {
-                        add(project.rootDir.path)
-                        add(project.projectDir.path)
-                    }
+                    static(project.rootDir.path)
+                    static(project.projectDir.path)
                 }
             }
         }

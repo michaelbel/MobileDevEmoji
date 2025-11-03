@@ -1,5 +1,3 @@
-@file:Suppress("UnusedReceiverParameter")
-
 package org.michaelbel.mobiledevemoji.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
