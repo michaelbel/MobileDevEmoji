@@ -97,7 +97,7 @@ fun MainContent() {
     val pack6 = emojiList.pack6.filterBy(selectedFilter).searchBy(searchQuery)
 
     var isSearchEmpty by remember { mutableStateOf(false) }
-    isSearchEmpty = pack1.isEmpty() && pack2.isEmpty() && pack3.isEmpty() && pack4.isEmpty() && pack5.isEmpty()
+    isSearchEmpty = pack1.isEmpty() && pack2.isEmpty() && pack3.isEmpty() && pack4.isEmpty() && pack5.isEmpty() && pack6.isEmpty()
 
     var isPack1Expanded by remember { mutableStateOf(true) }
     var isPack2Expanded by remember { mutableStateOf(true) }
