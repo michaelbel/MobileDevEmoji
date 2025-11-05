@@ -11,12 +11,12 @@ fun SvgIcon(
     painter: Painter?,
     modifier: Modifier
 ) {
-    if (painter != null) {
-        Image(
-            painter = painter,
-            modifier = modifier,
-            contentScale = ContentScale.Crop,
-            contentDescription = null
-        )
-    }
+    if (painter == null) return
+
+    Image(
+        painter = painter,
+        modifier = modifier,
+        contentScale = ContentScale.Crop,
+        contentDescription = null
+    )
 }
