@@ -21,6 +21,7 @@ import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
+import kotlinx.coroutines.delay
 import org.jetbrains.compose.resources.painterResource
 import org.michaelbel.mobiledevemoji.ktx.isMobileBrowser
 import org.michaelbel.mobiledevemoji.ui.theme.ClearRes
@@ -72,5 +73,8 @@ fun SearchWidget(
         )
     }
 
-    LaunchedEffect(Unit) { focusRequester.requestFocus() }
+    LaunchedEffect(Unit) {
+        delay(150)
+        focusRequester.requestFocus()
+    }
 }
