@@ -16,6 +16,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.input.pointer.PointerIcon
+import androidx.compose.ui.input.pointer.pointerHoverIcon
 import androidx.compose.ui.unit.dp
 import org.jetbrains.compose.resources.painterResource
 import org.michaelbel.mobiledevemoji.ui.theme.ChevronDown
@@ -40,7 +42,8 @@ fun PackHeader(
                 .align(Alignment.CenterStart)
                 .wrapContentSize()
                 .clip(RoundedCornerShape(12.dp))
-                .clickable(onClick = onClick),
+                .clickable(onClick = onClick)
+                .pointerHoverIcon(PointerIcon.Hand),
             verticalAlignment = Alignment.CenterVertically
         ) {
             Text(

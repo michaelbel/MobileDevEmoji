@@ -9,7 +9,9 @@ import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.pointer.PointerEventType
+import androidx.compose.ui.input.pointer.PointerIcon
 import androidx.compose.ui.input.pointer.onPointerEvent
+import androidx.compose.ui.input.pointer.pointerHoverIcon
 import androidx.compose.ui.platform.LocalUriHandler
 import org.jetbrains.compose.resources.painterResource
 import org.michaelbel.mobiledevemoji.data.TELEGRAM_URL
@@ -23,7 +25,9 @@ fun TelegramIcon(
 
     IconButton(
         onClick = { uriHandler.openUri(TELEGRAM_URL) },
-        modifier = modifier.onPointerEvent(PointerEventType.Press) { uriHandler.openUri(TELEGRAM_URL) }
+        modifier = modifier
+            .pointerHoverIcon(PointerIcon.Hand)
+            .onPointerEvent(PointerEventType.Press) { uriHandler.openUri(TELEGRAM_URL) }
     ) {
         Icon(
             painter = painterResource(TelegramIconRes),

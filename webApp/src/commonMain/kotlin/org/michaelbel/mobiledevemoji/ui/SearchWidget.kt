@@ -20,6 +20,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.input.pointer.PointerIcon
+import androidx.compose.ui.input.pointer.pointerHoverIcon
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.delay
 import org.jetbrains.compose.resources.painterResource
@@ -53,7 +55,8 @@ fun SearchWidget(
                         onClick = {
                             onQueryChanged("")
                             focusRequester.requestFocus()
-                        }
+                        },
+                        modifier = Modifier.pointerHoverIcon(PointerIcon.Hand)
                     ) {
                         Icon(
                             painter = painterResource(ClearRes),
@@ -74,7 +77,7 @@ fun SearchWidget(
     }
 
     LaunchedEffect(Unit) {
-        delay(150)
+        delay(200)
         focusRequester.requestFocus()
     }
 }

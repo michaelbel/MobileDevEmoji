@@ -133,6 +133,7 @@ fun MainContent() {
     }
 
     Scaffold(
+        modifier = Modifier.fillMaxSize(),
         topBar = {
             Column {
                 TopAppBar(

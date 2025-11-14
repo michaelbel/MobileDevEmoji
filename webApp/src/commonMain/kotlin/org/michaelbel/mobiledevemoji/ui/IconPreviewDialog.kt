@@ -24,6 +24,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.shadow
+import androidx.compose.ui.input.pointer.PointerIcon
+import androidx.compose.ui.input.pointer.pointerHoverIcon
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
@@ -128,6 +130,7 @@ fun IconPreviewDialog(
                 modifier = Modifier
                     .padding(end = 8.dp)
                     .align(Alignment.TopEnd)
+                    .pointerHoverIcon(PointerIcon.Hand)
             ) {
                 Icon(
                     painter = painterResource(CloseIconRes),
