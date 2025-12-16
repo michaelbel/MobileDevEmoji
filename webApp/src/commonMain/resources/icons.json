@@ -4770,7 +4770,8 @@
   },
   {
     "id": "tidal",
-    "name": "Tidal"
+    "name": "Tidal",
+    "filters": ["audio"]
   },
   {
     "id": "zig",

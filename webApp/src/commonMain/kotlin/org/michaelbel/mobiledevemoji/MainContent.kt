@@ -17,7 +17,7 @@ import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.GridItemSpan
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
-import androidx.compose.foundation.lazy.grid.items
+import androidx.compose.foundation.lazy.grid.itemsIndexed
 import androidx.compose.material3.Button
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
@@ -26,6 +26,7 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
@@ -49,6 +50,7 @@ import org.michaelbel.mobiledevemoji.data.APP_NAME
 import org.michaelbel.mobiledevemoji.data.ActionMode
 import org.michaelbel.mobiledevemoji.data.Emoji
 import org.michaelbel.mobiledevemoji.data.EmojiResponse
+import org.michaelbel.mobiledevemoji.data.FilteredPacks
 import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_1
 import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_2
 import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_3
@@ -89,15 +91,37 @@ fun MainContent() {
     var selectedFilter by remember { mutableStateOf("") }
     var searchQuery by remember { mutableStateOf("") }
 
-    val pack1 = emojiList.pack1.filterBy(selectedFilter).searchBy(searchQuery)
-    val pack2 = emojiList.pack2.filterBy(selectedFilter).searchBy(searchQuery)
-    val pack3 = emojiList.pack3.filterBy(selectedFilter).searchBy(searchQuery)
-    val pack4 = emojiList.pack4.filterBy(selectedFilter).searchBy(searchQuery)
-    val pack5 = emojiList.pack5.filterBy(selectedFilter).searchBy(searchQuery)
-    val pack6 = emojiList.pack6.filterBy(selectedFilter).searchBy(searchQuery)
+    val filteredPacks by remember(emojiList, selectedFilter, searchQuery) {
+        derivedStateOf {
+            val search = searchQuery.trim()
+            val filter = selectedFilter
 
-    var isSearchEmpty by remember { mutableStateOf(false) }
-    isSearchEmpty = pack1.isEmpty() && pack2.isEmpty() && pack3.isEmpty() && pack4.isEmpty() && pack5.isEmpty() && pack6.isEmpty()
+            val pack1 = emojiList.pack1.filterBy(filter).searchBy(search)
+            val pack2 = emojiList.pack2.filterBy(filter).searchBy(search)
+            val pack3 = emojiList.pack3.filterBy(filter).searchBy(search)
+            val pack4 = emojiList.pack4.filterBy(filter).searchBy(search)
+            val pack5 = emojiList.pack5.filterBy(filter).searchBy(search)
+            val pack6 = emojiList.pack6.filterBy(filter).searchBy(search)
+
+            FilteredPacks(
+                pack1 = pack1,
+                pack2 = pack2,
+                pack3 = pack3,
+                pack4 = pack4,
+                pack5 = pack5,
+                pack6 = pack6,
+                isSearchEmpty = pack1.isEmpty() && pack2.isEmpty() && pack3.isEmpty() && pack4.isEmpty() && pack5.isEmpty() && pack6.isEmpty()
+            )
+        }
+    }
+
+    val pack1 = filteredPacks.pack1
+    val pack2 = filteredPacks.pack2
+    val pack3 = filteredPacks.pack3
+    val pack4 = filteredPacks.pack4
+    val pack5 = filteredPacks.pack5
+    val pack6 = filteredPacks.pack6
+    val isSearchEmpty = filteredPacks.isSearchEmpty
 
     var isPack1Expanded by remember { mutableStateOf(true) }
     var isPack2Expanded by remember { mutableStateOf(true) }
@@ -106,7 +130,7 @@ fun MainContent() {
     var isPack5Expanded by remember { mutableStateOf(true) }
     var isPack6Expanded by remember { mutableStateOf(true) }
 
-    val json = Json { ignoreUnknownKeys = true }
+    val json = remember { Json { ignoreUnknownKeys = true } }
     val scope = rememberCoroutineScope()
 
     val submittedQueries = remember { mutableStateListOf<String>() }
@@ -227,9 +251,13 @@ fun MainContent() {
                     }
 
                     if (isPack1Expanded) {
-                        items(
-                            items = pack1
-                        ) { emoji ->
+                        itemsIndexed(
+                            items = pack1,
+                            key = { index, emoji ->
+                                val id = emoji.emojiResponse.id
+                                if (id.isNotBlank()) "pack1:$id" else "pack1:placeholder:$index"
+                            }
+                        ) { _, emoji ->
                             EmojiIcon(
                                 emoji = emoji,
                                 selected = emoji.emojiResponse.id == emojiPreviewVisible,
@@ -258,9 +286,13 @@ fun MainContent() {
                     }
 
                     if (isPack2Expanded) {
-                        items(
-                            items = pack2
-                        ) { emoji ->
+                        itemsIndexed(
+                            items = pack2,
+                            key = { index, emoji ->
+                                val id = emoji.emojiResponse.id
+                                if (id.isNotBlank()) "pack2:$id" else "pack2:placeholder:$index"
+                            }
+                        ) { _, emoji ->
                             EmojiIcon(
                                 emoji = emoji,
                                 selected = emoji.emojiResponse.id == emojiPreviewVisible,
@@ -289,9 +321,13 @@ fun MainContent() {
                     }
 
                     if (isPack3Expanded) {
-                        items(
-                            items = pack3
-                        ) { emoji ->
+                        itemsIndexed(
+                            items = pack3,
+                            key = { index, emoji ->
+                                val id = emoji.emojiResponse.id
+                                if (id.isNotBlank()) "pack3:$id" else "pack3:placeholder:$index"
+                            }
+                        ) { _, emoji ->
                             EmojiIcon(
                                 emoji = emoji,
                                 selected = emoji.emojiResponse.id == emojiPreviewVisible,
@@ -320,9 +356,13 @@ fun MainContent() {
                     }
 
                     if (isPack4Expanded) {
-                        items(
-                            items = pack4
-                        ) { emoji ->
+                        itemsIndexed(
+                            items = pack4,
+                            key = { index, emoji ->
+                                val id = emoji.emojiResponse.id
+                                if (id.isNotBlank()) "pack4:$id" else "pack4:placeholder:$index"
+                            }
+                        ) { _, emoji ->
                             EmojiIcon(
                                 emoji = emoji,
                                 selected = emoji.emojiResponse.id == emojiPreviewVisible,
@@ -353,9 +393,13 @@ fun MainContent() {
                     }
 
                     if (isPack5Expanded) {
-                        items(
-                            items = pack5
-                        ) { emoji ->
+                        itemsIndexed(
+                            items = pack5,
+                            key = { index, emoji ->
+                                val id = emoji.emojiResponse.id
+                                if (id.isNotBlank()) "pack5:$id" else "pack5:placeholder:$index"
+                            }
+                        ) { _, emoji ->
                             EmojiIcon(
                                 emoji = emoji,
                                 selected = emoji.emojiResponse.id == emojiPreviewVisible,
@@ -384,9 +428,13 @@ fun MainContent() {
                     }
 
                     if (isPack6Expanded) {
-                        items(
-                            items = pack6
-                        ) { emoji ->
+                        itemsIndexed(
+                            items = pack6,
+                            key = { index, emoji ->
+                                val id = emoji.emojiResponse.id
+                                if (id.isNotBlank()) "pack6:$id" else "pack6:placeholder:$index"
+                            }
+                        ) { _, emoji ->
                             EmojiIcon(
                                 emoji = emoji,
                                 selected = emoji.emojiResponse.id == emojiPreviewVisible,
