@@ -4644,6 +4644,22 @@
     "filters": ["google"]
   },
   {
+    "id": "google-code-wiki",
+    "name": "Google Code Wiki"
+  },
+  {
+    "id": "google-feedburner",
+    "name": "FeedBurner"
+  },
+  {
+    "id": "google-youtube-create",
+    "name": "Youtube Create"
+  },
+  {
+    "id": "google-youtube-gaming",
+    "name": "Youtube Gaming"
+  },
+  {
     "id": "yandex-afisha",
     "name": "Яндекс Афиша"
   },
@@ -4662,6 +4678,10 @@
   {
     "id": "yandex-praktikum",
     "name": "Яндекс Практикум"
+  },
+  {
+    "id": "yandex-sourcecraft",
+    "name": "Yandex SourceCraft"
   },
   {
     "id": "proton-authenticator",
@@ -4697,6 +4717,163 @@
     "id": "proton-lumo",
     "name": "Proton Lumo",
     "filters": ["ai"]
+  },
+  {
+    "id": "proton-docs",
+    "name": "Proton Docs"
+  },
+  {
+    "id": "proton-sheets",
+    "name": "Proton Sheets"
+  },
+  {
+    "id": "amazon-luna",
+    "name": "Amazon Luna"
+  },
+  {
+    "id": "sony-interactive-entertainment",
+    "name": "Sony Interactive Entertainment"
+  },
+  {
+    "id": "microsoft-planner",
+    "name": "Microsoft Planner"
+  },
+  {
+    "id": "microsoft-playwright",
+    "name": "Microsoft PlayWright"
+  },
+  {
+    "id": "apache-activemq",
+    "name": "Apache ActiveMQ"
+  },
+  {
+    "id": "apache-druid",
+    "name": "Apache Druid"
+  },
+  {
+    "id": "apache-cordova",
+    "name": "Apache Cordova"
+  },
+  {
+    "id": "atlassian-rovo",
+    "name": "Atlassian Rovo"
+  },
+  {
+    "id": "meta-facebook-gaming",
+    "name": "Facebook Gaming"
+  },
+  {
+    "id": "nvidia-nemotron",
+    "name": "NVIDEA Nemotron"
+  },
+  {
+    "id": "opera-mini",
+    "name": "Opera Mini"
+  },
+  {
+    "id": "opera-gx",
+    "name": "Opera GX"
+  },
+  {
+    "id": "paypal-pyusd",
+    "name": "PayPal PYUSD"
+  },
+  {
+    "id": "remedy-entertainment",
+    "name": "Remedy Entertainment"
+  },
+  {
+    "id": "insomniac-games",
+    "name": "Insomniac Games"
+  },
+  {
+    "id": "capcom",
+    "name": "Capcom"
+  },
+  {
+    "id": "obsidian-entertainment",
+    "name": "Obsidian Entertainment"
+  },
+  {
+    "id": "relic-entertainment",
+    "name": "Relic Entertainment"
+  },
+  {
+    "id": "guerrilla-games",
+    "name": "Guerrilla Games"
+  },
+  {
+    "id": "creative-assembly",
+    "name": "Creative Assembly"
+  },
+  {
+    "id": "gearbox-software",
+    "name": "Gearbox Software"
+  },
+  {
+    "id": "sucker-punch",
+    "name": "Sucker Punch"
+  },
+  {
+    "id": "machine-games",
+    "name": "Machine Games"
+  },
+  {
+    "id": "half-life",
+    "name": "Half-Life"
+  },
+  {
+    "id": "hazelight-studios",
+    "name": "Hazelight Studios"
+  },
+  {
+    "id": "hangar-13",
+    "name": "Hangar 13"
+  },
+  {
+    "id": "warhorse-studios",
+    "name": "Warhorse Studios"
+  },
+  {
+    "id": "2k",
+    "name": "2K Games"
+  },
+  {
+    "id": "deep-silver",
+    "name": "Deep Silver"
+  },
+  {
+    "id": "chainlink",
+    "name": "Chainlink"
+  },
+  {
+    "id": "hyper-foundation",
+    "name": "Hyper Foundation"
+  },
+  {
+    "id": "sui",
+    "name": "Sui"
+  },
+  {
+    "id": "cardano",
+    "name": "Cardano"
+  },
+  {
+    "id": "shiba-inu",
+    "name": "Shiba Inu"
+  },
+  {
+    "id": "avalanche",
+    "name": "Avalanche"
+  },
+  {
+    "id": "zcash",
+    "name": "Zcash"
+  },
+  {
+    "id": "xrp",
+    "name": "XRP",
+    "filters": ["crypto"]
   },
   {
     "id": "uml",
@@ -4881,12 +5058,235 @@
     "name": "Hostinger"
   },
   {
-    "id": "xrp",
-    "name": "XRP",
-    "filters": ["crypto"]
+    "id": "minimax",
+    "name": "MiniMax"
   },
   {
     "id": "qoder",
     "name": "Qoder"
+  },
+  {
+    "id": "edvibe",
+    "name": "Edvibe"
+  },
+  {
+    "id": "stepik",
+    "name": "Stepik"
+  },
+  {
+    "id": "openapi",
+    "name": "OpenAPI"
+  },
+  {
+    "id": "vcru",
+    "name": "vc.ru"
+  },
+  {
+    "id": "dtf",
+    "name": "DTF"
+  },
+  {
+    "id": "whoosh",
+    "name": "Whoosh"
+  },
+  {
+    "id": "мтс-музыка",
+    "name": "МТС Музыка"
+  },
+  {
+    "id": "ublock-origin",
+    "name": "uBlock Origin"
+  },
+  {
+    "id": "meetup",
+    "name": "Meetup"
+  },
+  {
+    "id": "product-hunt",
+    "name": "Product Hunt"
+  },
+  {
+    "id": "techradar",
+    "name": "TechRadar"
+  },
+  {
+    "id": "trip-com",
+    "name": "Trip.com"
+  },
+  {
+    "id": "dev-to",
+    "name": "DEV Community"
+  },
+  {
+    "id": "tripadvisor",
+    "name": "Tripadvisor"
+  },
+  {
+    "id": "wikihow",
+    "name": "wikiHow"
+  },
+  {
+    "id": "home-assistant",
+    "name": "Home Assistant"
+  },
+  {
+    "id": "litres-livelib",
+    "name": "LiveLib"
+  },
+  {
+    "id": "mockoon",
+    "name": "Mockoon"
+  },
+  {
+    "id": "supremo",
+    "name": "Supremo"
+  },
+  {
+    "id": "block",
+    "name": "Block"
+  },
+  {
+    "id": "apollo",
+    "name": "Apollo"
+  },
+  {
+    "id": "insomnia",
+    "name": "Insomnia"
+  },
+  {
+    "id": "hinge",
+    "name": "Hinge"
+  },
+  {
+    "id": "calm",
+    "name": "Calm"
+  },
+  {
+    "id": "kaggle",
+    "name": "Kaggle"
+  },
+  {
+    "id": "roo-code",
+    "name": "Roo Code"
+  },
+  {
+    "id": "hugging-face",
+    "name": "Hugging Face"
+  },
+  {
+    "id": "openshift",
+    "name": "OpenShift"
+  },
+  {
+    "id": "capcut",
+    "name": "CapCut"
+  },
+  {
+    "id": "keydb",
+    "name": "KeyDB"
+  },
+  {
+    "id": "proxmox",
+    "name": "Proxmox"
+  },
+  {
+    "id": "keycloak",
+    "name": "Keycloak"
+  },
+  {
+    "id": "thanos",
+    "name": "Thanos"
+  },
+  {
+    "id": "qemu",
+    "name": "Qemu"
+  },
+  {
+    "id": "sonar",
+    "name": "Sonar"
+  },
+  {
+    "id": "avast",
+    "name": "Avast"
+  },
+  {
+    "id": "istio",
+    "name": "Istio"
+  },
+  {
+    "id": "haproxy",
+    "name": "Haproxy"
+  },
+  {
+    "id": "starrocks",
+    "name": "StarRocks"
+  },
+  {
+    "id": "minio",
+    "name": "MinIO"
+  },
+  {
+    "id": "ceph",
+    "name": "Ceph"
+  },
+  {
+    "id": "gog",
+    "name": "GOG.com"
+  },
+  {
+    "id": "anysphere",
+    "name": "Anysphere"
+  },
+  {
+    "id": "hackster",
+    "name": "Hackster"
+  },
+  {
+    "id": "langfuse",
+    "name": "Langfuse"
+  },
+  {
+    "id": "spaceship",
+    "name": "Spaceship"
+  },
+  {
+    "id": "quizlet",
+    "name": "Quizlet"
+  },
+  {
+    "id": "funplus",
+    "name": "FunPlus"
+  },
+  {
+    "id": "shopee",
+    "name": "Shopee"
+  },
+  {
+    "id": "trino",
+    "name": "Trino"
+  },
+  {
+    "id": "wrike",
+    "name": "Wrike"
+  },
+  {
+    "id": "liquibase",
+    "name": "Liquibase"
+  },
+  {
+    "id": "groq",
+    "name": "Groq"
+  },
+  {
+    "id": "assembly-script",
+    "name": "Assembly Script"
+  },
+  {
+    "id": "oneplus-oxygenos",
+    "name": "Oneplus OxygenOS"
+  },
+  {
+    "id": "swebench",
+    "name": "SWE-bench"
   }
 ]
