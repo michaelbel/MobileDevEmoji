@@ -5288,5 +5288,171 @@
   {
     "id": "swebench",
     "name": "SWE-bench"
+  },
+  {
+    "id": "redlab",
+    "name": "RedLab"
+  },
+  {
+    "id": "worldline",
+    "name": "Worldline"
+  },
+  {
+    "id": "konami",
+    "name": "Konami"
+  },
+  {
+    "id": "asobo-studio",
+    "name": "Asobo Studio"
+  },
+  {
+    "id": "fanatics",
+    "name": "Fanatics"
+  },
+  {
+    "id": "flyr",
+    "name": "FLYR"
+  },
+  {
+    "id": "innogames",
+    "name": "InnoGames"
+  },
+  {
+    "id": "momentive",
+    "name": "Momentive"
+  },
+  {
+    "id": "feedly",
+    "name": "Feedly"
+  },
+  {
+    "id": "weave",
+    "name": "Weave"
+  },
+  {
+    "id": "naver",
+    "name": "NAVER"
+  },
+  {
+    "id": "langchain",
+    "name": "LangChain"
+  },
+  {
+    "id": "moonshot-ai",
+    "name": "Moonshot AI",
+    "filters": ["ai"]
+  },
+  {
+    "id": "kimi-ai",
+    "name": "Kimi AI",
+    "filters": ["ai"]
+  },
+  {
+    "id": "bio-renderer",
+    "name": "BioRenderer"
+  },
+  {
+    "id": "alpaca",
+    "name": "Alpaca"
+  },
+  {
+    "id": "blinkist",
+    "name": "Blinkist"
+  },
+  {
+    "id": "drata",
+    "name": "Drata"
+  },
+  {
+    "id": "egnyte",
+    "name": "Egnyte"
+  },
+  {
+    "id": "hex",
+    "name": "Hex"
+  },
+  {
+    "id": "jam",
+    "name": "Jam AI"
+  },
+  {
+    "id": "prettier",
+    "name": "Prettier"
+  },
+  {
+    "id": "gitkraken",
+    "name": "GitKraken"
+  },
+  {
+    "id": "d3",
+    "name": "D3"
+  },
+  {
+    "id": "alltrails",
+    "name": "AllTrails"
+  },
+  {
+    "id": "gulp-js",
+    "name": "gulp.js"
+  },
+  {
+    "id": "lmarena-ai",
+    "name": "LMArena",
+    "filters": ["ai"]
+  },
+  {
+    "id": "rollup",
+    "name": "Rollup"
+  },
+  {
+    "id": "widevine",
+    "name": "Widevine"
+  },
+  {
+    "id": "scaleway",
+    "name": "Scaleway"
+  },
+  {
+    "id": "quantic-dream",
+    "name": "Quantic Dream"
+  },
+  {
+    "id": "novita-ai",
+    "name": "Novita AI",
+    "filters": ["ai"]
+  },
+  {
+    "id": "fireworks-ai",
+    "name": "Fireworks AI",
+    "filters": ["ai"]
+  },
+  {
+    "id": "cohere",
+    "name": "Cohere"
+  },
+  {
+    "id": "fal-ai",
+    "name": "Fal.ai",
+    "filters": ["ai"]
+  },
+  {
+    "id": "codescene",
+    "name": "CodeScene"
+  },
+  {
+    "id": "nscale",
+    "name": "Nscale"
+  },
+  {
+    "id": "t-mobile",
+    "name": "T-Mobile"
+  },
+  {
+    "id": "frontiermath",
+    "name": "FrontierMath"
+  },
+  {
+    "id": "kioxia",
+    "name": "Kioxia"
   }
 ]
