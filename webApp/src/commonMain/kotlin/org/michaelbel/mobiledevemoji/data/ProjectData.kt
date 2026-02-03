@@ -8,6 +8,7 @@ const val TELEGRAM_PACK_3 = "https://t.me/addstickers/MobileDevEmojiTgs3"
 const val TELEGRAM_PACK_4 = "https://t.me/addstickers/MobileDevEmojiTgs4"
 const val TELEGRAM_PACK_5 = "https://t.me/addstickers/MobileDevEmojiTgs5"
 const val TELEGRAM_PACK_6 = "https://t.me/addstickers/MobileDevEmojiTgs6"
+const val TELEGRAM_PACK_7 = "https://t.me/addstickers/DevEmoji7"
 const val GITHUB_URL = "https://github.com/michaelbel/mobiledevemoji"
 private const val PACK_1_SIZE = 200
 private const val PACK_2_SIZE = 200
@@ -15,7 +16,8 @@ private const val PACK_3_SIZE = 200
 private const val PACK_4_SIZE = 200
 private const val PACK_5_SIZE = 200
 private const val PACK_6_SIZE = 200
-const val PACKS_SIZE = PACK_1_SIZE + PACK_2_SIZE + PACK_3_SIZE + PACK_4_SIZE + PACK_5_SIZE + PACK_6_SIZE
+private const val PACK_7_SIZE = 60
+const val PACKS_SIZE = PACK_1_SIZE + PACK_2_SIZE + PACK_3_SIZE + PACK_4_SIZE + PACK_5_SIZE + PACK_6_SIZE + PACK_7_SIZE
 
 val <T> List<T>.pack1: List<T>
     get() = take(PACK_1_SIZE)
@@ -34,6 +36,9 @@ val <T> List<T>.pack5: List<T>
 
 val <T> List<T>.pack6: List<T>
     get() = drop(PACK_1_SIZE + PACK_2_SIZE + PACK_3_SIZE + PACK_4_SIZE + PACK_5_SIZE).take(PACK_6_SIZE)
+
+val <T> List<T>.pack7: List<T>
+    get() = drop(PACK_1_SIZE + PACK_2_SIZE + PACK_3_SIZE + PACK_4_SIZE + PACK_5_SIZE + PACK_6_SIZE).take(PACK_7_SIZE)
 
 fun List<Emoji>.filterBy(filter: String): List<Emoji> {
     if (filter.isEmpty() || filter.isBlank()) return this
@@ -56,5 +61,6 @@ val Int.pack: String
         in PACK_1_SIZE + PACK_2_SIZE..(PACK_1_SIZE + PACK_2_SIZE + PACK_3_SIZE).minus(1) -> "pack3"
         in PACK_1_SIZE + PACK_2_SIZE + PACK_3_SIZE..(PACK_1_SIZE + PACK_2_SIZE + PACK_3_SIZE + PACK_4_SIZE).minus(1) -> "pack4"
         in PACK_1_SIZE + PACK_2_SIZE + PACK_3_SIZE + PACK_4_SIZE..(PACK_1_SIZE + PACK_2_SIZE + PACK_3_SIZE + PACK_4_SIZE + PACK_5_SIZE).minus(1) -> "pack5"
-        else -> "pack6"
+        in PACK_1_SIZE + PACK_2_SIZE + PACK_3_SIZE + PACK_4_SIZE + PACK_5_SIZE..(PACK_1_SIZE + PACK_2_SIZE + PACK_3_SIZE + PACK_4_SIZE + PACK_5_SIZE + PACK_6_SIZE).minus(1) -> "pack6"
+        else -> "pack7"
     }

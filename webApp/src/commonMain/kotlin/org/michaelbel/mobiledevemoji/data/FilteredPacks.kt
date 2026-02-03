@@ -7,5 +7,6 @@ data class FilteredPacks(
     val pack4: List<Emoji>,
     val pack5: List<Emoji>,
     val pack6: List<Emoji>,
+    val pack7: List<Emoji>,
     val isSearchEmpty: Boolean
 )

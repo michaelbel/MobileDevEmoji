@@ -5454,5 +5454,246 @@
   {
     "id": "kioxia",
     "name": "Kioxia"
+  },
+
+  {
+    "id": "google-bigquery",
+    "name": "Google BigQuery"
+  },
+  {
+    "id": "google-data-studio",
+    "name": "Google Data Studio"
+  },
+  {
+    "id": "google-fiber",
+    "name": "Google Fiber"
+  },
+  {
+    "id": "microsoft-network",
+    "name": "Microsoft Network"
+  },
+  {
+    "id": "microsoft-intune",
+    "name": "Microsoft Intune"
+  },
+  {
+    "id": "microsoft-sql-server",
+    "name": "Microsoft SQL Server"
+  },
+  {
+    "id": "microsoft-visio",
+    "name": "Microsoft Visio"
+  },
+  {
+    "id": "linux-artix",
+    "name": "Artix Linux"
+  },
+  {
+    "id": "okx",
+    "name": "OKX"
+  },
+  {
+    "id": "hyperbolic",
+    "name": "Hyperbolic"
+  },
+  {
+    "id": "cerebras",
+    "name": "Cerebras"
+  },
+  {
+    "id": "ovhcloud",
+    "name": "OVHcloud"
+  },
+  {
+    "id": "hetzner",
+    "name": "Hetzner"
+  },
+  {
+    "id": "telenor-group",
+    "name": "Telenor Group"
+  },
+  {
+    "id": "coderabbit",
+    "name": "CodeRabbit"
+  },
+  {
+    "id": "ign",
+    "name": "IGN"
+  },
+  {
+    "id": "metahuman",
+    "name": "MetaHuman"
+  },
+  {
+    "id": "workato",
+    "name": "Workato"
+  },
+  {
+    "id": "plaid",
+    "name": "Plaid"
+  },
+  {
+    "id": "substack",
+    "name": "Substack"
+  },
+  {
+    "id": "immich",
+    "name": "Immich"
+  },
+  {
+    "id": "chakra-ui",
+    "name": "Chakra UI"
+  },
+  {
+    "id": "gumroad",
+    "name": "Gumroad"
+  },
+  {
+    "id": "opencode",
+    "name": "OpenCode"
+  },
+  {
+    "id": "bitget",
+    "name": "Bitget"
+  },
+  {
+    "id": "emercoin",
+    "name": "Emercoin"
+  },
+  {
+    "id": "peercoin",
+    "name": "Peercoin"
+  },
+  {
+    "id": "zscaler",
+    "name": "Zscaler"
+  },
+  {
+    "id": "samsara",
+    "name": "Samsara"
+  },
+  {
+    "id": "servicenow",
+    "name": "ServiceNow"
+  },
+  {
+    "id": "sentinelone",
+    "name": "SentinelOne"
+  },
+  {
+    "id": "public-ai",
+    "name": "PublicAI"
+  },
+  {
+    "id": "lobsters",
+    "name": "Lobsters"
+  },
+  {
+    "id": "context7",
+    "name": "Context7"
+  },
+  {
+    "id": "neon",
+    "name": "Neon Serverless Postgres"
+  },
+  {
+    "id": "presto",
+    "name": "Presto"
+  },
+  {
+    "id": "cypress",
+    "name": "Cypress"
+  },
+  {
+    "id": "growthbook",
+    "name": "GrowthBook"
+  },
+  {
+    "id": "toon",
+    "name": "TOON"
+  },
+  {
+    "id": "redmine",
+    "name": "Redmine"
+  },
+  {
+    "id": "superwall",
+    "name": "Superwall"
+  },
+  {
+    "id": "phantom",
+    "name": "Phantom"
+  },
+  {
+    "id": "qase",
+    "name": "Qase"
+  },
+  {
+    "id": "altstore",
+    "name": "AltStore"
+  },
+  {
+    "id": "wgpu",
+    "name": "wgpu"
+  },
+  {
+    "id": "comfyui",
+    "name": "ComfyUI"
+  },
+  {
+    "id": "simplex-chat",
+    "name": "SimpleX Chat"
+  },
+  {
+    "id": "fileverse",
+    "name": "Fileverse"
+  },
+  {
+    "id": "organic-maps",
+    "name": "Organic Maps"
+  },
+  {
+    "id": "nextcloud",
+    "name": "Nextcloud"
+  },
+  {
+    "id": "android-police",
+    "name": "Android Police"
+  },
+  {
+    "id": "clawdbot",
+    "name": "Clawd Bot"
+  },
+  {
+    "id": "arxiv",
+    "name": "arXiv"
+  },
+  {
+    "id": "descript",
+    "name": "Descript"
+  },
+  {
+    "id": "tether-usat",
+    "name": "Tether USAT"
+  },
+  {
+    "id": "1password",
+    "name": "1Password"
+  },
+  {
+    "id": "dia-browser",
+    "name": "Dia Browser"
+  },
+  {
+    "id": "rippling",
+    "name": "Rippling"
+  },
+  {
+    "id": "krea-ai",
+    "name": "Krea AI"
+  },
+  {
+    "id": "bigo-live",
+    "name": "Bigo Live"
   }
 ]

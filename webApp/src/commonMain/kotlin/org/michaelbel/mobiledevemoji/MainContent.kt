@@ -57,6 +57,7 @@ import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_3
 import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_4
 import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_5
 import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_6
+import org.michaelbel.mobiledevemoji.data.TELEGRAM_PACK_7
 import org.michaelbel.mobiledevemoji.data.filterBy
 import org.michaelbel.mobiledevemoji.data.pack
 import org.michaelbel.mobiledevemoji.data.pack1
@@ -65,6 +66,7 @@ import org.michaelbel.mobiledevemoji.data.pack3
 import org.michaelbel.mobiledevemoji.data.pack4
 import org.michaelbel.mobiledevemoji.data.pack5
 import org.michaelbel.mobiledevemoji.data.pack6
+import org.michaelbel.mobiledevemoji.data.pack7
 import org.michaelbel.mobiledevemoji.data.searchBy
 import org.michaelbel.mobiledevemoji.issue.NetworkClient
 import org.michaelbel.mobiledevemoji.ktx.decodeJsonToString
@@ -102,6 +104,7 @@ fun MainContent() {
             val pack4 = emojiList.pack4.filterBy(filter).searchBy(search)
             val pack5 = emojiList.pack5.filterBy(filter).searchBy(search)
             val pack6 = emojiList.pack6.filterBy(filter).searchBy(search)
+            val pack7 = emojiList.pack7.filterBy(filter).searchBy(search)
 
             FilteredPacks(
                 pack1 = pack1,
@@ -110,7 +113,8 @@ fun MainContent() {
                 pack4 = pack4,
                 pack5 = pack5,
                 pack6 = pack6,
-                isSearchEmpty = pack1.isEmpty() && pack2.isEmpty() && pack3.isEmpty() && pack4.isEmpty() && pack5.isEmpty() && pack6.isEmpty()
+                pack7 = pack7,
+                isSearchEmpty = pack1.isEmpty() && pack2.isEmpty() && pack3.isEmpty() && pack4.isEmpty() && pack5.isEmpty() && pack6.isEmpty() && pack7.isEmpty()
             )
         }
     }
@@ -121,6 +125,7 @@ fun MainContent() {
     val pack4 = filteredPacks.pack4
     val pack5 = filteredPacks.pack5
     val pack6 = filteredPacks.pack6
+    val pack7 = filteredPacks.pack7
     val isSearchEmpty = filteredPacks.isSearchEmpty
 
     var isPack1Expanded by remember { mutableStateOf(true) }
@@ -129,6 +134,7 @@ fun MainContent() {
     var isPack4Expanded by remember { mutableStateOf(true) }
     var isPack5Expanded by remember { mutableStateOf(true) }
     var isPack6Expanded by remember { mutableStateOf(true) }
+    var isPack7Expanded by remember { mutableStateOf(true) }
 
     val json = remember { Json { ignoreUnknownKeys = true } }
     val scope = rememberCoroutineScope()
@@ -433,6 +439,41 @@ fun MainContent() {
                             key = { index, emoji ->
                                 val id = emoji.emojiResponse.id
                                 if (id.isNotBlank()) "pack6:$id" else "pack6:placeholder:$index"
+                            }
+                        ) { _, emoji ->
+                            EmojiIcon(
+                                emoji = emoji,
+                                selected = emoji.emojiResponse.id == emojiPreviewVisible,
+                                onClick = { emojiId ->
+                                    emojiPreviewVisible = when {
+                                        emojiId == emojiPreviewVisible -> null
+                                        else -> emojiId
+                                    }
+                                }
+                            )
+                        }
+                    }
+                }
+
+                if (pack7.isNotEmpty()) {
+                    item(
+                        span = { GridItemSpan(maxLineSpan) }
+                    ) {
+                        PackHeader(
+                            packName = "Pack 7",
+                            packUrl = TELEGRAM_PACK_7,
+                            expanded = isPack7Expanded,
+                            onClick = { isPack7Expanded = !isPack7Expanded },
+                            modifier = Modifier.padding(top = 32.dp)
+                        )
+                    }
+
+                    if (isPack7Expanded) {
+                        itemsIndexed(
+                            items = pack7,
+                            key = { index, emoji ->
+                                val id = emoji.emojiResponse.id
+                                if (id.isNotBlank()) "pack7:$id" else "pack7:placeholder:$index"
                             }
                         ) { _, emoji ->
                             EmojiIcon(
