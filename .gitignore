@@ -6,3 +6,4 @@ build
 build-cache
 generated
 local.properties
+.claude
