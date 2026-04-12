@@ -42,16 +42,16 @@ jobs:
       DIST_HUMAN: ${{ steps.size.outputs.human }}
     steps:
       - name: checkout
-        uses: actions/checkout@v4.2.2
+        uses: actions/checkout@v6.0.2
 
       - name: setup jdk
-        uses: actions/setup-java@v4.7.0
+        uses: actions/setup-java@v5.2.0
         with:
           distribution: temurin
           java-version: '21'
 
       - name: setup gradle cache
-        uses: gradle/actions/setup-gradle@v4
+        uses: gradle/actions/setup-gradle@v6.1.0
 
       - name: build with token
         if: ${{ github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.pull_request.head.repo.fork == false) }}
@@ -67,7 +67,7 @@ jobs:
         run: chmod -R 0755 webApp/build/dist/js/productionExecutable/
 
       - name: upload pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5.0.0
         with:
           path: webApp/build/dist/js/productionExecutable/
 
@@ -81,7 +81,7 @@ jobs:
     steps:
       - name: deploy
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5.0.0
 
       - name: telegram notify
         env:
