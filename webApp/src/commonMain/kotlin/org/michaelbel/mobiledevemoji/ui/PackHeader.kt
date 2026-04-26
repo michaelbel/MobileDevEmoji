@@ -1,6 +1,7 @@
 package org.michaelbel.mobiledevemoji.ui
 
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -33,7 +34,7 @@ fun PackHeader(
 ) {
     Box(
         modifier = modifier
-            .padding(start = 8.dp, end = 8.dp)
+            .padding(horizontal = 8.dp)
             .fillMaxWidth()
             .height(56.dp)
     ) {
@@ -43,13 +44,15 @@ fun PackHeader(
                 .wrapContentSize()
                 .clip(RoundedCornerShape(12.dp))
                 .clickable(onClick = onClick)
+                .padding(horizontal = 8.dp)
                 .pointerHoverIcon(PointerIcon.Hand),
+            horizontalArrangement = Arrangement.spacedBy(4.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
             Text(
                 text = packName,
                 modifier = Modifier
-                    .padding(start = 8.dp, top = 8.dp, end = 0.dp, bottom = 8.dp)
+                    .padding(vertical = 8.dp)
                     .wrapContentSize(),
                 color = MaterialTheme.colorScheme.onBackground,
                 style = MaterialTheme.typography.titleLarge
@@ -58,9 +61,7 @@ fun PackHeader(
             Icon(
                 painter = painterResource(if (expanded) ChevronUp else ChevronDown),
                 contentDescription = null,
-                modifier = Modifier
-                    .padding(start = 4.dp, end = 8.dp)
-                    .size(24.dp),
+                modifier = Modifier.size(24.dp),
                 tint = MaterialTheme.colorScheme.onBackground
             )
         }

@@ -1,5 +1,8 @@
 package org.michaelbel.mobiledevemoji.ui
 
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -50,7 +53,11 @@ fun SearchWidget(
                 .then(if (isMobileBrowser()) Modifier.fillMaxWidth() else Modifier.width(888.dp))
                 .focusRequester(focusRequester),
             trailingIcon = {
-                if (query.isNotEmpty()) {
+                AnimatedVisibility(
+                    visible = query.isNotEmpty(),
+                    enter = fadeIn(),
+                    exit = fadeOut()
+                ) {
                     IconButton(
                         onClick = {
                             onQueryChanged("")

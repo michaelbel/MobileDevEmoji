@@ -100,7 +100,7 @@ fun IconPreviewDialog(
                 modifier = modifier
                     .fillMaxWidth()
                     .wrapContentHeight(),
-                verticalArrangement = Arrangement.Center,
+                verticalArrangement = Arrangement.spacedBy(16.dp, Alignment.CenterVertically),
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
                 Box(
@@ -118,10 +118,11 @@ fun IconPreviewDialog(
 
                 Text(
                     text = annotatedName,
-                    modifier = Modifier.padding(start = 16.dp, top = 16.dp, end = 16.dp, bottom = 48.dp),
-                    textAlign = TextAlign.Center,
-                    color = MaterialTheme.colorScheme.onBackground,
-                    style = MaterialTheme.typography.headlineMedium
+                    modifier = Modifier.padding(start = 16.dp, end = 16.dp, bottom = 48.dp),
+                    style = MaterialTheme.typography.headlineMedium.copy(
+                        color = MaterialTheme.colorScheme.onBackground,
+                        textAlign = TextAlign.Center
+                    )
                 )
             }
 

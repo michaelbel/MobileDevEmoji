@@ -168,14 +168,9 @@ fun MainContent() {
             Column {
                 TopAppBar(
                     title = {
-                        Box(
-                            modifier = Modifier.fillMaxHeight(),
-                            contentAlignment = Alignment.CenterStart
-                        ) {
-                            Text(
-                                text = APP_NAME
-                            )
-                        }
+                        Text(
+                            text = APP_NAME
+                        )
                     },
                     actions = {
                         Row(
@@ -242,7 +237,7 @@ fun MainContent() {
                 modifier = gridModifier,
                 horizontalArrangement = Arrangement.spacedBy(horizontalArrangementDp),
                 verticalArrangement = Arrangement.spacedBy(verticalArrangement),
-                contentPadding = PaddingValues(all = 16.dp)
+                contentPadding = PaddingValues(16.dp)
             ) {
                 if (pack1.isNotEmpty()) {
                     item(

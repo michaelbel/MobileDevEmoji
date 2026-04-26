@@ -9,7 +9,6 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.material3.InputChip
@@ -37,15 +36,14 @@ fun FilterChips(
             modifier = modifier
                 .width(888.dp)
                 .horizontalScroll(rememberScrollState()),
-            horizontalArrangement = Arrangement.Center,
+            horizontalArrangement = Arrangement.spacedBy(2.dp, Alignment.CenterHorizontally),
             maxLines = 1
         ) {
             filters.forEach { filter ->
                 InputChip(
                     selected = selectedFilter == filter,
                     onClick = { onFilterSelected(filter) },
-                    label = { Text(text = filter) },
-                    modifier = Modifier.padding(horizontal = 2.dp)
+                    label = { Text(text = filter) }
                 )
             }
         }

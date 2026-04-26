@@ -1,7 +1,7 @@
 package org.michaelbel.mobiledevemoji.ui
 
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.material3.Button
@@ -31,6 +31,7 @@ fun GetPackButton(
             .pointerHoverIcon(PointerIcon.Hand)
     ) {
         Row(
+            horizontalArrangement = Arrangement.spacedBy(8.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
             Icon(
@@ -40,8 +41,7 @@ fun GetPackButton(
             )
 
             Text(
-                text = "Get on Telegram",
-                modifier = Modifier.padding(start = 8.dp)
+                text = "Get on Telegram"
             )
         }
     }
