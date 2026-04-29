@@ -5700,5 +5700,77 @@
   {
     "id": "bigo-live",
     "name": "Bigo Live"
+  },
+  {
+    "id": "apache-couchdb",
+    "name": "Apache CouchDB",
+    "filters": ["apache"]
+  },
+  {
+    "id": "cloudbees",
+    "name": "CloudBees"
+  },
+  {
+    "id": "cmake",
+    "name": "CMake"
+  },
+  {
+    "id": "dji",
+    "name": "DJI"
+  },
+  {
+    "id": "entire",
+    "name": "Entire"
+  },
+  {
+    "id": "genspark-ai",
+    "name": "Genspark AI"
+  },
+  {
+    "id": "google-apigee",
+    "name": "Google Apigee",
+    "filters": ["google"]
+  },
+  {
+    "id": "kofi",
+    "name": "Ko-fi"
+  },
+  {
+    "id": "microsoft-loop",
+    "name": "Microsoft Loop",
+    "filters": ["microsoft"]
+  },
+  {
+    "id": "mullvad",
+    "name": "Mullvad"
+  },
+  {
+    "id": "openai-codex",
+    "name": "OpenAI Codex",
+    "filters": ["openai"]
+  },
+  {
+    "id": "pnpn",
+    "name": "PNPN"
+  },
+  {
+    "id": "poe",
+    "name": "Poe"
+  },
+  {
+    "id": "posthog",
+    "name": "PostHog"
+  },
+  {
+    "id": "smartbear-software",
+    "name": "SmartBear Software"
+  },
+  {
+    "id": "wayland",
+    "name": "Wayland"
+  },
+  {
+    "id": "yii-framework",
+    "name": "Yii Framework"
   }
 ]
