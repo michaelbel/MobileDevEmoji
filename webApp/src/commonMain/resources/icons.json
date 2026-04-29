@@ -2,712 +2,1071 @@
   {
     "id": "google-android-1",
     "name": "Android",
-    "filters": ["google", "android"]
+    "filters": [
+      "google",
+      "android"
+    ]
   },
   {
     "id": "google-android-3",
     "name": "Android",
-    "filters": ["google", "android"]
+    "filters": [
+      "google",
+      "android"
+    ]
   },
   {
     "id": "google-android-6",
     "name": "Android",
-    "filters": ["google", "android"]
+    "filters": [
+      "google",
+      "android"
+    ]
   },
   {
     "id": "google-android-studio",
     "name": "Android Studio",
-    "filters": ["google", "android", "ide"]
+    "filters": [
+      "google",
+      "android",
+      "ide"
+    ]
   },
   {
     "id": "google-android-jetpack",
     "name": "Android Jetpack",
-    "filters": ["google", "android"]
+    "filters": [
+      "google",
+      "android"
+    ]
   },
   {
     "id": "google-android-jetpack-compose",
     "name": "Jetpack Compose",
-    "filters": ["google", "android"]
+    "filters": [
+      "google",
+      "android"
+    ]
   },
   {
     "id": "google-material3",
     "name": "Material3",
-    "filters": ["google", "android", "design"]
+    "filters": [
+      "google",
+      "android",
+      "design"
+    ]
   },
   {
     "id": "google-flutter",
     "name": "Flutter",
-    "filters": ["google", "android"]
+    "filters": [
+      "google",
+      "android"
+    ]
   },
   {
     "id": "google-dart",
     "name": "Dart (Programming Language)",
-    "filters": ["google", "android", "programming", "language"]
+    "filters": [
+      "google",
+      "android",
+      "programming",
+      "language"
+    ]
   },
   {
     "id": "google-firebase",
     "name": "Google Firebase",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-play-console",
     "name": "Google Play Console",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-play",
     "name": "Google Play",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google",
     "name": "Google",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-chrome",
     "name": "Google Chrome",
-    "filters": ["google", "browser"]
+    "filters": [
+      "google",
+      "browser"
+    ]
   },
   {
     "id": "google-chrome-canary",
     "name": "Google Chrome Canary",
-    "filters": ["google", "browser"]
+    "filters": [
+      "google",
+      "browser"
+    ]
   },
   {
     "id": "google-chromium",
     "name": "Google Chromium",
-    "filters": ["google", "browser"]
+    "filters": [
+      "google",
+      "browser"
+    ]
   },
   {
     "id": "google-drive",
     "name": "Google Drive",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-gmail",
     "name": "Google Gmail",
-    "filters": ["google", "mail"]
+    "filters": [
+      "google",
+      "mail"
+    ]
   },
   {
     "id": "google-meet",
     "name": "Google Meet",
-    "filters": ["google", "messenger"]
+    "filters": [
+      "google",
+      "messenger"
+    ]
   },
   {
     "id": "google-podcasts",
     "name": "Google Podcasts",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-youtube",
     "name": "YouTube",
-    "filters": ["google", "video"]
+    "filters": [
+      "google",
+      "video"
+    ]
   },
   {
     "id": "google-youtube-shorts",
     "name": "YouTube Shorts",
-    "filters": ["google", "video"]
+    "filters": [
+      "google",
+      "video"
+    ]
   },
   {
     "id": "google-android5",
     "name": "Android 5 Lollipop",
-    "filters": ["google", "android"]
+    "filters": [
+      "google",
+      "android"
+    ]
   },
   {
     "id": "google-android6",
     "name": "Android 6 Marshmallow",
-    "filters": ["google", "android"]
+    "filters": [
+      "google",
+      "android"
+    ]
   },
   {
     "id": "google-android7",
     "name": "Android 7 Nougat",
-    "filters": ["google", "android"]
+    "filters": [
+      "google",
+      "android"
+    ]
   },
   {
     "id": "google-android8",
     "name": "Android 8 Oreo",
-    "filters": ["google", "android"]
+    "filters": [
+      "google",
+      "android"
+    ]
   },
   {
     "id": "google-android9",
     "name": "Android 9 Pie",
-    "filters": ["google", "android"]
+    "filters": [
+      "google",
+      "android"
+    ]
   },
   {
     "id": "google-android10",
     "name": "Android 10 Q",
-    "filters": ["google", "android"]
+    "filters": [
+      "google",
+      "android"
+    ]
   },
   {
     "id": "google-android11",
     "name": "Android 11 Red Velvet Cake",
-    "filters": ["google", "android"]
+    "filters": [
+      "google",
+      "android"
+    ]
   },
   {
     "id": "google-android12",
     "name": "Android 12 Snow Cone",
-    "filters": ["google", "android"]
+    "filters": [
+      "google",
+      "android"
+    ]
   },
   {
     "id": "google-android13",
     "name": "Android 13 Tiramisu",
-    "filters": ["google", "android"]
+    "filters": [
+      "google",
+      "android"
+    ]
   },
   {
     "id": "google-android14",
     "name": "Android 14 Upside Down Cake",
-    "filters": ["google", "android"]
+    "filters": [
+      "google",
+      "android"
+    ]
   },
   {
     "id": "google-android15",
     "name": "Android 15 Vanilla Ice Cream",
-    "filters": ["google", "android"]
+    "filters": [
+      "google",
+      "android"
+    ]
   },
   {
     "id": "google-pixel",
     "name": "Google Pixel",
-    "filters": ["google", "phone"]
+    "filters": [
+      "google",
+      "phone"
+    ]
   },
   {
     "id": "google-go-1",
     "name": "Go (Programming Language)",
-    "filters": ["google", "programming", "language"]
+    "filters": [
+      "google",
+      "programming",
+      "language"
+    ]
   },
   {
     "id": "google-go-2",
     "name": "Go (Programming Language)",
-    "filters": ["google", "programming", "language"]
+    "filters": [
+      "google",
+      "programming",
+      "language"
+    ]
   },
   {
     "id": "google-mlkit",
     "name": "Google ML Kit",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-gemini",
     "name": "Google Gemini",
-    "filters": ["google", "ai"]
+    "filters": [
+      "google",
+      "ai"
+    ]
   },
   {
     "id": "google-tensorflow",
     "name": "Google TensorFlow",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-wearos",
     "name": "Google WearOS",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-assistant",
     "name": "Google Assistant",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-angular",
     "name": "Angular",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-home",
     "name": "Google Home",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-cloud",
     "name": "Google Cloud",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-docs-editors",
     "name": "Google Docs Editors",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-docs",
     "name": "Google Docs",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-sheets",
     "name": "Google Sheets",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-slides",
     "name": "Google Slides",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-forms",
     "name": "Google Forms",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-palm",
     "name": "Google Palm",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-news",
     "name": "Google News",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-fonts",
     "name": "Google Fonts",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-travel",
     "name": "Google Travel",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-family-link",
     "name": "Google Family Link",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-play-pass",
     "name": "Google Play Pass",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-classroom",
     "name": "Google Classroom",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-street-view",
     "name": "Google Street View",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-authenticator",
     "name": "Google Authenticator",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-fi-wireless",
     "name": "Google Fi Eireless",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-files",
     "name": "Google Files",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-messages",
     "name": "Google Messages",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-currents",
     "name": "Google Currents",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-identity-platform",
     "name": "Google Identity Platform",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-developers",
     "name": "Google Developers",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-shopping",
     "name": "Google Shopping",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "jetbrains",
     "name": "JetBrains",
-    "filters": ["jetbrains"]
+    "filters": [
+      "jetbrains"
+    ]
   },
   {
     "id": "jetbrains-intellijidea",
     "name": "JetBrains IntelliJ IDEA",
-    "filters": ["jetbrains", "ide"]
+    "filters": [
+      "jetbrains",
+      "ide"
+    ]
   },
   {
     "id": "jetbrains-fleet",
     "name": "JetBrains Fleet",
-    "filters": ["jetbrains", "ide"]
+    "filters": [
+      "jetbrains",
+      "ide"
+    ]
   },
   {
     "id": "jetbrains-kotlin-1",
     "name": "Kotlin",
-    "filters": ["jetbrains", "programming", "language"]
+    "filters": [
+      "jetbrains",
+      "programming",
+      "language"
+    ]
   },
   {
     "id": "jetbrains-kotlin-2",
     "name": "Kotlin",
-    "filters": ["jetbrains", "programming", "language"]
+    "filters": [
+      "jetbrains",
+      "programming",
+      "language"
+    ]
   },
   {
     "id": "jetbrains-kotlin-multiplatform-1",
     "name": "Kotlin Multiplatform",
-    "filters": ["jetbrains"]
+    "filters": [
+      "jetbrains"
+    ]
   },
   {
     "id": "jetbrains-kotlin-multiplatform-2",
     "name": "Kotlin Multiplatform",
-    "filters": ["jetbrains"]
+    "filters": [
+      "jetbrains"
+    ]
   },
   {
     "id": "jetbrains-ktor",
     "name": "Ktor",
-    "filters": ["jetbrains"]
+    "filters": [
+      "jetbrains"
+    ]
   },
   {
     "id": "apple",
     "name": "Apple",
-    "filters": ["apple"]
+    "filters": [
+      "apple"
+    ]
   },
   {
     "id": "apple-ios",
     "name": "iOS",
-    "filters": ["apple"]
+    "filters": [
+      "apple"
+    ]
   },
   {
     "id": "apple-ipados",
     "name": "iPadOS",
-    "filters": ["apple"]
+    "filters": [
+      "apple"
+    ]
   },
   {
     "id": "apple-macos",
     "name": "macOS",
-    "filters": ["apple"]
+    "filters": [
+      "apple"
+    ]
   },
   {
     "id": "apple-watchos",
     "name": "watchOS",
-    "filters": ["apple"]
+    "filters": [
+      "apple"
+    ]
   },
   {
     "id": "apple-tvos",
     "name": "tvOS",
-    "filters": ["apple"]
+    "filters": [
+      "apple"
+    ]
   },
   {
     "id": "apple-visionos",
     "name": "visionOS",
-    "filters": ["apple"]
+    "filters": [
+      "apple"
+    ]
   },
   {
     "id": "apple-tv",
     "name": "Apple TV",
-    "filters": ["apple"]
+    "filters": [
+      "apple"
+    ]
   },
   {
     "id": "apple-appstore",
     "name": "AppStore",
-    "filters": ["apple"]
+    "filters": [
+      "apple"
+    ]
   },
   {
     "id": "apple-swift",
     "name": "Swift (Programming Language)",
-    "filters": ["apple", "programming", "language"]
+    "filters": [
+      "apple",
+      "programming",
+      "language"
+    ]
   },
   {
     "id": "apple-xcode",
     "name": "Xcode",
-    "filters": ["apple", "ide"]
+    "filters": [
+      "apple",
+      "ide"
+    ]
   },
   {
     "id": "apple-metal",
     "name": "Apple Metal",
-    "filters": ["apple"]
+    "filters": [
+      "apple"
+    ]
   },
   {
     "id": "apple-cocoapods",
     "name": "Cocoapods",
-    "filters": ["apple"]
+    "filters": [
+      "apple"
+    ]
   },
   {
     "id": "apple-terminal",
     "name": "Terminal",
-    "filters": ["apple"]
+    "filters": [
+      "apple"
+    ]
   },
   {
     "id": "apple-safari",
     "name": "Safari",
-    "filters": ["apple", "browser"]
+    "filters": [
+      "apple",
+      "browser"
+    ]
   },
   {
     "id": "apple-podcasts",
     "name": "Apple Podcasts",
-    "filters": ["apple"]
+    "filters": [
+      "apple"
+    ]
   },
   {
     "id": "apple-home-kit",
     "name": "Apple HomeKit",
-    "filters": ["apple"]
+    "filters": [
+      "apple"
+    ]
   },
   {
     "id": "microsoft",
     "name": "Microsoft",
-    "filters": ["microsoft"]
+    "filters": [
+      "microsoft"
+    ]
   },
   {
     "id": "microsoft-windows",
     "name": "Windows",
-    "filters": ["microsoft"]
+    "filters": [
+      "microsoft"
+    ]
   },
   {
     "id": "microsoft-net",
     "name": ".NET Framework",
-    "filters": ["microsoft"]
+    "filters": [
+      "microsoft"
+    ]
   },
   {
     "id": "microsoft-visual-studio",
     "name": "Visual Studio",
-    "filters": ["microsoft", "ide"]
+    "filters": [
+      "microsoft",
+      "ide"
+    ]
   },
   {
     "id": "microsoft-vscode",
     "name": "Visual Studio Code",
-    "filters": ["microsoft", "ide"]
+    "filters": [
+      "microsoft",
+      "ide"
+    ]
   },
   {
     "id": "microsoft-c-sharp",
     "name": "C# (Programming Language)",
-    "filters": ["microsoft", "programming", "language"]
+    "filters": [
+      "microsoft",
+      "programming",
+      "language"
+    ]
   },
   {
     "id": "microsoft-github",
     "name": "GitHub",
-    "filters": ["microsoft", "github"]
+    "filters": [
+      "microsoft",
+      "github"
+    ]
   },
   {
     "id": "microsoft-copilot",
     "name": "Microsoft Copilot",
-    "filters": ["microsoft", "github"]
+    "filters": [
+      "microsoft",
+      "github"
+    ]
   },
   {
     "id": "microsoft-onedrive",
     "name": "Microsoft OneDrive",
-    "filters": ["microsoft"]
+    "filters": [
+      "microsoft"
+    ]
   },
   {
     "id": "microsoft-skype",
     "name": "Skype",
-    "filters": ["microsoft", "messenger"]
+    "filters": [
+      "microsoft",
+      "messenger"
+    ]
   },
   {
     "id": "microsoft-edge",
     "name": "Microsoft Edge",
-    "filters": ["microsoft", "browser"]
+    "filters": [
+      "microsoft",
+      "browser"
+    ]
   },
   {
     "id": "microsoft-teams",
     "name": "Microsoft Teams",
-    "filters": ["microsoft", "messenger"]
+    "filters": [
+      "microsoft",
+      "messenger"
+    ]
   },
   {
     "id": "microsoft-xbox",
     "name": "Xbox",
-    "filters": ["microsoft"]
+    "filters": [
+      "microsoft"
+    ]
   },
   {
     "id": "microsoft-xamarin",
     "name": "Xamarin",
-    "filters": ["microsoft"]
+    "filters": [
+      "microsoft"
+    ]
   },
   {
     "id": "meta",
     "name": "Meta",
-    "filters": ["meta"]
+    "filters": [
+      "meta"
+    ]
   },
   {
     "id": "meta-fb",
     "name": "Facebook",
-    "filters": ["meta", "social"]
+    "filters": [
+      "meta",
+      "social"
+    ]
   },
   {
     "id": "meta-instagram",
     "name": "Instagram",
-    "filters": ["meta", "social"]
+    "filters": [
+      "meta",
+      "social"
+    ]
   },
   {
     "id": "meta-whatsapp",
     "name": "WhatsApp",
-    "filters": ["meta", "messenger", "social"]
+    "filters": [
+      "meta",
+      "messenger",
+      "social"
+    ]
   },
   {
     "id": "meta-fb-messenger",
     "name": "Facebook Messenger",
-    "filters": ["meta", "messenger", "social"]
+    "filters": [
+      "meta",
+      "messenger",
+      "social"
+    ]
   },
   {
     "id": "meta-threads",
     "name": "Threads (Social Network)",
-    "filters": ["meta", "social"]
+    "filters": [
+      "meta",
+      "social"
+    ]
   },
   {
     "id": "meta-react",
     "name": "React",
-    "filters": ["meta"]
+    "filters": [
+      "meta"
+    ]
   },
   {
     "id": "yandex",
     "name": "Yandex",
-    "filters": ["yandex"]
+    "filters": [
+      "yandex"
+    ]
   },
   {
     "id": "yandex-browser",
     "name": "Yandex Browser",
-    "filters": ["yandex", "browser"]
+    "filters": [
+      "yandex",
+      "browser"
+    ]
   },
   {
     "id": "yandex-alisa",
     "name": "Yandex Alise",
-    "filters": ["yandex"]
+    "filters": [
+      "yandex"
+    ]
   },
   {
     "id": "yandex-disk",
     "name": "Yandex Disk",
-    "filters": ["yandex"]
+    "filters": [
+      "yandex"
+    ]
   },
   {
     "id": "yandex-music",
     "name": "Yandex Music",
-    "filters": ["yandex"]
+    "filters": [
+      "yandex"
+    ]
   },
   {
     "id": "vk",
     "name": "VK",
-    "filters": ["vk", "social"]
+    "filters": [
+      "vk",
+      "social"
+    ]
   },
   {
     "id": "vk-odnoklassniki",
     "name": "Odnoklassniki",
-    "filters": ["vk", "social"]
+    "filters": [
+      "vk",
+      "social"
+    ]
   },
   {
     "id": "vk-video",
     "name": "VK Video",
-    "filters": ["vk", "social", "video"]
+    "filters": [
+      "vk",
+      "social",
+      "video"
+    ]
   },
   {
     "id": "vk-clips",
     "name": "VK Clips",
-    "filters": ["vk", "social"]
+    "filters": [
+      "vk",
+      "social"
+    ]
   },
   {
     "id": "vk-music",
     "name": "VK Music",
-    "filters": ["vk"]
+    "filters": [
+      "vk"
+    ]
   },
   {
     "id": "vk-rustore",
     "name": "RuStore",
-    "filters": ["vk"]
+    "filters": [
+      "vk"
+    ]
   },
   {
     "id": "vk-dzen",
     "name": "Dzen",
-    "filters": ["vk", "social"]
+    "filters": [
+      "vk",
+      "social"
+    ]
   },
   {
     "id": "huawei",
     "name": "Huawei",
-    "filters": ["huawei"]
+    "filters": [
+      "huawei"
+    ]
   },
   {
     "id": "huawei-appgallery",
     "name": "Huawei AppGallery",
-    "filters": ["huawei"]
+    "filters": [
+      "huawei"
+    ]
   },
   {
     "id": "oracle",
     "name": "Oracle",
-    "filters": ["oracle"]
+    "filters": [
+      "oracle"
+    ]
   },
   {
     "id": "oracle-plsql",
     "name": "Oracle PL/SQL",
-    "filters": ["oracle"]
+    "filters": [
+      "oracle"
+    ]
   },
   {
     "id": "java",
     "name": "Java (Programming Language)",
-    "filters": ["android", "oracle", "programming", "language"]
+    "filters": [
+      "android",
+      "oracle",
+      "programming",
+      "language"
+    ]
   },
   {
     "id": "telegram",
     "name": "Telegram",
-    "filters": ["telegram", "messenger"]
+    "filters": [
+      "telegram",
+      "messenger"
+    ]
   },
   {
     "id": "telegraph",
     "name": "Telegraph",
-    "filters": ["telegram"]
+    "filters": [
+      "telegram"
+    ]
   },
   {
     "id": "atlassian-jira",
     "name": "Atlassian Jira",
-    "filters": ["atlassian"]
+    "filters": [
+      "atlassian"
+    ]
   },
   {
     "id": "atlassian-confluence",
     "name": "Atlassian Confluence",
-    "filters": ["atlassian"]
+    "filters": [
+      "atlassian"
+    ]
   },
   {
     "id": "atlassian-bitbucket",
     "name": "Atlassian Bitbucket",
-    "filters": ["atlassian"]
+    "filters": [
+      "atlassian"
+    ]
   },
   {
     "id": "atlassian-trello",
     "name": "Atlassian Trello",
-    "filters": ["atlassian"]
+    "filters": [
+      "atlassian"
+    ]
   },
   {
     "id": "boosty",
     "name": "Boosty",
-    "filters": ["donation", "social"]
+    "filters": [
+      "donation",
+      "social"
+    ]
   },
   {
     "id": "patreon",
     "name": "Patreon",
-    "filters": ["donation"]
+    "filters": [
+      "donation"
+    ]
   },
   {
     "id": "openai-chatgpt",
     "name": "ChatGPT",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "openai-sora",
     "name": "OpenAI Sora",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "midjourney",
     "name": "Midjourney",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "opera",
     "name": "Opera",
-    "filters": ["browser"]
+    "filters": [
+      "browser"
+    ]
   },
   {
     "id": "firefox",
     "name": "Mozilla Firefox",
-    "filters": ["browser"]
+    "filters": [
+      "browser"
+    ]
   },
   {
     "id": "tor-browser",
     "name": "Tor Browser",
-    "filters": ["browser"]
+    "filters": [
+      "browser"
+    ]
   },
   {
     "id": "appbazar",
@@ -720,7 +1079,9 @@
   {
     "id": "samsung-galaxy-store",
     "name": "Galaxy Store",
-    "filters": ["samsung"]
+    "filters": [
+      "samsung"
+    ]
   },
   {
     "id": "apptoide",
@@ -733,32 +1094,48 @@
   {
     "id": "linkedin",
     "name": "LinkedIn",
-    "filters": ["microsoft", "social"]
+    "filters": [
+      "microsoft",
+      "social"
+    ]
   },
   {
     "id": "discord",
     "name": "Discord",
-    "filters": ["messenger", "social"]
+    "filters": [
+      "messenger",
+      "social"
+    ]
   },
   {
     "id": "slack",
     "name": "Slack",
-    "filters": ["messenger", "social"]
+    "filters": [
+      "messenger",
+      "social"
+    ]
   },
   {
     "id": "x",
     "name": "X (Twitter)",
-    "filters": ["social"]
+    "filters": [
+      "social"
+    ]
   },
   {
     "id": "tiktok",
     "name": "TikTok",
-    "filters": ["social", "bytedance"]
+    "filters": [
+      "social",
+      "bytedance"
+    ]
   },
   {
     "id": "reddit",
     "name": "Reddit",
-    "filters": ["social"]
+    "filters": [
+      "social"
+    ]
   },
   {
     "id": "medium-1",
@@ -767,57 +1144,85 @@
   {
     "id": "kakaotalk",
     "name": "KakaoTalk",
-    "filters": ["messenger"]
+    "filters": [
+      "messenger"
+    ]
   },
   {
     "id": "snapchat",
     "name": "Snapchat",
-    "filters": ["snap", "messenger", "social"]
+    "filters": [
+      "snap",
+      "messenger",
+      "social"
+    ]
   },
   {
     "id": "wechat",
     "name": "WeChat",
-    "filters": ["messenger", "social"]
+    "filters": [
+      "messenger",
+      "social"
+    ]
   },
   {
     "id": "line",
     "name": "Line",
-    "filters": ["messenger", "social"]
+    "filters": [
+      "messenger",
+      "social"
+    ]
   },
   {
     "id": "signal",
     "name": "Signal",
-    "filters": ["messenger", "social"]
+    "filters": [
+      "messenger",
+      "social"
+    ]
   },
   {
     "id": "viber",
     "name": "Viber",
-    "filters": ["messenger", "social"]
+    "filters": [
+      "messenger",
+      "social"
+    ]
   },
   {
     "id": "miro",
     "name": "Miro",
-    "filters": ["design"]
+    "filters": [
+      "design"
+    ]
   },
   {
     "id": "figma",
     "name": "Figma",
-    "filters": ["design"]
+    "filters": [
+      "design"
+    ]
   },
   {
     "id": "sketch",
     "name": "Sketch",
-    "filters": ["design"]
+    "filters": [
+      "design"
+    ]
   },
   {
     "id": "notion",
     "name": "Notion",
-    "filters": ["notion"]
+    "filters": [
+      "notion"
+    ]
   },
   {
     "id": "sublime-text",
     "name": "Sublime Text",
-    "filters": ["ide"]
+    "filters": [
+      "ide"
+    ]
   },
   {
     "id": "gitlab",
@@ -826,12 +1231,16 @@
   {
     "id": "git",
     "name": "Git",
-    "filters": ["vcs"]
+    "filters": [
+      "vcs"
+    ]
   },
   {
     "id": "postman",
     "name": "Postman",
-    "filters": ["api"]
+    "filters": [
+      "api"
+    ]
   },
   {
     "id": "habr",
@@ -844,398 +1253,561 @@
   {
     "id": "realm",
     "name": "Realm (Database)",
-    "filters": ["database"]
+    "filters": [
+      "database"
+    ]
   },
   {
     "id": "zoom",
     "name": "Zoom",
-    "filters": ["messenger"]
+    "filters": [
+      "messenger"
+    ]
   },
   {
     "id": "swagger",
     "name": "Swagger",
-    "filters": ["api"]
+    "filters": [
+      "api"
+    ]
   },
   {
     "id": "stackoverflow",
     "name": "Stack Overflow",
-    "filters": ["qa"]
+    "filters": [
+      "qa"
+    ]
   },
   {
     "id": "gradle",
     "name": "Gradle",
-    "filters": ["android"]
+    "filters": [
+      "android"
+    ]
   },
   {
     "id": "coil",
     "name": "Coil",
-    "filters": ["android"]
+    "filters": [
+      "android"
+    ]
   },
   {
     "id": "detekt",
     "name": "Detekt",
-    "filters": ["android"]
+    "filters": [
+      "android"
+    ]
   },
   {
     "id": "pwa",
     "name": "Progressive Web Apps",
-    "filters": ["pwa"]
+    "filters": [
+      "pwa"
+    ]
   },
   {
     "id": "oneplus",
     "name": "OnePlus",
-    "filters": ["phone"]
+    "filters": [
+      "phone"
+    ]
   },
   {
     "id": "lenovo",
     "name": "Lenovo",
-    "filters": ["phone"]
+    "filters": [
+      "phone"
+    ]
   },
   {
     "id": "xiaomi",
     "name": "Xiaomi",
-    "filters": ["phone"]
+    "filters": [
+      "phone"
+    ]
   },
   {
     "id": "poco",
     "name": "Poco",
-    "filters": ["phone"]
+    "filters": [
+      "phone"
+    ]
   },
   {
     "id": "realme",
     "name": "Realme",
-    "filters": ["phone"]
+    "filters": [
+      "phone"
+    ]
   },
   {
     "id": "oppo",
     "name": "Oppo",
-    "filters": ["phone"]
+    "filters": [
+      "phone"
+    ]
   },
   {
     "id": "zte",
     "name": "ZTE",
-    "filters": ["phone"]
+    "filters": [
+      "phone"
+    ]
   },
   {
     "id": "vivo",
     "name": "Vivo",
-    "filters": ["phone"]
+    "filters": [
+      "phone"
+    ]
   },
   {
     "id": "alcatel",
     "name": "Alcatel",
-    "filters": ["phone"]
+    "filters": [
+      "phone"
+    ]
   },
   {
     "id": "tecno",
     "name": "Tecno",
-    "filters": ["phone"]
+    "filters": [
+      "phone"
+    ]
   },
   {
     "id": "nokia",
     "name": "Nokia",
-    "filters": ["phone"]
+    "filters": [
+      "phone"
+    ]
   },
   {
     "id": "philips",
     "name": "Philips",
-    "filters": ["phone"]
+    "filters": [
+      "phone"
+    ]
   },
   {
     "id": "asus",
     "name": "Asus",
-    "filters": ["phone"]
+    "filters": [
+      "phone"
+    ]
   },
   {
     "id": "motorola",
     "name": "Motorola",
-    "filters": ["phone"]
+    "filters": [
+      "phone"
+    ]
   },
   {
     "id": "samsung",
     "name": "Samsung",
-    "filters": ["samsung", "phone"]
+    "filters": [
+      "samsung",
+      "phone"
+    ]
   },
   {
     "id": "samsung-one-ui",
     "name": "Samsung One UI",
-    "filters": ["samsung"]
+    "filters": [
+      "samsung"
+    ]
   },
   {
     "id": "nothing",
     "name": "Nothing Phone",
-    "filters": ["phone"]
+    "filters": [
+      "phone"
+    ]
   },
   {
     "id": "sony",
     "name": "Sony",
-    "filters": ["sony", "phone"]
+    "filters": [
+      "sony",
+      "phone"
+    ]
   },
   {
     "id": "honor",
     "name": "Honor",
-    "filters": ["phone"]
+    "filters": [
+      "phone"
+    ]
   },
   {
     "id": "blackberry",
     "name": "BlackBerry",
-    "filters": ["phone"]
+    "filters": [
+      "phone"
+    ]
   },
   {
     "id": "meizu",
     "name": "Meizu",
-    "filters": ["phone"]
+    "filters": [
+      "phone"
+    ]
   },
   {
     "id": "htc",
     "name": "HTC",
-    "filters": ["phone"]
+    "filters": [
+      "phone"
+    ]
   },
-
   {
     "id": "binance",
     "name": "Binance",
-    "filters": ["crypto"]
+    "filters": [
+      "crypto"
+    ]
   },
   {
     "id": "coinbase",
     "name": "Coinbase",
-    "filters": ["crypto"]
+    "filters": [
+      "crypto"
+    ]
   },
   {
     "id": "bitcoin",
     "name": "Bitcoin",
-    "filters": ["crypto"]
+    "filters": [
+      "crypto"
+    ]
   },
   {
     "id": "ethereum",
     "name": "Ethereum",
-    "filters": ["crypto"]
+    "filters": [
+      "crypto"
+    ]
   },
   {
     "id": "tether",
     "name": "Tether (USDT)",
-    "filters": ["crypto"]
+    "filters": [
+      "crypto"
+    ]
   },
   {
     "id": "ton",
     "name": "Toncoin",
-    "filters": ["crypto"]
+    "filters": [
+      "crypto"
+    ]
   },
   {
     "id": "opensea",
     "name": "OpenSea (NFT Marketplace)",
-    "filters": ["crypto"]
+    "filters": [
+      "crypto"
+    ]
   },
   {
     "id": "visa",
     "name": "Visa (Payment System)",
-    "filters": ["payment"]
+    "filters": [
+      "payment"
+    ]
   },
   {
     "id": "mastercard",
     "name": "Mastercard (Payment System)",
-    "filters": ["payment"]
+    "filters": [
+      "payment"
+    ]
   },
   {
     "id": "maestro",
     "name": "Maestro (Payment System)",
-    "filters": ["payment"]
+    "filters": [
+      "payment"
+    ]
   },
   {
     "id": "union-pay",
     "name": "UnionPay (Payment System)",
-    "filters": ["payment"]
+    "filters": [
+      "payment"
+    ]
   },
   {
     "id": "jcb",
     "name": "JCB (Payment System)",
-    "filters": ["payment"]
+    "filters": [
+      "payment"
+    ]
   },
   {
     "id": "american-express",
     "name": "American Express (Payment System)",
-    "filters": ["payment"]
+    "filters": [
+      "payment"
+    ]
   },
   {
     "id": "mir",
     "name": "Mir (Payment System)",
-    "filters": ["payment"]
+    "filters": [
+      "payment"
+    ]
   },
   {
     "id": "sbp",
     "name": "Система быстрых платежей",
-    "filters": ["payment"]
+    "filters": [
+      "payment"
+    ]
   },
   {
     "id": "paypal",
     "name": "PayPal",
-    "filters": ["payment"]
+    "filters": [
+      "payment"
+    ]
   },
   {
     "id": "stripe",
     "name": "Stripe",
-    "filters": ["payment"]
+    "filters": [
+      "payment"
+    ]
   },
   {
     "id": "cashapp",
     "name": "Cash App",
-    "filters": ["payment"]
+    "filters": [
+      "payment"
+    ]
   },
   {
     "id": "amazon",
     "name": "Amazon",
-    "filters": ["amazon"]
+    "filters": [
+      "amazon"
+    ]
   },
   {
     "id": "amazon-web-services",
     "name": "Amazon Web Services",
-    "filters": ["amazon"]
+    "filters": [
+      "amazon"
+    ]
   },
   {
     "id": "amazon-alexa",
     "name": "Amazon Alexa",
-    "filters": ["amazon"]
+    "filters": [
+      "amazon"
+    ]
   },
   {
     "id": "linux",
     "name": "Linux",
-    "filters": ["linux"]
+    "filters": [
+      "linux"
+    ]
   },
   {
     "id": "linux-ubuntu",
     "name": "Ubuntu (Linux Distribution)",
-    "filters": ["linux"]
+    "filters": [
+      "linux"
+    ]
   },
   {
     "id": "linux-debian",
     "name": "Debian (Linux Distribution)",
-    "filters": ["linux"]
+    "filters": [
+      "linux"
+    ]
   },
   {
     "id": "wireguard",
     "name": "WireGuard",
-    "filters": ["vpn"]
+    "filters": [
+      "vpn"
+    ]
   },
   {
     "id": "openvpn",
     "name": "OpenVPN",
-    "filters": ["vpn"]
+    "filters": [
+      "vpn"
+    ]
   },
   {
     "id": "steam",
     "name": "Steam",
-    "filters": ["gaming"]
+    "filters": [
+      "gaming"
+    ]
   },
   {
     "id": "unity",
     "name": "Unity (Game Engine)",
-    "filters": ["gaming"]
+    "filters": [
+      "gaming"
+    ]
   },
   {
     "id": "unreal-engine",
     "name": "Unreal Engine (Game Engine)",
-    "filters": ["gaming"]
+    "filters": [
+      "gaming"
+    ]
   },
   {
     "id": "frostbite",
     "name": "Frostbite",
-    "filters": ["gaming"]
+    "filters": [
+      "gaming"
+    ]
   },
   {
     "id": "sony-playstation",
     "name": "Sony PlayStation",
-    "filters": ["sony", "gaming"]
+    "filters": [
+      "sony",
+      "gaming"
+    ]
   },
   {
     "id": "sony-ps-remote-play",
     "name": "Sony PS Remote Play",
-    "filters": ["sony", "gaming"]
+    "filters": [
+      "sony",
+      "gaming"
+    ]
   },
   {
     "id": "sony-playstation-plus",
     "name": "Sony PlayStation Plus",
-    "filters": ["sony", "gaming"]
+    "filters": [
+      "sony",
+      "gaming"
+    ]
   },
   {
     "id": "nintendo",
     "name": "Nintendo",
-    "filters": ["gaming"]
+    "filters": [
+      "gaming"
+    ]
   },
   {
     "id": "ubisoft",
     "name": "Ubisoft",
-    "filters": ["gaming"]
+    "filters": [
+      "gaming"
+    ]
   },
   {
     "id": "valve",
     "name": "Valve",
-    "filters": ["valve", "gaming"]
+    "filters": [
+      "valve",
+      "gaming"
+    ]
   },
   {
     "id": "riot-games",
     "name": "Riot Games",
-    "filters": ["gaming"]
+    "filters": [
+      "gaming"
+    ]
   },
   {
     "id": "bethesda",
     "name": "Bethesda",
-    "filters": ["gaming"]
+    "filters": [
+      "gaming"
+    ]
   },
   {
     "id": "rockstar-games",
     "name": "Rockstar Games",
-    "filters": ["gaming"]
+    "filters": [
+      "gaming"
+    ]
   },
   {
     "id": "take-two-interactive",
     "name": "Take-Two Interactive",
-    "filters": ["gaming"]
+    "filters": [
+      "gaming"
+    ]
   },
   {
     "id": "epic-games",
     "name": "Epic Games",
-    "filters": ["gaming"]
+    "filters": [
+      "gaming"
+    ]
   },
   {
     "id": "electronic-arts",
     "name": "Electronic Arts",
-    "filters": ["gaming"]
+    "filters": [
+      "gaming"
+    ]
   },
   {
     "id": "ea-play",
     "name": "EA Play",
-    "filters": ["gaming"]
+    "filters": [
+      "gaming"
+    ]
   },
   {
     "id": "activision-blizzard",
     "name": "Activision Blizzard",
-    "filters": ["gaming"]
+    "filters": [
+      "gaming"
+    ]
   },
   {
     "id": "supercell",
     "name": "Supercell",
-    "filters": ["gaming"]
+    "filters": [
+      "gaming"
+    ]
   },
   {
     "id": "santa-monica-studio",
     "name": "Santa Monica Studio",
-    "filters": ["gaming"]
+    "filters": [
+      "gaming"
+    ]
   },
   {
     "id": "intel",
     "name": "Intel",
-    "filters": ["semiconductors"]
+    "filters": [
+      "semiconductors"
+    ]
   },
   {
     "id": "amd",
     "name": "AMD",
-    "filters": ["semiconductors"]
+    "filters": [
+      "semiconductors"
+    ]
   },
   {
     "id": "qualcomm",
     "name": "Qualcomm",
-    "filters": ["semiconductors"]
+    "filters": [
+      "semiconductors"
+    ]
   },
   {
     "id": "nvidia",
@@ -1248,12 +1820,16 @@
   {
     "id": "arm",
     "name": "ARM",
-    "filters": ["semiconductors"]
+    "filters": [
+      "semiconductors"
+    ]
   },
   {
     "id": "tsmc",
     "name": "TSMC",
-    "filters": ["semiconductors"]
+    "filters": [
+      "semiconductors"
+    ]
   },
   {
     "id": "mediatek",
@@ -1294,7 +1870,9 @@
   {
     "id": "beats-electronics",
     "name": "Beats Electronics",
-    "filters": ["apple"]
+    "filters": [
+      "apple"
+    ]
   },
   {
     "id": "soundcloud",
@@ -1335,127 +1913,183 @@
   {
     "id": "adobe",
     "name": "Adobe",
-    "filters": ["adobe"]
+    "filters": [
+      "adobe"
+    ]
   },
   {
     "id": "adobe-acrobat",
     "name": "Adobe Acrobat",
-    "filters": ["adobe"]
+    "filters": [
+      "adobe"
+    ]
   },
   {
     "id": "adobe-firefly",
     "name": "Adobe Firefly",
-    "filters": ["adobe"]
+    "filters": [
+      "adobe"
+    ]
   },
   {
     "id": "adobe-after-effects",
     "name": "Adobe After Effects",
-    "filters": ["adobe"]
+    "filters": [
+      "adobe"
+    ]
   },
   {
     "id": "adobe-illustrator",
     "name": "Adobe Illustrator",
-    "filters": ["adobe"]
+    "filters": [
+      "adobe"
+    ]
   },
   {
     "id": "adobe-animate",
     "name": "Adobe Animate",
-    "filters": ["adobe"]
+    "filters": [
+      "adobe"
+    ]
   },
   {
     "id": "adobe-aero",
     "name": "Adobe Aero",
-    "filters": ["adobe"]
+    "filters": [
+      "adobe"
+    ]
   },
   {
     "id": "adobe-audition",
     "name": "Adobe Audition",
-    "filters": ["adobe"]
+    "filters": [
+      "adobe"
+    ]
   },
   {
     "id": "adobe-bridge",
     "name": "Adobe Bridge",
-    "filters": ["adobe"]
+    "filters": [
+      "adobe"
+    ]
   },
   {
     "id": "adobe-character-animator",
     "name": "Adobe Character Animator",
-    "filters": ["adobe"]
+    "filters": [
+      "adobe"
+    ]
   },
   {
     "id": "adobe-dimension",
     "name": "Adobe Dimension",
-    "filters": ["adobe"]
+    "filters": [
+      "adobe"
+    ]
   },
   {
     "id": "adobe-dreamweaver",
     "name": "Adobe Dreamweaver",
-    "filters": ["adobe"]
+    "filters": [
+      "adobe"
+    ]
   },
   {
     "id": "adobe-indesign",
     "name": "Adobe InDesign",
-    "filters": ["adobe"]
+    "filters": [
+      "adobe"
+    ]
   },
   {
     "id": "adobe-lightroom",
     "name": "Adobe Lightroom",
-    "filters": ["adobe"]
+    "filters": [
+      "adobe"
+    ]
   },
   {
     "id": "adobe-fresco",
     "name": "Adobe Fresco",
-    "filters": ["adobe"]
+    "filters": [
+      "adobe"
+    ]
   },
   {
     "id": "adobe-media-encoder",
     "name": "Adobe Media Encoder",
-    "filters": ["adobe"]
+    "filters": [
+      "adobe"
+    ]
   },
   {
     "id": "adobe-premiere-pro",
     "name": "Adobe Premiere Pro",
-    "filters": ["adobe"]
+    "filters": [
+      "adobe"
+    ]
   },
   {
     "id": "adobe-photoshop",
     "name": "Adobe Photoshop",
-    "filters": ["adobe"]
+    "filters": [
+      "adobe"
+    ]
   },
   {
     "id": "adobe-pdf",
     "name": "Adobe PDF",
-    "filters": ["adobe"]
+    "filters": [
+      "adobe"
+    ]
   },
   {
     "id": "c",
     "name": "C (Programming Language)",
-    "filters": ["programming", "language"]
+    "filters": [
+      "programming",
+      "language"
+    ]
   },
   {
     "id": "cpp",
     "name": "C++ (Programming Language)",
-    "filters": ["programming", "language"]
+    "filters": [
+      "programming",
+      "language"
+    ]
   },
   {
     "id": "php",
     "name": "PHP (Programming Language)",
-    "filters": ["programming", "language"]
+    "filters": [
+      "programming",
+      "language"
+    ]
   },
   {
     "id": "rust",
     "name": "Rust (Programming Language)",
-    "filters": ["programming", "language"]
+    "filters": [
+      "programming",
+      "language"
+    ]
   },
   {
     "id": "ruby",
     "name": "Ruby (Programming Language)",
-    "filters": ["programming", "language"]
+    "filters": [
+      "programming",
+      "language"
+    ]
   },
   {
     "id": "python",
     "name": "Python (Programming Language)",
-    "filters": ["programming", "language"]
+    "filters": [
+      "programming",
+      "language"
+    ]
   },
   {
     "id": "django",
@@ -1480,17 +2114,27 @@
   {
     "id": "js",
     "name": "JavaScript (Programming Language)",
-    "filters": ["programming", "language"]
+    "filters": [
+      "programming",
+      "language"
+    ]
   },
   {
     "id": "typescript",
     "name": "TypeScript (Programming Language)",
-    "filters": ["programming", "language"]
+    "filters": [
+      "programming",
+      "language"
+    ]
   },
   {
     "id": "microsoft-vb",
     "name": "Visual Basic (Programming Language)",
-    "filters": ["microsoft", "programming", "language"]
+    "filters": [
+      "microsoft",
+      "programming",
+      "language"
+    ]
   },
   {
     "id": "webassembly",
@@ -1499,17 +2143,26 @@
   {
     "id": "delphi",
     "name": "Delphi",
-    "filters": ["programming", "language"]
+    "filters": [
+      "programming",
+      "language"
+    ]
   },
   {
     "id": "pascal",
     "name": "Pascal",
-    "filters": ["programming", "language"]
+    "filters": [
+      "programming",
+      "language"
+    ]
   },
   {
     "id": "scala",
     "name": "Scala",
-    "filters": ["programming", "language"]
+    "filters": [
+      "programming",
+      "language"
+    ]
   },
   {
     "id": "json",
@@ -1530,12 +2183,18 @@
   {
     "id": "gleam",
     "name": "Gleam",
-    "filters": ["programming", "language"]
+    "filters": [
+      "programming",
+      "language"
+    ]
   },
   {
     "id": "ocaml",
     "name": "OCaml",
-    "filters": ["programming", "language"]
+    "filters": [
+      "programming",
+      "language"
+    ]
   },
   {
     "id": "utorrent",
@@ -1572,7 +2231,9 @@
   {
     "id": "quora",
     "name": "Quora",
-    "filters": ["qa"]
+    "filters": [
+      "qa"
+    ]
   },
   {
     "id": "tumblr",
@@ -1585,17 +2246,23 @@
   {
     "id": "blender",
     "name": "Blender",
-    "filters": ["design"]
+    "filters": [
+      "design"
+    ]
   },
   {
     "id": "apache",
     "name": "Apache",
-    "filters": ["apache"]
+    "filters": [
+      "apache"
+    ]
   },
   {
     "id": "apache-kafka",
     "name": "Apache Kafka",
-    "filters": ["apache"]
+    "filters": [
+      "apache"
+    ]
   },
   {
     "id": "evernote",
@@ -1612,22 +2279,30 @@
   {
     "id": "netflix",
     "name": "Netflix",
-    "filters": ["video"]
+    "filters": [
+      "video"
+    ]
   },
   {
     "id": "pornhub",
     "name": "Pornhub",
-    "filters": ["video"]
+    "filters": [
+      "video"
+    ]
   },
   {
     "id": "twitch",
     "name": "Twitch",
-    "filters": ["video"]
+    "filters": [
+      "video"
+    ]
   },
   {
     "id": "rutube",
     "name": "Rutube",
-    "filters": ["video"]
+    "filters": [
+      "video"
+    ]
   },
   {
     "id": "vulkan",
@@ -1660,7 +2335,9 @@
   {
     "id": "drawio",
     "name": "Draw.io",
-    "filters": ["uml"]
+    "filters": [
+      "uml"
+    ]
   },
   {
     "id": "garmin",
@@ -1697,244 +2374,363 @@
   {
     "id": "mysql",
     "name": "MySQL",
-    "filters": ["database", "sql"]
+    "filters": [
+      "database",
+      "sql"
+    ]
   },
   {
     "id": "sqlite",
     "name": "SQLite",
-    "filters": ["database", "sql"]
+    "filters": [
+      "database",
+      "sql"
+    ]
   },
   {
     "id": "postgresql",
     "name": "PostgreSQL",
-    "filters": ["database", "sql"]
+    "filters": [
+      "database",
+      "sql"
+    ]
   },
   {
     "id": "mongodb",
     "name": "MongoDB",
-    "filters": ["database"]
+    "filters": [
+      "database"
+    ]
   },
   {
     "id": "microsoft-office",
     "name": "Microsoft Office",
-    "filters": ["microsoft"]
+    "filters": [
+      "microsoft"
+    ]
   },
   {
     "id": "microsoft-365",
     "name": "Microsoft 365",
-    "filters": ["microsoft"]
+    "filters": [
+      "microsoft"
+    ]
   },
   {
     "id": "microsoft-word",
     "name": "Microsoft Word",
-    "filters": ["microsoft"]
+    "filters": [
+      "microsoft"
+    ]
   },
   {
     "id": "microsoft-excel",
     "name": "Microsoft Excel",
-    "filters": ["microsoft"]
+    "filters": [
+      "microsoft"
+    ]
   },
   {
     "id": "microsoft-powerpoint",
     "name": "Microsoft PowerPoint",
-    "filters": ["microsoft"]
+    "filters": [
+      "microsoft"
+    ]
   },
   {
     "id": "microsoft-access",
     "name": "Microsoft Access",
-    "filters": ["microsoft"]
+    "filters": [
+      "microsoft"
+    ]
   },
   {
     "id": "microsoft-onenote",
     "name": "Microsoft OneNote",
-    "filters": ["microsoft"]
+    "filters": [
+      "microsoft"
+    ]
   },
   {
     "id": "microsoft-outlook",
     "name": "Microsoft Outlook",
-    "filters": ["microsoft"]
+    "filters": [
+      "microsoft"
+    ]
   },
   {
     "id": "microsoft-project",
     "name": "Microsoft Project",
-    "filters": ["microsoft"]
+    "filters": [
+      "microsoft"
+    ]
   },
   {
     "id": "microsoft-sharepoint",
     "name": "Microsoft SharePoint",
-    "filters": ["microsoft"]
+    "filters": [
+      "microsoft"
+    ]
   },
   {
     "id": "microsoft-publisher",
     "name": "Microsoft Publisher",
-    "filters": ["microsoft"]
+    "filters": [
+      "microsoft"
+    ]
   },
   {
     "id": "microsoft-forms",
     "name": "Microsoft Forms",
-    "filters": ["microsoft"]
+    "filters": [
+      "microsoft"
+    ]
   },
   {
     "id": "microsoft-azure",
     "name": "Microsoft Azure",
-    "filters": ["microsoft"]
+    "filters": [
+      "microsoft"
+    ]
   },
   {
     "id": "microsoft-todo",
     "name": "Microsoft Todo",
-    "filters": ["microsoft"]
+    "filters": [
+      "microsoft"
+    ]
   },
   {
     "id": "zigbee",
     "name": "Zigbee",
-    "filters": ["iot"]
+    "filters": [
+      "iot"
+    ]
   },
   {
     "id": "mqtt",
     "name": "MQTT",
-    "filters": ["iot"]
+    "filters": [
+      "iot"
+    ]
   },
   {
     "id": "z-wave",
     "name": "Z-Wave",
-    "filters": ["iot"]
+    "filters": [
+      "iot"
+    ]
   },
   {
     "id": "thread",
     "name": "Thread (Network Protocol)",
-    "filters": ["iot"]
+    "filters": [
+      "iot"
+    ]
   },
   {
     "id": "matter",
     "name": "Matter (Standard)",
-    "filters": ["iot"]
+    "filters": [
+      "iot"
+    ]
   },
   {
     "id": "jetbrains-2",
     "name": "JetBrains",
-    "filters": ["jetbrains"]
+    "filters": [
+      "jetbrains"
+    ]
   },
   {
     "id": "jetbrains-toolbox",
     "name": "JetBrains Toolbox",
-    "filters": ["jetbrains"]
+    "filters": [
+      "jetbrains"
+    ]
   },
   {
     "id": "jetbrains-aqua",
     "name": "Jetbrains Aqua",
-    "filters": ["jetbrains", "ide"]
+    "filters": [
+      "jetbrains",
+      "ide"
+    ]
   },
   {
     "id": "jetbrains-clion",
     "name": "Jetbrains CLion",
-    "filters": ["jetbrains", "ide"]
+    "filters": [
+      "jetbrains",
+      "ide"
+    ]
   },
   {
     "id": "jetbrains-datagrip",
     "name": "Jetbrains DataGrip",
-    "filters": ["jetbrains", "ide"]
+    "filters": [
+      "jetbrains",
+      "ide"
+    ]
   },
   {
     "id": "jetbrains-datalore",
     "name": "Jetbrains Datalore",
-    "filters": ["jetbrains", "ide"]
+    "filters": [
+      "jetbrains",
+      "ide"
+    ]
   },
   {
     "id": "jetbrains-dataspell",
     "name": "Jetbrains DataSpell",
-    "filters": ["jetbrains", "ide"]
+    "filters": [
+      "jetbrains",
+      "ide"
+    ]
   },
   {
     "id": "jetbrains-dotcover",
     "name": "Jetbrains DotCover",
-    "filters": ["jetbrains", "ide"]
+    "filters": [
+      "jetbrains",
+      "ide"
+    ]
   },
   {
     "id": "jetbrains-dotmemory",
     "name": "Jetbrains DotMemory",
-    "filters": ["jetbrains", "ide"]
+    "filters": [
+      "jetbrains",
+      "ide"
+    ]
   },
   {
     "id": "jetbrains-dotpeek",
     "name": "Jetbrains DotPeek",
-    "filters": ["jetbrains", "ide"]
+    "filters": [
+      "jetbrains",
+      "ide"
+    ]
   },
   {
     "id": "jetbrains-dottrace",
     "name": "Jetbrains DotTrace",
-    "filters": ["jetbrains", "ide"]
+    "filters": [
+      "jetbrains",
+      "ide"
+    ]
   },
   {
     "id": "jetbrains-goland",
     "name": "Jetbrains GoLand",
-    "filters": ["jetbrains", "ide"]
+    "filters": [
+      "jetbrains",
+      "ide"
+    ]
   },
   {
     "id": "jetbrains-hub",
     "name": "Jetbrains Hub",
-    "filters": ["jetbrains"]
+    "filters": [
+      "jetbrains"
+    ]
   },
   {
     "id": "jetbrains-phpstorm",
     "name": "Jetbrains PhpStorm",
-    "filters": ["jetbrains", "ide"]
+    "filters": [
+      "jetbrains",
+      "ide"
+    ]
   },
   {
     "id": "jetbrains-pycharm",
     "name": "Jetbrains PyCharm",
-    "filters": ["jetbrains", "ide"]
+    "filters": [
+      "jetbrains",
+      "ide"
+    ]
   },
   {
     "id": "jetbrains-qodana",
     "name": "Jetbrains Qodana",
-    "filters": ["jetbrains", "ide"]
+    "filters": [
+      "jetbrains",
+      "ide"
+    ]
   },
   {
     "id": "jetbrains-resharper",
     "name": "Jetbrains ReSharper",
-    "filters": ["jetbrains", "ide"]
+    "filters": [
+      "jetbrains",
+      "ide"
+    ]
   },
   {
     "id": "jetbrains-resharpercpp",
     "name": "Jetbrains ReSharper C++",
-    "filters": ["jetbrains", "ide"]
+    "filters": [
+      "jetbrains",
+      "ide"
+    ]
   },
   {
     "id": "jetbrains-rider",
     "name": "Jetbrains Rider",
-    "filters": ["jetbrains", "ide"]
+    "filters": [
+      "jetbrains",
+      "ide"
+    ]
   },
   {
     "id": "jetbrains-riderflow",
     "name": "Jetbrains RiderFlow",
-    "filters": ["jetbrains", "ide"]
+    "filters": [
+      "jetbrains",
+      "ide"
+    ]
   },
   {
     "id": "jetbrains-rubymine",
     "name": "Jetbrains RubyMine",
-    "filters": ["jetbrains", "ide"]
+    "filters": [
+      "jetbrains",
+      "ide"
+    ]
   },
   {
     "id": "jetbrains-rustrover",
     "name": "Jetbrains RustRover",
-    "filters": ["jetbrains", "ide"]
+    "filters": [
+      "jetbrains",
+      "ide"
+    ]
   },
   {
     "id": "jetbrains-teamcity",
     "name": "Jetbrains TeamCity",
-    "filters": ["jetbrains", "ci"]
+    "filters": [
+      "jetbrains",
+      "ci"
+    ]
   },
   {
     "id": "jetbrains-webstorm",
     "name": "Jetbrains WebStorm",
-    "filters": ["jetbrains", "ide"]
+    "filters": [
+      "jetbrains",
+      "ide"
+    ]
   },
   {
     "id": "jetbrains-youtrack",
     "name": "Jetbrains YouTrack",
-    "filters": ["jetbrains"]
+    "filters": [
+      "jetbrains"
+    ]
   },
-
   {
     "id": "coursera",
     "name": "Coursera"
@@ -1962,17 +2758,23 @@
   {
     "id": "uber",
     "name": "Uber",
-    "filters": ["taxi"]
+    "filters": [
+      "taxi"
+    ]
   },
   {
     "id": "lyft",
     "name": "Lyft",
-    "filters": ["taxi"]
+    "filters": [
+      "taxi"
+    ]
   },
   {
     "id": "bolt",
     "name": "Bolt",
-    "filters": ["taxi"]
+    "filters": [
+      "taxi"
+    ]
   },
   {
     "id": "indeed",
@@ -1989,207 +2791,299 @@
   {
     "id": "apple-pay",
     "name": "Apple Pay",
-    "filters": ["apple"]
+    "filters": [
+      "apple"
+    ]
   },
   {
     "id": "apple-webkit",
     "name": "Apple WebKit",
-    "filters": ["apple"]
+    "filters": [
+      "apple"
+    ]
   },
   {
     "id": "apple-carplay",
     "name": "Apple CarPlay",
-    "filters": ["apple"]
+    "filters": [
+      "apple"
+    ]
   },
   {
     "id": "apple-wallet",
     "name": "Apple Wallet",
-    "filters": ["apple", "payment"]
+    "filters": [
+      "apple",
+      "payment"
+    ]
   },
   {
     "id": "apple-pkl",
     "name": "Apple Pkl (Programming Language)",
-    "filters": ["apple"]
+    "filters": [
+      "apple"
+    ]
   },
   {
     "id": "google-pay",
     "name": "Google Pay",
-    "filters": ["google", "payment"]
+    "filters": [
+      "google",
+      "payment"
+    ]
   },
   {
     "id": "google-amp",
     "name": "AMP (Accelerated Mobile Pages)",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-android-auto",
     "name": "Android Auto",
-    "filters": ["google", "android"]
+    "filters": [
+      "google",
+      "android"
+    ]
   },
   {
     "id": "google-blogger",
     "name": "Blogger",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-android-jetpack-2",
     "name": "Android Jetpack",
-    "filters": ["google", "android"]
+    "filters": [
+      "google",
+      "android"
+    ]
   },
   {
     "id": "google-aab",
     "name": "AAB (Android App Bundle)",
-    "filters": ["google", "android"]
+    "filters": [
+      "google",
+      "android"
+    ]
   },
   {
     "id": "google-wallet",
     "name": "Google Wallet",
-    "filters": ["google", "payment"]
+    "filters": [
+      "google",
+      "payment"
+    ]
   },
   {
     "id": "google-admob",
     "name": "Google AdMob",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-youtube-music",
     "name": "YouTube Music",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-webrtc",
     "name": "Google WebRTC",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-io",
     "name": "Google I/O",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-web-toolkit",
     "name": "Google Web Toolkit",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-kubernetes",
     "name": "Kubernetes",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-arcore",
     "name": "Google ARCore",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-play-services",
     "name": "Google Play Services",
-    "filters": ["google", "android"]
+    "filters": [
+      "google",
+      "android"
+    ]
   },
   {
     "id": "google-play-games",
     "name": "Google Play Games",
-    "filters": ["google", "android"]
+    "filters": [
+      "google",
+      "android"
+    ]
   },
   {
     "id": "google-fuchsia",
     "name": "Google Fuchsia",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-earth",
     "name": "Google Earth",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-lighthouse",
     "name": "Google Lighthouse",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-domains",
     "name": "Google Domains",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-adsense",
     "name": "Google AdSense",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-ads",
     "name": "Google Ads",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-tag-manager",
     "name": "Google Tag Manager",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-optimize",
     "name": "Google Optimize",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-fit",
     "name": "Google Fit",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-marketing-platform",
     "name": "Google Marketing Platform",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-one",
     "name": "Google One",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-search-console",
     "name": "Google Search Console",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-arts-culture",
     "name": "Google Arts Culture",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-finance",
     "name": "Google Finance",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-analytics",
     "name": "Google Analytics",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-cloud-code",
     "name": "Google Cloud Code",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "microsoft-bing",
     "name": "Microsoft Bing",
-    "filters": ["microsoft"]
+    "filters": [
+      "microsoft"
+    ]
   },
   {
     "id": "microsoft-paint",
     "name": "Microsoft Paint",
-    "filters": ["microsoft"]
+    "filters": [
+      "microsoft"
+    ]
   },
   {
     "id": "microsoft-designer",
     "name": "Microsoft Designer",
-    "filters": ["microsoft"]
+    "filters": [
+      "microsoft"
+    ]
   },
   {
     "id": "microsoft-f-sharp",
     "name": "Microsoft F#",
-    "filters": ["microsoft", "programming", "language"]
+    "filters": [
+      "microsoft",
+      "programming",
+      "language"
+    ]
   },
   {
     "id": "recaptcha",
@@ -2202,22 +3096,30 @@
   {
     "id": "jenkins",
     "name": "Jenkins",
-    "filters": ["ci"]
+    "filters": [
+      "ci"
+    ]
   },
   {
     "id": "circleci",
     "name": "CircleCI",
-    "filters": ["ci"]
+    "filters": [
+      "ci"
+    ]
   },
   {
     "id": "travis-ci",
     "name": "Travis CI",
-    "filters": ["ci"]
+    "filters": [
+      "ci"
+    ]
   },
   {
     "id": "fastlane",
     "name": "Fastlane",
-    "filters": ["ci"]
+    "filters": [
+      "ci"
+    ]
   },
   {
     "id": "obsidian",
@@ -2238,7 +3140,9 @@
   {
     "id": "calendly",
     "name": "Calendly",
-    "filters": ["calendar"]
+    "filters": [
+      "calendar"
+    ]
   },
   {
     "id": "zeplin",
@@ -2267,127 +3171,179 @@
   {
     "id": "jetbrains-space",
     "name": "JetBrains Space",
-    "filters": ["jetbrains"]
+    "filters": [
+      "jetbrains"
+    ]
   },
   {
     "id": "jetbrains-mps",
     "name": "JetBrains MPS",
-    "filters": ["jetbrains"]
+    "filters": [
+      "jetbrains"
+    ]
   },
   {
     "id": "apache-groovy",
     "name": "Apache Groovy",
-    "filters": ["apache"]
+    "filters": [
+      "apache"
+    ]
   },
   {
     "id": "apache-tomcat",
     "name": "Apache Tomcat",
-    "filters": ["apache"]
+    "filters": [
+      "apache"
+    ]
   },
   {
     "id": "apache-netbeans",
     "name": "Apache NetBeans",
-    "filters": ["apache"]
+    "filters": [
+      "apache"
+    ]
   },
   {
     "id": "apache-subversion",
     "name": "Apache Subversion",
-    "filters": ["apache"]
+    "filters": [
+      "apache"
+    ]
   },
   {
     "id": "apache-mahout",
     "name": "Apache Mahout",
-    "filters": ["apache"]
+    "filters": [
+      "apache"
+    ]
   },
   {
     "id": "linux-rocky",
     "name": "Rocky (Linux Distribution)",
-    "filters": ["linux"]
+    "filters": [
+      "linux"
+    ]
   },
   {
     "id": "linux-manjaro",
     "name": "Manjaro (Linux Distribution)",
-    "filters": ["linux"]
+    "filters": [
+      "linux"
+    ]
   },
   {
     "id": "linux-fedora",
     "name": "Fedora (Linux Distribution)",
-    "filters": ["linux"]
+    "filters": [
+      "linux"
+    ]
   },
   {
     "id": "linux-kali",
     "name": "Kali (Linux Distribution)",
-    "filters": ["linux"]
+    "filters": [
+      "linux"
+    ]
   },
   {
     "id": "bitcoin-cash",
     "name": "Bitcoin Cash",
-    "filters": ["crypto"]
+    "filters": [
+      "crypto"
+    ]
   },
   {
     "id": "dogecoin",
     "name": "Dogecoin",
-    "filters": ["crypto"]
+    "filters": [
+      "crypto"
+    ]
   },
   {
     "id": "litecoin",
     "name": "Litecoin",
-    "filters": ["crypto"]
+    "filters": [
+      "crypto"
+    ]
   },
   {
     "id": "usdc",
     "name": "USDC",
-    "filters": ["crypto"]
+    "filters": [
+      "crypto"
+    ]
   },
   {
     "id": "binance-coin",
     "name": "Binance Coin",
-    "filters": ["crypto"]
+    "filters": [
+      "crypto"
+    ]
   },
   {
     "id": "coinmarketcap",
     "name": "CoinMarketCap",
-    "filters": ["crypto"]
+    "filters": [
+      "crypto"
+    ]
   },
   {
     "id": "polygon",
     "name": "Polygon",
-    "filters": ["crypto"]
+    "filters": [
+      "crypto"
+    ]
   },
   {
     "id": "monero",
     "name": "Monero",
-    "filters": ["crypto"]
+    "filters": [
+      "crypto"
+    ]
   },
   {
     "id": "solidity",
     "name": "Solidity (Programming Language)",
-    "filters": ["crypto", "programming", "language"]
+    "filters": [
+      "crypto",
+      "programming",
+      "language"
+    ]
   },
   {
     "id": "tron",
     "name": "Tron",
-    "filters": ["crypto"]
+    "filters": [
+      "crypto"
+    ]
   },
   {
     "id": "ripple",
     "name": "Ripple",
-    "filters": ["crypto"]
+    "filters": [
+      "crypto"
+    ]
   },
   {
     "id": "stellar",
     "name": "Stellar",
-    "filters": ["crypto"]
+    "filters": [
+      "crypto"
+    ]
   },
   {
     "id": "namecoin",
     "name": "Namecoin",
-    "filters": ["crypto"]
+    "filters": [
+      "crypto"
+    ]
   },
   {
     "id": "solana",
     "name": "Solana",
-    "filters": ["crypto"]
+    "filters": [
+      "crypto"
+    ]
   },
   {
     "id": "neo",
@@ -2396,7 +3352,9 @@
   {
     "id": "metamask",
     "name": "MetaMask",
-    "filters": ["crypto"]
+    "filters": [
+      "crypto"
+    ]
   },
   {
     "id": "codewars",
@@ -2437,7 +3395,10 @@
   {
     "id": "lua",
     "name": "Lua",
-    "filters": ["programming", "language"]
+    "filters": [
+      "programming",
+      "language"
+    ]
   },
   {
     "id": "vitejs",
@@ -2494,12 +3455,16 @@
   {
     "id": "qt",
     "name": "Qt",
-    "filters": ["ide"]
+    "filters": [
+      "ide"
+    ]
   },
   {
     "id": "grpc",
     "name": "gRPC",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "electron",
@@ -2512,7 +3477,10 @@
   {
     "id": "ada",
     "name": "Ada (Programming Language)",
-    "filters": ["programming", "language"]
+    "filters": [
+      "programming",
+      "language"
+    ]
   },
   {
     "id": "solidjs",
@@ -2521,7 +3489,10 @@
   {
     "id": "erlang",
     "name": "Erlang (Programming Language)",
-    "filters": ["programming", "language"]
+    "filters": [
+      "programming",
+      "language"
+    ]
   },
   {
     "id": "polymer",
@@ -2546,7 +3517,9 @@
   {
     "id": "huawei-harmonyos",
     "name": "Huawei HarmonyOS",
-    "filters": ["huawei"]
+    "filters": [
+      "huawei"
+    ]
   },
   {
     "id": "microg",
@@ -2555,7 +3528,9 @@
   {
     "id": "mi-home",
     "name": "Mi Home",
-    "filters": ["xiaomi"]
+    "filters": [
+      "xiaomi"
+    ]
   },
   {
     "id": "svg",
@@ -2568,22 +3543,30 @@
   {
     "id": "eclipse",
     "name": "Eclipse",
-    "filters": ["ide"]
+    "filters": [
+      "ide"
+    ]
   },
   {
     "id": "neovim",
     "name": "Neovim",
-    "filters": ["ide"]
+    "filters": [
+      "ide"
+    ]
   },
   {
     "id": "claude-ai",
     "name": "Claude AI",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "stability-ai",
     "name": "Stability AI",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "nintendo-switch",
@@ -2592,32 +3575,44 @@
   {
     "id": "dice",
     "name": "Dice",
-    "filters": ["gaming"]
+    "filters": [
+      "gaming"
+    ]
   },
   {
     "id": "cry-engine",
     "name": "Cry Engine",
-    "filters": ["gaming"]
+    "filters": [
+      "gaming"
+    ]
   },
   {
     "id": "bioware",
     "name": "BioWare",
-    "filters": ["gaming"]
+    "filters": [
+      "gaming"
+    ]
   },
   {
     "id": "buymeacoffee",
     "name": "Buy Me a Coffee",
-    "filters": ["donation"]
+    "filters": [
+      "donation"
+    ]
   },
   {
     "id": "donationalerts",
     "name": "DonationAlerts",
-    "filters": ["donation"]
+    "filters": [
+      "donation"
+    ]
   },
   {
     "id": "clubhouse",
     "name": "Clubhouse",
-    "filters": ["social"]
+    "filters": [
+      "social"
+    ]
   },
   {
     "id": "session-app",
@@ -2626,22 +3621,31 @@
   {
     "id": "vimeo",
     "name": "Vimeo",
-    "filters": ["video", "social"]
+    "filters": [
+      "video",
+      "social"
+    ]
   },
   {
     "id": "protonmail",
     "name": "Proton Mail",
-    "filters": ["mail"]
+    "filters": [
+      "mail"
+    ]
   },
   {
     "id": "tinder",
     "name": "Tinder",
-    "filters": ["social"]
+    "filters": [
+      "social"
+    ]
   },
   {
     "id": "medium",
     "name": "Medium",
-    "filters": ["social"]
+    "filters": [
+      "social"
+    ]
   },
   {
     "id": "crowdstrike",
@@ -2726,7 +3730,9 @@
   {
     "id": "atlassian-loom",
     "name": "Atlassian Loom",
-    "filters": ["atlassian"]
+    "filters": [
+      "atlassian"
+    ]
   },
   {
     "id": "sentry",
@@ -2747,7 +3753,9 @@
   {
     "id": "adobe-frameio",
     "name": "Adobe Frame.io",
-    "filters": ["adobe"]
+    "filters": [
+      "adobe"
+    ]
   },
   {
     "id": "grav",
@@ -2760,7 +3768,9 @@
   {
     "id": "mercurial",
     "name": "Mercurial",
-    "filters": ["vcs"]
+    "filters": [
+      "vcs"
+    ]
   },
   {
     "id": "gnu",
@@ -2769,7 +3779,9 @@
   {
     "id": "gitea",
     "name": "Gitea",
-    "filters": ["vcs"]
+    "filters": [
+      "vcs"
+    ]
   },
   {
     "id": "unix",
@@ -2778,7 +3790,9 @@
   {
     "id": "dependabot",
     "name": "Dependabot",
-    "filters": ["github"]
+    "filters": [
+      "github"
+    ]
   },
   {
     "id": "grafana",
@@ -2791,17 +3805,23 @@
   {
     "id": "apache-maven",
     "name": "Apache Maven",
-    "filters": ["apache"]
+    "filters": [
+      "apache"
+    ]
   },
   {
     "id": "tor",
     "name": "Tor",
-    "filters": ["browser"]
+    "filters": [
+      "browser"
+    ]
   },
   {
     "id": "atlassian",
     "name": "Atlassian",
-    "filters": ["atlassian"]
+    "filters": [
+      "atlassian"
+    ]
   },
   {
     "id": "shopify",
@@ -2839,201 +3859,279 @@
     "id": "yahoo",
     "name": "Yahoo"
   },
-
   {
     "id": "google-android16",
     "name": "Android 16 Baklava",
-    "filters": ["google", "android"]
+    "filters": [
+      "google",
+      "android"
+    ]
   },
   {
     "id": "google-chrome-web-store",
     "name": "Google Chrome Web Store",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-keep",
     "name": "Google Keep",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-lens",
     "name": "Google Lens",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-snapseed",
     "name": "Snapseed",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-waymo",
     "name": "Waymo",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-x",
     "name": "Google X",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-alphabet",
     "name": "Alphabet",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-deepmind",
     "name": "Google Deepmind",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-looker",
     "name": "Google Looker",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-my-business",
     "name": "Google My Business",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-scholar",
     "name": "Google Scholar",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "apple-icloud",
     "name": "Apple iCloud",
-    "filters": ["apple"]
+    "filters": [
+      "apple"
+    ]
   },
   {
     "id": "apple-intelligence-1",
     "name": "Apple Intelligence",
-    "filters": ["apple"]
+    "filters": [
+      "apple"
+    ]
   },
   {
     "id": "apple-numbers",
     "name": "Numbers",
-    "filters": ["apple"]
+    "filters": [
+      "apple"
+    ]
   },
   {
     "id": "apple-pages",
     "name": "Pages",
-    "filters": ["apple"]
+    "filters": [
+      "apple"
+    ]
   },
   {
     "id": "apple-shazam",
     "name": "Shazam",
-    "filters": ["apple"]
+    "filters": [
+      "apple"
+    ]
   },
   {
     "id": "microsoft-notepad",
     "name": "Microsoft Notepad",
-    "filters": ["microsoft"]
+    "filters": [
+      "microsoft"
+    ]
   },
   {
     "id": "microsoft-cortana",
     "name": "Microsoft Cortana",
-    "filters": ["microsoft"]
+    "filters": [
+      "microsoft"
+    ]
   },
   {
     "id": "microsoft-github-copilot",
     "name": "Github Copilot",
-    "filters": ["microsoft"]
+    "filters": [
+      "microsoft"
+    ]
   },
   {
     "id": "microsoft-minecraft",
     "name": "Minecraft",
-    "filters": ["microsoft"]
+    "filters": [
+      "microsoft"
+    ]
   },
   {
     "id": "microsoft-powershell",
     "name": "Microsoft Powershell",
-    "filters": ["microsoft"]
+    "filters": [
+      "microsoft"
+    ]
   },
   {
     "id": "apache-airflow",
     "name": "Apache Airflow",
-    "filters": ["apache"]
+    "filters": [
+      "apache"
+    ]
   },
   {
     "id": "apache-flink",
     "name": "Apache Flink",
-    "filters": ["apache"]
+    "filters": [
+      "apache"
+    ]
   },
   {
     "id": "apache-nifi",
     "name": "Apache NiFi",
-    "filters": ["apache"]
+    "filters": [
+      "apache"
+    ]
   },
   {
     "id": "apache-spark",
     "name": "Apache Spark",
-    "filters": ["apache"]
+    "filters": [
+      "apache"
+    ]
   },
   {
     "id": "meta-oculus",
     "name": "Oculus",
-    "filters": ["meta"]
+    "filters": [
+      "meta"
+    ]
   },
   {
     "id": "samsung-pay",
     "name": "Samsung Pay",
-    "filters": ["samsung"]
+    "filters": [
+      "samsung"
+    ]
   },
   {
     "id": "samsung-bixby",
     "name": "Samsung Bixby",
-    "filters": ["samsung"]
+    "filters": [
+      "samsung"
+    ]
   },
   {
     "id": "yandex-mail",
     "name": "Yandex Mail",
-    "filters": ["yandex"]
+    "filters": [
+      "yandex"
+    ]
   },
   {
     "id": "yandex-coderun",
     "name": "Yandex CodeRun",
-    "filters": ["yandex"]
+    "filters": [
+      "yandex"
+    ]
   },
   {
     "id": "jetbrains-upsource",
     "name": "JetBrains Upsource",
-    "filters": ["jetbrains"]
+    "filters": [
+      "jetbrains"
+    ]
   },
   {
     "id": "jetbrains-junie",
     "name": "JetBrains Junie",
-    "filters": ["jetbrains"]
+    "filters": [
+      "jetbrains"
+    ]
   },
   {
     "id": "adobe-magento",
     "name": "Adobe Magento",
-    "filters": ["adobe"]
+    "filters": [
+      "adobe"
+    ]
   },
   {
     "id": "x-xai",
     "name": "xAI",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "x-grok",
     "name": "Grok",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "bybit",
     "name": "Bybit",
-    "filters": ["crypto"]
+    "filters": [
+      "crypto"
+    ]
   },
   {
     "id": "cryptocom",
     "name": "Crypto.com",
-    "filters": ["crypto"]
+    "filters": [
+      "crypto"
+    ]
   },
   {
     "id": "gateio",
     "name": "Gate.io",
-    "filters": ["crypto"]
+    "filters": [
+      "crypto"
+    ]
   },
   {
     "id": "kucoin",
@@ -3054,7 +4152,9 @@
   {
     "id": "imdb",
     "name": "IMDb",
-    "filters": ["social"]
+    "filters": [
+      "social"
+    ]
   },
   {
     "id": "tmdb",
@@ -3063,52 +4163,72 @@
   {
     "id": "outline-vpn",
     "name": "Outline VPN",
-    "filters": ["vpn"]
+    "filters": [
+      "vpn"
+    ]
   },
   {
     "id": "tunnelbear",
     "name": "TunnelBear",
-    "filters": ["vpn"]
+    "filters": [
+      "vpn"
+    ]
   },
   {
     "id": "mistral-ai",
     "name": "Mistral AI",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "perplexity",
     "name": "Perplexity AI",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "recraft",
     "name": "Recraft",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "anthropic",
     "name": "Anthropic",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "higgsfield",
     "name": "Higgsfield AI",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "data-ai",
     "name": "Data.ai",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "neural-love",
     "name": "Neural Love",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "deepseek",
     "name": "DeepSeek",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "unsplash",
@@ -3141,27 +4261,37 @@
   {
     "id": "fortnite",
     "name": "Fortnite",
-    "filters": ["gaming"]
+    "filters": [
+      "gaming"
+    ]
   },
   {
     "id": "roblox",
     "name": "Roblox",
-    "filters": ["gaming"]
+    "filters": [
+      "gaming"
+    ]
   },
   {
     "id": "doom",
     "name": "Doom",
-    "filters": ["gaming"]
+    "filters": [
+      "gaming"
+    ]
   },
   {
     "id": "atari",
     "name": "Atari",
-    "filters": ["gaming"]
+    "filters": [
+      "gaming"
+    ]
   },
   {
     "id": "league-of-legends",
     "name": "League of Legends",
-    "filters": ["gaming"]
+    "filters": [
+      "gaming"
+    ]
   },
   {
     "id": "cisco-splunk",
@@ -3174,17 +4304,26 @@
   {
     "id": "objective-c",
     "name": "Objective-C",
-    "filters": ["programming", "language"]
+    "filters": [
+      "programming",
+      "language"
+    ]
   },
   {
     "id": "cobol",
     "name": "Cobol",
-    "filters": ["programming", "language"]
+    "filters": [
+      "programming",
+      "language"
+    ]
   },
   {
     "id": "r",
     "name": "R",
-    "filters": ["programming", "language"]
+    "filters": [
+      "programming",
+      "language"
+    ]
   },
   {
     "id": "racket",
@@ -3201,17 +4340,26 @@
   {
     "id": "perl",
     "name": "Perl (Programming Language)",
-    "filters": ["programming", "language"]
+    "filters": [
+      "programming",
+      "language"
+    ]
   },
   {
     "id": "lisp",
     "name": "Lisp (Programming Language)",
-    "filters": ["programming", "language"]
+    "filters": [
+      "programming",
+      "language"
+    ]
   },
   {
     "id": "crystal",
     "name": "Crystal (Programming Language)",
-    "filters": ["programming", "language"]
+    "filters": [
+      "programming",
+      "language"
+    ]
   },
   {
     "id": "purescript",
@@ -3224,7 +4372,10 @@
   {
     "id": "nim",
     "name": "Nim (Programming Language)",
-    "filters": ["programming", "language"]
+    "filters": [
+      "programming",
+      "language"
+    ]
   },
   {
     "id": "svelte",
@@ -3281,17 +4432,23 @@
   {
     "id": "bluesky",
     "name": "Bluesky",
-    "filters": ["social"]
+    "filters": [
+      "social"
+    ]
   },
   {
     "id": "mastodon",
     "name": "Mastodon",
-    "filters": ["social"]
+    "filters": [
+      "social"
+    ]
   },
   {
     "id": "weibo",
     "name": "Weibo",
-    "filters": ["social"]
+    "filters": [
+      "social"
+    ]
   },
   {
     "id": "flipboard",
@@ -3300,7 +4457,9 @@
   {
     "id": "foursquare",
     "name": "Foursquare",
-    "filters": ["social"]
+    "filters": [
+      "social"
+    ]
   },
   {
     "id": "valkey",
@@ -3585,12 +4744,16 @@
   {
     "id": "arc-browser",
     "name": "Arc Browser",
-    "filters": ["browser"]
+    "filters": [
+      "browser"
+    ]
   },
   {
     "id": "bytedance",
     "name": "ByteDance",
-    "filters": ["bytedance"]
+    "filters": [
+      "bytedance"
+    ]
   },
   {
     "id": "gobot",
@@ -3708,436 +4871,631 @@
     "id": "prometheus",
     "name": "Prometheus"
   },
-
   {
     "id": "google-android-studio-nightly",
     "name": "Android Studio Nightly",
-    "filters": ["google", "android"]
+    "filters": [
+      "google",
+      "android"
+    ]
   },
   {
     "id": "google-firebase-studio",
     "name": "Firebase Studio",
-    "filters": ["google", "android", "ai"]
+    "filters": [
+      "google",
+      "android",
+      "ai"
+    ]
   },
   {
     "id": "google-vertex-ai",
     "name": "Google Vertex AI",
-    "filters": ["google", "ai"]
+    "filters": [
+      "google",
+      "ai"
+    ]
   },
   {
     "id": "google-idx",
     "name": "Google Project IDX",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-colab",
     "name": "Google Colab",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-youtube-kids",
     "name": "YouTube Kids",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-dialogflow",
     "name": "Google Dialogflow",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-ai",
     "name": "Google AI",
-    "filters": ["google", "ai"]
+    "filters": [
+      "google",
+      "ai"
+    ]
   },
   {
     "id": "google-fitbit",
     "name": "Google Fitbit",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-gemma",
     "name": "Google Gemma",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-ai-studio",
     "name": "Google AI Studio",
-    "filters": ["google", "ai"]
+    "filters": [
+      "google",
+      "ai"
+    ]
   },
   {
     "id": "google-notebooklm",
     "name": "Google NotebookLM",
-    "filters": ["google", "ai"]
+    "filters": [
+      "google",
+      "ai"
+    ]
   },
   {
     "id": "google-web-dev",
     "name": "Google web.dev",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-chat",
     "name": "Google Chat",
-    "filters": ["google", "messenger"]
+    "filters": [
+      "google",
+      "messenger"
+    ]
   },
   {
     "id": "google-photos",
     "name": "Google Photos",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-tv",
     "name": "Google TV",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-cast",
     "name": "Google Cast",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-calendar",
     "name": "Google Calendar",
-    "filters": ["google", "calendar"]
+    "filters": [
+      "google",
+      "calendar"
+    ]
   },
   {
     "id": "google-maps",
     "name": "Google Maps",
-    "filters": ["google", "maps"]
+    "filters": [
+      "google",
+      "maps"
+    ]
   },
   {
     "id": "google-password-manager",
     "name": "Google Password Manager",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-apps-script",
     "name": "Google Apps Script",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-gboard",
     "name": "Gboard",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-translate",
     "name": "Google Translate",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-play-books",
     "name": "Google Play Books",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-contacts",
     "name": "Google Contacts",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-voice",
     "name": "Google Voice",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-tasks",
     "name": "Google Tasks",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-appsheet",
     "name": "Google AppSheet",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-sites",
     "name": "Google Sites",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-vids",
     "name": "Google Vids",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-recorder",
     "name": "Google Recorder",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-nano-banana",
     "name": "Google Nano Banana",
-    "filters": ["google", "ai"]
+    "filters": [
+      "google",
+      "ai"
+    ]
   },
   {
     "id": "microsoft-viva-engage",
     "name": "Microsoft Viva Engage",
-    "filters": ["microsoft"]
+    "filters": [
+      "microsoft"
+    ]
   },
   {
     "id": "microsoft-defender",
     "name": "Microsoft Defender",
-    "filters": ["microsoft"]
+    "filters": [
+      "microsoft"
+    ]
   },
   {
     "id": "microsoft-editor",
     "name": "Microsoft Editor",
-    "filters": ["microsoft"]
+    "filters": [
+      "microsoft"
+    ]
   },
   {
     "id": "microsoft-clipchamp",
     "name": "Microsoft Clipchamp",
-    "filters": ["microsoft"]
+    "filters": [
+      "microsoft"
+    ]
   },
   {
     "id": "apple-music",
     "name": "Apple Music",
-    "filters": ["apple"]
+    "filters": [
+      "apple"
+    ]
   },
   {
     "id": "apple-shortcuts",
     "name": "Apple Shortcuts",
-    "filters": ["apple"]
+    "filters": [
+      "apple"
+    ]
   },
   {
     "id": "apple-facetime",
     "name": "FaceTime",
-    "filters": ["apple"]
+    "filters": [
+      "apple"
+    ]
   },
   {
     "id": "apple-messages",
     "name": "Apple Messages",
-    "filters": ["apple", "messenger"]
+    "filters": [
+      "apple",
+      "messenger"
+    ]
   },
   {
     "id": "apple-journal",
     "name": "Apple Journal",
-    "filters": ["apple"]
+    "filters": [
+      "apple"
+    ]
   },
   {
     "id": "jetbrains-ai",
     "name": "Jetbrains AI",
-    "filters": ["jetbrains", "ai"]
+    "filters": [
+      "jetbrains",
+      "ai"
+    ]
   },
   {
     "id": "jetbrains-kotlin-conf",
     "name": "KotlinConf",
-    "filters": ["jetbrains"]
+    "filters": [
+      "jetbrains"
+    ]
   },
   {
     "id": "jetbrains-compose-multiplatform",
     "name": "Compose Multiplatform",
-    "filters": ["jetbrains"]
+    "filters": [
+      "jetbrains"
+    ]
   },
   {
     "id": "yandex-gpt",
     "name": "YandexGPT",
-    "filters": ["yandex", "ai"]
+    "filters": [
+      "yandex",
+      "ai"
+    ]
   },
   {
     "id": "yandex-divkit",
     "name": "DivKit",
-    "filters": ["yandex"]
+    "filters": [
+      "yandex"
+    ]
   },
   {
     "id": "yandex-cloud",
     "name": "Yandex Cloud",
-    "filters": ["yandex"]
+    "filters": [
+      "yandex"
+    ]
   },
   {
     "id": "yandex-360",
     "name": "Яндекс 360",
-    "filters": ["yandex"]
+    "filters": [
+      "yandex"
+    ]
   },
   {
     "id": "yandex-internet",
     "name": "Яндекс Интернетометр",
-    "filters": ["yandex"]
+    "filters": [
+      "yandex"
+    ]
   },
   {
     "id": "yandex-books",
     "name": "Яндекс Книги",
-    "filters": ["yandex"]
+    "filters": [
+      "yandex"
+    ]
   },
   {
     "id": "yandex-kinopoisk",
     "name": "Кинопоиск",
-    "filters": ["yandex", "video"]
+    "filters": [
+      "yandex",
+      "video"
+    ]
   },
   {
     "id": "yandex-go",
     "name": "Яндекс Go",
-    "filters": ["yandex"]
+    "filters": [
+      "yandex"
+    ]
   },
   {
     "id": "yandex-eats",
     "name": "Яндекс Еда",
-    "filters": ["yandex"]
+    "filters": [
+      "yandex"
+    ]
   },
   {
     "id": "yandex-market",
     "name": "Яндекс Маркет",
-    "filters": ["yandex"]
+    "filters": [
+      "yandex"
+    ]
   },
   {
     "id": "yandex-нейро",
     "name": "Яндекс Нейро",
-    "filters": ["yandex", "ai"]
+    "filters": [
+      "yandex",
+      "ai"
+    ]
   },
   {
     "id": "yandex-maps",
     "name": "Яндекс Карты",
-    "filters": ["yandex", "maps"]
+    "filters": [
+      "yandex",
+      "maps"
+    ]
   },
   {
     "id": "yandex-plus",
     "name": "Яндекс Плюс",
-    "filters": ["yandex"]
+    "filters": [
+      "yandex"
+    ]
   },
   {
     "id": "yandex-appmetrica",
     "name": "Яндекс AppMetrica",
-    "filters": ["yandex"]
+    "filters": [
+      "yandex"
+    ]
   },
   {
     "id": "amazon-nova",
     "name": "Amazon Nova",
-    "filters": ["amazon"]
+    "filters": [
+      "amazon"
+    ]
   },
   {
     "id": "amazon-prime-video",
     "name": "Amazon Prime Video",
-    "filters": ["amazon", "video"]
+    "filters": [
+      "amazon",
+      "video"
+    ]
   },
   {
     "id": "vk-mail",
     "name": "VK Mail",
-    "filters": ["vk", "mail"]
+    "filters": [
+      "vk",
+      "mail"
+    ]
   },
   {
     "id": "vk-max",
     "name": "MAX",
-    "filters": ["vk", "messenger"]
+    "filters": [
+      "vk",
+      "messenger"
+    ]
   },
   {
     "id": "vk-youla",
     "name": "Юла",
-    "filters": ["vk"]
+    "filters": [
+      "vk"
+    ]
   },
   {
     "id": "notion-calendar",
     "name": "Notion Calendar",
-    "filters": ["notion", "calendar"]
+    "filters": [
+      "notion",
+      "calendar"
+    ]
   },
   {
     "id": "notion-mail",
     "name": "Notion Mail",
-    "filters": ["notion", "mail"]
+    "filters": [
+      "notion",
+      "mail"
+    ]
   },
   {
     "id": "linux-kaios",
     "name": "Linux KaiOS",
-    "filters": ["linux"]
+    "filters": [
+      "linux"
+    ]
   },
   {
     "id": "linux-nixos",
     "name": "Linux NixOS",
-    "filters": ["linux"]
+    "filters": [
+      "linux"
+    ]
   },
   {
     "id": "linux-mint",
     "name": "Linux Mint",
-    "filters": ["linux"]
+    "filters": [
+      "linux"
+    ]
   },
   {
     "id": "linux-arch",
     "name": "Arch Linux",
-    "filters": ["linux"]
+    "filters": [
+      "linux"
+    ]
   },
   {
     "id": "linux-gentoo",
     "name": "Gentoo Linux",
-    "filters": ["linux"]
+    "filters": [
+      "linux"
+    ]
   },
   {
     "id": "linux-red-hat-enterprise",
     "name": "Red Hat Enterprise Linux",
-    "filters": ["linux"]
+    "filters": [
+      "linux"
+    ]
   },
   {
     "id": "linux-alpine",
     "name": "Alpine Linux",
-    "filters": ["linux"]
+    "filters": [
+      "linux"
+    ]
   },
   {
     "id": "linux-suse",
     "name": "SUSE Linux",
-    "filters": ["linux"]
+    "filters": [
+      "linux"
+    ]
   },
   {
     "id": "linux-parrotos",
     "name": "Parrot OS",
-    "filters": ["linux"]
+    "filters": [
+      "linux"
+    ]
   },
   {
     "id": "oracle-virtualbox",
     "name": "Oracle VirtualBox",
-    "filters": ["oracle"]
+    "filters": [
+      "oracle"
+    ]
   },
   {
     "id": "meta-ai",
     "name": "Meta AI",
-    "filters": ["meta", "ai"]
+    "filters": [
+      "meta",
+      "ai"
+    ]
   },
   {
     "id": "samsung-internet",
     "name": "Samsung Internet",
-    "filters": ["samsung", "browser"]
+    "filters": [
+      "samsung",
+      "browser"
+    ]
   },
   {
     "id": "elastic",
     "name": "Elastic",
-    "filters": ["elastic"]
+    "filters": [
+      "elastic"
+    ]
   },
   {
     "id": "elastic-search",
     "name": "Elastic Search",
-    "filters": ["elastic"]
+    "filters": [
+      "elastic"
+    ]
   },
   {
     "id": "elastic-logstash",
     "name": "Elastic Logstash",
-    "filters": ["elastic"]
+    "filters": [
+      "elastic"
+    ]
   },
   {
     "id": "elastic-kibana",
     "name": "Elastic Kibana",
-    "filters": ["elastic"]
+    "filters": [
+      "elastic"
+    ]
   },
   {
     "id": "elastic-cloud",
     "name": "Elastic Cloud",
-    "filters": ["elastic"]
+    "filters": [
+      "elastic"
+    ]
   },
   {
     "id": "elastic-observability",
     "name": "Elastic Observability",
-    "filters": ["elastic"]
+    "filters": [
+      "elastic"
+    ]
   },
   {
     "id": "elastic-stack",
     "name": "Elastic Stack",
-    "filters": ["elastic"]
+    "filters": [
+      "elastic"
+    ]
   },
   {
     "id": "elastic-beats",
     "name": "Elastic Beats",
-    "filters": ["elastic"]
+    "filters": [
+      "elastic"
+    ]
   },
   {
     "id": "elastic-apm",
     "name": "Elastic APM",
-    "filters": ["elastic"]
+    "filters": [
+      "elastic"
+    ]
   },
   {
     "id": "mts",
@@ -4186,12 +5544,18 @@
   {
     "id": "sber-tech",
     "name": "Sber Tech",
-    "filters": ["sber", "bank"]
+    "filters": [
+      "sber",
+      "bank"
+    ]
   },
   {
     "id": "sber-yoomoney",
     "name": "ЮMoney",
-    "filters": ["sber", "bank"]
+    "filters": [
+      "sber",
+      "bank"
+    ]
   },
   {
     "id": "magnit-tech",
@@ -4224,12 +5588,16 @@
   {
     "id": "bank131",
     "name": "Банк 131",
-    "filters": ["bank"]
+    "filters": [
+      "bank"
+    ]
   },
   {
     "id": "renessans-bank",
     "name": "Ренессанс Банк",
-    "filters": ["bank"]
+    "filters": [
+      "bank"
+    ]
   },
   {
     "id": "litres",
@@ -4238,12 +5606,16 @@
   {
     "id": "bank-domrf",
     "name": "Банк ДОМ.РФ",
-    "filters": ["bank"]
+    "filters": [
+      "bank"
+    ]
   },
   {
     "id": "mts-link",
     "name": "МТС Линк",
-    "filters": ["messenger"]
+    "filters": [
+      "messenger"
+    ]
   },
   {
     "id": "cdek",
@@ -4256,7 +5628,9 @@
   {
     "id": "alfa-bank",
     "name": "Альфа-Банк",
-    "filters": ["bank"]
+    "filters": [
+      "bank"
+    ]
   },
   {
     "id": "ozon",
@@ -4269,12 +5643,16 @@
   {
     "id": "gazprombank",
     "name": "Газпромбанк",
-    "filters": ["bank"]
+    "filters": [
+      "bank"
+    ]
   },
   {
     "id": "cloudtips",
     "name": "CloudTips",
-    "filters": ["payment"]
+    "filters": [
+      "payment"
+    ]
   },
   {
     "id": "avito",
@@ -4287,12 +5665,16 @@
   {
     "id": "vtb",
     "name": "ВТБ",
-    "filters": ["bank"]
+    "filters": [
+      "bank"
+    ]
   },
   {
     "id": "psb",
     "name": "ПСБ",
-    "filters": ["bank"]
+    "filters": [
+      "bank"
+    ]
   },
   {
     "id": "rkn",
@@ -4337,7 +5719,9 @@
   {
     "id": "cursor",
     "name": "Cursor",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "teamviewer",
@@ -4346,7 +5730,9 @@
   {
     "id": "qwen",
     "name": "Qwen",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "cline",
@@ -4359,7 +5745,9 @@
   {
     "id": "devin",
     "name": "Devin AI",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "elm",
@@ -4372,7 +5760,9 @@
   {
     "id": "windsurf",
     "name": "Windsurf",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "haxe",
@@ -4381,7 +5771,9 @@
   {
     "id": "character-ai",
     "name": "Character.ai",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "astro",
@@ -4406,12 +5798,16 @@
   {
     "id": "2gis",
     "name": "2GIS",
-    "filters": ["maps"]
+    "filters": [
+      "maps"
+    ]
   },
   {
     "id": "snap-zenly",
     "name": "Zenly",
-    "filters": ["snap"]
+    "filters": [
+      "snap"
+    ]
   },
   {
     "id": "likee",
@@ -4420,7 +5816,9 @@
   {
     "id": "valve-dota-2",
     "name": "Dota 2",
-    "filters": ["valve"]
+    "filters": [
+      "valve"
+    ]
   },
   {
     "id": "nebius",
@@ -4429,17 +5827,23 @@
   {
     "id": "movavi",
     "name": "Movavi",
-    "filters": ["video"]
+    "filters": [
+      "video"
+    ]
   },
   {
     "id": "tea",
     "name": "Tea",
-    "filters": ["social"]
+    "filters": [
+      "social"
+    ]
   },
   {
     "id": "shadowsocks",
     "name": "Shadowsocks",
-    "filters": ["vpn"]
+    "filters": [
+      "vpn"
+    ]
   },
   {
     "id": "corning",
@@ -4448,17 +5852,25 @@
   {
     "id": "element",
     "name": "Element",
-    "filters": ["messenger"]
+    "filters": [
+      "messenger"
+    ]
   },
   {
     "id": "elevenlabs",
     "name": "ElevenLabs",
-    "filters": ["ai", "audio"]
+    "filters": [
+      "ai",
+      "audio"
+    ]
   },
   {
     "id": "perplexity-comet",
     "name": "Perplexity Comet",
-    "filters": ["ai", "browser"]
+    "filters": [
+      "ai",
+      "browser"
+    ]
   },
   {
     "id": "boston-dynamics",
@@ -4467,17 +5879,24 @@
   {
     "id": "suno",
     "name": "Suno",
-    "filters": ["ai", "audio"]
+    "filters": [
+      "ai",
+      "audio"
+    ]
   },
   {
     "id": "uzum",
     "name": "Uzum Technologies",
-    "filters": ["bank"]
+    "filters": [
+      "bank"
+    ]
   },
   {
     "id": "codeberg",
     "name": "Codeberg",
-    "filters": ["vcs"]
+    "filters": [
+      "vcs"
+    ]
   },
   {
     "id": "ebay",
@@ -4486,12 +5905,16 @@
   {
     "id": "disney-plus",
     "name": "Disney+",
-    "filters": ["video"]
+    "filters": [
+      "video"
+    ]
   },
   {
     "id": "cd-projekt",
     "name": "CD Projekt",
-    "filters": ["gaming"]
+    "filters": [
+      "gaming"
+    ]
   },
   {
     "id": "similarweb",
@@ -4512,12 +5935,16 @@
   {
     "id": "ramp",
     "name": "Ramp",
-    "filters": ["payment"]
+    "filters": [
+      "payment"
+    ]
   },
   {
     "id": "hulu",
     "name": "Hulu",
-    "filters": ["video"]
+    "filters": [
+      "video"
+    ]
   },
   {
     "id": "hackerone",
@@ -4526,7 +5953,9 @@
   {
     "id": "keras",
     "name": "Keras",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "yappy",
@@ -4559,7 +5988,9 @@
   {
     "id": "rovio",
     "name": "Rovio",
-    "filters": ["gaming"]
+    "filters": [
+      "gaming"
+    ]
   },
   {
     "id": "zulip",
@@ -4580,7 +6011,9 @@
   {
     "id": "based-labs-ai",
     "name": "Based Labs AI",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "graphene-os",
@@ -4593,7 +6026,9 @@
   {
     "id": "leonardo-ai",
     "name": "Leonardo AI",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "centos",
@@ -4630,18 +6065,23 @@
   {
     "id": "revolut",
     "name": "Revolut",
-    "filters": ["bank"]
+    "filters": [
+      "bank"
+    ]
   },
-
   {
     "id": "google-developer-program",
     "name": "Google Developer Program",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-ad-manager",
     "name": "Google Ad Manager",
-    "filters": ["google"]
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "google-code-wiki",
@@ -4698,7 +6138,9 @@
   {
     "id": "proton-vpn",
     "name": "Proton VPN",
-    "filters": ["vpn"]
+    "filters": [
+      "vpn"
+    ]
   },
   {
     "id": "proton-wallet",
@@ -4707,7 +6149,9 @@
   {
     "id": "proton-calendar",
     "name": "Proton Calendar",
-    "filters": ["calendar"]
+    "filters": [
+      "calendar"
+    ]
   },
   {
     "id": "proton-meet",
@@ -4716,7 +6160,9 @@
   {
     "id": "proton-lumo",
     "name": "Proton Lumo",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "proton-docs",
@@ -4873,7 +6319,9 @@
   {
     "id": "xrp",
     "name": "XRP",
-    "filters": ["crypto"]
+    "filters": [
+      "crypto"
+    ]
   },
   {
     "id": "uml",
@@ -4886,7 +6334,9 @@
   {
     "id": "sber-gigachat",
     "name": "Giga Chat",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "wink",
@@ -4931,7 +6381,9 @@
   {
     "id": "zen-browser",
     "name": "Zen Browser",
-    "filters": ["browser"]
+    "filters": [
+      "browser"
+    ]
   },
   {
     "id": "ahrefs",
@@ -4948,7 +6400,9 @@
   {
     "id": "tidal",
     "name": "Tidal",
-    "filters": ["audio"]
+    "filters": [
+      "audio"
+    ]
   },
   {
     "id": "zig",
@@ -4961,7 +6415,9 @@
   {
     "id": "model-context-protocol",
     "name": "Model Context Protocol",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "eslint",
@@ -4978,7 +6434,9 @@
   {
     "id": "factory-ai",
     "name": "Factory ai",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "mubi",
@@ -4995,7 +6453,9 @@
   {
     "id": "firefiles",
     "name": "Firefiles ai",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "weshop",
@@ -5012,17 +6472,23 @@
   {
     "id": "udio",
     "name": "Udio",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "flair-ai",
     "name": "Flair ai",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "kling",
     "name": "Kling AI",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "warp",
@@ -5031,7 +6497,9 @@
   {
     "id": "civitai",
     "name": "Civitai",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "vodafone",
@@ -5340,12 +6808,16 @@
   {
     "id": "moonshot-ai",
     "name": "Moonshot AI",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "kimi-ai",
     "name": "Kimi AI",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "bio-renderer",
@@ -5398,7 +6870,9 @@
   {
     "id": "lmarena-ai",
     "name": "LMArena",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "rollup",
@@ -5419,12 +6893,16 @@
   {
     "id": "novita-ai",
     "name": "Novita AI",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "fireworks-ai",
     "name": "Fireworks AI",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "cohere",
@@ -5433,7 +6911,9 @@
   {
     "id": "fal-ai",
     "name": "Fal.ai",
-    "filters": ["ai"]
+    "filters": [
+      "ai"
+    ]
   },
   {
     "id": "codescene",
@@ -5455,11 +6935,13 @@
     "id": "kioxia",
     "name": "Kioxia"
   },
-
   {
     "id": "google-android17",
     "name": "Android 17",
-    "filters": ["google", "android"]
+    "filters": [
+      "google",
+      "android"
+    ]
   },
   {
     "id": "google-bigquery",
@@ -5472,6 +6954,13 @@
   {
     "id": "google-fiber",
     "name": "Google Fiber"
+  },
+  {
+    "id": "google-apigee",
+    "name": "Google Apigee",
+    "filters": [
+      "google"
+    ]
   },
   {
     "id": "microsoft-network",
@@ -5490,8 +6979,29 @@
     "name": "Microsoft Visio"
   },
   {
+    "id": "microsoft-loop",
+    "name": "Microsoft Loop",
+    "filters": [
+      "microsoft"
+    ]
+  },
+  {
     "id": "linux-artix",
     "name": "Artix Linux"
+  },
+  {
+    "id": "apache-couchdb",
+    "name": "Apache CouchDB",
+    "filters": [
+      "apache"
+    ]
+  },
+  {
+    "id": "openai-codex",
+    "name": "OpenAI Codex",
+    "filters": [
+      "openai"
+    ]
   },
   {
     "id": "okx",
@@ -5702,11 +7212,6 @@
     "name": "Bigo Live"
   },
   {
-    "id": "apache-couchdb",
-    "name": "Apache CouchDB",
-    "filters": ["apache"]
-  },
-  {
     "id": "cloudbees",
     "name": "CloudBees"
   },
@@ -5727,27 +7232,12 @@
     "name": "Genspark AI"
   },
   {
-    "id": "google-apigee",
-    "name": "Google Apigee",
-    "filters": ["google"]
-  },
-  {
     "id": "kofi",
     "name": "Ko-fi"
   },
   {
-    "id": "microsoft-loop",
-    "name": "Microsoft Loop",
-    "filters": ["microsoft"]
-  },
-  {
     "id": "mullvad",
     "name": "Mullvad"
-  },
-  {
-    "id": "openai-codex",
-    "name": "OpenAI Codex",
-    "filters": ["openai"]
   },
   {
     "id": "pnpn",
