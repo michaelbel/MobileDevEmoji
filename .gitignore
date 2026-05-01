@@ -1,9 +1,8 @@
 .kotlin
-.kotlin-js-store
 .gradle
 .idea
+!.idea/icon.svg
 build
 build-cache
-generated
-local.properties
 .claude
+local.properties
