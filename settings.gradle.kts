@@ -4,6 +4,7 @@ pluginManagement {
         google()
         mavenCentral()
         gradlePluginPortal()
+        maven("https://redirector.kotlinlang.org/maven/compose-dev")
         maven("https://maven.pkg.jetbrains.space/kotlin/p/wasm/experimental")
     }
 }
@@ -14,6 +15,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven("https://redirector.kotlinlang.org/maven/compose-dev")
         maven("https://maven.pkg.jetbrains.space/kotlin/p/wasm/experimental")
     }
 }
