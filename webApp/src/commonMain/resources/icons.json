@@ -1547,7 +1547,7 @@
     ]
   },
   {
-    "id": "american-express",
+    "id": "amex",
     "name": "American Express (Payment System)",
     "filters": [
       "payment"
@@ -7262,5 +7262,9 @@
   {
     "id": "yii-framework",
     "name": "Yii Framework"
+  },
+  {
+    "id": "ollama",
+    "name": "Ollama"
   }
 ]
