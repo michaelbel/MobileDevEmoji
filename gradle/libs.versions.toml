@@ -4,7 +4,7 @@ kotlinx-serialization = "1.11.0"
 compose = "1.11.1"
 compose-material3 = "1.11.0-alpha07"
 ktor = "3.5.1"
-buildkonfig = "0.17.1"
+buildkonfig = "0.22.0"
 
 [libraries]
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization" }
