@@ -7004,6 +7004,14 @@
     ]
   },
   {
+    "id": "yandex-forms",
+    "name": "Yandex Forms"
+  },
+  {
+    "id": "jetbrains-central",
+    "name": "JetBrains Central"
+  },
+  {
     "id": "okx",
     "name": "OKX"
   },
