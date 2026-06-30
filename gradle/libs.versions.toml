@@ -1,5 +1,5 @@
 [versions]
-kotlin = "2.3.21"
+kotlin = "2.4.0"
 kotlinx-serialization = "1.11.0"
 compose = "1.10.3"
 compose-material3 = "1.10.0-alpha05"
