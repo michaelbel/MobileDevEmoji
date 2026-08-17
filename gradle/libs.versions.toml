@@ -3,7 +3,7 @@ kotlin = "2.4.10"
 kotlinx-serialization = "1.11.0"
 compose = "1.11.1"
 compose-material3 = "1.11.0-alpha07"
-ktor = "3.5.1"
+ktor = "3.5.2"
 buildkonfig = "0.22.0"
 
 [libraries]
